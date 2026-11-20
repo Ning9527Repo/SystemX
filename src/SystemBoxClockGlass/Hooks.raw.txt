@@ -1,0 +1,224 @@
+// SystemBoxClockGlass - exact hook registrations (generated from MSHookMessageEx call sites)
+#import <objc/runtime.h>
+#import <substrate.h>
+
+// 0x0000f4b0
+//   class   MRUArtworkView
+//   selector layoutSubviews
+//   hook IMP 0xfe18   orig slot 0x55fc0
+// 0x0000f4cc
+//   class   MRUArtworkView
+//   selector didMoveToWindow
+//   hook IMP 0xfe44   orig slot 0x55fc8
+// 0x0000f4f4
+//   class   MRUArtworkView
+//   selector dealloc
+//   hook IMP 0xfe70   orig slot 0x55fd0
+// 0x0000f5bc
+//   class   ?
+//   selector complicationElementBoundingTopY
+//   hook IMP 0xff28   orig slot 0x55fd8
+// 0x0000f710
+//   class   _UIAnimatingLabel
+//   selector setFont:
+//   hook IMP 0x10580   orig slot 0x55fe0
+// 0x0000f734
+//   class   _UIAnimatingLabel
+//   selector setText:
+//   hook IMP 0x1070c   orig slot 0x55fe8
+// 0x0000f758
+//   class   _UIAnimatingLabel
+//   selector setAttributedText:
+//   hook IMP 0x10750   orig slot 0x55ff0
+// 0x0000f788
+//   class   UILabel
+//   selector setAlpha:
+//   hook IMP 0x10794   orig slot 0x55ff8
+// 0x0000f7a4
+//   class   UILabel
+//   selector setText:
+//   hook IMP 0x1089c   orig slot 0x56000
+// 0x0000f7c0
+//   class   UILabel
+//   selector setAttributedText:
+//   hook IMP 0x10908   orig slot 0x56008
+// 0x0000f7e4
+//   class   SBUILegibilityLabel
+//   selector setAlpha:
+//   hook IMP 0x10974   orig slot 0x56010
+// 0x0000f810
+//   class   CSProminentTimeView
+//   selector setText:
+//   hook IMP 0x10ad0   orig slot 0x56018
+// 0x0000f830
+//   class   CSProminentTimeView
+//   selector setAttributedText:
+//   hook IMP 0x10afc   orig slot 0x56020
+// 0x0000f850
+//   class   CSProminentTimeView
+//   selector _updateTimeString
+//   hook IMP 0x10b30   orig slot 0x56028
+// 0x0000f870
+//   class   CSProminentTimeView
+//   selector setDate:
+//   hook IMP 0x10b64   orig slot 0x56030
+// 0x0000f894
+//   class   CSProminentDisplayView
+//   selector setAttributedText:
+//   hook IMP 0x10b98   orig slot 0x56038
+// 0x0000f8b8
+//   class   CSProminentLayoutController
+//   selector ?
+//   hook IMP 0x10ea8   orig slot 0x56040
+// 0x0000f8e0
+//   class   SBFLockScreenDateView
+//   selector ?
+//   hook IMP 0x10ee4   orig slot 0x56048
+// 0x0000f8fc
+//   class   SBFLockScreenDateView
+//   selector ?
+//   hook IMP 0x10f44   orig slot 0x56050
+// 0x0000f91c
+//   class   SBFLockScreenDateView
+//   selector _updateLabelAlpha
+//   hook IMP 0x10fc4   orig slot 0x56058
+// 0x0000f93c
+//   class   SBFLockScreenDateView
+//   selector _updateLabels
+//   hook IMP 0x11014   orig slot 0x56060
+// 0x0000f964
+//   class   SBFLockScreenDateSubtitleDateView
+//   selector ?
+//   hook IMP 0x11064   orig slot 0x56068
+// 0x0000f980
+//   class   SBFLockScreenDateSubtitleDateView
+//   selector ?
+//   hook IMP 0x11104   orig slot 0x56070
+// 0x0000f9a8
+//   class   PLPlatterView
+//   selector ?
+//   hook IMP 0x111a4   orig slot 0x56078
+// 0x0000f9c4
+//   class   PLPlatterView
+//   selector ?
+//   hook IMP 0x111d0   orig slot 0x56080
+// 0x0000f9ec
+//   class   NCNotificationShortLookView
+//   selector ?
+//   hook IMP 0x111fc   orig slot 0x56088
+// 0x0000fa08
+//   class   NCNotificationShortLookView
+//   selector ?
+//   hook IMP 0x1124c   orig slot 0x56090
+// 0x0000fa30
+//   class   NCNotificationLongLookView
+//   selector ?
+//   hook IMP 0x1129c   orig slot 0x56098
+// 0x0000fa4c
+//   class   NCNotificationLongLookView
+//   selector ?
+//   hook IMP 0x112ec   orig slot 0x560a0
+// 0x0000fa74
+//   class   NCNotificationListSectionRevealHintView
+//   selector ?
+//   hook IMP 0x1133c   orig slot 0x560a8
+// 0x0000fa90
+//   class   NCNotificationListSectionRevealHintView
+//   selector ?
+//   hook IMP 0x1138c   orig slot 0x560b0
+// 0x0000fab8
+//   class   NCNotificationListHeaderTitleView
+//   selector ?
+//   hook IMP 0x113dc   orig slot 0x560b8
+// 0x0000fad4
+//   class   NCNotificationListHeaderTitleView
+//   selector ?
+//   hook IMP 0x11410   orig slot 0x560c0
+// 0x0000fb04
+//   class   NCNotificationListSectionHeaderView
+//   selector traitCollectionDidChange:
+//   hook IMP 0x11444   orig slot 0x560c8
+// 0x0000fb20
+//   class   NCNotificationListSectionHeaderView
+//   selector ?
+//   hook IMP 0x11478   orig slot 0x560d0
+// 0x0000fb3c
+//   class   NCNotificationListSectionHeaderView
+//   selector ?
+//   hook IMP 0x114a4   orig slot 0x560d8
+// 0x0000fb5c
+//   class   NCNotificationListSectionHeaderView
+//   selector _configureClearButtonIfNecessary
+//   hook IMP 0x114d0   orig slot 0x560e0
+// 0x0000fb7c
+//   class   NCNotificationListSectionHeaderView
+//   selector resetClearButtonStateAnimated:
+//   hook IMP 0x114fc   orig slot 0x560e8
+// 0x0000fba8
+//   class   PLGlyphControl
+//   selector setBackgroundMaterialView:
+//   hook IMP 0x11528   orig slot 0x560f0
+// 0x0000fbc8
+//   class   PLGlyphControl
+//   selector _configureBackgroundMaterialViewIfNecessary
+//   hook IMP 0x115a0   orig slot 0x560f8
+// 0x0000fbe8
+//   class   PLGlyphControl
+//   selector _configureGlyphViewIfNecessaryWithImage:
+//   hook IMP 0x11618   orig slot 0x56100
+// 0x0000fc10
+//   class   NCToggleControl
+//   selector traitCollectionDidChange:
+//   hook IMP 0x11690   orig slot 0x56108
+// 0x0000fc34
+//   class   NCToggleControl
+//   selector didMoveToSuperview
+//   hook IMP 0x116c4   orig slot 0x56110
+// 0x0000fc50
+//   class   NCToggleControl
+//   selector ?
+//   hook IMP 0x116f0   orig slot 0x56118
+// 0x0000fc6c
+//   class   NCToggleControl
+//   selector ?
+//   hook IMP 0x1171c   orig slot 0x56120
+// 0x0000fc8c
+//   class   NCToggleControl
+//   selector setVisualStyle:
+//   hook IMP 0x11748   orig slot 0x56128
+// 0x0000fcb0
+//   class   UIImageView
+//   selector ?
+//   hook IMP 0x11774   orig slot 0x56130
+// 0x0000fcd8
+//   class   MTMaterialView
+//   selector didMoveToSuperview
+//   hook IMP 0x117d8   orig slot 0x56138
+// 0x0000fcf4
+//   class   MTMaterialView
+//   selector ?
+//   hook IMP 0x1181c   orig slot 0x56140
+// 0x0000fd10
+//   class   MTMaterialView
+//   selector ?
+//   hook IMP 0x11860   orig slot 0x56148
+// 0x0000fd3c
+//   class   NCNotificationListView
+//   selector setFrame:
+//   hook IMP 0x118c4   orig slot 0x56150
+// 0x0000fd5c
+//   class   NCNotificationListView
+//   selector setContentOffset:
+//   hook IMP 0x1198c   orig slot 0x56158
+// 0x0000fd78
+//   class   NCNotificationListView
+//   selector ?
+//   hook IMP 0x119d0   orig slot 0x56160
+// 0x0000fd94
+//   class   NCNotificationListView
+//   selector ?
+//   hook IMP 0x119fc   orig slot 0x56168
+// 0x0000fdc0
+//   class   NCNotificationStructuredListViewController
+//   selector viewWillLayoutSubviews
+//   hook IMP 0x11a28   orig slot 0x56170

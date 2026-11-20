@@ -1,0 +1,338 @@
+binary	class	selector	type encoding	IMP	return	args
+SystemBox	SBSilentStatusBarIconWeakBox	object	@16@0:8	0x4000	id	
+SystemBox	SBSilentStatusBarIconWeakBox	setObject:	v24@0:8@16	0x4018	void	id
+SystemBox	SBSilentStatusBarIconWeakBox	.cxx_destruct	v16@0:8	0x4024	void	
+SystemBox	SBHomePullDownControlCenterGestureTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x402c	BOOL	id id
+SystemBox	SBHomePullDownControlCenterGestureTarget	gestureRecognizerShouldBegin:	B24@0:8@16	0x4314	BOOL	id
+SystemBox	SBHomePullDownControlCenterGestureTarget	gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:	B32@0:8@16@24	0x4438	BOOL	id id
+SystemBox	SBHomePullDownControlCenterGestureTarget	handleHomePullDown:	v24@0:8@16	0x4440	void	id
+SystemBox	SBHomePullDownControlCenterGestureTarget	didPresent	B16@0:8	0x4684	BOOL	
+SystemBox	SBHomePullDownControlCenterGestureTarget	setDidPresent:	v20@0:8B16	0x468c	void	BOOL
+SystemBox	SBHomePullUpNotificationCenterGestureTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x4694	BOOL	id id
+SystemBox	SBHomePullUpNotificationCenterGestureTarget	gestureRecognizerShouldBegin:	B24@0:8@16	0x4724	BOOL	id
+SystemBox	SBHomePullUpNotificationCenterGestureTarget	gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:	B32@0:8@16@24	0x4848	BOOL	id id
+SystemBox	SBHomePullUpNotificationCenterGestureTarget	handleHomePullUpNC:	v24@0:8@16	0x4850	void	id
+SystemBox	SBHomePullUpNotificationCenterGestureTarget	didPresent	B16@0:8	0x4a94	BOOL	
+SystemBox	SBHomePullUpNotificationCenterGestureTarget	setDidPresent:	v20@0:8B16	0x4a9c	void	BOOL
+SystemBox	SBHomePullUpControlCenterGestureTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x4aa4	BOOL	id id
+SystemBox	SBHomePullUpControlCenterGestureTarget	gestureRecognizerShouldBegin:	B24@0:8@16	0x4b34	BOOL	id
+SystemBox	SBHomePullUpControlCenterGestureTarget	gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:	B32@0:8@16@24	0x4c64	BOOL	id id
+SystemBox	SBHomePullUpControlCenterGestureTarget	handleHomePullUpCC:	v24@0:8@16	0x4c6c	void	id
+SystemBox	SBHomePullUpControlCenterGestureTarget	didPresent	B16@0:8	0x4dfc	BOOL	
+SystemBox	SBHomePullUpControlCenterGestureTarget	setDidPresent:	v20@0:8B16	0x4e04	void	BOOL
+SystemBox	SBHomePullDownNotificationCenterGestureTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x4e0c	BOOL	id id
+SystemBox	SBHomePullDownNotificationCenterGestureTarget	gestureRecognizerShouldBegin:	B24@0:8@16	0x4e9c	BOOL	id
+SystemBox	SBHomePullDownNotificationCenterGestureTarget	gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:	B32@0:8@16@24	0x4fcc	BOOL	id id
+SystemBox	SBHomePullDownNotificationCenterGestureTarget	handleHomePullDownNC:	v24@0:8@16	0x4fd4	void	id
+SystemBox	SBHomePullDownNotificationCenterGestureTarget	didPresent	B16@0:8	0x5164	BOOL	
+SystemBox	SBHomePullDownNotificationCenterGestureTarget	setDidPresent:	v20@0:8B16	0x516c	void	BOOL
+SystemBox	SBHomeHalfPullGestureTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x5174	BOOL	id id
+SystemBox	SBHomeHalfPullGestureTarget	gestureRecognizerShouldBegin:	B24@0:8@16	0x53e0	BOOL	id
+SystemBox	SBHomeHalfPullGestureTarget	gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:	B32@0:8@16@24	0x5538	BOOL	id id
+SystemBox	SBHomeHalfPullGestureTarget	handleHomeHalfPull:	v24@0:8@16	0x5540	void	id
+SystemBox	SBHomeHalfPullGestureTarget	rightHalf	B16@0:8	0x5708	BOOL	
+SystemBox	SBHomeHalfPullGestureTarget	setRightHalf:	v20@0:8B16	0x5710	void	BOOL
+SystemBox	SBHomeHalfPullGestureTarget	downward	B16@0:8	0x5718	BOOL	
+SystemBox	SBHomeHalfPullGestureTarget	setDownward:	v20@0:8B16	0x5720	void	BOOL
+SystemBox	SBHomeHalfPullGestureTarget	didPresent	B16@0:8	0x5728	BOOL	
+SystemBox	SBHomeHalfPullGestureTarget	setDidPresent:	v20@0:8B16	0x5730	void	BOOL
+SystemBox	SBHomeHalfPullGestureTarget	action	Q16@0:8	0x5738	unsigned long long	
+SystemBox	SBHomeHalfPullGestureTarget	setAction:	v24@0:8Q16	0x5740	void	unsigned long long
+SystemBox	SBDoubleTapLockGestureTarget	gestureRecognizerShouldBegin:	B24@0:8@16	0x5748	BOOL	id
+SystemBox	SBDoubleTapLockGestureTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x5768	BOOL	id id
+SystemBox	SBDoubleTapLockGestureTarget	handleDoubleTapToLock:	v24@0:8@16	0x5890	void	id
+SystemBox	SBTwoFingerDoubleTapClearNotificationsTarget	gestureRecognizerShouldBegin:	B24@0:8@16	0x5954	BOOL	id
+SystemBox	SBTwoFingerDoubleTapClearNotificationsTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x5b78	BOOL	id id
+SystemBox	SBTwoFingerDoubleTapClearNotificationsTarget	handleTwoFingerDoubleTapClearNotifications:	v24@0:8@16	0x6198	void	id
+SystemBox	SBLockScreenDoubleTapLockGestureTarget	gestureRecognizerShouldBegin:	B24@0:8@16	0x6308	BOOL	id
+SystemBox	SBLockScreenDoubleTapLockGestureTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x6350	BOOL	id id
+SystemBox	SBLockScreenDoubleTapLockGestureTarget	handleLockScreenDoubleTapToLock:	v24@0:8@16	0x6440	void	id
+SystemBox	SBLongPressLockGestureTarget	gestureRecognizerShouldBegin:	B24@0:8@16	0x651c	BOOL	id
+SystemBox	SBLongPressLockGestureTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x653c	BOOL	id id
+SystemBox	SBLongPressLockGestureTarget	handleLongPressToLock:	v24@0:8@16	0x6640	void	id
+SystemBox	SBKillBackgroundGestureTarget	gestureRecognizerShouldBegin:	B24@0:8@16	0x6704	BOOL	id
+SystemBox	SBKillBackgroundGestureTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x6724	BOOL	id id
+SystemBox	SBKillBackgroundGestureTarget	handleKillBackground:	v24@0:8@16	0x6828	void	id
+SystemBox	SBXLiveBackdropView	initWithFrame:groupName:	@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48	0x6974	id	CGRect id
+SystemBox	SBXLiveBackdropView	dealloc	v16@0:8	0x6da0	void	
+SystemBox	SBXLiveBackdropView	lgSpecularEnabledOverride	@16@0:8	0x7050	id	
+SystemBox	SBXLiveBackdropView	setLgSpecularEnabledOverride:	v24@0:8@16	0x7060	void	id
+SystemBox	SBXLiveBackdropView	invalidateEffectiveFilterType	v16@0:8	0x70e8	void	
+SystemBox	SBXLiveBackdropView	effectiveFilterType	@16@0:8	0x7134	id	
+SystemBox	SBXLiveBackdropView	didMoveToWindow	v16@0:8	0x7354	void	
+SystemBox	SBXLiveBackdropView	didMoveToSuperview	v16@0:8	0x73c4	void	
+SystemBox	SBXLiveBackdropView	setHidden:	v20@0:8B16	0x73fc	void	BOOL
+SystemBox	SBXLiveBackdropView	setAlpha:	v24@0:8d16	0x7454	void	double
+SystemBox	SBXLiveBackdropView	traitCollectionDidChange:	v24@0:8@16	0x74c0	void	id
+SystemBox	SBXLiveBackdropView	layoutSubviews	v16@0:8	0x75c0	void	
+SystemBox	SBXLiveBackdropView	lgMotionHighlightsVisible	B16@0:8	0x7610	BOOL	
+SystemBox	SBXLiveBackdropView	updateNativeBlurOverlayWithRadius:filterClass:	v32@0:8d16#24	0x7748	void	double Class
+SystemBox	SBXLiveBackdropView	updateSpecular	v16@0:8	0x7de0	void	
+SystemBox	SBXLiveBackdropView	applySpecularAngle:	v24@0:8d16	0x8714	void	double
+SystemBox	SBXLiveBackdropView	applyFilters	v16@0:8	0x8838	void	
+SystemBox	SBXLiveBackdropView	reapplyFilterForParameterReload	v16@0:8	0x8cf0	void	
+SystemBox	SBXLiveBackdropView	.cxx_destruct	v16@0:8	0x8d70	void	
+SystemBox	SBXLMaterialHostRoute	matcher	@?16@0:8	0x9ae0	id /* block */	
+SystemBox	SBXLMaterialHostRoute	setMatcher:	v24@0:8@?16	0x9ae8	void	id /* block */
+SystemBox	SBXLMaterialHostRoute	outset	{UIEdgeInsets=dddd}16@0:8	0x9af0	UIEdgeInsets	
+SystemBox	SBXLMaterialHostRoute	setOutset:	v48@0:8{UIEdgeInsets=dddd}16	0x9afc	void	UIEdgeInsets
+SystemBox	SBXLMaterialHostRoute	cornerRadiusProvider	@?16@0:8	0x9b08	id /* block */	
+SystemBox	SBXLMaterialHostRoute	setCornerRadiusProvider:	v24@0:8@?16	0x9b10	void	id /* block */
+SystemBox	SBXLMaterialHostRoute	groupName	@16@0:8	0x9b18	id	
+SystemBox	SBXLMaterialHostRoute	setGroupName:	v24@0:8@16	0x9b20	void	id
+SystemBox	SBXLMaterialHostRoute	postInstall	@?16@0:8	0x9b28	id /* block */	
+SystemBox	SBXLMaterialHostRoute	setPostInstall:	v24@0:8@?16	0x9b30	void	id /* block */
+SystemBox	SBXLMaterialHostRoute	.cxx_destruct	v16@0:8	0x9b38	void	
+SystemBox	SBGracefulCloseFolderTapTarget	gestureRecognizer:shouldReceiveTouch:	B32@0:8@16@24	0x9d30	BOOL	id id
+SystemBox	SBGracefulCloseFolderTapTarget	handleGracefulCloseFolderTap:	v24@0:8@16	0xa114	void	id
+SystemBox	SBGracefulCloseFolderTapTarget	containerView	@16@0:8	0xa3e8	id	
+SystemBox	SBGracefulCloseFolderTapTarget	setContainerView:	v24@0:8@16	0xa400	void	id
+SystemBox	SBGracefulCloseFolderTapTarget	.cxx_destruct	v16@0:8	0xa40c	void	
+SystemBox	SBCustomDesktopIconPhotoPickerDelegate	picker:didFinishPicking:	v32@0:8@16@24	0xa414	void	id id
+SystemBox	SBCustomDesktopIconPhotoPickerDelegate	bundleIdentifier	@16@0:8	0xaf6c	id	
+SystemBox	SBCustomDesktopIconPhotoPickerDelegate	setBundleIdentifier:	v24@0:8@16	0xaf74	void	id
+SystemBox	SBCustomDesktopIconPhotoPickerDelegate	.cxx_destruct	v16@0:8	0xaf7c	void	
+SystemBox	UIImage(SystemBoxDockReflectionBlur)	systemBox_dockReflectionGaussianBlurImage	@16@0:8	0x9894	id	
+SystemBoxClockGlass	LGClockFontStore	init	@16@0:8	0x806c	id	
+SystemBoxClockGlass	LGClockFontStore	dealloc	v16@0:8	0x80f4	void	
+SystemBoxClockGlass	LGClockFontStore	loadFont	v16@0:8	0x8140	void	
+SystemBoxClockGlass	LGClockFontStore	clampedValueForAxis:	d24@0:8@16	0x86fc	double	id
+SystemBoxClockGlass	LGClockFontStore	fontAtPointSize:	@24@0:8d16	0x88c4	id	double
+SystemBoxClockGlass	LGClockFontStore	minimumHeightAxis	d16@0:8	0x8904	double	
+SystemBoxClockGlass	LGClockFontStore	fontAtPointSize:heightAxis:	@32@0:8d16d24	0x89a4	id	double double
+SystemBoxClockGlass	LGClockFontStore	graphicsFont	^{CGFont=}16@0:8	0x8ddc	CGFont *	
+SystemBoxClockGlass	LGClockFontStore	setGraphicsFont:	v24@0:8^{CGFont=}16	0x8de4	void	CGFont *
+SystemBoxClockGlass	LGClockFontStore	postScriptName	@16@0:8	0x8dec	id	
+SystemBoxClockGlass	LGClockFontStore	setPostScriptName:	v24@0:8@16	0x8df4	void	id
+SystemBoxClockGlass	LGClockFontStore	axisIDs	@16@0:8	0x8dfc	id	
+SystemBoxClockGlass	LGClockFontStore	setAxisIDs:	v24@0:8@16	0x8e04	void	id
+SystemBoxClockGlass	LGClockFontStore	axisRanges	@16@0:8	0x8e0c	id	
+SystemBoxClockGlass	LGClockFontStore	setAxisRanges:	v24@0:8@16	0x8e14	void	id
+SystemBoxClockGlass	LGClockFontStore	cache	@16@0:8	0x8e1c	id	
+SystemBoxClockGlass	LGClockFontStore	setCache:	v24@0:8@16	0x8e24	void	id
+SystemBoxClockGlass	LGClockFontStore	.cxx_destruct	v16@0:8	0x8e30	void	
+SystemBoxClockGlass	LGClockMotionTracker	init	@16@0:8	0x8ee4	id	
+SystemBoxClockGlass	LGClockMotionTracker	trackMotion	v16@0:8	0x8fec	void	
+SystemBoxClockGlass	LGClockMotionTracker	tick:	v24@0:8@16	0x9064	void	id
+SystemBoxClockGlass	LGClockMotionTracker	displayLink	@16@0:8	0x92ac	id	
+SystemBoxClockGlass	LGClockMotionTracker	setDisplayLink:	v24@0:8@16	0x92b4	void	id
+SystemBoxClockGlass	LGClockMotionTracker	deadline	d16@0:8	0x92c0	double	
+SystemBoxClockGlass	LGClockMotionTracker	setDeadline:	v24@0:8d16	0x92c8	void	double
+SystemBoxClockGlass	LGClockMotionTracker	.cxx_destruct	v16@0:8	0x92d0	void	
+SystemBoxClockGlass	LGClockState	init	@16@0:8	0x92dc	id	
+SystemBoxClockGlass	LGClockState	scheduleApply:	v24@0:8@16	0x932c	void	id
+SystemBoxClockGlass	LGClockState	updatePullBlur	v16@0:8	0x95c0	void	
+SystemBoxClockGlass	LGClockState	nativeTimeNeedsHiding	B16@0:8	0x9b58	BOOL	
+SystemBoxClockGlass	LGClockState	reassertNativeTimeHidden	v16@0:8	0x9ce8	void	
+SystemBoxClockGlass	LGClockState	applyReason:	v24@0:8@16	0x9e34	void	id
+SystemBoxClockGlass	LGClockState	emitSummaryIfNeeded	v16@0:8	0xe6f0	void	
+SystemBoxClockGlass	LGClockState	restore	v16@0:8	0xe84c	void	
+SystemBoxClockGlass	LGClockState	host	@16@0:8	0xf024	id	
+SystemBoxClockGlass	LGClockState	setHost:	v24@0:8@16	0xf03c	void	id
+SystemBoxClockGlass	LGClockState	sourceLabel	@16@0:8	0xf048	id	
+SystemBoxClockGlass	LGClockState	setSourceLabel:	v24@0:8@16	0xf060	void	id
+SystemBoxClockGlass	LGClockState	visibleSourceView	@16@0:8	0xf06c	id	
+SystemBoxClockGlass	LGClockState	setVisibleSourceView:	v24@0:8@16	0xf084	void	id
+SystemBoxClockGlass	LGClockState	originalFont	@16@0:8	0xf090	id	
+SystemBoxClockGlass	LGClockState	setOriginalFont:	v24@0:8@16	0xf098	void	id
+SystemBoxClockGlass	LGClockState	originalLabelAlpha	d16@0:8	0xf0a4	double	
+SystemBoxClockGlass	LGClockState	setOriginalLabelAlpha:	v24@0:8d16	0xf0ac	void	double
+SystemBoxClockGlass	LGClockState	originalLabelHidden	B16@0:8	0xf0b4	BOOL	
+SystemBoxClockGlass	LGClockState	setOriginalLabelHidden:	v20@0:8B16	0xf0bc	void	BOOL
+SystemBoxClockGlass	LGClockState	originalVisibleSourceAlpha	d16@0:8	0xf0c4	double	
+SystemBoxClockGlass	LGClockState	setOriginalVisibleSourceAlpha:	v24@0:8d16	0xf0cc	void	double
+SystemBoxClockGlass	LGClockState	originalVisibleSourceLayerOpacity	f16@0:8	0xf0d4	float	
+SystemBoxClockGlass	LGClockState	setOriginalVisibleSourceLayerOpacity:	v20@0:8f16	0xf0dc	void	float
+SystemBoxClockGlass	LGClockState	originalVisibleSourceHidden	B16@0:8	0xf0e4	BOOL	
+SystemBoxClockGlass	LGClockState	setOriginalVisibleSourceHidden:	v20@0:8B16	0xf0ec	void	BOOL
+SystemBoxClockGlass	LGClockState	glassView	@16@0:8	0xf0f4	id	
+SystemBoxClockGlass	LGClockState	setGlassView:	v24@0:8@16	0xf0fc	void	id
+SystemBoxClockGlass	LGClockState	pullBlurView	@16@0:8	0xf108	id	
+SystemBoxClockGlass	LGClockState	setPullBlurView:	v24@0:8@16	0xf110	void	id
+SystemBoxClockGlass	LGClockState	glyphMaskView	@16@0:8	0xf11c	id	
+SystemBoxClockGlass	LGClockState	setGlyphMaskView:	v24@0:8@16	0xf124	void	id
+SystemBoxClockGlass	LGClockState	glyphMaskLayer	@16@0:8	0xf130	id	
+SystemBoxClockGlass	LGClockState	setGlyphMaskLayer:	v24@0:8@16	0xf138	void	id
+SystemBoxClockGlass	LGClockState	colorOverlayView	@16@0:8	0xf144	id	
+SystemBoxClockGlass	LGClockState	setColorOverlayView:	v24@0:8@16	0xf14c	void	id
+SystemBoxClockGlass	LGClockState	colorGradientLayer	@16@0:8	0xf158	id	
+SystemBoxClockGlass	LGClockState	setColorGradientLayer:	v24@0:8@16	0xf160	void	id
+SystemBoxClockGlass	LGClockState	colorMaskView	@16@0:8	0xf16c	id	
+SystemBoxClockGlass	LGClockState	setColorMaskView:	v24@0:8@16	0xf174	void	id
+SystemBoxClockGlass	LGClockState	colorMaskLayer	@16@0:8	0xf180	id	
+SystemBoxClockGlass	LGClockState	setColorMaskLayer:	v24@0:8@16	0xf188	void	id
+SystemBoxClockGlass	LGClockState	renderContainer	@16@0:8	0xf194	id	
+SystemBoxClockGlass	LGClockState	setRenderContainer:	v24@0:8@16	0xf1ac	void	id
+SystemBoxClockGlass	LGClockState	originalLabelFrame	{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8	0xf1b8	CGRect	
+SystemBoxClockGlass	LGClockState	setOriginalLabelFrame:	v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16	0xf1c4	void	CGRect
+SystemBoxClockGlass	LGClockState	renderCanvasSize	{CGSize=dd}16@0:8	0xf1d0	CGSize	
+SystemBoxClockGlass	LGClockState	setRenderCanvasSize:	v32@0:8{CGSize=dd}16	0xf1d8	void	CGSize
+SystemBoxClockGlass	LGClockState	renderedGlyphBottom	d16@0:8	0xf1e0	double	
+SystemBoxClockGlass	LGClockState	setRenderedGlyphBottom:	v24@0:8d16	0xf1e8	void	double
+SystemBoxClockGlass	LGClockState	hasRenderedGlyph	B16@0:8	0xf1f0	BOOL	
+SystemBoxClockGlass	LGClockState	setHasRenderedGlyph:	v20@0:8B16	0xf1f8	void	BOOL
+SystemBoxClockGlass	LGClockState	complicationLayoutShift	d16@0:8	0xf200	double	
+SystemBoxClockGlass	LGClockState	setComplicationLayoutShift:	v24@0:8d16	0xf208	void	double
+SystemBoxClockGlass	LGClockState	complicationLastTop	d16@0:8	0xf210	double	
+SystemBoxClockGlass	LGClockState	setComplicationLastTop:	v24@0:8d16	0xf218	void	double
+SystemBoxClockGlass	LGClockState	complicationRow	@16@0:8	0xf220	id	
+SystemBoxClockGlass	LGClockState	setComplicationRow:	v24@0:8@16	0xf238	void	id
+SystemBoxClockGlass	LGClockState	applying	B16@0:8	0xf244	BOOL	
+SystemBoxClockGlass	LGClockState	setApplying:	v20@0:8B16	0xf24c	void	BOOL
+SystemBoxClockGlass	LGClockState	scheduled	B16@0:8	0xf254	BOOL	
+SystemBoxClockGlass	LGClockState	setScheduled:	v20@0:8B16	0xf25c	void	BOOL
+SystemBoxClockGlass	LGClockState	layoutCalls	Q16@0:8	0xf264	unsigned long long	
+SystemBoxClockGlass	LGClockState	setLayoutCalls:	v24@0:8Q16	0xf26c	void	unsigned long long
+SystemBoxClockGlass	LGClockState	appliedChanges	Q16@0:8	0xf274	unsigned long long	
+SystemBoxClockGlass	LGClockState	setAppliedChanges:	v24@0:8Q16	0xf27c	void	unsigned long long
+SystemBoxClockGlass	LGClockState	skippedChanges	Q16@0:8	0xf284	unsigned long long	
+SystemBoxClockGlass	LGClockState	setSkippedChanges:	v24@0:8Q16	0xf28c	void	unsigned long long
+SystemBoxClockGlass	LGClockState	sampleStart	d16@0:8	0xf294	double	
+SystemBoxClockGlass	LGClockState	setSampleStart:	v24@0:8d16	0xf29c	void	double
+SystemBoxClockGlass	LGClockState	lastNearestObstacle	@16@0:8	0xf2a4	id	
+SystemBoxClockGlass	LGClockState	setLastNearestObstacle:	v24@0:8@16	0xf2bc	void	id
+SystemBoxClockGlass	LGClockState	lastNearestTop	d16@0:8	0xf2c8	double	
+SystemBoxClockGlass	LGClockState	setLastNearestTop:	v24@0:8d16	0xf2d0	void	double
+SystemBoxClockGlass	LGClockState	lastRetractionPhase	@16@0:8	0xf2d8	id	
+SystemBoxClockGlass	LGClockState	setLastRetractionPhase:	v24@0:8@16	0xf2e0	void	id
+SystemBoxClockGlass	LGClockState	totalApplyTime	d16@0:8	0xf2e8	double	
+SystemBoxClockGlass	LGClockState	setTotalApplyTime:	v24@0:8d16	0xf2f0	void	double
+SystemBoxClockGlass	LGClockState	peakApplyTime	d16@0:8	0xf2f8	double	
+SystemBoxClockGlass	LGClockState	setPeakApplyTime:	v24@0:8d16	0xf300	void	double
+SystemBoxClockGlass	LGClockState	lastSignature	@16@0:8	0xf308	id	
+SystemBoxClockGlass	LGClockState	setLastSignature:	v24@0:8@16	0xf310	void	id
+SystemBoxClockGlass	LGClockState	lastFontDiagnostic	@16@0:8	0xf318	id	
+SystemBoxClockGlass	LGClockState	setLastFontDiagnostic:	v24@0:8@16	0xf320	void	id
+SystemBoxClockGlass	LGClockState	pullBlurActive	B16@0:8	0xf328	BOOL	
+SystemBoxClockGlass	LGClockState	setPullBlurActive:	v20@0:8B16	0xf330	void	BOOL
+SystemBoxClockGlass	LGClockState	pullBlurKnown	B16@0:8	0xf338	BOOL	
+SystemBoxClockGlass	LGClockState	setPullBlurKnown:	v20@0:8B16	0xf340	void	BOOL
+SystemBoxClockGlass	LGClockState	.cxx_destruct	v16@0:8	0xf348	void	
+SystemBoxClockGlass	LGMotionDisplayLinkTarget	tick:	v24@0:8@16	0x15fd4	void	id
+SystemBoxClockGlass	LGLiveBackdropView	lgEffectiveFilterType	@16@0:8	0x16278	id	
+SystemBoxClockGlass	LGLiveBackdropView	initWithFrame:	@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16	0x165a8	id	CGRect
+SystemBoxClockGlass	LGLiveBackdropView	initWithFrame:groupName:	@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48	0x165b4	id	CGRect id
+SystemBoxClockGlass	LGLiveBackdropView	initWithFrame:groupName:filterType:	@64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48@56	0x165bc	id	CGRect id id
+SystemBoxClockGlass	LGLiveBackdropView	dealloc	v16@0:8	0x16928	void	
+SystemBoxClockGlass	LGLiveBackdropView	didMoveToWindow	v16@0:8	0x16988	void	
+SystemBoxClockGlass	LGLiveBackdropView	traitCollectionDidChange:	v24@0:8@16	0x169d0	void	id
+SystemBoxClockGlass	LGLiveBackdropView	lgSpecularEnabledOverride	@16@0:8	0x16a88	id	
+SystemBoxClockGlass	LGLiveBackdropView	setLgSpecularEnabledOverride:	v24@0:8@16	0x16a94	void	id
+SystemBoxClockGlass	LGLiveBackdropView	layoutSubviews	v16@0:8	0x16b3c	void	
+SystemBoxClockGlass	LGLiveBackdropView	updateNativeBlurOverlayWithRadius:	v24@0:8d16	0x16b8c	void	double
+SystemBoxClockGlass	LGLiveBackdropView	setLgShapeRect:	v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16	0x16da8	void	CGRect
+SystemBoxClockGlass	LGLiveBackdropView	setLgShapeCornerRadius:	v24@0:8d16	0x16ecc	void	double
+SystemBoxClockGlass	LGLiveBackdropView	updateSpecular	v16@0:8	0x16fb8	void	
+SystemBoxClockGlass	LGLiveBackdropView	applySpecularAngle:	v24@0:8d16	0x178d4	void	double
+SystemBoxClockGlass	LGLiveBackdropView	applyFilters	v16@0:8	0x1795c	void	
+SystemBoxClockGlass	LGLiveBackdropView	reapplyFilterForParameterReload	v16@0:8	0x181d0	void	
+SystemBoxClockGlass	LGLiveBackdropView	lgInvalidateFilterContents	v16@0:8	0x18254	void	
+SystemBoxClockGlass	LGLiveBackdropView	lgFilterAttached	B16@0:8	0x182b0	BOOL	
+SystemBoxClockGlass	LGLiveBackdropView	lgFilterType	@16@0:8	0x182c0	id	
+SystemBoxClockGlass	LGLiveBackdropView	setLgFilterType:	v24@0:8@16	0x182d0	void	id
+SystemBoxClockGlass	LGLiveBackdropView	lgShapeRect	{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8	0x182dc	CGRect	
+SystemBoxClockGlass	LGLiveBackdropView	lgShapeCornerRadius	d16@0:8	0x182f4	double	
+SystemBoxClockGlass	LGLiveBackdropView	lgBackdropZoom	d16@0:8	0x18304	double	
+SystemBoxClockGlass	LGLiveBackdropView	setLgBackdropZoom:	v24@0:8d16	0x18314	void	double
+SystemBoxClockGlass	LGLiveBackdropView	.cxx_destruct	v16@0:8	0x18324	void	
+SystemBoxClockGlass	LGSettingsLowBlurView	initWithFrame:	@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16	0x18eb8	id	CGRect
+SystemBoxClockGlass	LGSettingsLowBlurView	didMoveToWindow	v16@0:8	0x18f6c	void	
+SystemBoxClockGlass	LGSettingsLowBlurView	layoutSubviews	v16@0:8	0x18fb4	void	
+SystemBoxClockGlass	LGSettingsLowBlurView	setLgBlurRadius:	v24@0:8d16	0x18ffc	void	double
+SystemBoxClockGlass	LGSettingsLowBlurView	lg_configure	v16@0:8	0x19028	void	
+SystemBoxClockGlass	LGSettingsLowBlurView	lgBlurRadius	d16@0:8	0x19354	double	
+SystemBoxPrefs	SystemBoxRootListController	sb_specifierPlistName	@16@0:8	0x4000	id	
+SystemBoxPrefs	SystemBoxRootListController	specifiers	@16@0:8	0x400c	id	
+SystemBoxPrefs	SystemBoxRootListController	viewDidLoad	v16@0:8	0x408c	void	
+SystemBoxPrefs	SystemBoxRootListController	viewDidAppear:	v20@0:8B16	0x41f4	void	BOOL
+SystemBoxPrefs	SystemBoxRootListController	sb_installRootHeader	v16@0:8	0x4ee0	void	
+SystemBoxPrefs	SystemBoxRootListController	tableView:cellForRowAtIndexPath:	@32@0:8@16@24	0x5620	id	id id
+SystemBoxPrefs	SystemBoxRootListController	tableView:heightForRowAtIndexPath:	d32@0:8@16@24	0x6604	double	id id
+SystemBoxPrefs	SystemBoxRootListController	sb_developerProfileCellForTableView:	@24@0:8@16	0x66f0	id	id
+SystemBoxPrefs	SystemBoxRootListController	tableView:didSelectRowAtIndexPath:	v32@0:8@16@24	0x6fa0	void	id id
+SystemBoxPrefs	SystemBoxRootListController	sb_openDeveloperSileoSource	v16@0:8	0x709c	void	
+SystemBoxPrefs	SystemBoxRootListController	tableView:willDisplayFooterView:forSection:	v40@0:8@16@24q32	0x720c	void	id id long long
+SystemBoxPrefs	SystemBoxRootListController	sb_specifierForPreferenceKey:	@24@0:8@16	0x738c	id	id
+SystemBoxPrefs	SystemBoxRootListController	sb_specifierForAction:	@24@0:8@16	0x7504	id	id
+SystemBoxPrefs	SystemBoxRootListController	sb_updateVisibleSwitchForKey:value:	v28@0:8@16B24	0x767c	void	id BOOL
+SystemBoxPrefs	SystemBoxRootListController	sb_updateVisibleColorAccessoryForAction:tag:color:	v40@0:8@16q24@32	0x77a8	void	id long long id
+SystemBoxPrefs	SystemBoxRootListController	readPreferenceValue:	@24@0:8@16	0x7894	id	id
+SystemBoxPrefs	SystemBoxRootListController	setPreferenceValue:specifier:	v32@0:8@16@24	0x7994	void	id id
+SystemBoxPrefs	SystemBoxRootListController	sb_openIconDirectory:	v24@0:8@16	0x82c4	void	id
+SystemBoxPrefs	SystemBoxRootListController	openBatchIconDirectory	v16@0:8	0x8628	void	
+SystemBoxPrefs	SystemBoxRootListController	openIrregularIconDirectory	v16@0:8	0x8634	void	
+SystemBoxPrefs	SystemBoxRootListController	chooseVPNStatusBarColor	v16@0:8	0x8640	void	
+SystemBoxPrefs	SystemBoxRootListController	sb_saveColorFromActivePicker:	v24@0:8@16	0x86dc	void	id
+SystemBoxPrefs	SystemBoxRootListController	colorPickerViewControllerDidSelectColor:	v24@0:8@16	0x874c	void	id
+SystemBoxPrefs	SystemBoxRootListController	colorPickerViewControllerDidFinish:	v24@0:8@16	0x878c	void	id
+SystemBoxPrefs	SystemBoxRootListController	sb_saveVPNStatusBarColor:	v24@0:8@16	0x87d8	void	id
+SystemBoxPrefs	SystemBoxRootListController	chooseRunIndicatorColor	v16@0:8	0x8a7c	void	
+SystemBoxPrefs	SystemBoxRootListController	sb_saveRunIndicatorColor:	v24@0:8@16	0x8b18	void	id
+SystemBoxPrefs	SystemBoxRootListController	chooseDesktopTextColor	v16@0:8	0x8d2c	void	
+SystemBoxPrefs	SystemBoxRootListController	sb_saveDesktopTextColor:	v24@0:8@16	0x8dc8	void	id
+SystemBoxPrefs	SystemBoxRootListController	respring	v16@0:8	0x8fdc	void	
+SystemBoxPrefs	SystemBoxRootListController	colorPickerTarget	q16@0:8	0x9228	long long	
+SystemBoxPrefs	SystemBoxRootListController	setColorPickerTarget:	v24@0:8q16	0x9238	void	long long
+SystemBoxPrefs	SystemBoxGeneralListController	sb_specifierPlistName	@16@0:8	0x9248	id	
+SystemBoxPrefs	SystemBoxGeneralListController	specifiers	@16@0:8	0x9254	id	
+SystemBoxPrefs	SystemBoxDesktopListController	sb_specifierPlistName	@16@0:8	0x94b0	id	
+SystemBoxPrefs	SystemBoxDateTimeListController	sb_specifierPlistName	@16@0:8	0x94bc	id	
+SystemBoxPrefs	SystemBoxFolderListController	sb_specifierPlistName	@16@0:8	0x94c8	id	
+SystemBoxPrefs	SystemBoxPhotosListController	sb_specifierPlistName	@16@0:8	0x94d4	id	
+SystemBoxPrefs	SystemBoxDisableListController	sb_specifierPlistName	@16@0:8	0x94e0	id	
+SystemBoxPrefs	SystemBoxDisableListController	specifiers	@16@0:8	0x94ec	id	
+SystemBoxPrefs	SystemBoxDisableListController	viewDidLoad	v16@0:8	0x95a0	void	
+SystemBoxPrefs	SystemBoxHideListController	sb_specifierPlistName	@16@0:8	0x9618	id	
+SystemBoxPrefs	SBWhitelistCell	initWithStyle:reuseIdentifier:specifier:	@40@0:8q16@24@32	0x9974	id	long long id id
+SystemBoxPrefs	SBWhitelistCell	prepareForReuse	v16@0:8	0x9a3c	void	
+SystemBoxPrefs	SBWhitelistCell	refreshCellContentsWithSpecifier:	v24@0:8@16	0x9aac	void	id
+SystemBoxPrefs	SBWhitelistCell	switchToggled:	v24@0:8@16	0x9e80	void	id
+SystemBoxPrefs	SBWhitelistCell	whitelistSwitch	@16@0:8	0x9f10	id	
+SystemBoxPrefs	SBWhitelistCell	setWhitelistSwitch:	v24@0:8@16	0x9f20	void	id
+SystemBoxPrefs	SBWhitelistCell	appBundleID	@16@0:8	0x9f34	id	
+SystemBoxPrefs	SBWhitelistCell	setAppBundleID:	v24@0:8@16	0x9f44	void	id
+SystemBoxPrefs	SBWhitelistCell	iconLoadToken	@16@0:8	0x9f50	id	
+SystemBoxPrefs	SBWhitelistCell	setIconLoadToken:	v24@0:8@16	0x9f60	void	id
+SystemBoxPrefs	SBWhitelistCell	.cxx_destruct	v16@0:8	0x9f6c	void	
+SystemBoxPrefs	SystemBoxWhitelistController	allApps	@16@0:8	0x9fc0	id	
+SystemBoxPrefs	SystemBoxWhitelistController	whitelistPreferenceKey	@16@0:8	0xb63c	id	
+SystemBoxPrefs	SystemBoxWhitelistController	filteredApps	@16@0:8	0xb6d0	id	
+SystemBoxPrefs	SystemBoxWhitelistController	appsWithSelectedFirst:	@24@0:8@16	0xb720	id	id
+SystemBoxPrefs	SystemBoxWhitelistController	viewDidLoad	v16@0:8	0xb950	void	
+SystemBoxPrefs	SystemBoxWhitelistController	viewWillAppear:	v20@0:8B16	0xbc10	void	BOOL
+SystemBoxPrefs	SystemBoxWhitelistController	updateSearchResultsForSearchController:	v24@0:8@16	0xbcf4	void	id
+SystemBoxPrefs	SystemBoxWhitelistController	specifiers	@16@0:8	0xbeec	id	
+SystemBoxPrefs	SystemBoxWhitelistController	whitelistValue:	@24@0:8@16	0xc164	id	id
+SystemBoxPrefs	SystemBoxWhitelistController	setWhitelistValue:specifier:	v32@0:8@16@24	0xc1f8	void	id id
+SystemBoxPrefs	SystemBoxWhitelistController	selectedBundleIDs	@16@0:8	0xc3fc	id	
+SystemBoxPrefs	SystemBoxWhitelistController	setSelectedBundleIDs:	v24@0:8@16	0xc40c	void	id
+SystemBoxPrefs	SystemBoxWhitelistController	pinnedBundleIDs	@16@0:8	0xc420	id	
+SystemBoxPrefs	SystemBoxWhitelistController	setPinnedBundleIDs:	v24@0:8@16	0xc430	void	id
+SystemBoxPrefs	SystemBoxWhitelistController	setAllApps:	v24@0:8@16	0xc444	void	id
+SystemBoxPrefs	SystemBoxWhitelistController	setFilteredApps:	v24@0:8@16	0xc458	void	id
+SystemBoxPrefs	SystemBoxWhitelistController	searchController	@16@0:8	0xc46c	id	
+SystemBoxPrefs	SystemBoxWhitelistController	setSearchController:	v24@0:8@16	0xc47c	void	id
+SystemBoxPrefs	SystemBoxWhitelistController	.cxx_destruct	v16@0:8	0xc490	void	
+SystemBoxPrefs	SystemBoxClockGradientCell	initWithStyle:reuseIdentifier:specifier:	@40@0:8q16@24@32	0xc854	id	long long id id
+SystemBoxPrefs	SystemBoxClockGradientCell	colorTapped:	v24@0:8@16	0xd0b8	void	id
+SystemBoxPrefs	SystemBoxClockGradientCell	refreshCellContentsWithSpecifier:	v24@0:8@16	0xd140	void	id
+SystemBoxPrefs	SystemBoxClockGradientCell	.cxx_destruct	v16@0:8	0xd768	void	
+SystemBoxPrefs	SystemBoxClockSolidColorCell	initWithStyle:reuseIdentifier:specifier:	@40@0:8q16@24@32	0xd77c	id	long long id id
+SystemBoxPrefs	SystemBoxClockSolidColorCell	openColorPicker	v16@0:8	0xdaac	void	
+SystemBoxPrefs	SystemBoxClockSolidColorCell	refreshCellContentsWithSpecifier:	v24@0:8@16	0xdb0c	void	id
+SystemBoxPrefs	SystemBoxClockSolidColorCell	.cxx_destruct	v16@0:8	0xdc70	void	
+SystemBoxPrefs	SystemBoxClockListController	sb_specifierPlistName	@16@0:8	0xdc84	id	
+SystemBoxPrefs	SystemBoxClockListController	setPreferenceValue:specifier:	v32@0:8@16@24	0xdc90	void	id id
+SystemBoxPrefs	SystemBoxClockListController	presentClockColorPicker:title:alpha:	v36@0:8@16@24B32	0xde9c	void	id id BOOL
+SystemBoxPrefs	SystemBoxClockListController	chooseGradientColor:	v24@0:8@16	0xdf50	void	id
+SystemBoxPrefs	SystemBoxClockListController	chooseCustomClockColor	v16@0:8	0xe120	void	
+SystemBoxPrefs	SystemBoxClockListController	savePickerColor:	v24@0:8@16	0xe254	void	id
+SystemBoxPrefs	SystemBoxClockListController	colorPickerViewControllerDidSelectColor:	v24@0:8@16	0xe62c	void	id
+SystemBoxPrefs	SystemBoxClockListController	colorPickerViewControllerDidFinish:	v24@0:8@16	0xe66c	void	id
+SystemBoxPrefs	SystemBoxClockSliderCell	initWithStyle:reuseIdentifier:specifier:	@40@0:8q16@24@32	0xe6b4	id	long long id id
+SystemBoxPrefs	SystemBoxClockSliderCell	setSpecifier:	v24@0:8@16	0xec2c	void	id
+SystemBoxPrefs	SystemBoxClockSliderCell	syncWithSpecifier:	v24@0:8@16	0xec9c	void	id
+SystemBoxPrefs	SystemBoxClockSliderCell	sliderChanged:	v24@0:8@16	0xee3c	void	id
+SystemBoxPrefs	SystemBoxClockSliderCell	updateValueLabel	v16@0:8	0xef3c	void	
+SystemBoxPrefs	SystemBoxClockSliderCell	refreshCellContentsWithSpecifier:	v24@0:8@16	0xf068	void	id
+SystemBoxPrefs	SystemBoxClockSliderCell	.cxx_destruct	v16@0:8	0xf0d8	void	

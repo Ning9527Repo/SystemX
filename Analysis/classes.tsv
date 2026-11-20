@@ -1,0 +1,37 @@
+binary	class	superclass	methods	ivars	properties	protocols
+SystemBox	SBSilentStatusBarIconWeakBox	NSObject	3	1	1	
+SystemBox	SBHomePullDownControlCenterGestureTarget	NSObject	6	1	5	UIGestureRecognizerDelegate
+SystemBox	SBHomePullUpNotificationCenterGestureTarget	NSObject	6	1	5	UIGestureRecognizerDelegate
+SystemBox	SBHomePullUpControlCenterGestureTarget	NSObject	6	1	5	UIGestureRecognizerDelegate
+SystemBox	SBHomePullDownNotificationCenterGestureTarget	NSObject	6	1	5	UIGestureRecognizerDelegate
+SystemBox	SBHomeHalfPullGestureTarget	NSObject	12	4	8	UIGestureRecognizerDelegate
+SystemBox	SBDoubleTapLockGestureTarget	NSObject	3	0	4	UIGestureRecognizerDelegate
+SystemBox	SBTwoFingerDoubleTapClearNotificationsTarget	NSObject	3	0	4	UIGestureRecognizerDelegate
+SystemBox	SBLockScreenDoubleTapLockGestureTarget	NSObject	3	0	4	UIGestureRecognizerDelegate
+SystemBox	SBLongPressLockGestureTarget	NSObject	3	0	4	UIGestureRecognizerDelegate
+SystemBox	SBKillBackgroundGestureTarget	NSObject	3	0	4	UIGestureRecognizerDelegate
+SystemBox	SBXLiveBackdropView	UIView	19	24	1	
+SystemBox	SBXLMaterialHostRoute	NSObject	11	5	5	
+SystemBox	SBGracefulCloseFolderTapTarget	NSObject	5	1	5	UIGestureRecognizerDelegate
+SystemBox	SBCustomDesktopIconPhotoPickerDelegate	NSObject	4	1	5	PHPickerViewControllerDelegate
+SystemBox	UIImage(SystemBoxDockReflectionBlur)	category	1	0	0	
+SystemBoxClockGlass	LGClockFontStore	NSObject	18	5	5	
+SystemBoxClockGlass	LGClockMotionTracker	NSObject	8	2	2	
+SystemBoxClockGlass	LGClockState	NSObject	89	40	40	
+SystemBoxClockGlass	LGMotionDisplayLinkTarget	NSObject	1	0	0	
+SystemBoxClockGlass	LGLiveBackdropView	UIView	26	18	5	
+SystemBoxClockGlass	LGSettingsLowBlurView	UIView	6	1	1	
+SystemBoxPrefs	SystemBoxRootListController	PSListController	32	1	5	UIColorPickerViewControllerDelegate
+SystemBoxPrefs	SystemBoxGeneralListController	SystemBoxRootListController	2	0	0	
+SystemBoxPrefs	SystemBoxDesktopListController	SystemBoxRootListController	1	0	0	
+SystemBoxPrefs	SystemBoxDateTimeListController	SystemBoxRootListController	1	0	0	
+SystemBoxPrefs	SystemBoxFolderListController	SystemBoxRootListController	1	0	0	
+SystemBoxPrefs	SystemBoxPhotosListController	SystemBoxRootListController	1	0	0	
+SystemBoxPrefs	SystemBoxDisableListController	SystemBoxRootListController	3	0	0	
+SystemBoxPrefs	SystemBoxHideListController	SystemBoxRootListController	1	0	0	
+SystemBoxPrefs	SBWhitelistCell	PSTableCell	11	3	3	
+SystemBoxPrefs	SystemBoxWhitelistController	PSListController	19	5	9	UISearchResultsUpdating
+SystemBoxPrefs	SystemBoxClockGradientCell	PSTableCell	4	1	0	
+SystemBoxPrefs	SystemBoxClockSolidColorCell	PSTableCell	4	1	0	
+SystemBoxPrefs	SystemBoxClockListController	SystemBoxRootListController	8	1	4	UIColorPickerViewControllerDelegate
+SystemBoxPrefs	SystemBoxClockSliderCell	PSTableCell	7	2	0	

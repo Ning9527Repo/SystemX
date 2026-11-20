@@ -1,0 +1,7300 @@
+{
+ "name": "SystemBoxPrefs",
+ "path": "../extracted/data/Library/PreferenceBundles/SystemBoxPrefs.bundle/SystemBoxPrefs",
+ "slices": [
+  {
+   "arch": "arm64",
+   "uuid": "4563611b368538b8b1d1d8df0bae9510",
+   "text": [
+    {
+     "addr": 16384,
+     "size": 46864
+    },
+    {
+     "addr": 63248,
+     "size": 600
+    },
+    {
+     "addr": 63848,
+     "size": 8448
+    }
+   ],
+   "imports": [
+    "_CFEqual",
+    "_CFNotificationCenterGetDarwinNotifyCenter",
+    "_CFNotificationCenterPostNotification",
+    "_CGColorGetColorSpace",
+    "_CGColorGetComponents",
+    "_CGColorGetNumberOfComponents",
+    "_CGColorSpaceGetModel",
+    "_CGColorSpaceGetName",
+    "_CGRectInset",
+    "_NSClassFromString",
+    "_NSSelectorFromString",
+    "_OBJC_EHTYPE_$_NSException",
+    "_OBJC_IVAR_$_PSListController._specifiers",
+    "_PSCellClassKey",
+    "_UIFontWeightHeavy",
+    "_UIFontWeightMedium",
+    "_UIFontWeightRegular",
+    "_UIFontWeightSemibold",
+    "__NSConcreteStackBlock",
+    "__Unwind_Resume",
+    "__Z6jbrootP8NSString",
+    "___NSArray0__struct",
+    "___NSDictionary0__struct",
+    "___exp10f",
+    "___kCFBooleanFalse",
+    "___kCFBooleanTrue",
+    "___objc_personality_v0",
+    "___stack_chk_fail",
+    "___stack_chk_guard",
+    "__availability_version_check",
+    "__dispatch_main_q",
+    "_access",
+    "_dispatch_async",
+    "_dispatch_get_global_queue",
+    "_dispatch_once_f",
+    "_dlopen",
+    "_dlsym",
+    "_fclose",
+    "_fopen",
+    "_fread",
+    "_free",
+    "_fseek",
+    "_ftell",
+    "_kCGColorSpaceDisplayP3",
+    "_malloc",
+    "_objc_alloc",
+    "_objc_alloc_init",
+    "_objc_autoreleaseReturnValue",
+    "_objc_begin_catch",
+    "_objc_end_catch",
+    "_objc_enumerationMutation",
+    "_objc_msgSend",
+    "_objc_msgSendSuper2",
+    "_objc_opt_class",
+    "_objc_opt_isKindOfClass",
+    "_objc_opt_respondsToSelector",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutorelease",
+    "_objc_retainAutoreleaseReturnValue",
+    "_objc_retainAutoreleasedReturnValue",
+    "_objc_setProperty_nonatomic_copy",
+    "_objc_storeStrong",
+    "_posix_spawn",
+    "_rewind",
+    "_sscanf",
+    "__NSConcreteGlobalBlock",
+    "___CFConstantStringClassReference",
+    "_OBJC_CLASS_$_NSConstantArray",
+    "_OBJC_CLASS_$_UIBarButtonItem",
+    "_OBJC_CLASS_$_UIColor",
+    "_OBJC_CLASS_$_UIScreen",
+    "_OBJC_CLASS_$_UIView",
+    "_OBJC_CLASS_$_UIImage",
+    "_OBJC_CLASS_$_UIImageView",
+    "_OBJC_CLASS_$_UILabel",
+    "_OBJC_CLASS_$_UIFont",
+    "_OBJC_CLASS_$_NSLayoutConstraint",
+    "_OBJC_CLASS_$_NSArray",
+    "_OBJC_CLASS_$_UIImageSymbolConfiguration",
+    "_OBJC_CLASS_$_UITableViewCell",
+    "_OBJC_CLASS_$_NSURL",
+    "_OBJC_CLASS_$_UIApplication",
+    "_OBJC_CLASS_$_UITableViewHeaderFooterView",
+    "_OBJC_CLASS_$_PSControlTableCell",
+    "_OBJC_CLASS_$_NSNumber",
+    "_OBJC_CLASS_$_UISwitch",
+    "_OBJC_CLASS_$_NSDictionary",
+    "_OBJC_CLASS_$_NSString",
+    "_OBJC_CLASS_$_NSMutableDictionary",
+    "_OBJC_CLASS_$_NSFileManager",
+    "_OBJC_CLASS_$_UIAlertController",
+    "_OBJC_CLASS_$_UIAlertAction",
+    "_OBJC_CLASS_$_NSCharacterSet",
+    "_OBJC_CLASS_$_UIPasteboard",
+    "_OBJC_CLASS_$_UIColorPickerViewController",
+    "_OBJC_CLASS_$_NSMutableArray",
+    "_OBJC_CLASS_$_NSData",
+    "_OBJC_CLASS_$_NSURLComponents",
+    "_OBJC_CLASS_$_NSMutableSet",
+    "_OBJC_CLASS_$_NSSet",
+    "_OBJC_CLASS_$_UISearchController",
+    "_OBJC_CLASS_$_NSPredicate",
+    "_OBJC_CLASS_$_PSSpecifier",
+    "_OBJC_CLASS_$_NSBundle",
+    "_OBJC_CLASS_$_UIStackView",
+    "_OBJC_CLASS_$_UITapGestureRecognizer",
+    "_OBJC_CLASS_$_UIButton",
+    "_OBJC_CLASS_$_NSScanner",
+    "_OBJC_CLASS_$_UISlider",
+    "_OBJC_CLASS_$_PSListController",
+    "__objc_empty_cache",
+    "_OBJC_METACLASS_$_NSObject",
+    "_OBJC_METACLASS_$_PSListController",
+    "_OBJC_CLASS_$_PSTableCell",
+    "_OBJC_METACLASS_$_PSTableCell"
+   ],
+   "classes": [
+    {
+     "name": "SystemBoxRootListController",
+     "superclass": "PSListController",
+     "addr": 122992,
+     "ro": 115768,
+     "instance_start": 16,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 16384,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "specifiers",
+       "types": "@16@0:8",
+       "imp": 16396,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "viewDidLoad",
+       "types": "v16@0:8",
+       "imp": 16524,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "viewDidAppear:",
+       "types": "v20@0:8B16",
+       "imp": 16884,
+       "ret": "void",
+       "args": [
+        "BOOL"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "BOOL"
+       ]
+      },
+      {
+       "name": "sb_installRootHeader",
+       "types": "v16@0:8",
+       "imp": 20192,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "tableView:cellForRowAtIndexPath:",
+       "types": "@32@0:8@16@24",
+       "imp": 22048,
+       "ret": "id",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "tableView:heightForRowAtIndexPath:",
+       "types": "d32@0:8@16@24",
+       "imp": 26116,
+       "ret": "double",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_developerProfileCellForTableView:",
+       "types": "@24@0:8@16",
+       "imp": 26352,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "tableView:didSelectRowAtIndexPath:",
+       "types": "v32@0:8@16@24",
+       "imp": 28576,
+       "ret": "void",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_openDeveloperSileoSource",
+       "types": "v16@0:8",
+       "imp": 28828,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "tableView:willDisplayFooterView:forSection:",
+       "types": "v40@0:8@16@24q32",
+       "imp": 29196,
+       "ret": "void",
+       "args": [
+        "id",
+        "id",
+        "long long"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id",
+        "long long"
+       ]
+      },
+      {
+       "name": "sb_specifierForPreferenceKey:",
+       "types": "@24@0:8@16",
+       "imp": 29580,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_specifierForAction:",
+       "types": "@24@0:8@16",
+       "imp": 29956,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_updateVisibleSwitchForKey:value:",
+       "types": "v28@0:8@16B24",
+       "imp": 30332,
+       "ret": "void",
+       "args": [
+        "id",
+        "BOOL"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "BOOL"
+       ]
+      },
+      {
+       "name": "sb_updateVisibleColorAccessoryForAction:tag:color:",
+       "types": "v40@0:8@16q24@32",
+       "imp": 30632,
+       "ret": "void",
+       "args": [
+        "id",
+        "long long",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "long long",
+        "id"
+       ]
+      },
+      {
+       "name": "readPreferenceValue:",
+       "types": "@24@0:8@16",
+       "imp": 30868,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "setPreferenceValue:specifier:",
+       "types": "v32@0:8@16@24",
+       "imp": 31124,
+       "ret": "void",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_openIconDirectory:",
+       "types": "v24@0:8@16",
+       "imp": 33476,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "openBatchIconDirectory",
+       "types": "v16@0:8",
+       "imp": 34344,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "openIrregularIconDirectory",
+       "types": "v16@0:8",
+       "imp": 34356,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "chooseVPNStatusBarColor",
+       "types": "v16@0:8",
+       "imp": 34368,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "sb_saveColorFromActivePicker:",
+       "types": "v24@0:8@16",
+       "imp": 34524,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "colorPickerViewControllerDidSelectColor:",
+       "types": "v24@0:8@16",
+       "imp": 34636,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "colorPickerViewControllerDidFinish:",
+       "types": "v24@0:8@16",
+       "imp": 34700,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_saveVPNStatusBarColor:",
+       "types": "v24@0:8@16",
+       "imp": 34776,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "chooseRunIndicatorColor",
+       "types": "v16@0:8",
+       "imp": 35452,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "sb_saveRunIndicatorColor:",
+       "types": "v24@0:8@16",
+       "imp": 35608,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "chooseDesktopTextColor",
+       "types": "v16@0:8",
+       "imp": 36140,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "sb_saveDesktopTextColor:",
+       "types": "v24@0:8@16",
+       "imp": 36296,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "respring",
+       "types": "v16@0:8",
+       "imp": 36828,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "colorPickerTarget",
+       "types": "q16@0:8",
+       "imp": 37416,
+       "ret": "long long",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setColorPickerTarget:",
+       "types": "v24@0:8q16",
+       "imp": 37432,
+       "ret": "void",
+       "args": [
+        "long long"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "long long"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_colorPickerTarget",
+       "types": "q",
+       "offset": 16,
+       "size": 8
+      }
+     ],
+     "properties": [
+      {
+       "name": "colorPickerTarget",
+       "attrs": "Tq,N,V_colorPickerTarget"
+      },
+      {
+       "name": "hash",
+       "attrs": "TQ,R"
+      },
+      {
+       "name": "superclass",
+       "attrs": "T#,R"
+      },
+      {
+       "name": "description",
+       "attrs": "T@\"NSString\",R,C"
+      },
+      {
+       "name": "debugDescription",
+       "attrs": "T@\"NSString\",?,R,C"
+      }
+     ],
+     "protocols": [
+      "UIColorPickerViewControllerDelegate"
+     ]
+    },
+    {
+     "name": "SystemBoxGeneralListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123112,
+     "ro": 115912,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 37448,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "specifiers",
+       "types": "@16@0:8",
+       "imp": 37460,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxDesktopListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123192,
+     "ro": 116056,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38064,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxDateTimeListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123272,
+     "ro": 116200,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38076,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxFolderListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123352,
+     "ro": 116344,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38088,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxPhotosListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123432,
+     "ro": 116488,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38100,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxDisableListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123472,
+     "ro": 116632,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38112,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "specifiers",
+       "types": "@16@0:8",
+       "imp": 38124,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "viewDidLoad",
+       "types": "v16@0:8",
+       "imp": 38304,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxHideListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123592,
+     "ro": 116776,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38424,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SBWhitelistCell",
+     "superclass": "PSTableCell",
+     "addr": 123632,
+     "ro": 117080,
+     "instance_start": 8,
+     "instance_size": 32,
+     "methods": [
+      {
+       "name": "initWithStyle:reuseIdentifier:specifier:",
+       "types": "@40@0:8q16@24@32",
+       "imp": 39284,
+       "ret": "id",
+       "args": [
+        "long long",
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "long long",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "prepareForReuse",
+       "types": "v16@0:8",
+       "imp": 39484,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "refreshCellContentsWithSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 39596,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "switchToggled:",
+       "types": "v24@0:8@16",
+       "imp": 40576,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "whitelistSwitch",
+       "types": "@16@0:8",
+       "imp": 40720,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setWhitelistSwitch:",
+       "types": "v24@0:8@16",
+       "imp": 40736,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "appBundleID",
+       "types": "@16@0:8",
+       "imp": 40756,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setAppBundleID:",
+       "types": "v24@0:8@16",
+       "imp": 40772,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "iconLoadToken",
+       "types": "@16@0:8",
+       "imp": 40784,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setIconLoadToken:",
+       "types": "v24@0:8@16",
+       "imp": 40800,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": ".cxx_destruct",
+       "types": "v16@0:8",
+       "imp": 40812,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_whitelistSwitch",
+       "types": "@\"UISwitch\"",
+       "offset": 8,
+       "size": 8
+      },
+      {
+       "name": "_appBundleID",
+       "types": "@\"NSString\"",
+       "offset": 16,
+       "size": 8
+      },
+      {
+       "name": "_iconLoadToken",
+       "types": "@\"NSString\"",
+       "offset": 24,
+       "size": 8
+      }
+     ],
+     "properties": [
+      {
+       "name": "whitelistSwitch",
+       "attrs": "T@\"UISwitch\",&,N,V_whitelistSwitch"
+      },
+      {
+       "name": "appBundleID",
+       "attrs": "T@\"NSString\",C,N,V_appBundleID"
+      },
+      {
+       "name": "iconLoadToken",
+       "attrs": "T@\"NSString\",C,N,V_iconLoadToken"
+      }
+     ],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxWhitelistController",
+     "superclass": "PSListController",
+     "addr": 123712,
+     "ro": 118400,
+     "instance_start": 16,
+     "instance_size": 56,
+     "methods": [
+      {
+       "name": "allApps",
+       "types": "@16@0:8",
+       "imp": 40896,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "whitelistPreferenceKey",
+       "types": "@16@0:8",
+       "imp": 46652,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "filteredApps",
+       "types": "@16@0:8",
+       "imp": 46800,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "appsWithSelectedFirst:",
+       "types": "@24@0:8@16",
+       "imp": 46880,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "viewDidLoad",
+       "types": "v16@0:8",
+       "imp": 47440,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "viewWillAppear:",
+       "types": "v20@0:8B16",
+       "imp": 48144,
+       "ret": "void",
+       "args": [
+        "BOOL"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "BOOL"
+       ]
+      },
+      {
+       "name": "updateSearchResultsForSearchController:",
+       "types": "v24@0:8@16",
+       "imp": 48372,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "specifiers",
+       "types": "@16@0:8",
+       "imp": 48876,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "whitelistValue:",
+       "types": "@24@0:8@16",
+       "imp": 49508,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "setWhitelistValue:specifier:",
+       "types": "v32@0:8@16@24",
+       "imp": 49656,
+       "ret": "void",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "selectedBundleIDs",
+       "types": "@16@0:8",
+       "imp": 50172,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setSelectedBundleIDs:",
+       "types": "v24@0:8@16",
+       "imp": 50188,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "pinnedBundleIDs",
+       "types": "@16@0:8",
+       "imp": 50208,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setPinnedBundleIDs:",
+       "types": "v24@0:8@16",
+       "imp": 50224,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "setAllApps:",
+       "types": "v24@0:8@16",
+       "imp": 50244,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "setFilteredApps:",
+       "types": "v24@0:8@16",
+       "imp": 50264,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "searchController",
+       "types": "@16@0:8",
+       "imp": 50284,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setSearchController:",
+       "types": "v24@0:8@16",
+       "imp": 50300,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": ".cxx_destruct",
+       "types": "v16@0:8",
+       "imp": 50320,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_selectedBundleIDs",
+       "types": "@\"NSMutableSet\"",
+       "offset": 16,
+       "size": 8
+      },
+      {
+       "name": "_pinnedBundleIDs",
+       "types": "@\"NSSet\"",
+       "offset": 24,
+       "size": 8
+      },
+      {
+       "name": "_allApps",
+       "types": "@\"NSArray\"",
+       "offset": 32,
+       "size": 8
+      },
+      {
+       "name": "_filteredApps",
+       "types": "@\"NSArray\"",
+       "offset": 40,
+       "size": 8
+      },
+      {
+       "name": "_searchController",
+       "types": "@\"UISearchController\"",
+       "offset": 48,
+       "size": 8
+      }
+     ],
+     "properties": [
+      {
+       "name": "selectedBundleIDs",
+       "attrs": "T@\"NSMutableSet\",&,N,V_selectedBundleIDs"
+      },
+      {
+       "name": "pinnedBundleIDs",
+       "attrs": "T@\"NSSet\",&,N,V_pinnedBundleIDs"
+      },
+      {
+       "name": "allApps",
+       "attrs": "T@\"NSArray\",&,N,V_allApps"
+      },
+      {
+       "name": "filteredApps",
+       "attrs": "T@\"NSArray\",&,N,V_filteredApps"
+      },
+      {
+       "name": "searchController",
+       "attrs": "T@\"UISearchController\",&,N,V_searchController"
+      },
+      {
+       "name": "hash",
+       "attrs": "TQ,R"
+      },
+      {
+       "name": "superclass",
+       "attrs": "T#,R"
+      },
+      {
+       "name": "description",
+       "attrs": "T@\"NSString\",R,C"
+      },
+      {
+       "name": "debugDescription",
+       "attrs": "T@\"NSString\",?,R,C"
+      }
+     ],
+     "protocols": [
+      "UISearchResultsUpdating"
+     ]
+    },
+    {
+     "name": "SystemBoxClockGradientCell",
+     "superclass": "PSTableCell",
+     "addr": 123792,
+     "ro": 118584,
+     "instance_start": 8,
+     "instance_size": 16,
+     "methods": [
+      {
+       "name": "initWithStyle:reuseIdentifier:specifier:",
+       "types": "@40@0:8q16@24@32",
+       "imp": 51284,
+       "ret": "id",
+       "args": [
+        "long long",
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "long long",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "colorTapped:",
+       "types": "v24@0:8@16",
+       "imp": 53432,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "refreshCellContentsWithSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 53568,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": ".cxx_destruct",
+       "types": "v16@0:8",
+       "imp": 55144,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_colors",
+       "types": "@\"UIStackView\"",
+       "offset": 8,
+       "size": 8
+      }
+     ],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxClockSolidColorCell",
+     "superclass": "PSTableCell",
+     "addr": 123872,
+     "ro": 118768,
+     "instance_start": 8,
+     "instance_size": 16,
+     "methods": [
+      {
+       "name": "initWithStyle:reuseIdentifier:specifier:",
+       "types": "@40@0:8q16@24@32",
+       "imp": 55164,
+       "ret": "id",
+       "args": [
+        "long long",
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "long long",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "openColorPicker",
+       "types": "v16@0:8",
+       "imp": 55980,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "refreshCellContentsWithSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 56076,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": ".cxx_destruct",
+       "types": "v16@0:8",
+       "imp": 56432,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_button",
+       "types": "@\"UIButton\"",
+       "offset": 8,
+       "size": 8
+      }
+     ],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxClockListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123992,
+     "ro": 119904,
+     "instance_start": 16,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 56452,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setPreferenceValue:specifier:",
+       "types": "v32@0:8@16@24",
+       "imp": 56464,
+       "ret": "void",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "presentClockColorPicker:title:alpha:",
+       "types": "v36@0:8@16@24B32",
+       "imp": 56988,
+       "ret": "void",
+       "args": [
+        "id",
+        "id",
+        "BOOL"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id",
+        "BOOL"
+       ]
+      },
+      {
+       "name": "chooseGradientColor:",
+       "types": "v24@0:8@16",
+       "imp": 57168,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "chooseCustomClockColor",
+       "types": "v16@0:8",
+       "imp": 57632,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "savePickerColor:",
+       "types": "v24@0:8@16",
+       "imp": 57940,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "colorPickerViewControllerDidSelectColor:",
+       "types": "v24@0:8@16",
+       "imp": 58924,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "colorPickerViewControllerDidFinish:",
+       "types": "v24@0:8@16",
+       "imp": 58988,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_pickerGradientIndex",
+       "types": "q",
+       "offset": 16,
+       "size": 8
+      }
+     ],
+     "properties": [
+      {
+       "name": "hash",
+       "attrs": "TQ,R"
+      },
+      {
+       "name": "superclass",
+       "attrs": "T#,R"
+      },
+      {
+       "name": "description",
+       "attrs": "T@\"NSString\",R,C"
+      },
+      {
+       "name": "debugDescription",
+       "attrs": "T@\"NSString\",?,R,C"
+      }
+     ],
+     "protocols": [
+      "UIColorPickerViewControllerDelegate"
+     ]
+    },
+    {
+     "name": "SystemBoxClockSliderCell",
+     "superclass": "PSTableCell",
+     "addr": 124032,
+     "ro": 120120,
+     "instance_start": 8,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "initWithStyle:reuseIdentifier:specifier:",
+       "types": "@40@0:8q16@24@32",
+       "imp": 59060,
+       "ret": "id",
+       "args": [
+        "long long",
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "long long",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "setSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 60460,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "syncWithSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 60572,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "sliderChanged:",
+       "types": "v24@0:8@16",
+       "imp": 60988,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "updateValueLabel",
+       "types": "v16@0:8",
+       "imp": 61244,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "refreshCellContentsWithSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 61544,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": ".cxx_destruct",
+       "types": "v16@0:8",
+       "imp": 61656,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_slider",
+       "types": "@\"UISlider\"",
+       "offset": 8,
+       "size": 8
+      },
+      {
+       "name": "_valueLabel",
+       "types": "@\"UILabel\"",
+       "offset": 16,
+       "size": 8
+      }
+     ],
+     "properties": [],
+     "protocols": []
+    }
+   ],
+   "categories": [],
+   "protocols": [
+    {
+     "name": "NSObject",
+     "methods": [
+      "isEqual:",
+      "class",
+      "self",
+      "performSelector:",
+      "performSelector:withObject:",
+      "performSelector:withObject:withObject:",
+      "isProxy",
+      "isKindOfClass:",
+      "isMemberOfClass:",
+      "conformsToProtocol:",
+      "respondsToSelector:",
+      "retain",
+      "release",
+      "autorelease",
+      "retainCount",
+      "zone",
+      "hash",
+      "superclass",
+      "description"
+     ],
+     "classmethods": [],
+     "opt": [
+      "debugDescription"
+     ],
+     "protocols": []
+    },
+    {
+     "name": "UIColorPickerViewControllerDelegate",
+     "methods": [],
+     "classmethods": [],
+     "opt": [
+      "colorPickerViewControllerDidSelectColor:",
+      "colorPickerViewController:didSelectColor:continuously:",
+      "colorPickerViewControllerDidFinish:"
+     ],
+     "protocols": [
+      "NSObject"
+     ]
+    },
+    {
+     "name": "UISearchResultsUpdating",
+     "methods": [
+      "updateSearchResultsForSearchController:"
+     ],
+     "classmethods": [],
+     "opt": [
+      "updateSearchResultsForSearchController:selectingSearchSuggestion:"
+     ],
+     "protocols": [
+      "NSObject"
+     ]
+    }
+   ],
+   "selrefs": [
+    ".cxx_destruct",
+    "CGColor",
+    "URLPathAllowedCharacterSet",
+    "URLWithString:",
+    "_applicationIconImageForBundleIdentifier:format:scale:",
+    "accessoryView",
+    "actionWithTitle:style:handler:",
+    "activateConstraints:",
+    "addAction:",
+    "addArrangedSubview:",
+    "addGestureRecognizer:",
+    "addObject:",
+    "addObjectsFromArray:",
+    "addSubview:",
+    "addTarget:action:forControlEvents:",
+    "alertControllerWithTitle:message:preferredStyle:",
+    "allApps",
+    "allObjects",
+    "allValues",
+    "appBundleID",
+    "appsWithSelectedFirst:",
+    "arrangedSubviews",
+    "array",
+    "arrayWithCapacity:",
+    "arrayWithObject:",
+    "arrayWithObjects:count:",
+    "boolValue",
+    "bottomAnchor",
+    "bounds",
+    "bundleIdentifier",
+    "bundleWithURL:",
+    "buttonWithType:",
+    "cachedCellForSpecifier:",
+    "centerXAnchor",
+    "centerYAnchor",
+    "chooseCustomClockColor",
+    "chooseDesktopTextColor",
+    "chooseGradientColor:",
+    "chooseRunIndicatorColor",
+    "chooseVPNStatusBarColor",
+    "clearColor",
+    "colorPickerTarget",
+    "colorPickerViewControllerDidFinish:",
+    "colorPickerViewControllerDidSelectColor:",
+    "colorTapped:",
+    "colorWithDisplayP3Red:green:blue:alpha:",
+    "colorWithRed:green:blue:alpha:",
+    "compare:",
+    "componentsSeparatedByCharactersInSet:",
+    "componentsSeparatedByString:",
+    "componentsWithString:",
+    "configurationWithPointSize:weight:",
+    "constraintEqualToAnchor:",
+    "constraintEqualToAnchor:constant:",
+    "constraintEqualToConstant:",
+    "constraintGreaterThanOrEqualToAnchor:",
+    "constraintGreaterThanOrEqualToConstant:",
+    "constraintLessThanOrEqualToAnchor:",
+    "containsObject:",
+    "containsString:",
+    "contentView",
+    "contentsOfDirectoryAtPath:error:",
+    "control",
+    "copy",
+    "count",
+    "countByEnumeratingWithState:objects:count:",
+    "createDirectoryAtPath:withIntermediateDirectories:attributes:error:",
+    "dataWithBytes:length:",
+    "dataWithContentsOfFile:",
+    "defaultManager",
+    "dequeueReusableCellWithIdentifier:",
+    "deselectRowAtIndexPath:animated:",
+    "detailTextLabel",
+    "dictionary",
+    "dictionaryWithContentsOfFile:",
+    "dictionaryWithObjects:forKeys:count:",
+    "doubleValue",
+    "enumerateKeysAndObjectsUsingBlock:",
+    "fileExistsAtPath:",
+    "fileExistsAtPath:isDirectory:",
+    "fileURLWithPath:isDirectory:",
+    "filteredApps",
+    "filteredArrayUsingPredicate:",
+    "firstObject",
+    "floatValue",
+    "generalPasteboard",
+    "getRed:green:blue:alpha:",
+    "hasPrefix:",
+    "heightAnchor",
+    "host",
+    "iconLoadToken",
+    "imageNamed:",
+    "imageView",
+    "imageWithData:",
+    "imageWithRenderingMode:",
+    "infoDictionary",
+    "initWithData:encoding:",
+    "initWithFrame:",
+    "initWithImage:",
+    "initWithSearchResultsController:",
+    "initWithStyle:reuseIdentifier:",
+    "initWithStyle:reuseIdentifier:specifier:",
+    "initWithTarget:action:",
+    "initWithTitle:style:target:action:",
+    "integerValue",
+    "isAtEnd",
+    "isEqual:",
+    "isEqualToString:",
+    "isOn",
+    "labelColor",
+    "layer",
+    "layoutMarginsGuide",
+    "leadingAnchor",
+    "length",
+    "loadSpecifiersFromPlistName:target:",
+    "localizedCaseInsensitiveCompare:",
+    "localizedCaseInsensitiveContainsString:",
+    "localizedDescription",
+    "localizedInfoDictionary",
+    "lowercaseString",
+    "mainScreen",
+    "monospacedDigitSystemFontOfSize:weight:",
+    "mutableCopy",
+    "name",
+    "navigationItem",
+    "numberWithBool:",
+    "numberWithDouble:",
+    "numberWithFloat:",
+    "numberWithInteger:",
+    "objectAtIndexedSubscript:",
+    "objectForKeyedSubscript:",
+    "openBatchIconDirectory",
+    "openColorPicker",
+    "openIrregularIconDirectory",
+    "openURL:options:completionHandler:",
+    "path",
+    "pathExtension",
+    "percentEncodedPath",
+    "performGetter",
+    "performSetterWithValue:",
+    "pinnedBundleIDs",
+    "predicateWithBlock:",
+    "preferenceSpecifierNamed:target:set:get:detail:cell:edit:",
+    "prepareForReuse",
+    "presentClockColorPicker:title:alpha:",
+    "presentViewController:animated:completion:",
+    "propertyForKey:",
+    "rangeOfString:",
+    "readPreferenceValue:",
+    "refreshCellContentsWithSpecifier:",
+    "reloadSpecifiers",
+    "removeObject:",
+    "removeObjectForKey:",
+    "respring",
+    "rightBarButtonItem",
+    "savePickerColor:",
+    "sb_developerProfileCellForTableView:",
+    "sb_installRootHeader",
+    "sb_openDeveloperSileoSource",
+    "sb_openIconDirectory:",
+    "sb_saveColorFromActivePicker:",
+    "sb_saveDesktopTextColor:",
+    "sb_saveRunIndicatorColor:",
+    "sb_saveVPNStatusBarColor:",
+    "sb_specifierForAction:",
+    "sb_specifierForPreferenceKey:",
+    "sb_specifierPlistName",
+    "sb_updateVisibleColorAccessoryForAction:tag:color:",
+    "sb_updateVisibleSwitchForKey:value:",
+    "scale",
+    "scanDouble:",
+    "scanHexInt:",
+    "scannerWithString:",
+    "scheme",
+    "searchBar",
+    "searchController",
+    "secondaryLabelColor",
+    "secondarySystemGroupedBackgroundColor",
+    "selectedBundleIDs",
+    "selectedColor",
+    "separatorColor",
+    "set",
+    "setAccessibilityLabel:",
+    "setAccessoryType:",
+    "setAccessoryView:",
+    "setAdjustsFontSizeToFitWidth:",
+    "setAlignment:",
+    "setAllApps:",
+    "setAppBundleID:",
+    "setAutoresizingMask:",
+    "setAxis:",
+    "setBackgroundColor:",
+    "setBorderColor:",
+    "setBorderWidth:",
+    "setClipsToBounds:",
+    "setColorPickerTarget:",
+    "setContentMode:",
+    "setContinuous:",
+    "setCornerRadius:",
+    "setDefinesPresentationContext:",
+    "setDelegate:",
+    "setDistribution:",
+    "setEnabled:",
+    "setFilteredApps:",
+    "setFont:",
+    "setHidden:",
+    "setIconLoadToken:",
+    "setImage:",
+    "setMasksToBounds:",
+    "setMaximumValue:",
+    "setMinimumScaleFactor:",
+    "setMinimumValue:",
+    "setNeedsLayout",
+    "setNumberOfLines:",
+    "setObject:forKeyedSubscript:",
+    "setObscuresBackgroundDuringPresentation:",
+    "setOn:",
+    "setOn:animated:",
+    "setPinnedBundleIDs:",
+    "setPreferenceValue:specifier:",
+    "setProperty:forKey:",
+    "setRightBarButtonItem:",
+    "setSearchController:",
+    "setSearchResultsUpdater:",
+    "setSelectedBundleIDs:",
+    "setSelectedColor:",
+    "setSelectionStyle:",
+    "setSpacing:",
+    "setSpecifier:",
+    "setString:",
+    "setSupportsAlpha:",
+    "setTableHeaderView:",
+    "setTag:",
+    "setText:",
+    "setTextAlignment:",
+    "setTextColor:",
+    "setTintColor:",
+    "setTitle:",
+    "setTitleView:",
+    "setTranslatesAutoresizingMaskIntoConstraints:",
+    "setUserInteractionEnabled:",
+    "setValue:",
+    "setWhitelistSwitch:",
+    "setWhitelistValue:specifier:",
+    "setWithArray:",
+    "sharedApplication",
+    "sliderChanged:",
+    "sortedArrayUsingComparator:",
+    "specifier",
+    "specifierAtIndexPath:",
+    "specifiers",
+    "stringByAddingPercentEncodingWithAllowedCharacters:",
+    "stringByAppendingPathComponent:",
+    "stringByDeletingLastPathComponent",
+    "stringByReplacingOccurrencesOfString:withString:",
+    "stringByStandardizingPath",
+    "stringByTrimmingCharactersInSet:",
+    "stringWithContentsOfFile:encoding:error:",
+    "stringWithFormat:",
+    "substringFromIndex:",
+    "substringToIndex:",
+    "subviews",
+    "switchToggled:",
+    "syncWithSpecifier:",
+    "systemFontOfSize:weight:",
+    "systemGroupedBackgroundColor",
+    "systemImageNamed:withConfiguration:",
+    "table",
+    "tableView:cellForRowAtIndexPath:",
+    "tableView:didSelectRowAtIndexPath:",
+    "tableView:heightForRowAtIndexPath:",
+    "tableView:willDisplayFooterView:forSection:",
+    "tag",
+    "target",
+    "text",
+    "textLabel",
+    "topAnchor",
+    "trailingAnchor",
+    "updateSearchResultsForSearchController:",
+    "updateValueLabel",
+    "value",
+    "view",
+    "viewDidAppear:",
+    "viewDidLoad",
+    "viewWillAppear:",
+    "viewWithTag:",
+    "whiteColor",
+    "whitelistPreferenceKey",
+    "whitelistSwitch",
+    "whitelistValue:",
+    "whitespaceAndNewlineCharacterSet",
+    "whitespaceCharacterSet",
+    "widthAnchor",
+    "writeToFile:atomically:"
+   ],
+   "classrefs": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "SBWhitelistCell",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "cstrings": [
+    {
+     "addr": 75632,
+     "s": "com.wkk.systembox"
+    },
+    {
+     "addr": 75650,
+     "s": "wkk"
+    },
+    {
+     "addr": 75654,
+     "s": "com.wkk.systembox.prefschanged"
+    },
+    {
+     "addr": 75685,
+     "s": "/var/mobile/Documents/SystemBox/BatchIcons"
+    },
+    {
+     "addr": 75728,
+     "s": "/var/mobile/Documents/SystemBox/IrregularIcons"
+    },
+    {
+     "addr": 75775,
+     "s": "Root"
+    },
+    {
+     "addr": 75781,
+     "s": "icon"
+    },
+    {
+     "addr": 75786,
+     "s": "SystemX"
+    },
+    {
+     "addr": 75794,
+     "s": "developerProfile"
+    },
+    {
+     "addr": 75811,
+     "s": "systemImage"
+    },
+    {
+     "addr": 75823,
+     "s": "subtitle"
+    },
+    {
+     "addr": 75832,
+     "s": "action"
+    },
+    {
+     "addr": 75839,
+     "s": "chooseVPNStatusBarColor"
+    },
+    {
+     "addr": 75863,
+     "s": "chooseRunIndicatorColor"
+    },
+    {
+     "addr": 75887,
+     "s": "chooseDesktopTextColor"
+    },
+    {
+     "addr": 75910,
+     "s": "SystemBoxDeveloperProfileCell"
+    },
+    {
+     "addr": 75940,
+     "s": "https://Wkkyy00.github.io/"
+    },
+    {
+     "addr": 75967,
+     "s": "sileo://source/https://Wkkyy00.github.io/"
+    },
+    {
+     "addr": 76009,
+     "s": "v12@?0B8"
+    },
+    {
+     "addr": 76018,
+     "s": "wkk (wkkyy0)"
+    },
+    {
+     "addr": 76031,
+     "s": "key"
+    },
+    {
+     "addr": 76035,
+     "s": "default"
+    },
+    {
+     "addr": 76043,
+     "s": "fakeBatteryPercent"
+    },
+    {
+     "addr": 76062,
+     "s": "lockScreenBottomCornerRadius"
+    },
+    {
+     "addr": 76091,
+     "s": "%.2f"
+    },
+    {
+     "addr": 76096,
+     "s": "homeIconScale"
+    },
+    {
+     "addr": 76110,
+     "s": "folderPreviewIconScale"
+    },
+    {
+     "addr": 76133,
+     "s": "switcherClearButtonFontSize"
+    },
+    {
+     "addr": 76161,
+     "s": "%.0f"
+    },
+    {
+     "addr": 76166,
+     "s": "switcherClearButtonSize"
+    },
+    {
+     "addr": 76190,
+     "s": "desktopIconShadowScale"
+    },
+    {
+     "addr": 76213,
+     "s": "changeDesktopIcons"
+    },
+    {
+     "addr": 76232,
+     "s": "batchChangeDesktopIcons"
+    },
+    {
+     "addr": 76256,
+     "s": "irregularChangeDesktopIcons"
+    },
+    {
+     "addr": 76284,
+     "s": "homePullDownControlCenter"
+    },
+    {
+     "addr": 76310,
+     "s": "homePullDownNotificationCenter"
+    },
+    {
+     "addr": 76341,
+     "s": "homePullUpNotificationCenter"
+    },
+    {
+     "addr": 76370,
+     "s": "homePullUpControlCenter"
+    },
+    {
+     "addr": 76394,
+     "s": "desktopIconShadowStyle1"
+    },
+    {
+     "addr": 76418,
+     "s": "desktopIconShadowStyle2"
+    },
+    {
+     "addr": 76442,
+     "s": "desktopBadgeCustom"
+    },
+    {
+     "addr": 76461,
+     "s": "desktopBadgeTint"
+    },
+    {
+     "addr": 76478,
+     "s": "desktopIconShadow"
+    },
+    {
+     "addr": 76496,
+     "s": "v32@?0@\"NSString\"8@\"NSNumber\"16^B24"
+    },
+    {
+     "addr": 76532,
+     "s": "filza://view%@"
+    },
+    {
+     "addr": 76547,
+     "s": "vpnStatusBarColorRed"
+    },
+    {
+     "addr": 76568,
+     "s": "vpnStatusBarColorGreen"
+    },
+    {
+     "addr": 76591,
+     "s": "vpnStatusBarColorBlue"
+    },
+    {
+     "addr": 76613,
+     "s": "vpnStatusBarColorAlpha"
+    },
+    {
+     "addr": 76636,
+     "s": "runIndicatorColorRed"
+    },
+    {
+     "addr": 76657,
+     "s": "runIndicatorColorGreen"
+    },
+    {
+     "addr": 76680,
+     "s": "runIndicatorColorBlue"
+    },
+    {
+     "addr": 76702,
+     "s": "runIndicatorColorAlpha"
+    },
+    {
+     "addr": 76725,
+     "s": "desktopTextColorRed"
+    },
+    {
+     "addr": 76745,
+     "s": "desktopTextColorGreen"
+    },
+    {
+     "addr": 76767,
+     "s": "desktopTextColorBlue"
+    },
+    {
+     "addr": 76788,
+     "s": "desktopTextColorAlpha"
+    },
+    {
+     "addr": 76810,
+     "s": "v16@?0@\"UIAlertAction\"8"
+    },
+    {
+     "addr": 76834,
+     "s": "sbreload"
+    },
+    {
+     "addr": 76843,
+     "s": "/var/jb/usr/bin/sbreload"
+    },
+    {
+     "addr": 76868,
+     "s": "/usr/bin/sbreload"
+    },
+    {
+     "addr": 76886,
+     "s": "killall"
+    },
+    {
+     "addr": 76894,
+     "s": "-9"
+    },
+    {
+     "addr": 76897,
+     "s": "SpringBoard"
+    },
+    {
+     "addr": 76909,
+     "s": "/var/jb/usr/bin/killall"
+    },
+    {
+     "addr": 76933,
+     "s": "/usr/bin/killall"
+    },
+    {
+     "addr": 76950,
+     "s": "General"
+    },
+    {
+     "addr": 76958,
+     "s": "id"
+    },
+    {
+     "addr": 76961,
+     "s": "force5GAStatusBar"
+    },
+    {
+     "addr": 76979,
+     "s": "force5GAStatusBarGroup"
+    },
+    {
+     "addr": 77002,
+     "s": "Desktop"
+    },
+    {
+     "addr": 77010,
+     "s": "DateTime"
+    },
+    {
+     "addr": 77019,
+     "s": "Folder"
+    },
+    {
+     "addr": 77026,
+     "s": "Photos"
+    },
+    {
+     "addr": 77033,
+     "s": "Disable"
+    },
+    {
+     "addr": 77041,
+     "s": "Hide"
+    },
+    {
+     "addr": 77046,
+     "s": "\r\n"
+    },
+    {
+     "addr": 77049,
+     "s": "\n"
+    },
+    {
+     "addr": 77051,
+     "s": "\n\n"
+    },
+    {
+     "addr": 77054,
+     "s": "Package"
+    },
+    {
+     "addr": 77062,
+     "s": "Status"
+    },
+    {
+     "addr": 77069,
+     "s": "install ok installed"
+    },
+    {
+     "addr": 77090,
+     "s": "Author"
+    },
+    {
+     "addr": 77097,
+     "s": "Maintainer"
+    },
+    {
+     "addr": 77108,
+     "s": "/var/jb/var/lib/dpkg/status"
+    },
+    {
+     "addr": 77136,
+     "s": "/var/lib/dpkg/status"
+    },
+    {
+     "addr": 77157,
+     "s": "/Library/dpkg/status"
+    },
+    {
+     "addr": 77178,
+     "s": " "
+    },
+    {
+     "addr": 77180,
+     "s": "\t"
+    },
+    {
+     "addr": 77182,
+     "s": "%@\n%@"
+    },
+    {
+     "addr": 77188,
+     "s": ":"
+    },
+    {
+     "addr": 77190,
+     "s": "Enabled"
+    },
+    {
+     "addr": 77198,
+     "s": "no"
+    },
+    {
+     "addr": 77201,
+     "s": "false"
+    },
+    {
+     "addr": 77207,
+     "s": "0"
+    },
+    {
+     "addr": 77209,
+     "s": "URIs"
+    },
+    {
+     "addr": 77214,
+     "s": "/etc/apt/sources.list.d"
+    },
+    {
+     "addr": 77238,
+     "s": "http"
+    },
+    {
+     "addr": 77243,
+     "s": "https"
+    },
+    {
+     "addr": 77249,
+     "s": "axs.yourepo.com"
+    },
+    {
+     "addr": 77265,
+     "s": "axs66.github.io"
+    },
+    {
+     "addr": 77281,
+     "s": "/pro"
+    },
+    {
+     "addr": 77286,
+     "s": "/pro/"
+    },
+    {
+     "addr": 77292,
+     "s": "wkkyy00.github.io"
+    },
+    {
+     "addr": 77310,
+     "s": "/"
+    },
+    {
+     "addr": 77312,
+     "s": "/var/mobile/Library/Preferences/com.wkk.systembox.plist"
+    },
+    {
+     "addr": 77368,
+     "s": "jbroot"
+    },
+    {
+     "addr": 77375,
+     "s": "bundleID"
+    },
+    {
+     "addr": 77384,
+     "s": "v8@?0"
+    },
+    {
+     "addr": 77390,
+     "s": "whitelistPreferenceKey"
+    },
+    {
+     "addr": 77413,
+     "s": "killBackgroundWhitelist"
+    },
+    {
+     "addr": 77437,
+     "s": "name"
+    },
+    {
+     "addr": 77442,
+     "s": "q24@?0@\"NSDictionary\"8@\"NSDictionary\"16"
+    },
+    {
+     "addr": 77482,
+     "s": "B24@?0@\"NSDictionary\"8@\"NSDictionary\"16"
+    },
+    {
+     "addr": 77522,
+     "s": "/System/Library/Frameworks/CoreServices.framework/CoreServices"
+    },
+    {
+     "addr": 77585,
+     "s": "/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices"
+    },
+    {
+     "addr": 77660,
+     "s": "LSApplicationWorkspace"
+    },
+    {
+     "addr": 77683,
+     "s": "defaultWorkspace"
+    },
+    {
+     "addr": 77700,
+     "s": "allApplications"
+    },
+    {
+     "addr": 77716,
+     "s": "allInstalledApplications"
+    },
+    {
+     "addr": 77741,
+     "s": "unrestrictedApplications"
+    },
+    {
+     "addr": 77766,
+     "s": "enumerateApplicationsOfType:block:"
+    },
+    {
+     "addr": 77801,
+     "s": "v16@?0@8"
+    },
+    {
+     "addr": 77810,
+     "s": "applicationsOfType:"
+    },
+    {
+     "addr": 77830,
+     "s": "isPlaceholder"
+    },
+    {
+     "addr": 77844,
+     "s": "isInstalled"
+    },
+    {
+     "addr": 77856,
+     "s": "isLaunchProhibited"
+    },
+    {
+     "addr": 77875,
+     "s": "isWatchKitApp"
+    },
+    {
+     "addr": 77889,
+     "s": "applicationType"
+    },
+    {
+     "addr": 77905,
+     "s": "appTags"
+    },
+    {
+     "addr": 77913,
+     "s": "bundleURL"
+    },
+    {
+     "addr": 77923,
+     "s": "User"
+    },
+    {
+     "addr": 77928,
+     "s": "System"
+    },
+    {
+     "addr": 77935,
+     "s": "app"
+    },
+    {
+     "addr": 77939,
+     "s": "hidden"
+    },
+    {
+     "addr": 77946,
+     "s": "localizedName"
+    },
+    {
+     "addr": 77960,
+     "s": "localizedShortName"
+    },
+    {
+     "addr": 77979,
+     "s": "itemName"
+    },
+    {
+     "addr": 77988,
+     "s": "applicationIdentifier"
+    },
+    {
+     "addr": 78010,
+     "s": "bundleIdentifier"
+    },
+    {
+     "addr": 78027,
+     "s": "/Applications"
+    },
+    {
+     "addr": 78041,
+     "s": "/var/containers/Bundle/Application"
+    },
+    {
+     "addr": 78076,
+     "s": "/private/var/containers/Bundle/Application"
+    },
+    {
+     "addr": 78119,
+     "s": "/var/containers/Bundle/TrollStore"
+    },
+    {
+     "addr": 78153,
+     "s": "/private/var/containers/Bundle/TrollStore"
+    },
+    {
+     "addr": 78195,
+     "s": "/var/mobile/Containers/Bundle/Application"
+    },
+    {
+     "addr": 78237,
+     "s": "/private/var/mobile/Containers/Bundle/Application"
+    },
+    {
+     "addr": 78287,
+     "s": "CFBundlePackageType"
+    },
+    {
+     "addr": 78307,
+     "s": "APPL"
+    },
+    {
+     "addr": 78312,
+     "s": "CFBundleIdentifier"
+    },
+    {
+     "addr": 78331,
+     "s": "CFBundleExecutable"
+    },
+    {
+     "addr": 78350,
+     "s": "SBAppTags"
+    },
+    {
+     "addr": 78360,
+     "s": "CFBundleDisplayName"
+    },
+    {
+     "addr": 78380,
+     "s": "CFBundleName"
+    },
+    {
+     "addr": 78393,
+     "s": "#3DDEFA"
+    },
+    {
+     "addr": 78401,
+     "s": "#4F80FF"
+    },
+    {
+     "addr": 78409,
+     "s": "#AD57FF"
+    },
+    {
+     "addr": 78417,
+     "s": "#FF5CB3"
+    },
+    {
+     "addr": 78425,
+     "s": "#FFBA63"
+    },
+    {
+     "addr": 78433,
+     "s": "Clock.CustomColor.Hex"
+    },
+    {
+     "addr": 78455,
+     "s": "Clock"
+    },
+    {
+     "addr": 78461,
+     "s": "Clock.Rainbow.Enabled"
+    },
+    {
+     "addr": 78483,
+     "s": "Clock.CustomColor.Enabled"
+    },
+    {
+     "addr": 78509,
+     "s": "p3:"
+    },
+    {
+     "addr": 78513,
+     "s": "srgb:"
+    },
+    {
+     "addr": 78519,
+     "s": ","
+    },
+    {
+     "addr": 78521,
+     "s": "#"
+    },
+    {
+     "addr": 78523,
+     "s": "Clock.Rainbow.Color.%lu"
+    },
+    {
+     "addr": 78547,
+     "s": "%@%.17g,%.17g,%.17g,%.17g"
+    },
+    {
+     "addr": 78573,
+     "s": "srgb:%.17g,%.17g,%.17g,%.17g"
+    },
+    {
+     "addr": 78602,
+     "s": "min"
+    },
+    {
+     "addr": 78606,
+     "s": "max"
+    },
+    {
+     "addr": 78610,
+     "s": "sliderTitle"
+    },
+    {
+     "addr": 78622,
+     "s": "valueDecimals"
+    },
+    {
+     "addr": 78636,
+     "s": "valueSuffix"
+    },
+    {
+     "addr": 78648,
+     "s": "%.*f%@"
+    },
+    {
+     "addr": 78655,
+     "s": "kCFAllocatorNull"
+    },
+    {
+     "addr": 78672,
+     "s": "CFDataCreateWithBytesNoCopy"
+    },
+    {
+     "addr": 78700,
+     "s": "CFPropertyListCreateWithData"
+    },
+    {
+     "addr": 78729,
+     "s": "CFPropertyListCreateFromXMLData"
+    },
+    {
+     "addr": 78761,
+     "s": "CFStringCreateWithCStringNoCopy"
+    },
+    {
+     "addr": 78793,
+     "s": "CFDictionaryGetValue"
+    },
+    {
+     "addr": 78814,
+     "s": "CFGetTypeID"
+    },
+    {
+     "addr": 78826,
+     "s": "CFStringGetTypeID"
+    },
+    {
+     "addr": 78844,
+     "s": "CFStringGetCString"
+    },
+    {
+     "addr": 78863,
+     "s": "CFRelease"
+    },
+    {
+     "addr": 78873,
+     "s": "/System/Library/CoreServices/SystemVersion.plist"
+    },
+    {
+     "addr": 78922,
+     "s": "r"
+    },
+    {
+     "addr": 78924,
+     "s": "ProductVersion"
+    },
+    {
+     "addr": 78939,
+     "s": "%d.%d.%d"
+    }
+   ],
+   "symbols": [
+    {
+     "name": "radr://5614542",
+     "value": 90260802,
+     "type": 60
+    },
+    {
+     "name": "_OBJC_CLASS_$_SBWhitelistCell",
+     "value": 123632,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxClockGradientCell",
+     "value": 123792,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxClockListController",
+     "value": 123992,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxClockSliderCell",
+     "value": 124032,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxClockSolidColorCell",
+     "value": 123872,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxDateTimeListController",
+     "value": 123272,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxDesktopListController",
+     "value": 123192,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxDisableListController",
+     "value": 123472,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxFolderListController",
+     "value": 123352,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxGeneralListController",
+     "value": 123112,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxHideListController",
+     "value": 123592,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxPhotosListController",
+     "value": 123432,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxRootListController",
+     "value": 122992,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxWhitelistController",
+     "value": 123712,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SBWhitelistCell",
+     "value": 123672,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxClockGradientCell",
+     "value": 123832,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxClockListController",
+     "value": 123952,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxClockSliderCell",
+     "value": 124072,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxClockSolidColorCell",
+     "value": 123912,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxDateTimeListController",
+     "value": 123232,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxDesktopListController",
+     "value": 123152,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxDisableListController",
+     "value": 123512,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxFolderListController",
+     "value": 123312,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxGeneralListController",
+     "value": 123072,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxHideListController",
+     "value": 123552,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxPhotosListController",
+     "value": 123392,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxRootListController",
+     "value": 123032,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxWhitelistController",
+     "value": 123752,
+     "type": 15
+    },
+    {
+     "name": "_CFEqual",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CFNotificationCenterGetDarwinNotifyCenter",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CFNotificationCenterPostNotification",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGColorGetColorSpace",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGColorGetComponents",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGColorGetNumberOfComponents",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGColorSpaceGetModel",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGColorSpaceGetName",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGRectInset",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_NSClassFromString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_NSSelectorFromString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSArray",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSBundle",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSCharacterSet",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSConstantArray",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSData",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSDictionary",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSFileManager",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSLayoutConstraint",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableArray",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableDictionary",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableSet",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSNumber",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSPredicate",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSScanner",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSSet",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSURL",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSURLComponents",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_PSControlTableCell",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_PSListController",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_PSSpecifier",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_PSTableCell",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIAlertAction",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIAlertController",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIApplication",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIBarButtonItem",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIButton",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIColor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIColorPickerViewController",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIFont",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIImage",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIImageSymbolConfiguration",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIImageView",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UILabel",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIPasteboard",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIScreen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UISearchController",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UISlider",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIStackView",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UISwitch",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UITableViewCell",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UITableViewHeaderFooterView",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UITapGestureRecognizer",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIView",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_EHTYPE_$_NSException",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_IVAR_$_PSListController._specifiers",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_METACLASS_$_NSObject",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_METACLASS_$_PSListController",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_METACLASS_$_PSTableCell",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_PSCellClassKey",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_UIFontWeightHeavy",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_UIFontWeightMedium",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_UIFontWeightRegular",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_UIFontWeightSemibold",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__NSConcreteGlobalBlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__NSConcreteStackBlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Unwind_Resume",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Z6jbrootP8NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___CFConstantStringClassReference",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___NSArray0__struct",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___NSDictionary0__struct",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___exp10f",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___kCFBooleanFalse",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___kCFBooleanTrue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___objc_personality_v0",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_fail",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_guard",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__availability_version_check",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dispatch_main_q",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__objc_empty_cache",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_access",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_async",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_get_global_queue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_once_f",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlopen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlsym",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fclose",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fopen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fread",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_free",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fseek",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_ftell",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_kCGColorSpaceDisplayP3",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_malloc",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_alloc",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_alloc_init",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleaseReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_begin_catch",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_end_catch",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_enumerationMutation",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_msgSend",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_msgSendSuper2",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_class",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_isKindOfClass",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_respondsToSelector",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_release",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retain",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutorelease",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutoreleaseReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutoreleasedReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_setProperty_nonatomic_copy",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_storeStrong",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_posix_spawn",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_rewind",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_sscanf",
+     "value": 0,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "arch": "arm64e",
+   "uuid": "6afc3bb0cc3a35a3967e365efffa3319",
+   "text": [
+    {
+     "addr": 16384,
+     "size": 48368
+    },
+    {
+     "addr": 65552,
+     "size": 8448
+    }
+   ],
+   "imports": [
+    "_CFEqual",
+    "_CFNotificationCenterGetDarwinNotifyCenter",
+    "_CFNotificationCenterPostNotification",
+    "_CGColorGetColorSpace",
+    "_CGColorGetComponents",
+    "_CGColorGetNumberOfComponents",
+    "_CGColorSpaceGetModel",
+    "_CGColorSpaceGetName",
+    "_CGRectInset",
+    "_NSClassFromString",
+    "_NSSelectorFromString",
+    "__Unwind_Resume",
+    "__Z6jbrootP8NSString",
+    "___exp10f",
+    "___objc_personality_v0",
+    "___stack_chk_fail",
+    "__availability_version_check",
+    "_access",
+    "_dispatch_async",
+    "_dispatch_get_global_queue",
+    "_dispatch_once_f",
+    "_dlopen",
+    "_dlsym",
+    "_fclose",
+    "_fopen",
+    "_fread",
+    "_free",
+    "_fseek",
+    "_ftell",
+    "_malloc",
+    "_objc_alloc",
+    "_objc_alloc_init",
+    "_objc_autoreleaseReturnValue",
+    "_objc_begin_catch",
+    "_objc_end_catch",
+    "_objc_enumerationMutation",
+    "_objc_msgSend",
+    "_objc_msgSendSuper2",
+    "_objc_opt_class",
+    "_objc_opt_isKindOfClass",
+    "_objc_opt_respondsToSelector",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutorelease",
+    "_objc_retainAutoreleaseReturnValue",
+    "_objc_retainAutoreleasedReturnValue",
+    "_objc_setProperty_nonatomic_copy",
+    "_objc_storeStrong",
+    "_posix_spawn",
+    "_rewind",
+    "_sscanf",
+    "_OBJC_EHTYPE_$_NSException",
+    "_OBJC_IVAR_$_PSListController._specifiers",
+    "_PSCellClassKey",
+    "_UIFontWeightHeavy",
+    "_UIFontWeightMedium",
+    "_UIFontWeightRegular",
+    "_UIFontWeightSemibold",
+    "__NSConcreteStackBlock",
+    "___NSArray0__struct",
+    "___NSDictionary0__struct",
+    "___kCFBooleanFalse",
+    "___kCFBooleanTrue",
+    "___stack_chk_guard",
+    "__dispatch_main_q",
+    "_kCGColorSpaceDisplayP3",
+    "__NSConcreteGlobalBlock",
+    "___CFConstantStringClassReference",
+    "_OBJC_CLASS_$_NSConstantArray",
+    "_OBJC_CLASS_$_UIBarButtonItem",
+    "_OBJC_CLASS_$_UIColor",
+    "_OBJC_CLASS_$_UIScreen",
+    "_OBJC_CLASS_$_UIView",
+    "_OBJC_CLASS_$_UIImage",
+    "_OBJC_CLASS_$_UIImageView",
+    "_OBJC_CLASS_$_UILabel",
+    "_OBJC_CLASS_$_UIFont",
+    "_OBJC_CLASS_$_NSLayoutConstraint",
+    "_OBJC_CLASS_$_NSArray",
+    "_OBJC_CLASS_$_UIImageSymbolConfiguration",
+    "_OBJC_CLASS_$_UITableViewCell",
+    "_OBJC_CLASS_$_NSURL",
+    "_OBJC_CLASS_$_UIApplication",
+    "_OBJC_CLASS_$_UITableViewHeaderFooterView",
+    "_OBJC_CLASS_$_PSControlTableCell",
+    "_OBJC_CLASS_$_NSNumber",
+    "_OBJC_CLASS_$_UISwitch",
+    "_OBJC_CLASS_$_NSDictionary",
+    "_OBJC_CLASS_$_NSString",
+    "_OBJC_CLASS_$_NSMutableDictionary",
+    "_OBJC_CLASS_$_NSFileManager",
+    "_OBJC_CLASS_$_UIAlertController",
+    "_OBJC_CLASS_$_UIAlertAction",
+    "_OBJC_CLASS_$_NSCharacterSet",
+    "_OBJC_CLASS_$_UIPasteboard",
+    "_OBJC_CLASS_$_UIColorPickerViewController",
+    "_OBJC_CLASS_$_NSMutableArray",
+    "_OBJC_CLASS_$_NSData",
+    "_OBJC_CLASS_$_NSURLComponents",
+    "_OBJC_CLASS_$_NSMutableSet",
+    "_OBJC_CLASS_$_NSSet",
+    "_OBJC_CLASS_$_UISearchController",
+    "_OBJC_CLASS_$_NSPredicate",
+    "_OBJC_CLASS_$_PSSpecifier",
+    "_OBJC_CLASS_$_NSBundle",
+    "_OBJC_CLASS_$_UIStackView",
+    "_OBJC_CLASS_$_UITapGestureRecognizer",
+    "_OBJC_CLASS_$_UIButton",
+    "_OBJC_CLASS_$_NSScanner",
+    "_OBJC_CLASS_$_UISlider",
+    "_OBJC_CLASS_$_PSListController",
+    "__objc_empty_cache",
+    "_OBJC_METACLASS_$_NSObject",
+    "_OBJC_METACLASS_$_PSListController",
+    "_OBJC_CLASS_$_PSTableCell",
+    "_OBJC_METACLASS_$_PSTableCell"
+   ],
+   "classes": [
+    {
+     "name": "SystemBoxRootListController",
+     "superclass": null,
+     "addr": 122992,
+     "ro": 115768,
+     "instance_start": 16,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 16384,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "specifiers",
+       "types": "@16@0:8",
+       "imp": 16396,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "viewDidLoad",
+       "types": "v16@0:8",
+       "imp": 16544,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "viewDidAppear:",
+       "types": "v20@0:8B16",
+       "imp": 16908,
+       "ret": "void",
+       "args": [
+        "BOOL"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "BOOL"
+       ]
+      },
+      {
+       "name": "sb_installRootHeader",
+       "types": "v16@0:8",
+       "imp": 20220,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "tableView:cellForRowAtIndexPath:",
+       "types": "@32@0:8@16@24",
+       "imp": 22080,
+       "ret": "id",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "tableView:heightForRowAtIndexPath:",
+       "types": "d32@0:8@16@24",
+       "imp": 26228,
+       "ret": "double",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_developerProfileCellForTableView:",
+       "types": "@24@0:8@16",
+       "imp": 26468,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "tableView:didSelectRowAtIndexPath:",
+       "types": "v32@0:8@16@24",
+       "imp": 28712,
+       "ret": "void",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_openDeveloperSileoSource",
+       "types": "v16@0:8",
+       "imp": 28968,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "tableView:willDisplayFooterView:forSection:",
+       "types": "v40@0:8@16@24q32",
+       "imp": 29404,
+       "ret": "void",
+       "args": [
+        "id",
+        "id",
+        "long long"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id",
+        "long long"
+       ]
+      },
+      {
+       "name": "sb_specifierForPreferenceKey:",
+       "types": "@24@0:8@16",
+       "imp": 29808,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_specifierForAction:",
+       "types": "@24@0:8@16",
+       "imp": 30204,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_updateVisibleSwitchForKey:value:",
+       "types": "v28@0:8@16B24",
+       "imp": 30600,
+       "ret": "void",
+       "args": [
+        "id",
+        "BOOL"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "BOOL"
+       ]
+      },
+      {
+       "name": "sb_updateVisibleColorAccessoryForAction:tag:color:",
+       "types": "v40@0:8@16q24@32",
+       "imp": 30920,
+       "ret": "void",
+       "args": [
+        "id",
+        "long long",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "long long",
+        "id"
+       ]
+      },
+      {
+       "name": "readPreferenceValue:",
+       "types": "@24@0:8@16",
+       "imp": 31176,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "setPreferenceValue:specifier:",
+       "types": "v32@0:8@16@24",
+       "imp": 31452,
+       "ret": "void",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_openIconDirectory:",
+       "types": "v24@0:8@16",
+       "imp": 33856,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "openBatchIconDirectory",
+       "types": "v16@0:8",
+       "imp": 34772,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "openIrregularIconDirectory",
+       "types": "v16@0:8",
+       "imp": 34784,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "chooseVPNStatusBarColor",
+       "types": "v16@0:8",
+       "imp": 34796,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "sb_saveColorFromActivePicker:",
+       "types": "v24@0:8@16",
+       "imp": 34972,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "colorPickerViewControllerDidSelectColor:",
+       "types": "v24@0:8@16",
+       "imp": 35104,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "colorPickerViewControllerDidFinish:",
+       "types": "v24@0:8@16",
+       "imp": 35188,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "sb_saveVPNStatusBarColor:",
+       "types": "v24@0:8@16",
+       "imp": 35284,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "chooseRunIndicatorColor",
+       "types": "v16@0:8",
+       "imp": 35984,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "sb_saveRunIndicatorColor:",
+       "types": "v24@0:8@16",
+       "imp": 36160,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "chooseDesktopTextColor",
+       "types": "v16@0:8",
+       "imp": 36696,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "sb_saveDesktopTextColor:",
+       "types": "v24@0:8@16",
+       "imp": 36872,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "respring",
+       "types": "v16@0:8",
+       "imp": 37408,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "colorPickerTarget",
+       "types": "q16@0:8",
+       "imp": 38024,
+       "ret": "long long",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setColorPickerTarget:",
+       "types": "v24@0:8q16",
+       "imp": 38040,
+       "ret": "void",
+       "args": [
+        "long long"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "long long"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_colorPickerTarget",
+       "types": "q",
+       "offset": 16,
+       "size": 8
+      }
+     ],
+     "properties": [
+      {
+       "name": "colorPickerTarget",
+       "attrs": "Tq,N,V_colorPickerTarget"
+      },
+      {
+       "name": "hash",
+       "attrs": "TQ,R"
+      },
+      {
+       "name": "superclass",
+       "attrs": "T#,R"
+      },
+      {
+       "name": "description",
+       "attrs": "T@\"NSString\",R,C"
+      },
+      {
+       "name": "debugDescription",
+       "attrs": "T@\"NSString\",?,R,C"
+      }
+     ],
+     "protocols": [
+      "UIColorPickerViewControllerDelegate"
+     ]
+    },
+    {
+     "name": "SystemBoxGeneralListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123112,
+     "ro": 115912,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38056,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "specifiers",
+       "types": "@16@0:8",
+       "imp": 38068,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxDesktopListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123192,
+     "ro": 116056,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38692,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxDateTimeListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123272,
+     "ro": 116200,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38704,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxFolderListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123352,
+     "ro": 116344,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38716,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxPhotosListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123432,
+     "ro": 116488,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38728,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxDisableListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123472,
+     "ro": 116632,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 38740,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "specifiers",
+       "types": "@16@0:8",
+       "imp": 38752,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "viewDidLoad",
+       "types": "v16@0:8",
+       "imp": 38952,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxHideListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123592,
+     "ro": 116776,
+     "instance_start": 24,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 39076,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SBWhitelistCell",
+     "superclass": null,
+     "addr": 123632,
+     "ro": 117080,
+     "instance_start": 8,
+     "instance_size": 32,
+     "methods": [
+      {
+       "name": "initWithStyle:reuseIdentifier:specifier:",
+       "types": "@40@0:8q16@24@32",
+       "imp": 39956,
+       "ret": "id",
+       "args": [
+        "long long",
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "long long",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "prepareForReuse",
+       "types": "v16@0:8",
+       "imp": 40160,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "refreshCellContentsWithSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 40276,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "switchToggled:",
+       "types": "v24@0:8@16",
+       "imp": 41372,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "whitelistSwitch",
+       "types": "@16@0:8",
+       "imp": 41536,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setWhitelistSwitch:",
+       "types": "v24@0:8@16",
+       "imp": 41552,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "appBundleID",
+       "types": "@16@0:8",
+       "imp": 41572,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setAppBundleID:",
+       "types": "v24@0:8@16",
+       "imp": 41588,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "iconLoadToken",
+       "types": "@16@0:8",
+       "imp": 41600,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setIconLoadToken:",
+       "types": "v24@0:8@16",
+       "imp": 41616,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": ".cxx_destruct",
+       "types": "v16@0:8",
+       "imp": 41628,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_whitelistSwitch",
+       "types": "@\"UISwitch\"",
+       "offset": 8,
+       "size": 8
+      },
+      {
+       "name": "_appBundleID",
+       "types": "@\"NSString\"",
+       "offset": 16,
+       "size": 8
+      },
+      {
+       "name": "_iconLoadToken",
+       "types": "@\"NSString\"",
+       "offset": 24,
+       "size": 8
+      }
+     ],
+     "properties": [
+      {
+       "name": "whitelistSwitch",
+       "attrs": "T@\"UISwitch\",&,N,V_whitelistSwitch"
+      },
+      {
+       "name": "appBundleID",
+       "attrs": "T@\"NSString\",C,N,V_appBundleID"
+      },
+      {
+       "name": "iconLoadToken",
+       "attrs": "T@\"NSString\",C,N,V_iconLoadToken"
+      }
+     ],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxWhitelistController",
+     "superclass": null,
+     "addr": 123712,
+     "ro": 118400,
+     "instance_start": 16,
+     "instance_size": 56,
+     "methods": [
+      {
+       "name": "allApps",
+       "types": "@16@0:8",
+       "imp": 41732,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "whitelistPreferenceKey",
+       "types": "@16@0:8",
+       "imp": 47532,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "filteredApps",
+       "types": "@16@0:8",
+       "imp": 47684,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "appsWithSelectedFirst:",
+       "types": "@24@0:8@16",
+       "imp": 47784,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "viewDidLoad",
+       "types": "v16@0:8",
+       "imp": 48392,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "viewWillAppear:",
+       "types": "v20@0:8B16",
+       "imp": 49120,
+       "ret": "void",
+       "args": [
+        "BOOL"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "BOOL"
+       ]
+      },
+      {
+       "name": "updateSearchResultsForSearchController:",
+       "types": "v24@0:8@16",
+       "imp": 49352,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "specifiers",
+       "types": "@16@0:8",
+       "imp": 49888,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "whitelistValue:",
+       "types": "@24@0:8@16",
+       "imp": 50524,
+       "ret": "id",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "setWhitelistValue:specifier:",
+       "types": "v32@0:8@16@24",
+       "imp": 50692,
+       "ret": "void",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "selectedBundleIDs",
+       "types": "@16@0:8",
+       "imp": 51228,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setSelectedBundleIDs:",
+       "types": "v24@0:8@16",
+       "imp": 51244,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "pinnedBundleIDs",
+       "types": "@16@0:8",
+       "imp": 51264,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setPinnedBundleIDs:",
+       "types": "v24@0:8@16",
+       "imp": 51280,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "setAllApps:",
+       "types": "v24@0:8@16",
+       "imp": 51300,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "setFilteredApps:",
+       "types": "v24@0:8@16",
+       "imp": 51320,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "searchController",
+       "types": "@16@0:8",
+       "imp": 51340,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setSearchController:",
+       "types": "v24@0:8@16",
+       "imp": 51356,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": ".cxx_destruct",
+       "types": "v16@0:8",
+       "imp": 51376,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_selectedBundleIDs",
+       "types": "@\"NSMutableSet\"",
+       "offset": 16,
+       "size": 8
+      },
+      {
+       "name": "_pinnedBundleIDs",
+       "types": "@\"NSSet\"",
+       "offset": 24,
+       "size": 8
+      },
+      {
+       "name": "_allApps",
+       "types": "@\"NSArray\"",
+       "offset": 32,
+       "size": 8
+      },
+      {
+       "name": "_filteredApps",
+       "types": "@\"NSArray\"",
+       "offset": 40,
+       "size": 8
+      },
+      {
+       "name": "_searchController",
+       "types": "@\"UISearchController\"",
+       "offset": 48,
+       "size": 8
+      }
+     ],
+     "properties": [
+      {
+       "name": "selectedBundleIDs",
+       "attrs": "T@\"NSMutableSet\",&,N,V_selectedBundleIDs"
+      },
+      {
+       "name": "pinnedBundleIDs",
+       "attrs": "T@\"NSSet\",&,N,V_pinnedBundleIDs"
+      },
+      {
+       "name": "allApps",
+       "attrs": "T@\"NSArray\",&,N,V_allApps"
+      },
+      {
+       "name": "filteredApps",
+       "attrs": "T@\"NSArray\",&,N,V_filteredApps"
+      },
+      {
+       "name": "searchController",
+       "attrs": "T@\"UISearchController\",&,N,V_searchController"
+      },
+      {
+       "name": "hash",
+       "attrs": "TQ,R"
+      },
+      {
+       "name": "superclass",
+       "attrs": "T#,R"
+      },
+      {
+       "name": "description",
+       "attrs": "T@\"NSString\",R,C"
+      },
+      {
+       "name": "debugDescription",
+       "attrs": "T@\"NSString\",?,R,C"
+      }
+     ],
+     "protocols": [
+      "UISearchResultsUpdating"
+     ]
+    },
+    {
+     "name": "SystemBoxClockGradientCell",
+     "superclass": null,
+     "addr": 123792,
+     "ro": 118584,
+     "instance_start": 8,
+     "instance_size": 16,
+     "methods": [
+      {
+       "name": "initWithStyle:reuseIdentifier:specifier:",
+       "types": "@40@0:8q16@24@32",
+       "imp": 52408,
+       "ret": "id",
+       "args": [
+        "long long",
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "long long",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "colorTapped:",
+       "types": "v24@0:8@16",
+       "imp": 54580,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "refreshCellContentsWithSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 54736,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": ".cxx_destruct",
+       "types": "v16@0:8",
+       "imp": 56336,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_colors",
+       "types": "@\"UIStackView\"",
+       "offset": 8,
+       "size": 8
+      }
+     ],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxClockSolidColorCell",
+     "superclass": null,
+     "addr": 123872,
+     "ro": 118768,
+     "instance_start": 8,
+     "instance_size": 16,
+     "methods": [
+      {
+       "name": "initWithStyle:reuseIdentifier:specifier:",
+       "types": "@40@0:8q16@24@32",
+       "imp": 56356,
+       "ret": "id",
+       "args": [
+        "long long",
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "long long",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "openColorPicker",
+       "types": "v16@0:8",
+       "imp": 57176,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "refreshCellContentsWithSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 57292,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": ".cxx_destruct",
+       "types": "v16@0:8",
+       "imp": 57652,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_button",
+       "types": "@\"UIButton\"",
+       "offset": 8,
+       "size": 8
+      }
+     ],
+     "properties": [],
+     "protocols": []
+    },
+    {
+     "name": "SystemBoxClockListController",
+     "superclass": "SystemBoxRootListController",
+     "addr": 123992,
+     "ro": 119904,
+     "instance_start": 16,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "sb_specifierPlistName",
+       "types": "@16@0:8",
+       "imp": 57672,
+       "ret": "id",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "setPreferenceValue:specifier:",
+       "types": "v32@0:8@16@24",
+       "imp": 57684,
+       "ret": "void",
+       "args": [
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "presentClockColorPicker:title:alpha:",
+       "types": "v36@0:8@16@24B32",
+       "imp": 58248,
+       "ret": "void",
+       "args": [
+        "id",
+        "id",
+        "BOOL"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id",
+        "id",
+        "BOOL"
+       ]
+      },
+      {
+       "name": "chooseGradientColor:",
+       "types": "v24@0:8@16",
+       "imp": 58448,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "chooseCustomClockColor",
+       "types": "v16@0:8",
+       "imp": 58932,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "savePickerColor:",
+       "types": "v24@0:8@16",
+       "imp": 59260,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "colorPickerViewControllerDidSelectColor:",
+       "types": "v24@0:8@16",
+       "imp": 60248,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "colorPickerViewControllerDidFinish:",
+       "types": "v24@0:8@16",
+       "imp": 60332,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_pickerGradientIndex",
+       "types": "q",
+       "offset": 16,
+       "size": 8
+      }
+     ],
+     "properties": [
+      {
+       "name": "hash",
+       "attrs": "TQ,R"
+      },
+      {
+       "name": "superclass",
+       "attrs": "T#,R"
+      },
+      {
+       "name": "description",
+       "attrs": "T@\"NSString\",R,C"
+      },
+      {
+       "name": "debugDescription",
+       "attrs": "T@\"NSString\",?,R,C"
+      }
+     ],
+     "protocols": [
+      "UIColorPickerViewControllerDelegate"
+     ]
+    },
+    {
+     "name": "SystemBoxClockSliderCell",
+     "superclass": null,
+     "addr": 124032,
+     "ro": 120120,
+     "instance_start": 8,
+     "instance_size": 24,
+     "methods": [
+      {
+       "name": "initWithStyle:reuseIdentifier:specifier:",
+       "types": "@40@0:8q16@24@32",
+       "imp": 60424,
+       "ret": "id",
+       "args": [
+        "long long",
+        "id",
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "long long",
+        "id",
+        "id"
+       ]
+      },
+      {
+       "name": "setSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 61828,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "syncWithSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 61944,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "sliderChanged:",
+       "types": "v24@0:8@16",
+       "imp": 62380,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": "updateValueLabel",
+       "types": "v16@0:8",
+       "imp": 62656,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      },
+      {
+       "name": "refreshCellContentsWithSpecifier:",
+       "types": "v24@0:8@16",
+       "imp": 62976,
+       "ret": "void",
+       "args": [
+        "id"
+       ],
+       "allargs": [
+        "id",
+        "SEL",
+        "id"
+       ]
+      },
+      {
+       "name": ".cxx_destruct",
+       "types": "v16@0:8",
+       "imp": 63092,
+       "ret": "void",
+       "args": [],
+       "allargs": [
+        "id",
+        "SEL"
+       ]
+      }
+     ],
+     "classmethods": [],
+     "ivars": [
+      {
+       "name": "_slider",
+       "types": "@\"UISlider\"",
+       "offset": 8,
+       "size": 8
+      },
+      {
+       "name": "_valueLabel",
+       "types": "@\"UILabel\"",
+       "offset": 16,
+       "size": 8
+      }
+     ],
+     "properties": [],
+     "protocols": []
+    }
+   ],
+   "categories": [],
+   "protocols": [
+    {
+     "name": "NSObject",
+     "methods": [
+      "isEqual:",
+      "class",
+      "self",
+      "performSelector:",
+      "performSelector:withObject:",
+      "performSelector:withObject:withObject:",
+      "isProxy",
+      "isKindOfClass:",
+      "isMemberOfClass:",
+      "conformsToProtocol:",
+      "respondsToSelector:",
+      "retain",
+      "release",
+      "autorelease",
+      "retainCount",
+      "zone",
+      "hash",
+      "superclass",
+      "description"
+     ],
+     "classmethods": [],
+     "opt": [
+      "debugDescription"
+     ],
+     "protocols": []
+    },
+    {
+     "name": "UIColorPickerViewControllerDelegate",
+     "methods": [],
+     "classmethods": [],
+     "opt": [
+      "colorPickerViewControllerDidSelectColor:",
+      "colorPickerViewController:didSelectColor:continuously:",
+      "colorPickerViewControllerDidFinish:"
+     ],
+     "protocols": [
+      "NSObject"
+     ]
+    },
+    {
+     "name": "UISearchResultsUpdating",
+     "methods": [
+      "updateSearchResultsForSearchController:"
+     ],
+     "classmethods": [],
+     "opt": [
+      "updateSearchResultsForSearchController:selectingSearchSuggestion:"
+     ],
+     "protocols": [
+      "NSObject"
+     ]
+    }
+   ],
+   "selrefs": [
+    ".cxx_destruct",
+    "CGColor",
+    "URLPathAllowedCharacterSet",
+    "URLWithString:",
+    "_applicationIconImageForBundleIdentifier:format:scale:",
+    "accessoryView",
+    "actionWithTitle:style:handler:",
+    "activateConstraints:",
+    "addAction:",
+    "addArrangedSubview:",
+    "addGestureRecognizer:",
+    "addObject:",
+    "addObjectsFromArray:",
+    "addSubview:",
+    "addTarget:action:forControlEvents:",
+    "alertControllerWithTitle:message:preferredStyle:",
+    "allApps",
+    "allObjects",
+    "allValues",
+    "appBundleID",
+    "appsWithSelectedFirst:",
+    "arrangedSubviews",
+    "array",
+    "arrayWithCapacity:",
+    "arrayWithObject:",
+    "arrayWithObjects:count:",
+    "boolValue",
+    "bottomAnchor",
+    "bounds",
+    "bundleIdentifier",
+    "bundleWithURL:",
+    "buttonWithType:",
+    "cachedCellForSpecifier:",
+    "centerXAnchor",
+    "centerYAnchor",
+    "chooseCustomClockColor",
+    "chooseDesktopTextColor",
+    "chooseGradientColor:",
+    "chooseRunIndicatorColor",
+    "chooseVPNStatusBarColor",
+    "clearColor",
+    "colorPickerTarget",
+    "colorPickerViewControllerDidFinish:",
+    "colorPickerViewControllerDidSelectColor:",
+    "colorTapped:",
+    "colorWithDisplayP3Red:green:blue:alpha:",
+    "colorWithRed:green:blue:alpha:",
+    "compare:",
+    "componentsSeparatedByCharactersInSet:",
+    "componentsSeparatedByString:",
+    "componentsWithString:",
+    "configurationWithPointSize:weight:",
+    "constraintEqualToAnchor:",
+    "constraintEqualToAnchor:constant:",
+    "constraintEqualToConstant:",
+    "constraintGreaterThanOrEqualToAnchor:",
+    "constraintGreaterThanOrEqualToConstant:",
+    "constraintLessThanOrEqualToAnchor:",
+    "containsObject:",
+    "containsString:",
+    "contentView",
+    "contentsOfDirectoryAtPath:error:",
+    "control",
+    "copy",
+    "count",
+    "countByEnumeratingWithState:objects:count:",
+    "createDirectoryAtPath:withIntermediateDirectories:attributes:error:",
+    "dataWithBytes:length:",
+    "dataWithContentsOfFile:",
+    "defaultManager",
+    "dequeueReusableCellWithIdentifier:",
+    "deselectRowAtIndexPath:animated:",
+    "detailTextLabel",
+    "dictionary",
+    "dictionaryWithContentsOfFile:",
+    "dictionaryWithObjects:forKeys:count:",
+    "doubleValue",
+    "enumerateKeysAndObjectsUsingBlock:",
+    "fileExistsAtPath:",
+    "fileExistsAtPath:isDirectory:",
+    "fileURLWithPath:isDirectory:",
+    "filteredApps",
+    "filteredArrayUsingPredicate:",
+    "firstObject",
+    "floatValue",
+    "generalPasteboard",
+    "getRed:green:blue:alpha:",
+    "hasPrefix:",
+    "heightAnchor",
+    "host",
+    "iconLoadToken",
+    "imageNamed:",
+    "imageView",
+    "imageWithData:",
+    "imageWithRenderingMode:",
+    "infoDictionary",
+    "initWithData:encoding:",
+    "initWithFrame:",
+    "initWithImage:",
+    "initWithSearchResultsController:",
+    "initWithStyle:reuseIdentifier:",
+    "initWithStyle:reuseIdentifier:specifier:",
+    "initWithTarget:action:",
+    "initWithTitle:style:target:action:",
+    "integerValue",
+    "isAtEnd",
+    "isEqual:",
+    "isEqualToString:",
+    "isOn",
+    "labelColor",
+    "layer",
+    "layoutMarginsGuide",
+    "leadingAnchor",
+    "length",
+    "loadSpecifiersFromPlistName:target:",
+    "localizedCaseInsensitiveCompare:",
+    "localizedCaseInsensitiveContainsString:",
+    "localizedDescription",
+    "localizedInfoDictionary",
+    "lowercaseString",
+    "mainScreen",
+    "monospacedDigitSystemFontOfSize:weight:",
+    "mutableCopy",
+    "name",
+    "navigationItem",
+    "numberWithBool:",
+    "numberWithDouble:",
+    "numberWithFloat:",
+    "numberWithInteger:",
+    "objectAtIndexedSubscript:",
+    "objectForKeyedSubscript:",
+    "openBatchIconDirectory",
+    "openColorPicker",
+    "openIrregularIconDirectory",
+    "openURL:options:completionHandler:",
+    "path",
+    "pathExtension",
+    "percentEncodedPath",
+    "performGetter",
+    "performSetterWithValue:",
+    "pinnedBundleIDs",
+    "predicateWithBlock:",
+    "preferenceSpecifierNamed:target:set:get:detail:cell:edit:",
+    "prepareForReuse",
+    "presentClockColorPicker:title:alpha:",
+    "presentViewController:animated:completion:",
+    "propertyForKey:",
+    "rangeOfString:",
+    "readPreferenceValue:",
+    "refreshCellContentsWithSpecifier:",
+    "reloadSpecifiers",
+    "removeObject:",
+    "removeObjectForKey:",
+    "respring",
+    "rightBarButtonItem",
+    "savePickerColor:",
+    "sb_developerProfileCellForTableView:",
+    "sb_installRootHeader",
+    "sb_openDeveloperSileoSource",
+    "sb_openIconDirectory:",
+    "sb_saveColorFromActivePicker:",
+    "sb_saveDesktopTextColor:",
+    "sb_saveRunIndicatorColor:",
+    "sb_saveVPNStatusBarColor:",
+    "sb_specifierForAction:",
+    "sb_specifierForPreferenceKey:",
+    "sb_specifierPlistName",
+    "sb_updateVisibleColorAccessoryForAction:tag:color:",
+    "sb_updateVisibleSwitchForKey:value:",
+    "scale",
+    "scanDouble:",
+    "scanHexInt:",
+    "scannerWithString:",
+    "scheme",
+    "searchBar",
+    "searchController",
+    "secondaryLabelColor",
+    "secondarySystemGroupedBackgroundColor",
+    "selectedBundleIDs",
+    "selectedColor",
+    "separatorColor",
+    "set",
+    "setAccessibilityLabel:",
+    "setAccessoryType:",
+    "setAccessoryView:",
+    "setAdjustsFontSizeToFitWidth:",
+    "setAlignment:",
+    "setAllApps:",
+    "setAppBundleID:",
+    "setAutoresizingMask:",
+    "setAxis:",
+    "setBackgroundColor:",
+    "setBorderColor:",
+    "setBorderWidth:",
+    "setClipsToBounds:",
+    "setColorPickerTarget:",
+    "setContentMode:",
+    "setContinuous:",
+    "setCornerRadius:",
+    "setDefinesPresentationContext:",
+    "setDelegate:",
+    "setDistribution:",
+    "setEnabled:",
+    "setFilteredApps:",
+    "setFont:",
+    "setHidden:",
+    "setIconLoadToken:",
+    "setImage:",
+    "setMasksToBounds:",
+    "setMaximumValue:",
+    "setMinimumScaleFactor:",
+    "setMinimumValue:",
+    "setNeedsLayout",
+    "setNumberOfLines:",
+    "setObject:forKeyedSubscript:",
+    "setObscuresBackgroundDuringPresentation:",
+    "setOn:",
+    "setOn:animated:",
+    "setPinnedBundleIDs:",
+    "setPreferenceValue:specifier:",
+    "setProperty:forKey:",
+    "setRightBarButtonItem:",
+    "setSearchController:",
+    "setSearchResultsUpdater:",
+    "setSelectedBundleIDs:",
+    "setSelectedColor:",
+    "setSelectionStyle:",
+    "setSpacing:",
+    "setSpecifier:",
+    "setString:",
+    "setSupportsAlpha:",
+    "setTableHeaderView:",
+    "setTag:",
+    "setText:",
+    "setTextAlignment:",
+    "setTextColor:",
+    "setTintColor:",
+    "setTitle:",
+    "setTitleView:",
+    "setTranslatesAutoresizingMaskIntoConstraints:",
+    "setUserInteractionEnabled:",
+    "setValue:",
+    "setWhitelistSwitch:",
+    "setWhitelistValue:specifier:",
+    "setWithArray:",
+    "sharedApplication",
+    "sliderChanged:",
+    "sortedArrayUsingComparator:",
+    "specifier",
+    "specifierAtIndexPath:",
+    "specifiers",
+    "stringByAddingPercentEncodingWithAllowedCharacters:",
+    "stringByAppendingPathComponent:",
+    "stringByDeletingLastPathComponent",
+    "stringByReplacingOccurrencesOfString:withString:",
+    "stringByStandardizingPath",
+    "stringByTrimmingCharactersInSet:",
+    "stringWithContentsOfFile:encoding:error:",
+    "stringWithFormat:",
+    "substringFromIndex:",
+    "substringToIndex:",
+    "subviews",
+    "switchToggled:",
+    "syncWithSpecifier:",
+    "systemFontOfSize:weight:",
+    "systemGroupedBackgroundColor",
+    "systemImageNamed:withConfiguration:",
+    "table",
+    "tableView:cellForRowAtIndexPath:",
+    "tableView:didSelectRowAtIndexPath:",
+    "tableView:heightForRowAtIndexPath:",
+    "tableView:willDisplayFooterView:forSection:",
+    "tag",
+    "target",
+    "text",
+    "textLabel",
+    "topAnchor",
+    "trailingAnchor",
+    "updateSearchResultsForSearchController:",
+    "updateValueLabel",
+    "value",
+    "view",
+    "viewDidAppear:",
+    "viewDidLoad",
+    "viewWillAppear:",
+    "viewWithTag:",
+    "whiteColor",
+    "whitelistPreferenceKey",
+    "whitelistSwitch",
+    "whitelistValue:",
+    "whitespaceAndNewlineCharacterSet",
+    "whitespaceCharacterSet",
+    "widthAnchor",
+    "writeToFile:atomically:"
+   ],
+   "classrefs": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "SBWhitelistCell",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "cstrings": [
+    {
+     "addr": 77336,
+     "s": "com.wkk.systembox"
+    },
+    {
+     "addr": 77354,
+     "s": "wkk"
+    },
+    {
+     "addr": 77358,
+     "s": "com.wkk.systembox.prefschanged"
+    },
+    {
+     "addr": 77389,
+     "s": "/var/mobile/Documents/SystemBox/BatchIcons"
+    },
+    {
+     "addr": 77432,
+     "s": "/var/mobile/Documents/SystemBox/IrregularIcons"
+    },
+    {
+     "addr": 77479,
+     "s": "Root"
+    },
+    {
+     "addr": 77485,
+     "s": "icon"
+    },
+    {
+     "addr": 77490,
+     "s": "SystemX"
+    },
+    {
+     "addr": 77498,
+     "s": "developerProfile"
+    },
+    {
+     "addr": 77515,
+     "s": "systemImage"
+    },
+    {
+     "addr": 77527,
+     "s": "subtitle"
+    },
+    {
+     "addr": 77536,
+     "s": "action"
+    },
+    {
+     "addr": 77543,
+     "s": "chooseVPNStatusBarColor"
+    },
+    {
+     "addr": 77567,
+     "s": "chooseRunIndicatorColor"
+    },
+    {
+     "addr": 77591,
+     "s": "chooseDesktopTextColor"
+    },
+    {
+     "addr": 77614,
+     "s": "SystemBoxDeveloperProfileCell"
+    },
+    {
+     "addr": 77644,
+     "s": "https://Wkkyy00.github.io/"
+    },
+    {
+     "addr": 77671,
+     "s": "sileo://source/https://Wkkyy00.github.io/"
+    },
+    {
+     "addr": 77713,
+     "s": "v12@?0B8"
+    },
+    {
+     "addr": 77722,
+     "s": "wkk (wkkyy0)"
+    },
+    {
+     "addr": 77735,
+     "s": "key"
+    },
+    {
+     "addr": 77739,
+     "s": "default"
+    },
+    {
+     "addr": 77747,
+     "s": "fakeBatteryPercent"
+    },
+    {
+     "addr": 77766,
+     "s": "lockScreenBottomCornerRadius"
+    },
+    {
+     "addr": 77795,
+     "s": "%.2f"
+    },
+    {
+     "addr": 77800,
+     "s": "homeIconScale"
+    },
+    {
+     "addr": 77814,
+     "s": "folderPreviewIconScale"
+    },
+    {
+     "addr": 77837,
+     "s": "switcherClearButtonFontSize"
+    },
+    {
+     "addr": 77865,
+     "s": "%.0f"
+    },
+    {
+     "addr": 77870,
+     "s": "switcherClearButtonSize"
+    },
+    {
+     "addr": 77894,
+     "s": "desktopIconShadowScale"
+    },
+    {
+     "addr": 77917,
+     "s": "changeDesktopIcons"
+    },
+    {
+     "addr": 77936,
+     "s": "batchChangeDesktopIcons"
+    },
+    {
+     "addr": 77960,
+     "s": "irregularChangeDesktopIcons"
+    },
+    {
+     "addr": 77988,
+     "s": "homePullDownControlCenter"
+    },
+    {
+     "addr": 78014,
+     "s": "homePullDownNotificationCenter"
+    },
+    {
+     "addr": 78045,
+     "s": "homePullUpNotificationCenter"
+    },
+    {
+     "addr": 78074,
+     "s": "homePullUpControlCenter"
+    },
+    {
+     "addr": 78098,
+     "s": "desktopIconShadowStyle1"
+    },
+    {
+     "addr": 78122,
+     "s": "desktopIconShadowStyle2"
+    },
+    {
+     "addr": 78146,
+     "s": "desktopBadgeCustom"
+    },
+    {
+     "addr": 78165,
+     "s": "desktopBadgeTint"
+    },
+    {
+     "addr": 78182,
+     "s": "desktopIconShadow"
+    },
+    {
+     "addr": 78200,
+     "s": "v32@?0@\"NSString\"8@\"NSNumber\"16^B24"
+    },
+    {
+     "addr": 78236,
+     "s": "filza://view%@"
+    },
+    {
+     "addr": 78251,
+     "s": "vpnStatusBarColorRed"
+    },
+    {
+     "addr": 78272,
+     "s": "vpnStatusBarColorGreen"
+    },
+    {
+     "addr": 78295,
+     "s": "vpnStatusBarColorBlue"
+    },
+    {
+     "addr": 78317,
+     "s": "vpnStatusBarColorAlpha"
+    },
+    {
+     "addr": 78340,
+     "s": "runIndicatorColorRed"
+    },
+    {
+     "addr": 78361,
+     "s": "runIndicatorColorGreen"
+    },
+    {
+     "addr": 78384,
+     "s": "runIndicatorColorBlue"
+    },
+    {
+     "addr": 78406,
+     "s": "runIndicatorColorAlpha"
+    },
+    {
+     "addr": 78429,
+     "s": "desktopTextColorRed"
+    },
+    {
+     "addr": 78449,
+     "s": "desktopTextColorGreen"
+    },
+    {
+     "addr": 78471,
+     "s": "desktopTextColorBlue"
+    },
+    {
+     "addr": 78492,
+     "s": "desktopTextColorAlpha"
+    },
+    {
+     "addr": 78514,
+     "s": "v16@?0@\"UIAlertAction\"8"
+    },
+    {
+     "addr": 78538,
+     "s": "sbreload"
+    },
+    {
+     "addr": 78547,
+     "s": "/var/jb/usr/bin/sbreload"
+    },
+    {
+     "addr": 78572,
+     "s": "/usr/bin/sbreload"
+    },
+    {
+     "addr": 78590,
+     "s": "killall"
+    },
+    {
+     "addr": 78598,
+     "s": "-9"
+    },
+    {
+     "addr": 78601,
+     "s": "SpringBoard"
+    },
+    {
+     "addr": 78613,
+     "s": "/var/jb/usr/bin/killall"
+    },
+    {
+     "addr": 78637,
+     "s": "/usr/bin/killall"
+    },
+    {
+     "addr": 78654,
+     "s": "General"
+    },
+    {
+     "addr": 78662,
+     "s": "id"
+    },
+    {
+     "addr": 78665,
+     "s": "force5GAStatusBar"
+    },
+    {
+     "addr": 78683,
+     "s": "force5GAStatusBarGroup"
+    },
+    {
+     "addr": 78706,
+     "s": "Desktop"
+    },
+    {
+     "addr": 78714,
+     "s": "DateTime"
+    },
+    {
+     "addr": 78723,
+     "s": "Folder"
+    },
+    {
+     "addr": 78730,
+     "s": "Photos"
+    },
+    {
+     "addr": 78737,
+     "s": "Disable"
+    },
+    {
+     "addr": 78745,
+     "s": "Hide"
+    },
+    {
+     "addr": 78750,
+     "s": "\r\n"
+    },
+    {
+     "addr": 78753,
+     "s": "\n"
+    },
+    {
+     "addr": 78755,
+     "s": "\n\n"
+    },
+    {
+     "addr": 78758,
+     "s": "Package"
+    },
+    {
+     "addr": 78766,
+     "s": "Status"
+    },
+    {
+     "addr": 78773,
+     "s": "install ok installed"
+    },
+    {
+     "addr": 78794,
+     "s": "Author"
+    },
+    {
+     "addr": 78801,
+     "s": "Maintainer"
+    },
+    {
+     "addr": 78812,
+     "s": "/var/jb/var/lib/dpkg/status"
+    },
+    {
+     "addr": 78840,
+     "s": "/var/lib/dpkg/status"
+    },
+    {
+     "addr": 78861,
+     "s": "/Library/dpkg/status"
+    },
+    {
+     "addr": 78882,
+     "s": " "
+    },
+    {
+     "addr": 78884,
+     "s": "\t"
+    },
+    {
+     "addr": 78886,
+     "s": "%@\n%@"
+    },
+    {
+     "addr": 78892,
+     "s": ":"
+    },
+    {
+     "addr": 78894,
+     "s": "Enabled"
+    },
+    {
+     "addr": 78902,
+     "s": "no"
+    },
+    {
+     "addr": 78905,
+     "s": "false"
+    },
+    {
+     "addr": 78911,
+     "s": "0"
+    },
+    {
+     "addr": 78913,
+     "s": "URIs"
+    },
+    {
+     "addr": 78918,
+     "s": "/etc/apt/sources.list.d"
+    },
+    {
+     "addr": 78942,
+     "s": "http"
+    },
+    {
+     "addr": 78947,
+     "s": "https"
+    },
+    {
+     "addr": 78953,
+     "s": "axs.yourepo.com"
+    },
+    {
+     "addr": 78969,
+     "s": "axs66.github.io"
+    },
+    {
+     "addr": 78985,
+     "s": "/pro"
+    },
+    {
+     "addr": 78990,
+     "s": "/pro/"
+    },
+    {
+     "addr": 78996,
+     "s": "wkkyy00.github.io"
+    },
+    {
+     "addr": 79014,
+     "s": "/"
+    },
+    {
+     "addr": 79016,
+     "s": "/var/mobile/Library/Preferences/com.wkk.systembox.plist"
+    },
+    {
+     "addr": 79072,
+     "s": "jbroot"
+    },
+    {
+     "addr": 79079,
+     "s": "bundleID"
+    },
+    {
+     "addr": 79088,
+     "s": "v8@?0"
+    },
+    {
+     "addr": 79094,
+     "s": "whitelistPreferenceKey"
+    },
+    {
+     "addr": 79117,
+     "s": "killBackgroundWhitelist"
+    },
+    {
+     "addr": 79141,
+     "s": "name"
+    },
+    {
+     "addr": 79146,
+     "s": "q24@?0@\"NSDictionary\"8@\"NSDictionary\"16"
+    },
+    {
+     "addr": 79186,
+     "s": "B24@?0@\"NSDictionary\"8@\"NSDictionary\"16"
+    },
+    {
+     "addr": 79226,
+     "s": "/System/Library/Frameworks/CoreServices.framework/CoreServices"
+    },
+    {
+     "addr": 79289,
+     "s": "/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices"
+    },
+    {
+     "addr": 79364,
+     "s": "LSApplicationWorkspace"
+    },
+    {
+     "addr": 79387,
+     "s": "defaultWorkspace"
+    },
+    {
+     "addr": 79404,
+     "s": "allApplications"
+    },
+    {
+     "addr": 79420,
+     "s": "allInstalledApplications"
+    },
+    {
+     "addr": 79445,
+     "s": "unrestrictedApplications"
+    },
+    {
+     "addr": 79470,
+     "s": "enumerateApplicationsOfType:block:"
+    },
+    {
+     "addr": 79505,
+     "s": "v16@?0@8"
+    },
+    {
+     "addr": 79514,
+     "s": "applicationsOfType:"
+    },
+    {
+     "addr": 79534,
+     "s": "isPlaceholder"
+    },
+    {
+     "addr": 79548,
+     "s": "isInstalled"
+    },
+    {
+     "addr": 79560,
+     "s": "isLaunchProhibited"
+    },
+    {
+     "addr": 79579,
+     "s": "isWatchKitApp"
+    },
+    {
+     "addr": 79593,
+     "s": "applicationType"
+    },
+    {
+     "addr": 79609,
+     "s": "appTags"
+    },
+    {
+     "addr": 79617,
+     "s": "bundleURL"
+    },
+    {
+     "addr": 79627,
+     "s": "User"
+    },
+    {
+     "addr": 79632,
+     "s": "System"
+    },
+    {
+     "addr": 79639,
+     "s": "app"
+    },
+    {
+     "addr": 79643,
+     "s": "hidden"
+    },
+    {
+     "addr": 79650,
+     "s": "localizedName"
+    },
+    {
+     "addr": 79664,
+     "s": "localizedShortName"
+    },
+    {
+     "addr": 79683,
+     "s": "itemName"
+    },
+    {
+     "addr": 79692,
+     "s": "applicationIdentifier"
+    },
+    {
+     "addr": 79714,
+     "s": "bundleIdentifier"
+    },
+    {
+     "addr": 79731,
+     "s": "/Applications"
+    },
+    {
+     "addr": 79745,
+     "s": "/var/containers/Bundle/Application"
+    },
+    {
+     "addr": 79780,
+     "s": "/private/var/containers/Bundle/Application"
+    },
+    {
+     "addr": 79823,
+     "s": "/var/containers/Bundle/TrollStore"
+    },
+    {
+     "addr": 79857,
+     "s": "/private/var/containers/Bundle/TrollStore"
+    },
+    {
+     "addr": 79899,
+     "s": "/var/mobile/Containers/Bundle/Application"
+    },
+    {
+     "addr": 79941,
+     "s": "/private/var/mobile/Containers/Bundle/Application"
+    },
+    {
+     "addr": 79991,
+     "s": "CFBundlePackageType"
+    },
+    {
+     "addr": 80011,
+     "s": "APPL"
+    },
+    {
+     "addr": 80016,
+     "s": "CFBundleIdentifier"
+    },
+    {
+     "addr": 80035,
+     "s": "CFBundleExecutable"
+    },
+    {
+     "addr": 80054,
+     "s": "SBAppTags"
+    },
+    {
+     "addr": 80064,
+     "s": "CFBundleDisplayName"
+    },
+    {
+     "addr": 80084,
+     "s": "CFBundleName"
+    },
+    {
+     "addr": 80097,
+     "s": "#3DDEFA"
+    },
+    {
+     "addr": 80105,
+     "s": "#4F80FF"
+    },
+    {
+     "addr": 80113,
+     "s": "#AD57FF"
+    },
+    {
+     "addr": 80121,
+     "s": "#FF5CB3"
+    },
+    {
+     "addr": 80129,
+     "s": "#FFBA63"
+    },
+    {
+     "addr": 80137,
+     "s": "Clock.CustomColor.Hex"
+    },
+    {
+     "addr": 80159,
+     "s": "Clock"
+    },
+    {
+     "addr": 80165,
+     "s": "Clock.Rainbow.Enabled"
+    },
+    {
+     "addr": 80187,
+     "s": "Clock.CustomColor.Enabled"
+    },
+    {
+     "addr": 80213,
+     "s": "p3:"
+    },
+    {
+     "addr": 80217,
+     "s": "srgb:"
+    },
+    {
+     "addr": 80223,
+     "s": ","
+    },
+    {
+     "addr": 80225,
+     "s": "#"
+    },
+    {
+     "addr": 80227,
+     "s": "Clock.Rainbow.Color.%lu"
+    },
+    {
+     "addr": 80251,
+     "s": "%@%.17g,%.17g,%.17g,%.17g"
+    },
+    {
+     "addr": 80277,
+     "s": "srgb:%.17g,%.17g,%.17g,%.17g"
+    },
+    {
+     "addr": 80306,
+     "s": "min"
+    },
+    {
+     "addr": 80310,
+     "s": "max"
+    },
+    {
+     "addr": 80314,
+     "s": "sliderTitle"
+    },
+    {
+     "addr": 80326,
+     "s": "valueDecimals"
+    },
+    {
+     "addr": 80340,
+     "s": "valueSuffix"
+    },
+    {
+     "addr": 80352,
+     "s": "%.*f%@"
+    },
+    {
+     "addr": 80359,
+     "s": "kCFAllocatorNull"
+    },
+    {
+     "addr": 80376,
+     "s": "CFDataCreateWithBytesNoCopy"
+    },
+    {
+     "addr": 80404,
+     "s": "CFPropertyListCreateWithData"
+    },
+    {
+     "addr": 80433,
+     "s": "CFPropertyListCreateFromXMLData"
+    },
+    {
+     "addr": 80465,
+     "s": "CFStringCreateWithCStringNoCopy"
+    },
+    {
+     "addr": 80497,
+     "s": "CFDictionaryGetValue"
+    },
+    {
+     "addr": 80518,
+     "s": "CFGetTypeID"
+    },
+    {
+     "addr": 80530,
+     "s": "CFStringGetTypeID"
+    },
+    {
+     "addr": 80548,
+     "s": "CFStringGetCString"
+    },
+    {
+     "addr": 80567,
+     "s": "CFRelease"
+    },
+    {
+     "addr": 80577,
+     "s": "/System/Library/CoreServices/SystemVersion.plist"
+    },
+    {
+     "addr": 80626,
+     "s": "r"
+    },
+    {
+     "addr": 80628,
+     "s": "ProductVersion"
+    },
+    {
+     "addr": 80643,
+     "s": "%d.%d.%d"
+    }
+   ],
+   "symbols": [
+    {
+     "name": "radr://5614542",
+     "value": 90260802,
+     "type": 60
+    },
+    {
+     "name": "_OBJC_CLASS_$_SBWhitelistCell",
+     "value": 123632,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxClockGradientCell",
+     "value": 123792,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxClockListController",
+     "value": 123992,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxClockSliderCell",
+     "value": 124032,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxClockSolidColorCell",
+     "value": 123872,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxDateTimeListController",
+     "value": 123272,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxDesktopListController",
+     "value": 123192,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxDisableListController",
+     "value": 123472,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxFolderListController",
+     "value": 123352,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxGeneralListController",
+     "value": 123112,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxHideListController",
+     "value": 123592,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxPhotosListController",
+     "value": 123432,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxRootListController",
+     "value": 122992,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_CLASS_$_SystemBoxWhitelistController",
+     "value": 123712,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SBWhitelistCell",
+     "value": 123672,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxClockGradientCell",
+     "value": 123832,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxClockListController",
+     "value": 123952,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxClockSliderCell",
+     "value": 124072,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxClockSolidColorCell",
+     "value": 123912,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxDateTimeListController",
+     "value": 123232,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxDesktopListController",
+     "value": 123152,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxDisableListController",
+     "value": 123512,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxFolderListController",
+     "value": 123312,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxGeneralListController",
+     "value": 123072,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxHideListController",
+     "value": 123552,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxPhotosListController",
+     "value": 123392,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxRootListController",
+     "value": 123032,
+     "type": 15
+    },
+    {
+     "name": "_OBJC_METACLASS_$_SystemBoxWhitelistController",
+     "value": 123752,
+     "type": 15
+    },
+    {
+     "name": "_CFEqual",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CFNotificationCenterGetDarwinNotifyCenter",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CFNotificationCenterPostNotification",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGColorGetColorSpace",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGColorGetComponents",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGColorGetNumberOfComponents",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGColorSpaceGetModel",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGColorSpaceGetName",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CGRectInset",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_NSClassFromString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_NSSelectorFromString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSArray",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSBundle",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSCharacterSet",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSConstantArray",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSData",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSDictionary",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSFileManager",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSLayoutConstraint",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableArray",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableDictionary",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableSet",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSNumber",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSPredicate",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSScanner",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSSet",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSURL",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSURLComponents",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_PSControlTableCell",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_PSListController",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_PSSpecifier",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_PSTableCell",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIAlertAction",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIAlertController",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIApplication",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIBarButtonItem",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIButton",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIColor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIColorPickerViewController",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIFont",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIImage",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIImageSymbolConfiguration",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIImageView",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UILabel",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIPasteboard",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIScreen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UISearchController",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UISlider",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIStackView",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UISwitch",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UITableViewCell",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UITableViewHeaderFooterView",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UITapGestureRecognizer",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_UIView",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_EHTYPE_$_NSException",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_IVAR_$_PSListController._specifiers",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_METACLASS_$_NSObject",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_METACLASS_$_PSListController",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_METACLASS_$_PSTableCell",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_PSCellClassKey",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_UIFontWeightHeavy",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_UIFontWeightMedium",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_UIFontWeightRegular",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_UIFontWeightSemibold",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__NSConcreteGlobalBlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__NSConcreteStackBlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Unwind_Resume",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Z6jbrootP8NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___CFConstantStringClassReference",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___NSArray0__struct",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___NSDictionary0__struct",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___exp10f",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___kCFBooleanFalse",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___kCFBooleanTrue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___objc_personality_v0",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_fail",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_guard",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__availability_version_check",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dispatch_main_q",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__objc_empty_cache",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_access",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_async",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_get_global_queue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_once_f",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlopen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlsym",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fclose",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fopen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fread",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_free",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fseek",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_ftell",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_kCGColorSpaceDisplayP3",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_malloc",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_alloc",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_alloc_init",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleaseReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_begin_catch",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_end_catch",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_enumerationMutation",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_msgSend",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_msgSendSuper2",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_class",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_isKindOfClass",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_respondsToSelector",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_release",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retain",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutorelease",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutoreleaseReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutoreleasedReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_setProperty_nonatomic_copy",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_storeStrong",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_posix_spawn",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_rewind",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_sscanf",
+     "value": 0,
+     "type": 1
+    }
+   ]
+  }
+ ]
+}

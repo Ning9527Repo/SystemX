@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = SystemBoxPrefs;
+		cell = PSLinkCell;
+		detail = SystemBoxRootListController;
+		icon = "icon.png";
+		isController = 1;
+		label = SystemX;
+	};
+}

@@ -1,0 +1,2088 @@
+// SystemBox - exact hook registrations (generated from MSHookMessageEx call sites)
+#import <objc/runtime.h>
+#import <substrate.h>
+
+// 0x0000bc70
+//   class   PHAssetCollection
+//   selector px_isUserCreated
+//   hook IMP 0x145ec   orig slot 0x705c0
+// 0x0000bc9c
+//   class   PUDeletePhotosActionController
+//   selector shouldSkipDeleteConfirmation
+//   hook IMP 0x1460c   orig slot 0x705c8
+// 0x0000bcc0
+//   class   PXPhotoKitDeletePhotosActionController
+//   selector shouldSkipDeleteConfirmation
+//   hook IMP 0x1462c   orig slot 0x705d0
+// 0x0000bce8
+//   class   PUOneUpBarsController
+//   selector setShouldShowScrubber:
+//   hook IMP 0x1464c   orig slot 0x705d8
+// 0x0000bd14
+//   class   PUTabbedLibrarySettings
+//   selector setEnableSearchTab:
+//   hook IMP 0x1466c   orig slot 0x705e0
+// 0x0000bd34
+//   class   PUTabbedLibrarySettings
+//   selector setEnableForYouTab:
+//   hook IMP 0x1468c   orig slot 0x705e8
+// 0x0000bd60
+//   class   PXPhotoKitCollectionsDataSourceManager
+//   selector _containsAnyAssets:
+//   hook IMP 0x146ac   orig slot 0x705f0
+// 0x0000bd80
+//   class   PXPhotoKitCollectionsDataSourceManager
+//   selector containsAnyAssets:
+//   hook IMP 0x14730   orig slot 0x705f8
+// 0x0000bda8
+//   class   PXPhotoKitCollectionsDataSourceManagerConfiguration
+//   selector includePeopleAlbum
+//   hook IMP 0x147b4   orig slot 0x70600
+// 0x0000bdd0
+//   class   PXPhotosViewModel
+//   selector allowsSelectAllAction
+//   hook IMP 0x147d4   orig slot 0x70608
+// 0x0000bdf8
+//   class   PUUserTransformView
+//   selector _setPreferredMaximumZoomScale:
+//   hook IMP 0x147f4   orig slot 0x70610
+// 0x0000be20
+//   class   PXVerticalSwipeGestureRecognizerHelper
+//   selector allowSwipeUp
+//   hook IMP 0x14818   orig slot 0x70618
+// 0x0000be4c
+//   class   PXCuratedLibraryZoomLevelControl
+//   selector layoutSubviews
+//   hook IMP 0x14838   orig slot 0x70620
+// 0x0000be6c
+//   class   PXCuratedLibraryZoomLevelControl
+//   selector _updateSubviews
+//   hook IMP 0x1488c   orig slot 0x70628
+// 0x0000be8c
+//   class   PXCuratedLibraryZoomLevelControl
+//   selector setSelectedZoomLevel:
+//   hook IMP 0x148e0   orig slot 0x70630
+// 0x0000bf78
+//   class   _UICollectionViewListLayoutSectionConfiguration
+//   selector setSeparatorStyle:
+//   hook IMP 0x12914   orig slot 0x70598
+// 0x0000bfa4
+//   class   UITableViewCell
+//   selector _updateSeparatorContent
+//   hook IMP 0x12964   orig slot 0x705a0
+// 0x0000bfc4
+//   class   UITableViewCell
+//   selector _updateSeparatorContent:
+//   hook IMP 0x129b0   orig slot 0x705a8
+// 0x0000bfec
+//   class   _UICollectionViewListSeparatorView
+//   selector applyLayoutAttributes:
+//   hook IMP 0x129fc   orig slot 0x705b0
+// 0x0000c014
+//   class   _UITableViewCellSeparatorView
+//   selector layoutSubviews
+//   hook IMP 0x12aa8   orig slot 0x705b8
+// 0x0000c078
+//   class   UICalloutBarButton
+//   selector setDividerOffset:
+//   hook IMP 0x150cc   orig slot 0x70640
+// 0x0000c0a4
+//   class   UITableViewCell
+//   selector _updateSeparatorContent
+//   hook IMP 0x150dc   orig slot 0x70648
+// 0x0000c0c4
+//   class   UITableViewCell
+//   selector _updateSeparatorContent:
+//   hook IMP 0x150e0   orig slot 0x70650
+// 0x0000c0ec
+//   class   _UIAlertControllerInterfaceActionGroupView
+//   selector _shouldShowSeparatorAboveActionsSequenceView
+//   hook IMP 0x150e4   orig slot 0x70658
+// 0x0000c114
+//   class   _UICollectionViewListLayoutSectionConfiguration
+//   selector setSeparatorStyle:
+//   hook IMP 0x150ec   orig slot 0x70660
+// 0x0000c13c
+//   class   _UIInterfaceActionSeparatableSequenceView
+//   selector _addSeparatorToStackAndMutableArray:preferSectionStyle:
+//   hook IMP 0x150fc   orig slot 0x70668
+// 0x0000c164
+//   class   _UIInterfaceActionBlankSeparatorView
+//   selector setConstantAxisDimension:
+//   hook IMP 0x15100   orig slot 0x70670
+// 0x0000c18c
+//   class   _UIVisualEffectContentView
+//   selector applyRequestedFilterEffects
+//   hook IMP 0x15110   orig slot 0x70678
+// 0x0000c204
+//   class   _UIScrollViewScrollIndicator
+//   selector layoutSubviews
+//   hook IMP 0x15114   orig slot 0x70680
+// 0x0000c270
+//   class   PSKeyboardNavigationSearchController
+//   selector initWithSearchResultsController:
+//   hook IMP 0x151a8   orig slot 0x70688
+// 0x0000c29c
+//   class   PSUIPrefsListController
+//   selector init
+//   hook IMP 0x1524c   orig slot 0x70690
+// 0x0000c2bc
+//   class   PSUIPrefsListController
+//   selector loadView
+//   hook IMP 0x15290   orig slot 0x70698
+// 0x0000c2dc
+//   class   PSUIPrefsListController
+//   selector viewDidLayoutSubviews
+//   hook IMP 0x152bc   orig slot 0x706a0
+// 0x0000c2fc
+//   class   PSUIPrefsListController
+//   selector viewDidAppear:
+//   hook IMP 0x152e8   orig slot 0x706a8
+// 0x0000c31c
+//   class   PSUIPrefsListController
+//   selector setSpotlightSearchController:
+//   hook IMP 0x15314   orig slot 0x706b0
+// 0x0000c33c
+//   class   PSUIPrefsListController
+//   selector spotlightSearchController
+//   hook IMP 0x1538c   orig slot 0x706b8
+// 0x0000c35c
+//   class   PSUIPrefsListController
+//   selector continueSearchInSettingsWithTerm:
+//   hook IMP 0x153c4   orig slot 0x706c0
+// 0x0000c37c
+//   class   PSUIPrefsListController
+//   selector _delayedSpotlightSearch
+//   hook IMP 0x15434   orig slot 0x706c8
+// 0x0000c3e4
+//   class   ?
+//   selector _applicationIconImageForBundleIdentifier:format:
+//   hook IMP 0x15450   orig slot 0x706d8
+// 0x0000c404
+//   class   PSUIPrefsListController
+//   selector _applicationIconImageForBundleIdentifier:format:scale:
+//   hook IMP 0x15518   orig slot 0x706e0
+// 0x0000c464
+//   class   SBSystemApertureController
+//   selector registerElement:
+//   hook IMP 0x1603c   orig slot 0x706e8
+// 0x0000c4e8
+//   class   SBSystemActionPreviewCoordinator
+//   selector showPreviewForAction:withContext:
+//   hook IMP 0x1627c   orig slot 0x706f0
+// 0x0000c6cc
+//   class   SBUIController
+//   selector possiblyWakeForPowerStatusChangeWithUnlockSource:
+//   hook IMP 0x163d0   orig slot 0x70710
+// 0x0000c704
+//   class   SBNCScreenController
+//   selector canTurnOnScreenForNotificationRequest:
+//   hook IMP 0x164bc   orig slot 0x70730
+// 0x0000c728
+//   class   SBNCScreenController
+//   selector _turnOnScreen
+//   hook IMP 0x16540   orig slot 0x70738
+// 0x0000c74c
+//   class   SBLockScreenNotificationListController
+//   selector _turnOnScreen
+//   hook IMP 0x1655c   orig slot 0x70740
+// 0x0000c7a0
+//   class   SBNCSoundController
+//   selector canPlaySoundForNotificationRequest:
+//   hook IMP 0x16578   orig slot 0x70750
+// 0x0000c85c
+//   class   RPScreenRecorder
+//   selector setRecording:
+//   hook IMP 0x166ac   orig slot 0x70760
+// 0x0000c89c
+//   class   SBRootFolderControllerConfiguration
+//   selector ignoresOverscrollOnLastPageOrientations
+//   hook IMP 0x167f8   orig slot 0x70770
+// 0x0000c8bc
+//   class   SBRootFolderControllerConfiguration
+//   selector setIgnoresOverscrollOnLastPageOrientations:
+//   hook IMP 0x16818   orig slot 0x70778
+// 0x0000c8e4
+//   class   SBRootFolderView
+//   selector _trailingCustomPageCount
+//   hook IMP 0x16834   orig slot 0x70780
+// 0x0000c910
+//   class   SBIconController
+//   selector isAppLibraryAllowed
+//   hook IMP 0x16914   orig slot 0x70788
+// 0x0000c930
+//   class   SBIconController
+//   selector isAppLibrarySupported
+//   hook IMP 0x16934   orig slot 0x70790
+// 0x0000c950
+//   class   SBIconController
+//   selector iconManager:rootFolderController:didOverscrollOnLastPageByAmount:
+//   hook IMP 0x16954   orig slot 0x70798
+// 0x0000c970
+//   class   SBIconController
+//   selector iconManager:rootFolderController:didEndOverscrollOnLastPageWithVelocity:translation:
+//   hook IMP 0x169f8   orig slot 0x707a0
+// 0x0000c9e8
+//   class   SBRootFolderControllerConfiguration
+//   selector ignoresOverscrollOnFirstPageOrientations
+//   hook IMP 0x16aa4   orig slot 0x707b0
+// 0x0000ca08
+//   class   SBRootFolderControllerConfiguration
+//   selector setIgnoresOverscrollOnFirstPageOrientations:
+//   hook IMP 0x16ac4   orig slot 0x707b8
+// 0x0000ca30
+//   class   SBMainDisplayPolicyAggregator
+//   selector _allowsCapabilityTodayViewWithExplanation:
+//   hook IMP 0x16ae0   orig slot 0x707c0
+// 0x0000ca5c
+//   class   SBRootFolderController
+//   selector isTodayViewPageHidden
+//   hook IMP 0x16b00   orig slot 0x707c8
+// 0x0000ca7c
+//   class   SBRootFolderController
+//   selector setTodayViewPageHidden:
+//   hook IMP 0x16b20   orig slot 0x707d0
+// 0x0000caa8
+//   class   SBIconController
+//   selector _shouldTodayViewController:receiveTouch:
+//   hook IMP 0x16b40   orig slot 0x707d8
+// 0x0000cac8
+//   class   SBIconController
+//   selector activateTodayViewWithCompletion:
+//   hook IMP 0x16be8   orig slot 0x707e0
+// 0x0000cae8
+//   class   SBIconController
+//   selector presentTodayOverlayForIconManager:
+//   hook IMP 0x16c6c   orig slot 0x707e8
+// 0x0000cb14
+//   class   SBHIconManager
+//   selector presentTodayOverlayForIconDragManager:
+//   hook IMP 0x16cdc   orig slot 0x707f0
+// 0x0000cb34
+//   class   SBHIconManager
+//   selector presentTodayOverlay
+//   hook IMP 0x16d4c   orig slot 0x707f8
+// 0x0000cb88
+//   class   WGShortLookStyleButton
+//   selector layoutSubviews
+//   hook IMP 0x16d68   orig slot 0x70808
+// 0x0000cbcc
+//   class   SBHLibrarySearchController
+//   selector _searchPresentationProgressForOffset:
+//   hook IMP 0x16db0   orig slot 0x70818
+// 0x0000cc0c
+//   class   SBSearchGesture
+//   selector searchScrollViewShouldRecognize:
+//   hook IMP 0x16dd0   orig slot 0x70820
+// 0x0000cc2c
+//   class   SBSearchGesture
+//   selector revealAnimated:
+//   hook IMP 0x16ff8   orig slot 0x70828
+// 0x0000cc74
+//   class   SBCoverSheetSystemGesturesDelegate
+//   selector _canPresentGestureBegin
+//   hook IMP 0x17030   orig slot 0x70838
+// 0x0000cc94
+//   class   SBCoverSheetSystemGesturesDelegate
+//   selector gestureRecognizerShouldBegin:
+//   hook IMP 0x1707c   orig slot 0x70840
+// 0x0000ccec
+//   class   SBControlCenterController
+//   selector _shouldAllowControlCenterGesture
+//   hook IMP 0x17164   orig slot 0x70850
+// 0x0000cd10
+//   class   SBControlCenterController
+//   selector gestureRecognizerShouldBegin:
+//   hook IMP 0x171b0   orig slot 0x70858
+// 0x0000cd34
+//   class   SBControlCenterController
+//   selector gestureRecognizer:shouldReceiveTouch:
+//   hook IMP 0x17298   orig slot 0x70860
+// 0x0000cd54
+//   class   SBControlCenterController
+//   selector _handleStatusBarPullDownGesture:
+//   hook IMP 0x173a4   orig slot 0x70868
+// 0x0000cd74
+//   class   SBControlCenterController
+//   selector grabberTongue:shouldReceiveTouch:
+//   hook IMP 0x17414   orig slot 0x70870
+// 0x0000cd94
+//   class   SBControlCenterController
+//   selector grabberTongueOrPullEnabled:forGestureRecognizer:
+//   hook IMP 0x174bc   orig slot 0x70878
+// 0x0000cdb4
+//   class   SBControlCenterController
+//   selector grabberTongue:shouldShowTongueOnFirstSwipeWithEdgeLocation:
+//   hook IMP 0x17564   orig slot 0x70880
+// 0x0000cdd4
+//   class   SBControlCenterController
+//   selector grabberTongue:shouldAllowSecondSwipeWithEdgeLocation:
+//   hook IMP 0x175f8   orig slot 0x70888
+// 0x0000cdf4
+//   class   SBControlCenterController
+//   selector grabberTongueBeganPulling:withDistance:andVelocity:andGesture:
+//   hook IMP 0x1768c   orig slot 0x70890
+// 0x0000ce14
+//   class   SBControlCenterController
+//   selector grabberTongueUpdatedPulling:withDistance:andVelocity:andGesture:
+//   hook IMP 0x17738   orig slot 0x70898
+// 0x0000ce34
+//   class   SBControlCenterController
+//   selector grabberTongueEndedPulling:withDistance:andVelocity:andGesture:
+//   hook IMP 0x177e4   orig slot 0x708a0
+// 0x0000ce5c
+//   class   SBGrabberTongue
+//   selector gestureRecognizerShouldBegin:
+//   hook IMP 0x17890   orig slot 0x708a8
+// 0x0000ce78
+//   class   SBGrabberTongue
+//   selector gestureRecognizer:shouldReceiveTouch:
+//   hook IMP 0x17978   orig slot 0x708b0
+// 0x0000ce98
+//   class   SBGrabberTongue
+//   selector _shouldReceiveTouch:
+//   hook IMP 0x17a8c   orig slot 0x708b8
+// 0x0000ceb8
+//   class   SBGrabberTongue
+//   selector _tongueOrPullEnabledForGestureRecognizer:
+//   hook IMP 0x17b74   orig slot 0x708c0
+// 0x0000ced8
+//   class   SBGrabberTongue
+//   selector _handlePullGesture:
+//   hook IMP 0x17c5c   orig slot 0x708c8
+// 0x0000cf20
+//   class   SBHomeGestureFinalDestinationSwitcherModifier
+//   selector currentFinalDestination
+//   hook IMP 0x17d30   orig slot 0x708d0
+// 0x0000cf68
+//   class   SBTodayViewController
+//   selector spotlightPresenterAllowsPullToSearch:
+//   hook IMP 0x17d64   orig slot 0x708e0
+// 0x0000cf88
+//   class   SBTodayViewController
+//   selector presentSpotlightAnimated:
+//   hook IMP 0x17de8   orig slot 0x708e8
+// 0x0000cfe8
+//   class   SBIconController
+//   selector gestureRecognizer:shouldReceiveTouch:
+//   hook IMP 0x17e04   orig slot 0x708f8
+// 0x0000d040
+//   class   SBIconController
+//   selector iconManager:applicationShortcutItemsForIconView:
+//   hook IMP 0x17f18   orig slot 0x70908
+// 0x0000d060
+//   class   SBIconController
+//   selector iconManager:shouldActivateApplicationShortcutItem:atIndex:forIconView:
+//   hook IMP 0x17fc4   orig slot 0x70910
+// 0x0000d080
+//   class   SBIconController
+//   selector iconManager:launchIconForIconView:withActions:
+//   hook IMP 0x180a4   orig slot 0x70918
+// 0x0000d0a0
+//   class   SBIconController
+//   selector iconManager:launchIconForIconView:withActions:modifierFlags:
+//   hook IMP 0x18194   orig slot 0x70920
+// 0x0000d0cc
+//   class   SBIconView
+//   selector setApplicationShortcutItems:
+//   hook IMP 0x18294   orig slot 0x70928
+// 0x0000d0ec
+//   class   SBIconView
+//   selector shouldActivateApplicationShortcutItem:atIndex:
+//   hook IMP 0x18304   orig slot 0x70930
+// 0x0000d10c
+//   class   SBIconView
+//   selector gestureRecognizerShouldBegin:
+//   hook IMP 0x18390   orig slot 0x70938
+// 0x0000d138
+//   class   SBHIconManager
+//   selector iconView:shouldActivateApplicationShortcutItem:atIndex:
+//   hook IMP 0x18474   orig slot 0x70940
+// 0x0000d158
+//   class   SBHIconManager
+//   selector reasonToDisallowTapOnIconView:
+//   hook IMP 0x1852c   orig slot 0x70948
+// 0x0000d178
+//   class   SBHIconManager
+//   selector openFolderIcon:location:animated:withCompletion:
+//   hook IMP 0x185e4   orig slot 0x70950
+// 0x0000d1a4
+//   class   SBUIController
+//   selector activateApplication:
+//   hook IMP 0x187d4   orig slot 0x70958
+// 0x0000d1c4
+//   class   SBUIController
+//   selector activateApplication:fromIcon:location:activationSettings:actions:
+//   hook IMP 0x18848   orig slot 0x70960
+// 0x0000d208
+//   class   SBFolderBackgroundView
+//   selector layoutSubviews
+//   hook IMP 0x18944   orig slot 0x70970
+// 0x0000d250
+//   class   SBFolderIconImageView
+//   selector setBackgroundView:
+//   hook IMP 0x189a4   orig slot 0x70980
+// 0x0000d270
+//   class   SBFolderIconImageView
+//   selector _updateCurrentBackgroundStyle
+//   hook IMP 0x18a10   orig slot 0x70988
+// 0x0000d290
+//   class   SBFolderIconImageView
+//   selector updateImageAnimated:
+//   hook IMP 0x18a3c   orig slot 0x70990
+// 0x0000d2b0
+//   class   SBFolderIconImageView
+//   selector layoutSubviews
+//   hook IMP 0x18a68   orig slot 0x70998
+// 0x0000d320
+//   class   SBFolderView
+//   selector didMoveToWindow
+//   hook IMP 0x18b20   orig slot 0x709a8
+// 0x0000d340
+//   class   SBFolderView
+//   selector layoutSubviews
+//   hook IMP 0x18b78   orig slot 0x709b0
+// 0x0000d36c
+//   class   SBFolderTitleTextField
+//   selector setAllowsEditing:
+//   hook IMP 0x18bd0   orig slot 0x709b8
+// 0x0000d38c
+//   class   SBFolderTitleTextField
+//   selector setShowsEditUI:animated:
+//   hook IMP 0x18bf0   orig slot 0x709c0
+// 0x0000d3ac
+//   class   SBFolderTitleTextField
+//   selector allowsEditing
+//   hook IMP 0x18c10   orig slot 0x709c8
+// 0x0000d3cc
+//   class   SBFolderTitleTextField
+//   selector _textRectForBounds:
+//   hook IMP 0x18c30   orig slot 0x709d0
+// 0x0000d3ec
+//   class   SBFolderTitleTextField
+//   selector textRectForBounds:
+//   hook IMP 0x18c6c   orig slot 0x709d8
+// 0x0000d40c
+//   class   SBFolderTitleTextField
+//   selector editingRectForBounds:
+//   hook IMP 0x18ca8   orig slot 0x709e0
+// 0x0000d42c
+//   class   SBFolderTitleTextField
+//   selector borderRectForBounds:
+//   hook IMP 0x18ce4   orig slot 0x709e8
+// 0x0000d44c
+//   class   SBFolderTitleTextField
+//   selector clearButtonRectForBounds:
+//   hook IMP 0x18d20   orig slot 0x709f0
+// 0x0000d46c
+//   class   SBFolderTitleTextField
+//   selector sizeThatFits:
+//   hook IMP 0x18d5c   orig slot 0x709f8
+// 0x0000d598
+//   class   SBIconView
+//   selector initWithConfigurationOptions:listLayoutProvider:
+//   hook IMP 0x18ea8   orig slot 0x70a08
+// 0x0000d5bc
+//   class   SBIconView
+//   selector layoutSubviews
+//   hook IMP 0x18f00   orig slot 0x70a10
+// 0x0000d5e8
+//   class   SBIconListView
+//   selector makeIconView
+//   hook IMP 0x18ff0   orig slot 0x70a18
+// 0x0000d60c
+//   class   SBIconListView
+//   selector configureIconView:forIcon:
+//   hook IMP 0x1905c   orig slot 0x70a20
+// 0x0000d62c
+//   class   SBIconListView
+//   selector didAddIconView:
+//   hook IMP 0x19104   orig slot 0x70a28
+// 0x0000d648
+//   class   SBIconListView
+//   selector layoutSubviews
+//   hook IMP 0x19188   orig slot 0x70a30
+// 0x0000d670
+//   class   SBFloatingDockIconListView
+//   selector configureIconView:forIcon:
+//   hook IMP 0x191d4   orig slot 0x70a38
+// 0x0000d68c
+//   class   SBFloatingDockIconListView
+//   selector layoutSubviews
+//   hook IMP 0x19270   orig slot 0x70a40
+// 0x0000d6b4
+//   class   SBFloatingDockSuggestionsViewController
+//   selector configureIconView:forIcon:
+//   hook IMP 0x192a4   orig slot 0x70a48
+// 0x0000d6d4
+//   class   SBFloatingDockSuggestionsViewController
+//   selector dockViewDidBecomeVisible
+//   hook IMP 0x1933c   orig slot 0x70a50
+// 0x0000d6f8
+//   class   SBFloatingDockView
+//   selector layoutSubviews
+//   hook IMP 0x193cc   orig slot 0x70a58
+// 0x0000d724
+//   class   SBFolderIconZoomAnimator
+//   selector _prepareAnimation
+//   hook IMP 0x19490   orig slot 0x70a60
+// 0x0000d744
+//   class   SBFolderIconZoomAnimator
+//   selector _setAnimationFraction:
+//   hook IMP 0x19508   orig slot 0x70a68
+// 0x0000d764
+//   class   SBFolderIconZoomAnimator
+//   selector _cleanupAnimation
+//   hook IMP 0x19590   orig slot 0x70a70
+// 0x0000d7e4
+//   class   SBIconView
+//   selector layoutSubviews
+//   hook IMP 0x19bfc   orig slot 0x70a78
+// 0x0000d804
+//   class   SBIconView
+//   selector _updateIconImageViewAnimated:
+//   hook IMP 0x19c78   orig slot 0x70a80
+// 0x0000d828
+//   class   SBIconView
+//   selector didMoveToWindow
+//   hook IMP 0x19ca4   orig slot 0x70a88
+// 0x0000d84c
+//   class   SBIconView
+//   selector didMoveToSuperview
+//   hook IMP 0x19cf8   orig slot 0x70a90
+// 0x0000d870
+//   class   SBIconView
+//   selector setHidden:
+//   hook IMP 0x19d4c   orig slot 0x70a98
+// 0x0000d894
+//   class   SBIconView
+//   selector setAlpha:
+//   hook IMP 0x19d8c   orig slot 0x70aa0
+// 0x0000d8b8
+//   class   SBIconView
+//   selector prepareForReuse
+//   hook IMP 0x19de4   orig slot 0x70aa8
+// 0x0000d8e0
+//   class   SBIconImageView
+//   selector layoutSubviews
+//   hook IMP 0x19e18   orig slot 0x70ab0
+// 0x0000d900
+//   class   SBIconImageView
+//   selector setIcon:
+//   hook IMP 0x19e8c   orig slot 0x70ab8
+// 0x0000d920
+//   class   SBIconImageView
+//   selector updateImageAnimated:
+//   hook IMP 0x19f90   orig slot 0x70ac0
+// 0x0000d93c
+//   class   SBIconImageView
+//   selector setHidden:
+//   hook IMP 0x19fe8   orig slot 0x70ac8
+// 0x0000d958
+//   class   SBIconImageView
+//   selector setAlpha:
+//   hook IMP 0x1a04c   orig slot 0x70ad0
+// 0x0000d974
+//   class   SBIconImageView
+//   selector didMoveToWindow
+//   hook IMP 0x1a0c4   orig slot 0x70ad8
+// 0x0000d990
+//   class   SBIconImageView
+//   selector didMoveToSuperview
+//   hook IMP 0x1a11c   orig slot 0x70ae0
+// 0x0000d9ac
+//   class   SBIconImageView
+//   selector prepareForReuse
+//   hook IMP 0x1a174   orig slot 0x70ae8
+// 0x0000d9f8
+//   class   MTMaterialView
+//   selector didMoveToWindow
+//   hook IMP 0x1a1dc   orig slot 0x70af0
+// 0x0000da18
+//   class   MTMaterialView
+//   selector didMoveToSuperview
+//   hook IMP 0x1a270   orig slot 0x70af8
+// 0x0000da38
+//   class   MTMaterialView
+//   selector layoutSubviews
+//   hook IMP 0x1a304   orig slot 0x70b00
+// 0x0000da58
+//   class   MTMaterialView
+//   selector setHidden:
+//   hook IMP 0x1a334   orig slot 0x70b08
+// 0x0000da78
+//   class   MTMaterialView
+//   selector setFrame:
+//   hook IMP 0x1a380   orig slot 0x70b10
+// 0x0000da98
+//   class   MTMaterialView
+//   selector setBounds:
+//   hook IMP 0x1a490   orig slot 0x70b18
+// 0x0000dab8
+//   class   MTMaterialView
+//   selector setCenter:
+//   hook IMP 0x1a5a0   orig slot 0x70b20
+// 0x0000db58
+//   class   SBIconView
+//   selector applicationShortcutItems
+//   hook IMP 0x1a644   orig slot 0x70b28
+// 0x0000db78
+//   class   SBIconView
+//   selector setApplicationShortcutItems:
+//   hook IMP 0x1a6ac   orig slot 0x70b30
+// 0x0000db98
+//   class   SBIconView
+//   selector shouldActivateApplicationShortcutItem:atIndex:
+//   hook IMP 0x1a71c   orig slot 0x70b38
+// 0x0000dbb8
+//   class   458752
+//   selector activateShortcut:withBundleIdentifier:forIconView:
+//   hook IMP 0x1a7b0   orig slot 0x70b40
+// 0x0000dbe0
+//   class   SBHIconManager
+//   selector iconView:shouldActivateApplicationShortcutItem:atIndex:
+//   hook IMP 0x1a87c   orig slot 0x70b48
+// 0x0000dc08
+//   class   SBIconController
+//   selector iconManager:shouldActivateApplicationShortcutItem:atIndex:forIconView:
+//   hook IMP 0x1a93c   orig slot 0x70b50
+// 0x0000dc34
+//   class   SBSApplicationShortcutItem
+//   selector sbh_isSystemShortcut
+//   hook IMP 0x1aa24   orig slot 0x70b58
+// 0x0000dc54
+//   class   SBSApplicationShortcutItem
+//   selector sbh_shortcutSection
+//   hook IMP 0x1aa6c   orig slot 0x70b60
+// 0x0000dc80
+//   class   ?
+//   selector _applicationIconImageForBundleIdentifier:format:scale:
+//   hook IMP 0x1aab4   orig slot 0x70b68
+// 0x0000dcac
+//   class   NCNotificationViewController
+//   selector setNotificationRequest:
+//   hook IMP 0x1ab84   orig slot 0x70b70
+// 0x0000dccc
+//   class   NCNotificationViewController
+//   selector _updateLookView:withTitleFromProvidedStaticContent:
+//   hook IMP 0x1ac24   orig slot 0x70b78
+// 0x0000dcec
+//   class   NCNotificationViewController
+//   selector updateContent
+//   hook IMP 0x1acf0   orig slot 0x70b80
+// 0x0000dd18
+//   class   NCNotificationRequestContentProvider
+//   selector communicationAvatar
+//   hook IMP 0x1ad94   orig slot 0x70b88
+// 0x0000dd3c
+//   class   NCNotificationRequestCoalescingContentProvider
+//   selector communicationAvatar
+//   hook IMP 0x1ade0   orig slot 0x70b90
+// 0x0000dd68
+//   class   NCAvatarView
+//   selector initWithNotificationRequest:
+//   hook IMP 0x1ae2c   orig slot 0x70b98
+// 0x0000dd88
+//   class   NCAvatarView
+//   selector initWithNotificationRequest:compatibleWithInitialTraitCollection:
+//   hook IMP 0x1ae70   orig slot 0x70ba0
+// 0x0000dda8
+//   class   NCAvatarView
+//   selector initWithNotificationRequest:pointSize:compatibleWithInitialTraitCollection:
+//   hook IMP 0x1aeb4   orig slot 0x70ba8
+// 0x0000ddd4
+//   class   NCBadgedIconView
+//   selector initWithIconView:
+//   hook IMP 0x1aef8   orig slot 0x70bb0
+// 0x0000ddf4
+//   class   NCBadgedIconView
+//   selector initWithIconView:andIntegerIndicatorBadgeWithCount:
+//   hook IMP 0x1af44   orig slot 0x70bb8
+// 0x0000de14
+//   class   NCBadgedIconView
+//   selector setIconView:
+//   hook IMP 0x1af90   orig slot 0x70bc0
+// 0x0000de34
+//   class   NCBadgedIconView
+//   selector setBadgeViews:
+//   hook IMP 0x1b004   orig slot 0x70bc8
+// 0x0000de58
+//   class   NCBadgedIconView
+//   selector layoutSubviews
+//   hook IMP 0x1b070   orig slot 0x70bd0
+// 0x0000de84
+//   class   NCImageBrandingBadge
+//   selector initWithImage:
+//   hook IMP 0x1b0a4   orig slot 0x70bd8
+// 0x0000dea4
+//   class   NCImageBrandingBadge
+//   selector setBadgedIconView:
+//   hook IMP 0x1b168   orig slot 0x70be0
+// 0x0000dec8
+//   class   NCImageBrandingBadge
+//   selector setImage:
+//   hook IMP 0x1b248   orig slot 0x70be8
+// 0x0000def4
+//   class   NCNotificationShortLookView
+//   selector setSubordinateIcon:
+//   hook IMP 0x1b300   orig slot 0x70bf0
+// 0x0000df18
+//   class   NCNotificationLongLookView
+//   selector setSubordinateIcon:
+//   hook IMP 0x1b398   orig slot 0x70bf8
+// 0x0000df3c
+//   class   NCExpandedPlatterView
+//   selector setSubordinateIcon:
+//   hook IMP 0x1b430   orig slot 0x70c00
+// 0x0000df60
+//   class   NCNotificationContentView
+//   selector setSubordinateIcon:
+//   hook IMP 0x1b4c8   orig slot 0x70c08
+// 0x0000df88
+//   class   NCNotificationSeamlessContentView
+//   selector setSubordinateIcon:
+//   hook IMP 0x1b560   orig slot 0x70c10
+// 0x0000dfac
+//   class   NCNotificationSeamlessContentView
+//   selector _configureBadgeIconViewIfNecessary
+//   hook IMP 0x1b5f8   orig slot 0x70c18
+// 0x0000dfc8
+//   class   NCNotificationSeamlessContentView
+//   selector layoutSubviews
+//   hook IMP 0x1b660   orig slot 0x70c20
+// 0x0000dff0
+//   class   NCNotificationRichContentView
+//   selector setSubordinateIcon:
+//   hook IMP 0x1b6c8   orig slot 0x70c28
+// 0x0000e00c
+//   class   NCNotificationRichContentView
+//   selector _configureBadgeIconViewIfNecessary
+//   hook IMP 0x1b760   orig slot 0x70c30
+// 0x0000e028
+//   class   NCNotificationRichContentView
+//   selector ?
+//   hook IMP 0x1b7c8   orig slot 0x70c38
+// 0x0000e054
+//   class   NCDigestMosaicFeaturedNotificationContentView
+//   selector setSectionIdentifier:
+//   hook IMP 0x1b830   orig slot 0x70c40
+// 0x0000e070
+//   class   NCDigestMosaicFeaturedNotificationContentView
+//   selector setSubordinateIcon:
+//   hook IMP 0x1b8b8   orig slot 0x70c48
+// 0x0000e09c
+//   class   NCFullScreenStagingBannerView
+//   selector _setSubordinateIcon:
+//   hook IMP 0x1b950   orig slot 0x70c50
+// 0x0000e0bc
+//   class   NCFullScreenStagingBannerView
+//   selector _configureBadgedIconViewIfNecessary
+//   hook IMP 0x1b9e8   orig slot 0x70c58
+// 0x0000e0d8
+//   class   NCFullScreenStagingBannerView
+//   selector ?
+//   hook IMP 0x1ba50   orig slot 0x70c60
+// 0x0000e104
+//   class   SBFluidSwitcherSpaceTitleItem
+//   selector initWithDisplayItem:
+//   hook IMP 0x1bab8   orig slot 0x70c68
+// 0x0000e120
+//   class   SBFluidSwitcherSpaceTitleItem
+//   selector ?
+//   hook IMP 0x1bafc   orig slot 0x70c70
+// 0x0000e148
+//   class   SBFluidSwitcherSpaceTitleItemController
+//   selector _computeHeaderItems
+//   hook IMP 0x1bbd0   orig slot 0x70c78
+// 0x0000e174
+//   class   SBApplicationBlurContentView
+//   selector initWithFrame:bundleIdentifier:icon:targetViewToBlur:initialIconScale:
+//   hook IMP 0x1bcf4   orig slot 0x70c80
+// 0x0000e194
+//   class   SBApplicationBlurContentView
+//   selector initWithFrame:bundleIdentifier:targetViewToBlur:
+//   hook IMP 0x1bdf8   orig slot 0x70c88
+// 0x0000e1b4
+//   class   SBApplicationBlurContentView
+//   selector initWithFrame:bundleIdentifier:targetViewToBlur:initialIconScale:
+//   hook IMP 0x1bedc   orig slot 0x70c90
+// 0x0000e1d0
+//   class   SBApplicationBlurContentView
+//   selector ?
+//   hook IMP 0x1bfd0   orig slot 0x70c98
+// 0x0000e230
+//   class   SBIcon
+//   selector iconImageWithInfo:
+//   hook IMP 0x1bffc   orig slot 0x70ca0
+// 0x0000e260
+//   class   SBLeafIcon
+//   selector generateIconImageWithInfo:
+//   hook IMP 0x1c0a0   orig slot 0x70ca8
+// 0x0000e284
+//   class   SBLeafIcon
+//   selector unmaskedIconImageWithInfo:
+//   hook IMP 0x1c144   orig slot 0x70cb0
+// 0x0000e2b0
+//   class   SBHClockApplicationIconImageView
+//   selector setIcon:location:animated:
+//   hook IMP 0x1c1e8   orig slot 0x70cb8
+// 0x0000e2d0
+//   class   SBHClockApplicationIconImageView
+//   selector contentsImage
+//   hook IMP 0x1c290   orig slot 0x70cc0
+// 0x0000e2f0
+//   class   SBHClockApplicationIconImageView
+//   selector squareContentsImage
+//   hook IMP 0x1c33c   orig slot 0x70cc8
+// 0x0000e310
+//   class   SBHClockApplicationIconImageView
+//   selector updateUnanimated
+//   hook IMP 0x1c3e8   orig slot 0x70cd0
+// 0x0000e32c
+//   class   SBHClockApplicationIconImageView
+//   selector ?
+//   hook IMP 0x1c414   orig slot 0x70cd8
+// 0x0000e354
+//   class   SBHCalendarApplicationIcon
+//   selector generateIconImageWithInfo:
+//   hook IMP 0x1c440   orig slot 0x70ce0
+// 0x0000e370
+//   class   SBHCalendarApplicationIcon
+//   selector unmaskedIconImageWithInfo:
+//   hook IMP 0x1c4e4   orig slot 0x70ce8
+// 0x0000e3c4
+//   class   generateIconImageWithInfo:
+//   selector ACPowerChanged
+//   hook IMP 0x163ec   orig slot 0x70718
+// 0x0000e3e0
+//   class   unmaskedIconImageWithInfo:
+//   selector turnOnScreenFullyWithBacklightSource:
+//   hook IMP 0x16470   orig slot 0x70720
+// 0x0000e464
+//   class   SBHIconImageCache
+//   selector initWithName:iconImageInfo:
+//   hook IMP 0x1c588   orig slot 0x70cf0
+// 0x0000e484
+//   class   SBHIconImageCache
+//   selector imageForIcon:
+//   hook IMP 0x1c5dc   orig slot 0x70cf8
+// 0x0000e4a4
+//   class   SBHIconImageCache
+//   selector imageForIcon:options:
+//   hook IMP 0x1c68c   orig slot 0x70d00
+// 0x0000e4c4
+//   class   SBHIconImageCache
+//   selector realImageForIcon:
+//   hook IMP 0x1c74c   orig slot 0x70d08
+// 0x0000e4e4
+//   class   SBHIconImageCache
+//   selector realImageForIcon:options:
+//   hook IMP 0x1c7fc   orig slot 0x70d10
+// 0x0000e504
+//   class   SBHIconImageCache
+//   selector unmaskedImageForIcon:
+//   hook IMP 0x1c8bc   orig slot 0x70d18
+// 0x0000e524
+//   class   SBHIconImageCache
+//   selector unmaskedImageForIcon:options:
+//   hook IMP 0x1c960   orig slot 0x70d20
+// 0x0000e544
+//   class   SBHIconImageCache
+//   selector sb_iconImageForIcon:
+//   hook IMP 0x1ca14   orig slot 0x70d28
+// 0x0000e578
+//   class   ?
+//   selector gridCellImageOfSize:forIcon:iconImageInfo:
+//   hook IMP 0x1cac4   orig slot 0x70d30
+// 0x0000e598
+//   class   SBFolderIconImageCache
+//   selector init
+//   hook IMP 0x1cbc0   orig slot 0x70d38
+// 0x0000e5b8
+//   class   SBFolderIconImageCache
+//   selector initWithListLayout:
+//   hook IMP 0x1cc14   orig slot 0x70d40
+// 0x0000e5d8
+//   class   SBFolderIconImageCache
+//   selector initWithListLayout:sharedCache:
+//   hook IMP 0x1cc68   orig slot 0x70d48
+// 0x0000e5f4
+//   class   SBFolderIconImageCache
+//   selector gridCellImageOfSize:forIcon:iconImageInfo:
+//   hook IMP 0x1ccbc   orig slot 0x70d50
+// 0x0000e618
+//   class   SBFolderIconImageSharedCache
+//   selector gridCellImageOfSize:forIcon:iconImageInfo:
+//   hook IMP 0x1cdbc   orig slot 0x70d58
+// 0x0000e644
+//   class   SBIconImageView
+//   selector setIcon:
+//   hook IMP 0x1cebc   orig slot 0x70d60
+// 0x0000e664
+//   class   SBIconImageView
+//   selector prepareForReuse
+//   hook IMP 0x1cf30   orig slot 0x70d68
+// 0x0000e680
+//   class   SBIconImageView
+//   selector ?
+//   hook IMP 0x1cf64   orig slot 0x70d70
+// 0x0000e6a0
+//   class   SBIconImageView
+//   selector updateImageAnimated:
+//   hook IMP 0x1cf90   orig slot 0x70d78
+// 0x0000e6bc
+//   class   SBIconImageView
+//   selector ?
+//   hook IMP 0x1cfbc   orig slot 0x70d80
+// 0x0000e720
+//   class   SBIconView
+//   selector applicationShortcutItems
+//   hook IMP 0x1d0dc   orig slot 0x70d88
+// 0x0000e740
+//   class   SBIconView
+//   selector setApplicationShortcutItems:
+//   hook IMP 0x1d144   orig slot 0x70d90
+// 0x0000e760
+//   class   ?
+//   selector activateShortcut:withBundleIdentifier:forIconView:
+//   hook IMP 0x1d1b4   orig slot 0x70d98
+// 0x0000e78c
+//   class   SBSApplicationShortcutItem
+//   selector sbh_isSystemShortcut
+//   hook IMP 0x1d3ac   orig slot 0x70da0
+// 0x0000e7ac
+//   class   SBSApplicationShortcutItem
+//   selector sbh_shortcutSection
+//   hook IMP 0x1d3f4   orig slot 0x70da8
+// 0x0000e810
+//   class   SBIconLabelImageParametersBuilder
+//   selector buildParameters
+//   hook IMP 0x1d43c   orig slot 0x70db8
+// 0x0000e840
+//   class   ?
+//   selector iconLabelViewWithSettings:imageParameters:forIconView:
+//   hook IMP 0x1d49c   orig slot 0x70dc0
+// 0x0000e86c
+//   class   SBIconLabelViewDefaultFactory
+//   selector canUseIconSimpleLabelViewToDisplayLabelWithSettings:imageParameters:forIconView:
+//   hook IMP 0x1d574   orig slot 0x70dc8
+// 0x0000e888
+//   class   SBIconLabelViewDefaultFactory
+//   selector iconLabelViewWithSettings:imageParameters:forIconView:
+//   hook IMP 0x1d648   orig slot 0x70dd0
+// 0x0000e8b8
+//   class   ?
+//   selector legibilityStrengthForLegibilityStyle:
+//   hook IMP 0x1d720   orig slot 0x70dd8
+// 0x0000e8d8
+//   class   iconLabelViewWithSettings:imageParameters:forIconView:
+//   selector needsLegibilityImageForParameters:
+//   hook IMP 0x1d740   orig slot 0x70de0
+// 0x0000e904
+//   class   SBIconLegibilityLabelView
+//   selector updateIconLabelWithSettings:imageParameters:
+//   hook IMP 0x1d7c4   orig slot 0x70de8
+// 0x0000e928
+//   class   SBIconSimpleLabelView
+//   selector updateIconLabelWithSettings:imageParameters:
+//   hook IMP 0x1d864   orig slot 0x70df0
+// 0x0000e94c
+//   class   SBIconSuggestionLabelView
+//   selector updateIconLabelWithSettings:imageParameters:
+//   hook IMP 0x1d904   orig slot 0x70df8
+// 0x0000e984
+//   class   NCBadgedIconView
+//   selector setBadgeViews:
+//   hook IMP 0x1d9a4   orig slot 0x70e08
+// 0x0000e9a4
+//   class   NCBadgedIconView
+//   selector layoutSubviews
+//   hook IMP 0x1dbf8   orig slot 0x70e10
+// 0x0000e9f0
+//   class   SBSearchGesture
+//   selector revealAnimated:
+//   hook IMP 0x1dc24   orig slot 0x70e18
+// 0x0000ea1c
+//   class   SBRootFolderView
+//   selector didMoveToWindow
+//   hook IMP 0x1dc60   orig slot 0x70e20
+// 0x0000ea3c
+//   class   SBRootFolderView
+//   selector didMoveToSuperview
+//   hook IMP 0x1dcac   orig slot 0x70e28
+// 0x0000ea78
+//   class   SBDockView
+//   selector layoutSubviews
+//   hook IMP 0x1dcf8   orig slot 0x70e38
+// 0x0000ea98
+//   class   SBDockView
+//   selector setBackgroundAlpha:
+//   hook IMP 0x1dd68   orig slot 0x70e40
+// 0x0000eab8
+//   class   SBDockView
+//   selector traitCollectionDidChange:
+//   hook IMP 0x1dd88   orig slot 0x70e48
+// 0x0000ead8
+//   class   SBDockView
+//   selector _backgroundContrastDidChange:
+//   hook IMP 0x1de30   orig slot 0x70e50
+// 0x0000eb00
+//   class   SBFloatingDockPlatterView
+//   selector layoutSubviews
+//   hook IMP 0x1ded8   orig slot 0x70e58
+// 0x0000eb20
+//   class   SBFloatingDockPlatterView
+//   selector _dynamicUserInterfaceTraitDidChange
+//   hook IMP 0x1df6c   orig slot 0x70e60
+// 0x0000eb58
+//   class   SBIconListGridLayoutConfiguration
+//   selector numberOfPortraitColumns
+//   hook IMP 0x1e008   orig slot 0x70e68
+// 0x0000eb8c
+//   class   CSQuickActionsViewController
+//   selector hasFlashlight
+//   hook IMP 0x1e0d4   orig slot 0x70e78
+// 0x0000ebc0
+//   class   CSQuickActionsViewController
+//   selector hasCamera
+//   hook IMP 0x1e0f4   orig slot 0x70e88
+// 0x0000ebe8
+//   class   SpringBoard
+//   selector applicationDidFinishLaunching:
+//   hook IMP 0x1e114   orig slot 0x70e90
+// 0x0000ec1c
+//   class   CSScrollView
+//   selector handlePan:
+//   hook IMP 0x1e1ec   orig slot 0x70ea0
+// 0x0000ec60
+//   class   SBMainDisplayPolicyAggregator
+//   selector _allowsCapabilityLockScreenTodayViewWithExplanation:
+//   hook IMP 0x1e3f4   orig slot 0x70eb0
+// 0x0000ed1c
+//   class   CSCoverSheetViewController
+//   selector gestureRecognizerShouldBegin:
+//   hook IMP 0x1e414   orig slot 0x70ec0
+// 0x0000ed70
+//   class   CSTeachableMomentsContainerView
+//   selector layoutSubviews
+//   hook IMP 0x1e4f8   orig slot 0x70ed0
+// 0x0000ed9c
+//   class   SBControlCenterController
+//   selector _shouldShowGrabberOnFirstSwipe
+//   hook IMP 0x1e5d4   orig slot 0x70ed8
+// 0x0000edbc
+//   class   SBControlCenterController
+//   selector grabberTongue:shouldShowTongueOnFirstSwipeWithEdgeLocation:
+//   hook IMP 0x1e5f4   orig slot 0x70ee0
+// 0x0000ee18
+//   class   SBHomeGrabberView
+//   selector layoutSubviews
+//   hook IMP 0x1e688   orig slot 0x70ef0
+// 0x0000ee38
+//   class   SBHomeGrabberView
+//   selector _newPillView
+//   hook IMP 0x1e84c   orig slot 0x70ef8
+// 0x0000ee60
+//   class   CSHomeAffordanceView
+//   selector layoutSubviews
+//   hook IMP 0x1e8f0   orig slot 0x70f00
+// 0x0000ee80
+//   class   CSHomeAffordanceView
+//   selector didMoveToWindow
+//   hook IMP 0x1e9d4   orig slot 0x70f08
+// 0x0000eea0
+//   class   CSHomeAffordanceView
+//   selector pointInside:withEvent:
+//   hook IMP 0x1eab8   orig slot 0x70f10
+// 0x0000eee4
+//   class   SBDashBoardLockScreenEnvironment
+//   selector biometricUnlockBehavior:requestsUnlock:withFeedback:
+//   hook IMP 0x1eb54   orig slot 0x70f20
+// 0x0000ef0c
+//   class   SBUIBiometricResource
+//   selector biometricKitInterface:handleEvent:
+//   hook IMP 0x1ebcc   orig slot 0x70f28
+// 0x0000ef50
+//   class   SBFluidSwitcherViewController
+//   selector isDevicePad
+//   hook IMP 0x1ece4   orig slot 0x70f38
+// 0x0000ef94
+//   class   SBSwitcherModifier
+//   selector shouldZoomToSystemApertureForEvent:activeLayout:
+//   hook IMP 0x1ed04   orig slot 0x70f48
+// 0x0000efdc
+//   class   SBFluidSwitcherAnimationSettings
+//   selector setHomeScreenScaleInApplication:
+//   hook IMP 0x1edac   orig slot 0x70f58
+// 0x0000effc
+//   class   SBFluidSwitcherAnimationSettings
+//   selector setHomeScreenScaleInSwitcher:
+//   hook IMP 0x1edd0   orig slot 0x70f60
+// 0x0000f070
+//   class   BluetoothManager
+//   selector bluetoothStateActionWithCompletion:
+//   hook IMP 0x1edf4   orig slot 0x70f70
+// 0x0000f09c
+//   class   WFControlCenterStateMonitor
+//   selector _airplaneModeEnabled
+//   hook IMP 0x1ef24   orig slot 0x70f78
+// 0x0000f0bc
+//   class   WFControlCenterStateMonitor
+//   selector performAction:
+//   hook IMP 0x1efdc   orig slot 0x70f80
+// 0x0000f104
+//   class   SBLockScreenManager
+//   selector _setUILocked:
+//   hook IMP 0x1f0a0   orig slot 0x70f90
+// 0x0000f124
+//   class   SBLockScreenManager
+//   selector _reallySetUILocked:
+//   hook IMP 0x1f0cc   orig slot 0x70f98
+// 0x0000f224
+//   class   ?
+//   selector isFloatingDockSupported
+//   hook IMP 0x1f0f8   orig slot 0x70fa8
+// 0x0000f264
+//   class   SBFloatingDockBehaviorAssertion
+//   selector gesturePossible
+//   hook IMP 0x1f118   orig slot 0x70fb0
+// 0x0000f2c0
+//   class   _SBGridFloorSwitcherModifier
+//   selector isSwitcherWindowVisible
+//   hook IMP 0x1f148   orig slot 0x70fb8
+// 0x0000f2dc
+//   class   _SBGridFloorSwitcherModifier
+//   selector appLayoutToScrollToBeforeTransitioning
+//   hook IMP 0x1f19c   orig slot 0x70fc0
+// 0x0000f31c
+//   class   SBDeckSwitcherModifier
+//   selector shouldConfigureInAppDockHiddenAssertion
+//   hook IMP 0x1f1f8   orig slot 0x70fc8
+// 0x0000f378
+//   class   SBFloatingDockController
+//   selector initWithWindowScene:iconController:
+//   hook IMP 0x1f234   orig slot 0x70fd0
+// 0x0000f394
+//   class   SBFloatingDockController
+//   selector floatingDockWindow
+//   hook IMP 0x1f2fc   orig slot 0x70fd8
+// 0x0000f3e4
+//   class   SBFloatingDockViewController
+//   selector translationFromFullyPresentedFrame
+//   hook IMP 0x1f344   orig slot 0x70fe0
+// 0x0000f408
+//   class   SBFloatingDockController
+//   selector translationFromFullyPresentedFrame
+//   hook IMP 0x1f39c   orig slot 0x70fe8
+// 0x0000f494
+//   class   SBFloatingDockDefaults
+//   selector recentsEnabled
+//   hook IMP 0x1f3f4   orig slot 0x70ff0
+// 0x0000f4b0
+//   class   SBFloatingDockDefaults
+//   selector setRecentsEnabled:
+//   hook IMP 0x1f420   orig slot 0x70ff8
+// 0x0000f4cc
+//   class   SBFloatingDockDefaults
+//   selector appLibraryEnabled
+//   hook IMP 0x1f44c   orig slot 0x71000
+// 0x0000f4e8
+//   class   SBFloatingDockDefaults
+//   selector setAppLibraryEnabled:
+//   hook IMP 0x1f488   orig slot 0x71008
+// 0x0000f528
+//   class   SBFloatingDockView
+//   selector updateDividerVisualStyling
+//   hook IMP 0x1f4c0   orig slot 0x71010
+// 0x0000f568
+//   class   SBIconListView
+//   selector maximumIconCount
+//   hook IMP 0x1f4ec   orig slot 0x71018
+// 0x0000f604
+//   class   SBFloatingDockSuggestionsModel
+//   selector maxSuggestions
+//   hook IMP 0x1f58c   orig slot 0x71020
+// 0x0000f620
+//   class   SBFloatingDockSuggestionsModel
+//   selector recentDisplayItemsController:shouldAddItem:
+//   hook IMP 0x1f5b0   orig slot 0x71028
+// 0x0000f644
+//   class   SBFloatingDockSuggestionsViewController
+//   selector initWithNumberOfRecents:iconController:applicationController:layoutStateTransitionCoordinator:suggestionsModel:iconViewProvider:
+//   hook IMP 0x1f6e4   orig slot 0x71030
+// 0x0000f668
+//   class   SBRecentDisplayItemsController
+//   selector initWithRemovalPersonality:movePersonality:transitionFromSources:maxDisplayItems:eventSource:applicationController:
+//   hook IMP 0x1f708   orig slot 0x71038
+// 0x0000f6ac
+//   class   SBFloatingDockSuggestionsModel
+//   selector initWithMaximumNumberOfSuggestions:iconController:recentsController:recentsDataStore:recentsDefaults:floatingDockDefaults:appSuggestionManager:analyticsClient:applicationController:
+//   hook IMP 0x1f72c   orig slot 0x71040
+// 0x0000f6ec
+//   class   SBFloatingDockSuggestionsModel
+//   selector initWithMaximumNumberOfSuggestions:iconController:recentsController:recentsDataStore:recentsDefaults:floatingDockDefaults:appSuggestionManager:applicationController:
+//   hook IMP 0x1f760   orig slot 0x71048
+// 0x0000f734
+//   class   CSCoverSheetViewController
+//   selector viewDidAppear:
+//   hook IMP 0x1f78c   orig slot 0x71050
+// 0x0000f754
+//   class   CSCoverSheetViewController
+//   selector viewDidLayoutSubviews
+//   hook IMP 0x1f81c   orig slot 0x71058
+// 0x0000f774
+//   class   CSCoverSheetViewController
+//   selector setPasscodeLockVisible:animated:
+//   hook IMP 0x1f8ac   orig slot 0x71060
+// 0x0000f794
+//   class   CSCoverSheetViewController
+//   selector setPasscodeLockVisible:animated:completion:
+//   hook IMP 0x1f8c0   orig slot 0x71068
+// 0x0000f7b4
+//   class   CSCoverSheetViewController
+//   selector setPasscodeLockVisible:animated:forceBiometricPresentation:completion:
+//   hook IMP 0x1f8d4   orig slot 0x71070
+// 0x0000f7dc
+//   class   CSPasscodeViewController
+//   selector viewWillAppear:
+//   hook IMP 0x1f8e8   orig slot 0x71078
+// 0x0000f7f8
+//   class   CSPasscodeViewController
+//   selector viewDidAppear:
+//   hook IMP 0x1f900   orig slot 0x71080
+// 0x0000f814
+//   class   CSPasscodeViewController
+//   selector viewWillDisappear:
+//   hook IMP 0x1f918   orig slot 0x71088
+// 0x0000f830
+//   class   CSPasscodeViewController
+//   selector viewDidDisappear:
+//   hook IMP 0x1f92c   orig slot 0x71090
+// 0x0000f88c
+//   class   NCNotificationMasterList
+//   selector init
+//   hook IMP 0x1f940   orig slot 0x71098
+// 0x0000f8b4
+//   class   NCNotificationStructuredListViewController
+//   selector init
+//   hook IMP 0x1f980   orig slot 0x710a0
+// 0x0000f8d4
+//   class   NCNotificationStructuredListViewController
+//   selector viewDidLoad
+//   hook IMP 0x1f9ec   orig slot 0x710a8
+// 0x0000f8f4
+//   class   NCNotificationStructuredListViewController
+//   selector setMasterList:
+//   hook IMP 0x1faa0   orig slot 0x710b0
+// 0x0000f924
+//   class   CSCoverSheetViewController
+//   selector viewDidAppear:
+//   hook IMP 0x1fb18   orig slot 0x710b8
+// 0x0000f944
+//   class   CSCoverSheetViewController
+//   selector viewDidLayoutSubviews
+//   hook IMP 0x1fba0   orig slot 0x710c0
+// 0x0000f964
+//   class   CSCoverSheetViewController
+//   selector setPasscodeLockVisible:animated:
+//   hook IMP 0x1fc20   orig slot 0x710c8
+// 0x0000f984
+//   class   CSCoverSheetViewController
+//   selector setPasscodeLockVisible:animated:completion:
+//   hook IMP 0x1fc34   orig slot 0x710d0
+// 0x0000f9a4
+//   class   CSCoverSheetViewController
+//   selector setPasscodeLockVisible:animated:forceBiometricPresentation:completion:
+//   hook IMP 0x1fc48   orig slot 0x710d8
+// 0x0000f9cc
+//   class   CSPasscodeViewController
+//   selector ?
+//   hook IMP 0x1fc5c   orig slot 0x710e0
+// 0x0000f9e8
+//   class   CSPasscodeViewController
+//   selector viewDidAppear:
+//   hook IMP 0x1fc74   orig slot 0x710e8
+// 0x0000fa04
+//   class   CSPasscodeViewController
+//   selector ?
+//   hook IMP 0x1fc8c   orig slot 0x710f0
+// 0x0000fa20
+//   class   CSPasscodeViewController
+//   selector ?
+//   hook IMP 0x1fca0   orig slot 0x710f8
+// 0x0000fa58
+//   class   SBFTapToWakeGestureRecognizer
+//   selector _isTapEvent:
+//   hook IMP 0x1fcc4   orig slot 0x71100
+// 0x0000fb44
+//   class   UIDevice
+//   selector userInterfaceIdiom
+//   hook IMP 0x1fd30   orig slot 0x71110
+// 0x0000fb68
+//   class   SBMainSwitcherControllerCoordinator
+//   selector _loadContentViewControllerIfNecessaryForWindowScene:
+//   hook IMP 0x1fd80   orig slot 0x71118
+// 0x0000fb90
+//   class   SBAppSwitcherSettings
+//   selector effectiveSwitcherStyle
+//   hook IMP 0x1fe30   orig slot 0x71120
+// 0x0000fbac
+//   class   SBAppSwitcherSettings
+//   selector gridSwitcherPageScale
+//   hook IMP 0x1fe50   orig slot 0x71128
+// 0x0000fbc8
+//   class   SBAppSwitcherSettings
+//   selector gridSwitcherHorizontalInterpageSpacingPortrait
+//   hook IMP 0x1fe8c   orig slot 0x71130
+// 0x0000fbe4
+//   class   SBAppSwitcherSettings
+//   selector gridSwitcherVerticalNaturalSpacingPortrait
+//   hook IMP 0x1fec8   orig slot 0x71138
+// 0x0000fc00
+//   class   SBAppSwitcherSettings
+//   selector setDefaultValues
+//   hook IMP 0x1ff04   orig slot 0x71140
+// 0x0000fc38
+//   class   SBFluidSwitcherIconImageContainerView
+//   selector didMoveToWindow
+//   hook IMP 0x1ffac   orig slot 0x71148
+// 0x0000fc84
+//   class   SBAppSwitcherScrollView
+//   selector didMoveToWindow
+//   hook IMP 0x20018   orig slot 0x71150
+// 0x0000fca4
+//   class   SBAppSwitcherScrollView
+//   selector setScrollEnabled:
+//   hook IMP 0x200a8   orig slot 0x71158
+// 0x0000fcd0
+//   class   SBFluidSwitcherViewController
+//   selector viewDidLoad
+//   hook IMP 0x2013c   orig slot 0x71160
+// 0x0000fcec
+//   class   SBFluidSwitcherViewController
+//   selector ?
+//   hook IMP 0x201a0   orig slot 0x71168
+// 0x0000fd08
+//   class   SBFluidSwitcherViewController
+//   selector ?
+//   hook IMP 0x20218   orig slot 0x71170
+// 0x0000fd24
+//   class   SBFluidSwitcherViewController
+//   selector ?
+//   hook IMP 0x20238   orig slot 0x71178
+// 0x0000fd7c
+//   class   SBMainSwitcherControllerCoordinator
+//   selector layoutStateTransitionCoordinator:transitionDidBeginWithTransitionContext:
+//   hook IMP 0x203c4   orig slot 0x71180
+// 0x0000fd9c
+//   class   SBMainSwitcherControllerCoordinator
+//   selector layoutStateTransitionCoordinator:transitionWillEndWithTransitionContext:
+//   hook IMP 0x203d0   orig slot 0x71188
+// 0x0000fdbc
+//   class   SBMainSwitcherControllerCoordinator
+//   selector layoutStateTransitionCoordinator:transitionDidEndWithTransitionContext:
+//   hook IMP 0x20498   orig slot 0x71190
+// 0x0000fddc
+//   class   SBMainSwitcherControllerCoordinator
+//   selector dismissMainSwitcherNoninteractivelyAnimated:
+//   hook IMP 0x20560   orig slot 0x71198
+// 0x0000fdfc
+//   class   SBMainSwitcherControllerCoordinator
+//   selector dismissAllSwitchersNoninteractivelyAnimated:
+//   hook IMP 0x205a8   orig slot 0x711a0
+// 0x0000fe60
+//   class   SBBootDefaults
+//   selector dontLockAfterCrash
+//   hook IMP 0x205f0   orig slot 0x711b0
+// 0x0000fea4
+//   class   CSCoverSheetTransitionSettings
+//   selector iconsFlyIn
+//   hook IMP 0x20610   orig slot 0x711c0
+// 0x0000fee8
+//   class   SBHUnlockSettings
+//   selector setDefaultValues
+//   hook IMP 0x20630   orig slot 0x711d0
+// 0x0000ff44
+//   class   ?
+//   selector playScreenshotSound
+//   hook IMP 0x206c0   orig slot 0x711d8
+// 0x0000ff6c
+//   class   SSDittoRemoteConnection
+//   selector sendDittoProcessEnvironmentDescription:completion:
+//   hook IMP 0x206ec   orig slot 0x711e0
+// 0x0000ffe8
+//   class   _UIStatusBarIndicatorQuietModeItem
+//   selector canEnableDisplayItem:fromData:
+//   hook IMP 0x207d8   orig slot 0x711e8
+// 0x00010008
+//   class   _UIStatusBarIndicatorQuietModeItem
+//   selector systemImageNameForUpdate:
+//   hook IMP 0x2087c   orig slot 0x711f0
+// 0x00010030
+//   class   _UIStatusBarDataQuietModeEntry
+//   selector initFromData:type:focusName:maxFocusLength:imageName:maxImageLength:boolValue:
+//   hook IMP 0x20a28   orig slot 0x711f8
+// 0x0001005c
+//   class   SBRingerControl
+//   selector initWithBannerManager:soundController:
+//   hook IMP 0x20bc8   orig slot 0x71200
+// 0x0001007c
+//   class   SBRingerControl
+//   selector initWithHUDController:soundController:
+//   hook IMP 0x20ccc   orig slot 0x71208
+// 0x0001009c
+//   class   SBRingerControl
+//   selector setRingerMuted:
+//   hook IMP 0x20dd0   orig slot 0x71210
+// 0x000100bc
+//   class   SBRingerControl
+//   selector setRingerMuted:withFeedback:reason:clientType:
+//   hook IMP 0x20e14   orig slot 0x71218
+// 0x000100e8
+//   class   UIStatusBar_Base
+//   selector _initWithFrame:showForegroundView:wantsServer:inProcessStateProvider:
+//   hook IMP 0x20e58   orig slot 0x71220
+// 0x00010194
+//   class   STUIStatusBar
+//   selector _updateWithAggregatedData:
+//   hook IMP 0x20f6c   orig slot 0x71228
+// 0x000101b4
+//   class   STUIStatusBar
+//   selector _updateWithData:completionHandler:
+//   hook IMP 0x21078   orig slot 0x71230
+// 0x000101e0
+//   class   STUIStatusBarIndicatorQuietModeItem
+//   selector canEnableDisplayItem:fromData:
+//   hook IMP 0x211b0   orig slot 0x71238
+// 0x00010200
+//   class   STUIStatusBarIndicatorQuietModeItem
+//   selector systemImageNameForUpdate:
+//   hook IMP 0x21254   orig slot 0x71240
+// 0x00010228
+//   class   STUIStatusBarCellularNetworkTypeView
+//   selector setText:prefixLength:withStyleAttributes:forType:animated:
+//   hook IMP 0x2141c   orig slot 0x71248
+// 0x00010258
+//   class   STUIStatusBarStringView
+//   selector applyStyleAttributes:
+//   hook IMP 0x21608   orig slot 0x71250
+// 0x00010278
+//   class   STUIStatusBarStringView
+//   selector setText:
+//   hook IMP 0x217a0   orig slot 0x71258
+// 0x000102a4
+//   class   STUIStatusBarWifiSignalView
+//   selector setActiveColor:
+//   hook IMP 0x2188c   orig slot 0x71260
+// 0x000102c4
+//   class   STUIStatusBarWifiSignalView
+//   selector setInactiveColor:
+//   hook IMP 0x21954   orig slot 0x71268
+// 0x000102e0
+//   class   STUIStatusBarWifiSignalView
+//   selector applyStyleAttributes:
+//   hook IMP 0x21a54   orig slot 0x71270
+// 0x00010328
+//   class   STUIStatusBarCellularNetworkTypeView
+//   selector setText:prefixLength:withStyleAttributes:forType:animated:
+//   hook IMP 0x21b58   orig slot 0x71278
+// 0x00010354
+//   class   STUIStatusBarStringView
+//   selector applyStyleAttributes:
+//   hook IMP 0x21df8   orig slot 0x71280
+// 0x00010374
+//   class   STUIStatusBarStringView
+//   selector setText:
+//   hook IMP 0x21e64   orig slot 0x71288
+// 0x000103c4
+//   class   _UIStatusBar
+//   selector _updateWithAggregatedData:
+//   hook IMP 0x21ed0   orig slot 0x71290
+// 0x000103e4
+//   class   _UIStatusBar
+//   selector _updateWithData:completionHandler:
+//   hook IMP 0x21fe0   orig slot 0x71298
+// 0x00010410
+//   class   _UIStatusBarWifiItem
+//   selector _fillColorForUpdate:entry:
+//   hook IMP 0x2211c   orig slot 0x712a0
+// 0x00010434
+//   class   _UIStatusBarWifiItem
+//   selector applyUpdate:toDisplayItem:
+//   hook IMP 0x221fc   orig slot 0x712a8
+// 0x00010458
+//   class   _UIStatusBarCellularItem
+//   selector applyUpdate:toDisplayItem:
+//   hook IMP 0x22638   orig slot 0x712b0
+// 0x00010488
+//   class   _UIStatusBarCellularNetworkTypeView
+//   selector applyStyleAttributes:
+//   hook IMP 0x229bc   orig slot 0x712b8
+// 0x000104a8
+//   class   _UIStatusBarCellularNetworkTypeView
+//   selector setText:prefixLength:withStyleAttributes:forType:animated:
+//   hook IMP 0x22ac4   orig slot 0x712c0
+// 0x000104cc
+//   class   _UIStatusBarStringView
+//   selector applyStyleAttributes:
+//   hook IMP 0x22c18   orig slot 0x712c8
+// 0x00010514
+//   class   _UIStatusBarIndicatorVPNItem
+//   selector imageNameForUpdate:
+//   hook IMP 0x22d20   orig slot 0x712d8
+// 0x00010534
+//   class   _UIStatusBarIndicatorVPNItem
+//   selector systemImageNameForUpdate:
+//   hook IMP 0x22dac   orig slot 0x712e0
+// 0x0001057c
+//   class   STUIStatusBarItem
+//   selector canEnableDisplayItem:fromData:
+//   hook IMP 0x22e38   orig slot 0x712e8
+// 0x000105d0
+//   class   SBRecordingIndicatorViewController
+//   selector setIndicatorColor:
+//   hook IMP 0x232c8   orig slot 0x712f8
+// 0x00010608
+//   class   SBSensorActivityAttribution
+//   selector usedRecently
+//   hook IMP 0x23380   orig slot 0x71300
+// 0x00010644
+//   class   CCUISensorAttributionCompactControl
+//   selector isDisplayingSensorStatus
+//   hook IMP 0x233a0   orig slot 0x71308
+// 0x00010664
+//   class   CCUISensorAttributionCompactControl
+//   selector layoutSubviews
+//   hook IMP 0x233c0   orig slot 0x71310
+// 0x00010698
+//   class   CCUIHeaderPocketView
+//   selector isDisplayingSensorStatus
+//   hook IMP 0x23408   orig slot 0x71318
+// 0x000106dc
+//   class   _UIStatusBarIndicatorLocationItem
+//   selector canEnableDisplayItem:fromData:
+//   hook IMP 0x23428   orig slot 0x71328
+// 0x0001073c
+//   class   STUIStatusBarIndicatorLocationItem
+//   selector canEnableDisplayItem:fromData:
+//   hook IMP 0x234d0   orig slot 0x71330
+// 0x00010784
+//   class   ?
+//   selector _shouldAddBreadcrumbToActivatingSceneEntity:sceneHandle:withTransitionContext:
+//   hook IMP 0x23578   orig slot 0x71340
+// 0x000107bc
+//   class   UIContextMenuInteraction
+//   selector activationStyleForClickPresentationInteraction:
+//   hook IMP 0x2364c   orig slot 0x71350
+// 0x000107dc
+//   class   UIContextMenuInteraction
+//   selector _clickPresentationInteractionEnded:forPresentation:reason:
+//   hook IMP 0x23724   orig slot 0x71358
+// 0x000107fc
+//   class   UIContextMenuInteraction
+//   selector _performCleanupForConfigurationWithIdentifier:
+//   hook IMP 0x23860   orig slot 0x71360
+// 0x000108e4
+//   class   CCUIContinuousSliderView
+//   selector layoutSubviews
+//   hook IMP 0x23978   orig slot 0x71368
+// 0x00010900
+//   class   CCUIContinuousSliderView
+//   selector _handleValueChangeGestureRecognizer:
+//   hook IMP 0x239a4   orig slot 0x71370
+// 0x0001091c
+//   class   CCUIContinuousSliderView
+//   selector setValue:
+//   hook IMP 0x23a10   orig slot 0x71378
+// 0x00010980
+//   class   CCUIContinuousSliderView
+//   selector layoutSubviews
+//   hook IMP 0x23a3c   orig slot 0x71380
+// 0x0001099c
+//   class   CCUIContinuousSliderView
+//   selector _handleFluidSliderInteractionUpdate:
+//   hook IMP 0x23a68   orig slot 0x71388
+// 0x000109b8
+//   class   CCUIContinuousSliderView
+//   selector setValue:animated:
+//   hook IMP 0x23ad4   orig slot 0x71390
+// 0x00010a28
+//   class   SBCoverSheetPrimarySlidingViewController
+//   selector viewDidLayoutSubviews
+//   hook IMP 0x23b00   orig slot 0x71398
+// 0x00010a88
+//   class   SBDarkeningImageView
+//   selector layoutSubviews
+//   hook IMP 0x23b2c   orig slot 0x713a0
+// 0x00010aac
+//   class   SBIconBadgeView
+//   selector layoutSubviews
+//   hook IMP 0x23b80   orig slot 0x713a8
+// 0x00010b00
+//   class   SBIconBadgeView
+//   selector configureForIcon:infoProvider:
+//   hook IMP 0x23bd4   orig slot 0x713b0
+// 0x00010b20
+//   class   SBIconBadgeView
+//   selector configureAnimatedForIcon:infoProvider:animator:
+//   hook IMP 0x23c94   orig slot 0x713b8
+// 0x00010b40
+//   class   SBIconBadgeView
+//   selector layoutSubviews
+//   hook IMP 0x23d80   orig slot 0x713c0
+// 0x00010b60
+//   class   SBIconBadgeView
+//   selector _crossfadeToTextImage:animator:
+//   hook IMP 0x23dac   orig slot 0x713c8
+// 0x00010b8c
+//   class   SBIcon
+//   selector noteBadgeDidChange
+//   hook IMP 0x23e3c   orig slot 0x713d0
+// 0x00010bac
+//   class   SBIcon
+//   selector reloadIconImage
+//   hook IMP 0x23eb8   orig slot 0x713d8
+// 0x00010be0
+//   class   SBIconListView
+//   selector configureIconView:forIcon:
+//   hook IMP 0x23f34   orig slot 0x713e0
+// 0x00010c0c
+//   class   SBIconView
+//   selector layoutSubviews
+//   hook IMP 0x241dc   orig slot 0x713e8
+// 0x00010c2c
+//   class   SBIconView
+//   selector didMoveToWindow
+//   hook IMP 0x24220   orig slot 0x713f0
+// 0x00010cf4
+//   class   SBFolderView
+//   selector isPageControlHidden
+//   hook IMP 0x24390   orig slot 0x71400
+// 0x00010d18
+//   class   SBFolderView
+//   selector pageControlAlpha
+//   hook IMP 0x243b0   orig slot 0x71408
+// 0x00010d3c
+//   class   SBFolderView
+//   selector setPageControlHidden:
+//   hook IMP 0x243d0   orig slot 0x71410
+// 0x00010d60
+//   class   SBFolderView
+//   selector setPageControlAlpha:
+//   hook IMP 0x243f0   orig slot 0x71418
+// 0x00010d80
+//   class   SBFolderView
+//   selector _updatePageControlCurrentPage
+//   hook IMP 0x24410   orig slot 0x71420
+// 0x00010da0
+//   class   SBFolderView
+//   selector _updatePageControlNumberOfPages
+//   hook IMP 0x24464   orig slot 0x71428
+// 0x00010dc0
+//   class   SBFolderView
+//   selector _updatePageControlToIndex:
+//   hook IMP 0x244b8   orig slot 0x71430
+// 0x00010de8
+//   class   SBRootFolderView
+//   selector isPageControlHidden
+//   hook IMP 0x2450c   orig slot 0x71438
+// 0x00010e04
+//   class   SBRootFolderView
+//   selector pageControlAlpha
+//   hook IMP 0x2452c   orig slot 0x71440
+// 0x00010e20
+//   class   SBRootFolderView
+//   selector setPageControlHidden:
+//   hook IMP 0x2454c   orig slot 0x71448
+// 0x00010e3c
+//   class   SBRootFolderView
+//   selector setPageControlAlpha:
+//   hook IMP 0x2456c   orig slot 0x71450
+// 0x00010e5c
+//   class   SBRootFolderView
+//   selector requirePageDotsVisibilityForReason:
+//   hook IMP 0x2458c   orig slot 0x71458
+// 0x00010e7c
+//   class   SBRootFolderView
+//   selector _applyPageDotsVisibilityAssertions
+//   hook IMP 0x24618   orig slot 0x71460
+// 0x00010e9c
+//   class   SBRootFolderView
+//   selector _flashPageDotsForReason:
+//   hook IMP 0x2466c   orig slot 0x71468
+// 0x00010ebc
+//   class   SBRootFolderView
+//   selector updatePageControlConfiguration
+//   hook IMP 0x246dc   orig slot 0x71470
+// 0x00010ee8
+//   class   SBFolderScrollAccessoryView
+//   selector _pageIndicatorsView
+//   hook IMP 0x24730   orig slot 0x71478
+// 0x00010f08
+//   class   SBFolderScrollAccessoryView
+//   selector layoutSubviews
+//   hook IMP 0x24768   orig slot 0x71480
+// 0x00010f50
+//   class   SBHIconManager
+//   selector iconViewDisplaysLabel:
+//   hook IMP 0x247fc   orig slot 0x71488
+// 0x00010f78
+//   class   SBIconController
+//   selector iconManager:iconViewDisplaysLabel:
+//   hook IMP 0x248f8   orig slot 0x71490
+// 0x00010fa0
+//   class   SBIconView
+//   selector _shouldShowLabel
+//   hook IMP 0x24a18   orig slot 0x71498
+// 0x00010fcc
+//   class   SBHWidgetContainerView
+//   selector initWithGridSizeClass:applicationName:
+//   hook IMP 0x24ae4   orig slot 0x714a0
+// 0x00010fec
+//   class   SBHWidgetContainerView
+//   selector layoutSubviews
+//   hook IMP 0x24b80   orig slot 0x714a8
+// 0x0001101c
+//   class   SBHWidgetWrapperView
+//   selector titleAndSubtitleVisible
+//   hook IMP 0x24bc4   orig slot 0x714b0
+// 0x0001103c
+//   class   SBHWidgetWrapperView
+//   selector init
+//   hook IMP 0x24be4   orig slot 0x714b8
+// 0x0001105c
+//   class   SBHWidgetWrapperView
+//   selector initWithTitleAndSubtitleVisible:
+//   hook IMP 0x24cb8   orig slot 0x714c0
+// 0x0001107c
+//   class   SBHWidgetWrapperView
+//   selector didMoveToWindow
+//   hook IMP 0x24da8   orig slot 0x714c8
+// 0x0001109c
+//   class   SBHWidgetWrapperView
+//   selector setTitleLabel:
+//   hook IMP 0x24e3c   orig slot 0x714d0
+// 0x000110bc
+//   class   SBHWidgetWrapperView
+//   selector setSubtitleLabel:
+//   hook IMP 0x24eb4   orig slot 0x714d8
+// 0x000110e8
+//   class   SBHWidgetWrapperViewController
+//   selector initWithGalleryItem:titleAndSubtitleVisible:listLayoutProvider:iconViewProvider:
+//   hook IMP 0x24f2c   orig slot 0x714e0
+// 0x00011104
+//   class   SBHWidgetWrapperViewController
+//   selector titleAndSubtitleVisible
+//   hook IMP 0x24f4c   orig slot 0x714e8
+// 0x00011124
+//   class   SBHWidgetWrapperViewController
+//   selector setTitleAndSubtitleVisible:
+//   hook IMP 0x24f6c   orig slot 0x714f0
+// 0x00011170
+//   class   SBIconLegibilityLabelView
+//   selector updateIconLabelWithSettings:imageParameters:
+//   hook IMP 0x24f8c   orig slot 0x714f8
+// 0x00011194
+//   class   SBIconSimpleLabelView
+//   selector updateIconLabelWithSettings:imageParameters:
+//   hook IMP 0x2502c   orig slot 0x71500
+// 0x000111c8
+//   class   SBIconDotLabelAccessoryView
+//   selector initWithFrame:
+//   hook IMP 0x25254   orig slot 0x71508
+// 0x000111e8
+//   class   SBIconDotLabelAccessoryView
+//   selector didMoveToSuperview
+//   hook IMP 0x25298   orig slot 0x71510
+// 0x00011208
+//   class   SBIconDotLabelAccessoryView
+//   selector layoutSubviews
+//   hook IMP 0x252c4   orig slot 0x71518
+// 0x00011228
+//   class   SBIconDotLabelAccessoryView
+//   selector prepareForReuse
+//   hook IMP 0x252f0   orig slot 0x71520
+// 0x00011248
+//   class   SBIconDotLabelAccessoryView
+//   selector updateWithLegibilitySettings:labelFont:
+//   hook IMP 0x2531c   orig slot 0x71528
+// 0x00011268
+//   class   SBIconDotLabelAccessoryView
+//   selector updateWithBaseImage:legibilitySettings:
+//   hook IMP 0x253ac   orig slot 0x71530
+// 0x00011288
+//   class   SBIconDotLabelAccessoryView
+//   selector setHidden:
+//   hook IMP 0x2543c   orig slot 0x71538
+// 0x000112a8
+//   class   SBIconDotLabelAccessoryView
+//   selector setAlpha:
+//   hook IMP 0x254a8   orig slot 0x71540
+// 0x000112f8
+//   class   SBUIController
+//   selector activateApplication:fromIcon:location:activationSettings:actions:
+//   hook IMP 0x25514   orig slot 0x71548
+// 0x00011320
+//   class   SBFolderController
+//   selector setBackgroundBlurEnabled:
+//   hook IMP 0x257e0   orig slot 0x71550
+// 0x00011368
+//   class   SBFolderContainerView
+//   selector initWithFolderView:
+//   hook IMP 0x25800   orig slot 0x71560
+// 0x00011388
+//   class   SBFolderContainerView
+//   selector initWithFrame:
+//   hook IMP 0x25844   orig slot 0x71568
+// 0x000113a8
+//   class   SBFolderContainerView
+//   selector layoutSubviews
+//   hook IMP 0x25888   orig slot 0x71570
+// 0x000113f0
+//   class   SBHIconManager
+//   selector openFolderIcon:location:animated:withCompletion:
+//   hook IMP 0x258b4   orig slot 0x71580
+// 0x00011410
+//   class   SBHIconManager
+//   selector folderControllerWillOpen:
+//   hook IMP 0x25a84   orig slot 0x71588
+// 0x00011430
+//   class   SBHIconManager
+//   selector folderControllerWillClose:
+//   hook IMP 0x25b44   orig slot 0x71590
+// 0x000114c0
+//   class   SBDefaultIconModelStore
+//   selector loadCurrentIconState:
+//   hook IMP 0x25c34   orig slot 0x715a0
+// 0x000114e0
+//   class   SBDefaultIconModelStore
+//   selector saveCurrentIconState:error:
+//   hook IMP 0x25d08   orig slot 0x715a8
+// 0x00011528
+//   class   SBIconListFlowLayout
+//   selector numberOfRowsForOrientation:
+//   hook IMP 0x25dc8   orig slot 0x715b8
+// 0x00011548
+//   class   SBIconListFlowLayout
+//   selector numberOfColumnsForOrientation:
+//   hook IMP 0x25dfc   orig slot 0x715c0
+// 0x00011568
+//   class   SBIconListFlowLayout
+//   selector maximumIconCount
+//   hook IMP 0x25e30   orig slot 0x715c8
+// 0x00011594
+//   class   SBFloatyFolderView
+//   selector _frameForScalingView
+//   hook IMP 0x25e50   orig slot 0x715d0
+// 0x000115dc
+//   class   SBFloatyFolderView
+//   selector _shouldConvertToMultipleIconListsInLandscapeOrientation
+//   hook IMP 0x25f14   orig slot 0x715d8
+// 0x000115fc
+//   class   SBFloatyFolderView
+//   selector setCornerRadius:
+//   hook IMP 0x25f34   orig slot 0x715e0
+// 0x00011628
+//   class   ?
+//   selector cornerRadiusToInsetContent
+//   hook IMP 0x25f40   orig slot 0x715e8
+// 0x00011650
+//   class   _SBIconGridWrapperView
+//   selector layoutSubviews
+//   hook IMP 0x25f60   orig slot 0x715f0
+// 0x000116a8
+//   class   SBFolderIconImageView
+//   selector updateImageAnimated:
+//   hook IMP 0x26034   orig slot 0x71600
+// 0x000116cc
+//   class   SBFolderIconImageView
+//   selector layoutSubviews
+//   hook IMP 0x26060   orig slot 0x71608
+// 0x000116ec
+//   class   SBFolderIconImageView
+//   selector setFloatyFolderCrossfadeFraction:
+//   hook IMP 0x2608c   orig slot 0x71610
+// 0x00011740
+//   class   SBHIconManager
+//   selector iconTapped:
+//   hook IMP 0x26120   orig slot 0x71618
+// 0x00011760
+//   class   SBHIconManager
+//   selector iconTapped:modifierFlags:
+//   hook IMP 0x26384   orig slot 0x71620
+// 0x00011788
+//   class   SBIconView
+//   selector layoutSubviews
+//   hook IMP 0x26430   orig slot 0x71628
+// 0x000117a8
+//   class   SBIconView
+//   selector _updateAccessoryViewAnimated:
+//   hook IMP 0x2645c   orig slot 0x71630
+// 0x000117c8
+//   class   SBIconView
+//   selector _updateIconImageViewAnimated:
+//   hook IMP 0x26488   orig slot 0x71638
+// 0x000117e8
+//   class   SBIconView
+//   selector _insertIconImageView:
+//   hook IMP 0x264b4   orig slot 0x71640
+// 0x00011858
+//   class   SBIconView
+//   selector iconContentScale
+//   hook IMP 0x26744   orig slot 0x71648
+// 0x00011878
+//   class   SBIconView
+//   selector _updateIconImageViewAnimated:
+//   hook IMP 0x268c8   orig slot 0x71650
+// 0x00011898
+//   class   SBIconView
+//   selector setIconContentScale:
+//   hook IMP 0x268f4   orig slot 0x71658
+// 0x000118b8
+//   class   SBIconView
+//   selector didMoveToSuperview
+//   hook IMP 0x26920   orig slot 0x71660
+// 0x000118d8
+//   class   SBIconView
+//   selector contextMenuInteraction:willDisplayMenuForConfiguration:animator:
+//   hook IMP 0x2694c   orig slot 0x71668
+// 0x000118f8
+//   class   SBIconView
+//   selector contextMenuInteraction:willEndForConfiguration:animator:
+//   hook IMP 0x26a14   orig slot 0x71670
+// 0x00011968
+//   class   SBFolderController
+//   selector _newAnimatorForZoomUp:
+//   hook IMP 0x26fe8   orig slot 0x71678
+// 0x00011994
+//   class   SBHIconManager
+//   selector closeFolderAnimated:withCompletion:
+//   hook IMP 0x27000   orig slot 0x71680
+// 0x000119b4
+//   class   SBHIconManager
+//   selector _closeFolderController:animated:withCompletion:
+//   hook IMP 0x270a4   orig slot 0x71688
+// 0x000119d4
+//   class   SBHIconManager
+//   selector openFolderIcon:location:animated:withCompletion:
+//   hook IMP 0x27174   orig slot 0x71690
+// 0x00011a00
+//   class   SBFolderIconImageView
+//   selector prepareToCrossfadeWithFloatyFolderView:allowFolderInteraction:
+//   hook IMP 0x27190   orig slot 0x71698
+// 0x00011a20
+//   class   SBFolderIconImageView
+//   selector cleanupAfterFloatyFolderCrossfade
+//   hook IMP 0x2727c   orig slot 0x716a0
+// 0x00011a90
+//   class   STUIStatusBarStringView
+//   selector setText:
+//   hook IMP 0x272c4   orig slot 0x716b0
+// 0x00011ab0
+//   class   STUIStatusBarStringView
+//   selector applyStyleAttributes:
+//   hook IMP 0x273bc   orig slot 0x716b8
+// 0x00011ad8
+//   class   STUIStatusBarTimeItem
+//   selector applyUpdate:toDisplayItem:
+//   hook IMP 0x27444   orig slot 0x716c0
+// 0x00011b00
+//   class   STUIStatusBarDisplayItem
+//   selector _updateComputedTransform
+//   hook IMP 0x275dc   orig slot 0x716c8
+// 0x00011b68
+//   class   _UIStatusBarStringView
+//   selector setText:
+//   hook IMP 0x27730   orig slot 0x716d0
+// 0x00011b88
+//   class   _UIStatusBarStringView
+//   selector applyStyleAttributes:
+//   hook IMP 0x27a30   orig slot 0x716d8
+// 0x00011ba8
+//   class   _UIStatusBarStringView
+//   selector setTextColor:
+//   hook IMP 0x27b50   orig slot 0x716e0
+// 0x00011bd0
+//   class   _UIStatusBarTimeItem
+//   selector applyUpdate:toDisplayItem:
+//   hook IMP 0x27c24   orig slot 0x716e8
+// 0x00011bf8
+//   class   _UIStatusBarDisplayItem
+//   selector _updateComputedTransform
+//   hook IMP 0x27dbc   orig slot 0x716f0
+// 0x00011c68
+//   class   CSProminentSubtitleDateView
+//   selector _updateLabel
+//   hook IMP 0x27f10   orig slot 0x716f8
+// 0x00011cf0
+//   class   SBFLockScreenDateSubtitleView
+//   selector setString:
+//   hook IMP 0x280c0   orig slot 0x71700
+// 0x00011d50
+//   class   SBAlertItemsController
+//   selector activateAlertItem:
+//   hook IMP 0x28244   orig slot 0x71710
+// 0x00011d70
+//   class   SBAlertItemsController
+//   selector activateAlertItem:animated:
+//   hook IMP 0x282e4   orig slot 0x71718
+// 0x00011d98
+//   class   SBLowPowerAlertItem
+//   selector _createSystemApertureElement
+//   hook IMP 0x28394   orig slot 0x71720
+// 0x00011dc8
+//   class   SBChargingSystemApertureElementProvider
+//   selector powerElementWithBatteryCapacity:
+//   hook IMP 0x283cc   orig slot 0x71728
+// 0x00011df4
+//   class   SBLockScreenBatteryChargingViewController
+//   selector presentWithAnimation:
+//   hook IMP 0x28404   orig slot 0x71730
+// 0x00011e14
+//   class   SBLockScreenBatteryChargingViewController
+//   selector showChargeLevelWithBatteryVisible:
+//   hook IMP 0x28420   orig slot 0x71738
+// 0x00011e3c
+//   class   SBUIController
+//   selector playChargingChimeIfAppropriate
+//   hook IMP 0x2843c   orig slot 0x71740
+// 0x00011eac
+//   class   _UIStatusBarDataBatteryEntry
+//   selector capacity
+//   hook IMP 0x28458   orig slot 0x71748
+// 0x00011ecc
+//   class   _UIStatusBarDataBatteryEntry
+//   selector detailString
+//   hook IMP 0x284a8   orig slot 0x71750
+// 0x00011ef8
+//   class   UIStatusBarBatteryPercentItemView
+//   selector updateForNewData:actions:
+//   hook IMP 0x2850c   orig slot 0x71758
+// 0x00011f18
+//   class   UIStatusBarBatteryPercentItemView
+//   selector contentsImage
+//   hook IMP 0x285d8   orig slot 0x71760
+// 0x00011f38
+//   class   UIStatusBarBatteryPercentItemView
+//   selector didMoveToWindow
+//   hook IMP 0x28638   orig slot 0x71768
+// 0x00011f60
+//   class   UIDevice
+//   selector batteryLevel
+//   hook IMP 0x28698   orig slot 0x71770
+// 0x00011f88
+//   class   BCBatteryDevice
+//   selector percentCharge
+//   hook IMP 0x286cc   orig slot 0x71778
+// 0x00011fb4
+//   class   SBUIController
+//   selector batteryCapacityAsPercentage
+//   hook IMP 0x286fc   orig slot 0x71780
+// 0x00011fd4
+//   class   SBUIController
+//   selector batteryCapacity
+//   hook IMP 0x28750   orig slot 0x71788
+// 0x00011ff4
+//   class   SBUIController
+//   selector updateBatteryState:
+//   hook IMP 0x287d4   orig slot 0x71790

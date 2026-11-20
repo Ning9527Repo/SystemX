@@ -1,0 +1,11 @@
+Package: com.wkk.systembox
+Section: Tweaks
+Installed-Size: 2792
+Maintainer: wkk
+Architecture: iphoneos-arm64e
+Version: 1.5-8-rebuilt
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wkk.clockglass
+Description: cool
+Name: SystemX
+Author: wkk

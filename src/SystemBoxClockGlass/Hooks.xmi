@@ -1,0 +1,980 @@
+//
+//  SystemBoxClockGlass/Hooks.xmi
+//  Reconstructed Logos hook blocks. Each block records the original
+//  MSHookMessageEx call site and the replacement IMP recovered from
+//  the binary. Bodies are the decompiler output of those IMPs, with the
+//  %orig trampoline call restored.
+//
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// Preference flags: the original keeps one global per enabled switch.
+// They are filled from the tweak plist at load time; see Prefs.h.
+
+%hook CSProminentDisplayView
+
+// MSHookMessageEx @ 0x0000f894  IMP 0x10b98
+- (id)setAttributedText: {
+  undefined *puVar1;
+  undefined uVar2;
+  undefined8 uVar3;
+  bool bVar4;
+  int iVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  long lVar8;
+  long lVar9;
+  long lVar10;
+  ulong uVar11;
+  undefined8 extraout_x1;
+  undefined8 extraout_x1_00;
+  undefined8 extraout_x1_01;
+  double dVar12;
+  double dVar13;
+  double dVar14;
+  undefined auVar15 [16];
+  
+  uVar6 = _objc_retain();
+  FUN_000141cc(uVar6,&cf_CSProminentTimeView);
+  uVar7 = _objc_retainAutoreleasedReturnValue();
+  FUN_00012da8(uVar7,0);
+  lVar8 = _objc_retainAutoreleasedReturnValue();
+  puVar1 = PTR_s_complicationRowView_00055130;
+  auVar15 = _objc_opt_respondsToSelector(uVar6,PTR_s_complicationRowView_00055130);
+  if ((auVar15 & (undefined  [16])0x1) == (undefined  [16])0x0) {
+    lVar9 = 0;
+  }
+  else {
+    objc_msgSend_performSelector_(uVar6,auVar15._8_8_,puVar1);
+    lVar9 = _objc_retainAutoreleasedReturnValue();
+    if (lVar9 != 0) {
+      objc_msgSend_bounds(lVar9);
+      objc_msgSend_convertRect_toView_(lVar9,extraout_x1,uVar6);
+      dVar12 = (double)_CGRectGetMinY();
+      bVar4 = false;
+      goto LAB_00010c60;
+    }
+  }
+  bVar4 = true;
+  dVar12 = NAN;
+LAB_00010c60:
+  iVar5 = _lgHostEnabled(&cf_Clock);
+  dVar14 = 0.0;
+  if ((iVar5 != 0) && (iVar5 = objc_msgSend_hasRenderedGlyph(lVar8), iVar5 != 0)) {
+    objc_msgSend_window(lVar9);
+    lVar10 = _objc_retainAutoreleasedReturnValue();
+    if ((lVar10 == 0) ||
+       ((uVar11 = objc_msgSend_isHidden(lVar9), (uVar11 & 1) != 0 ||
+        (dVar13 = (double)objc_msgSend_alpha(lVar9), dVar13 <= DAT_0001e290)))) {
+      _objc_release(lVar10);
+    }
+    else {
+      objc_msgSend_bounds(lVar9);
+      dVar13 = (double)_CGRectGetHeight();
+      _objc_release(lVar10);
+      if (0.0 < dVar13) {
+        objc_msgSend_complicationRow(lVar8);
+        lVar10 = _objc_retainAutoreleasedReturnValue();
+        dVar14 = 0.0;
+        if (lVar10 == lVar9) {
+          dVar13 = (double)objc_msgSend_complicationLastTop(lVar8);
+          dVar14 = 0.0;
+          if (ABS(dVar12 - dVar13) < 1.0) {
+            dVar14 = (double)objc_msgSend_complicationLayoutShift(lVar8);
+          }
+        }
+        _objc_release(lVar10);
+        dVar12 = dVar12 - dVar14;
+        dVar14 = (double)objc_msgSend_renderedGlyphBottom(lVar8);
+        dVar14 = (dVar14 + 12.0) - dVar12;
+      }
+    }
+  }
+  uVar3 = DAT_00056248;
+  uVar2 = DAT_00056240;
+  DAT_00056240 = 1;
+  DAT_00056248 = dVar14;
+  %orig(uVar6,_cmd);
+  if (bVar4) {
+    dVar13 = NAN;
+  }
+  else {
+    objc_msgSend_bounds(lVar9);
+    objc_msgSend_convertRect_toView_(lVar9,extraout_x1_00,uVar6);
+    dVar13 = (double)_CGRectGetMinY();
+  }
+  bVar4 = false;
+  if ((0.0 < dVar14) && (ABS(dVar13) != INFINITY)) {
+    bVar4 = ABS(dVar13 - (dVar14 + dVar12)) < 1.0;
+  }
+  DAT_00056240 = uVar2;
+  DAT_00056248 = (double)uVar3;
+  if (lVar8 != 0) {
+    if (!bVar4) {
+      dVar14 = 0.0;
+    }
+    objc_msgSend_setComplicationLayoutShift_(dVar14,lVar8);
+    objc_msgSend_setComplicationRow_(lVar8,extraout_x1_01,lVar9);
+    dVar12 = 0.0;
+    if (ABS(dVar13) != INFINITY) {
+      dVar12 = dVar13;
+    }
+    objc_msgSend_setComplicationLastTop_(dVar12,lVar8);
+    iVar5 = _lgHostEnabled(&cf_Clock);
+    if (iVar5 != 0) {
+      auVar15 = objc_msgSend_hasRenderedGlyph(lVar8);
+      if ((auVar15 & (undefined  [16])0x1) == (undefined  [16])0x0) {
+        objc_msgSend_scheduleApply_(lVar8,auVar15._8_8_,&cf_complication_layout);
+      }
+    }
+  }
+  _objc_release(lVar9);
+  _objc_release(lVar8);
+  _objc_release(uVar7);
+  _objc_release(uVar6);
+  return;
+}
+%end
+
+%hook CSProminentLayoutController
+
+// MSHookMessageEx @ 0x0000f8b8  IMP 0x10ea8
+- (id)unknownSelector {
+  double dVar1;
+  double dVar2;
+  
+  dVar1 = (double)%orig();
+  dVar2 = DAT_00056248;
+  if (DAT_00056240 == '\0') {
+    dVar2 = 0.0;
+  }
+  return dVar1 + dVar2;
+}
+%end
+
+%hook CSProminentTimeView
+
+// MSHookMessageEx @ 0x0000f810  IMP 0x10ad0
+- (id)setText: {
+  %orig();
+  FUN_00015434(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f830  IMP 0x10afc
+- (id)setAttributedText: {
+  %orig();
+  FUN_000155ac(self);
+  FUN_00015654(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f850  IMP 0x10b30
+- (id)_updateTimeString {
+  %orig();
+  FUN_000155ac(self);
+  FUN_00015654(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f870  IMP 0x10b64
+- (id)setDate: {
+  %orig();
+  FUN_000155ac(self);
+  FUN_00015654(self);
+  return;
+}
+%end
+
+%hook MRUArtworkView
+
+// MSHookMessageEx @ 0x0000f4b0  IMP 0xfe18
+- (id)layoutSubviews {
+  %orig();
+  FUN_00012434(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f4cc  IMP 0xfe44
+- (id)didMoveToWindow {
+  %orig();
+  FUN_00012434(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f4f4  IMP 0xfe70
+- (id)dealloc {
+  int iVar1;
+  int local_34;
+  
+  iVar1 = FUN_00012928();
+  if (iVar1 != 0) {
+    if (DAT_000561b4 != '\x01') {
+      local_34 = 0;
+      iVar1 = _notify_register_check("com.wkk.systembox.clockglass.lensrect.npartwork",&local_34);
+      if (iVar1 != 0) goto LAB_0000feec;
+      DAT_000561b4 = '\x01';
+      DAT_000561b0 = local_34;
+    }
+    if (-1 < DAT_000561b0) {
+      _notify_set_state(DAT_000561b0,0);
+    }
+  }
+LAB_0000feec:
+  %orig;
+  return;
+}
+%end
+
+%hook MTMaterialView
+
+// MSHookMessageEx @ 0x0000fcd8  IMP 0x117d8
+- (id)didMoveToSuperview {
+  int iVar1;
+  
+  %orig();
+  iVar1 = FUN_00015128(self);
+  if (iVar1 != 0) {
+    FUN_00013ac8(self);
+    return;
+  }
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fcf4  IMP 0x1181c
+- (id)unknownSelector {
+  int iVar1;
+  
+  %orig();
+  iVar1 = FUN_00015128(self);
+  if (iVar1 != 0) {
+    FUN_00013ac8(self);
+    return;
+  }
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fd10  IMP 0x11860
+- (id)unknownSelector {
+  code *pcVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  
+  pcVar1 = DAT_00056148;
+  uVar2 = _objc_retain();
+  uVar3 = FUN_00015128();
+  FUN_00015368(self,uVar2,uVar3);
+  %orig(uVar2,arg3);
+  _objc_release(uVar2);
+  return;
+}
+%end
+
+%hook NCNotificationListHeaderTitleView
+
+// MSHookMessageEx @ 0x0000fab8  IMP 0x113dc
+- (id)unknownSelector {
+  %orig();
+  FUN_00013030(self);
+  FUN_000156c8(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fad4  IMP 0x11410
+- (id)unknownSelector {
+  %orig();
+  FUN_00013030(self);
+  FUN_000156c8(self);
+  return;
+}
+%end
+
+%hook NCNotificationListSectionHeaderView
+
+// MSHookMessageEx @ 0x0000fb04  IMP 0x11444
+- (id)traitCollectionDidChange: {
+  %orig();
+  FUN_00015734(self);
+  FUN_00015808(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fb20  IMP 0x11478
+- (id)unknownSelector {
+  %orig();
+  FUN_00015734(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fb3c  IMP 0x114a4
+- (id)unknownSelector {
+  %orig();
+  FUN_00015734(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fb5c  IMP 0x114d0
+- (id)_configureClearButtonIfNecessary {
+  %orig();
+  FUN_00015734(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fb7c  IMP 0x114fc
+- (id)resetClearButtonStateAnimated: {
+  %orig();
+  FUN_00015734(self);
+  return;
+}
+%end
+
+%hook NCNotificationListSectionRevealHintView
+
+// MSHookMessageEx @ 0x0000fa74  IMP 0x1133c
+- (id)unknownSelector {
+  int iVar1;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 != 0) {
+    return;
+  }
+  FUN_000156c8(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fa90  IMP 0x1138c
+- (id)unknownSelector {
+  int iVar1;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 != 0) {
+    return;
+  }
+  FUN_000156c8(self);
+  return;
+}
+%end
+
+%hook NCNotificationListView
+
+// MSHookMessageEx @ 0x0000fd3c  IMP 0x118c4
+- (id)setFrame: {
+  undefined8 uVar1;
+  undefined8 uVar2;
+  ulong uVar3;
+  
+  uVar1 = _objc_retain();
+  _objc_getAssociatedObject(uVar1,PTR_LOOP_00055f48);
+  uVar2 = _objc_retainAutoreleasedReturnValue();
+  uVar3 = objc_msgSend_boolValue();
+  _objc_release(uVar2);
+  if ((uVar3 & 1) == 0) {
+    self = FUN_00013670(self,_cmd,arg3,arg4,uVar1);
+  }
+  %orig(arg3,arg4,uVar1,arg6);
+  _objc_release(uVar1);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fd5c  IMP 0x1198c
+- (id)setContentOffset: {
+  undefined8 uVar1;
+  
+  %orig();
+  objc_msgSend_shared(PTR_PTR_00055af0);
+  uVar1 = _objc_retainAutoreleasedReturnValue();
+  objc_msgSend_trackMotion();
+  _objc_release(uVar1);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fd78  IMP 0x119d0
+- (id)unknownSelector {
+  %orig();
+  FUN_00012f28(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fd94  IMP 0x119fc
+- (id)unknownSelector {
+  %orig();
+  FUN_00012f28(self);
+  return;
+}
+%end
+
+%hook NCNotificationLongLookView
+
+// MSHookMessageEx @ 0x0000fa30  IMP 0x1129c
+- (id)unknownSelector {
+  int iVar1;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 != 0) {
+    return;
+  }
+  FUN_000156c8(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fa4c  IMP 0x112ec
+- (id)unknownSelector {
+  int iVar1;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 != 0) {
+    return;
+  }
+  FUN_000156c8(self);
+  return;
+}
+%end
+
+%hook NCNotificationShortLookView
+
+// MSHookMessageEx @ 0x0000f9ec  IMP 0x111fc
+- (id)unknownSelector {
+  int iVar1;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 != 0) {
+    return;
+  }
+  FUN_000156c8(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fa08  IMP 0x1124c
+- (id)unknownSelector {
+  int iVar1;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 != 0) {
+    return;
+  }
+  FUN_000156c8(self);
+  return;
+}
+%end
+
+%hook NCNotificationStructuredListViewController
+
+// MSHookMessageEx @ 0x0000fdc0  IMP 0x11a28
+- (id)viewWillLayoutSubviews {
+  int iVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 != 0) {
+    return;
+  }
+  objc_msgSend_view(self);
+  uVar2 = _objc_retainAutoreleasedReturnValue();
+  FUN_000141cc(uVar2,&cf_NCNotificationListView);
+  uVar3 = _objc_retainAutoreleasedReturnValue();
+  _objc_release(uVar2);
+  FUN_00012f28(uVar3);
+  _objc_release(uVar3);
+  return;
+}
+%end
+
+%hook NCToggleControl
+
+// MSHookMessageEx @ 0x0000fc10  IMP 0x11690
+- (id)traitCollectionDidChange: {
+  %orig();
+  FUN_00013228(self);
+  FUN_00015808(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fc34  IMP 0x116c4
+- (id)didMoveToSuperview {
+  %orig();
+  FUN_00013228(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fc50  IMP 0x116f0
+- (id)unknownSelector {
+  %orig();
+  FUN_00013228(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fc6c  IMP 0x1171c
+- (id)unknownSelector {
+  %orig();
+  FUN_00013228(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fc8c  IMP 0x11748
+- (id)setVisualStyle: {
+  %orig();
+  FUN_00013228(self);
+  return;
+}
+%end
+
+%hook PLGlyphControl
+
+// MSHookMessageEx @ 0x0000fba8  IMP 0x11528
+- (id)setBackgroundMaterialView: {
+  int iVar1;
+  undefined auVar2 [16];
+  
+  %orig();
+  _objc_opt_class(self);
+  _NSStringFromClass();
+  auVar2 = _objc_retainAutoreleasedReturnValue();
+  iVar1 = objc_msgSend_isEqualToString_(auVar2._0_8_,auVar2._8_8_,&cf_NCToggleControl);
+  _objc_release(auVar2._0_8_);
+  if (iVar1 != 0) {
+    FUN_00013228(self);
+    return;
+  }
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fbc8  IMP 0x115a0
+- (id)_configureBackgroundMaterialViewIfNecessary {
+  int iVar1;
+  undefined auVar2 [16];
+  
+  %orig();
+  _objc_opt_class(self);
+  _NSStringFromClass();
+  auVar2 = _objc_retainAutoreleasedReturnValue();
+  iVar1 = objc_msgSend_isEqualToString_(auVar2._0_8_,auVar2._8_8_,&cf_NCToggleControl);
+  _objc_release(auVar2._0_8_);
+  if (iVar1 != 0) {
+    FUN_00013228(self);
+    return;
+  }
+  return;
+}
+
+// MSHookMessageEx @ 0x0000fbe8  IMP 0x11618
+- (id)_configureGlyphViewIfNecessaryWithImage: {
+  int iVar1;
+  undefined auVar2 [16];
+  
+  %orig();
+  _objc_opt_class(self);
+  _NSStringFromClass();
+  auVar2 = _objc_retainAutoreleasedReturnValue();
+  iVar1 = objc_msgSend_isEqualToString_(auVar2._0_8_,auVar2._8_8_,&cf_NCToggleControl);
+  _objc_release(auVar2._0_8_);
+  if (iVar1 != 0) {
+    FUN_00013228(self);
+    return;
+  }
+  return;
+}
+%end
+
+%hook PLPlatterView
+
+// MSHookMessageEx @ 0x0000f9a8  IMP 0x111a4
+- (id)unknownSelector {
+  %orig();
+  FUN_000156c8(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f9c4  IMP 0x111d0
+- (id)unknownSelector {
+  %orig();
+  FUN_000156c8(self);
+  return;
+}
+%end
+
+%hook SBFLockScreenDateSubtitleDateView
+
+// MSHookMessageEx @ 0x0000f964  IMP 0x11064
+- (id)unknownSelector {
+  int iVar1;
+  long lVar2;
+  ulong uVar3;
+  long lVar4;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 == 0) {
+    objc_msgSend_superview(self);
+    lVar2 = _objc_retainAutoreleasedReturnValue();
+    while ((lVar2 != 0 && (uVar3 = FUN_00011c1c(lVar2), (uVar3 & 1) == 0))) {
+      objc_msgSend_superview(lVar2);
+      lVar4 = _objc_retainAutoreleasedReturnValue();
+      _objc_release(lVar2);
+      lVar2 = lVar4;
+    }
+    FUN_00013ed4(lVar2);
+    _objc_release(lVar2);
+    return;
+  }
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f980  IMP 0x11104
+- (id)unknownSelector {
+  int iVar1;
+  long lVar2;
+  ulong uVar3;
+  long lVar4;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 == 0) {
+    objc_msgSend_superview(self);
+    lVar2 = _objc_retainAutoreleasedReturnValue();
+    while ((lVar2 != 0 && (uVar3 = FUN_00011c1c(lVar2), (uVar3 & 1) == 0))) {
+      objc_msgSend_superview(lVar2);
+      lVar4 = _objc_retainAutoreleasedReturnValue();
+      _objc_release(lVar2);
+      lVar2 = lVar4;
+    }
+    FUN_00013ed4(lVar2);
+    _objc_release(lVar2);
+    return;
+  }
+  return;
+}
+%end
+
+%hook SBFLockScreenDateView
+
+// MSHookMessageEx @ 0x0000f8e0  IMP 0x10ee4
+- (id)unknownSelector {
+  int iVar1;
+  undefined8 uVar2;
+  
+  %orig();
+  uVar2 = _objc_retain(self);
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 == 0) {
+    FUN_00013ed4(uVar2);
+  }
+  FUN_00015434(uVar2);
+  _objc_release(uVar2);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f8fc  IMP 0x10f44
+- (id)unknownSelector {
+  int iVar1;
+  undefined8 uVar2;
+  
+  %orig();
+  uVar2 = _objc_retain(self);
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 == 0) {
+    FUN_00013ed4(uVar2);
+  }
+  FUN_000155ac(uVar2);
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 == 0) {
+    FUN_00015654(uVar2);
+  }
+  _objc_release(uVar2);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f91c  IMP 0x10fc4
+- (id)_updateLabelAlpha {
+  int iVar1;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 != 0) {
+    return;
+  }
+  FUN_00015654(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f93c  IMP 0x11014
+- (id)_updateLabels {
+  int iVar1;
+  
+  %orig();
+  iVar1 = FUN_0001a7a8(2,0x10,0,0);
+  if (iVar1 != 0) {
+    return;
+  }
+  FUN_00015654(self);
+  return;
+}
+%end
+
+%hook SBUILegibilityLabel
+
+// MSHookMessageEx @ 0x0000f7e4  IMP 0x10974
+- (id)setAlpha: {
+  code *pcVar1;
+  bool bVar2;
+  int iVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  long lVar8;
+  undefined auVar9 [16];
+  undefined auVar10 [16];
+  
+  _objc_retain();
+  pcVar1 = DAT_00056010;
+  uVar4 = _objc_retain();
+  _objc_opt_class();
+  _NSStringFromClass();
+  auVar9 = _objc_retainAutoreleasedReturnValue();
+  iVar3 = objc_msgSend_isEqualToString_(auVar9._0_8_,auVar9._8_8_,&cf_SBUILegibilityLabel);
+  if (iVar3 == 0) {
+    bVar2 = false;
+  }
+  else {
+    objc_msgSend_superview(uVar4);
+    uVar5 = _objc_retainAutoreleasedReturnValue();
+    _objc_opt_class();
+    _NSStringFromClass();
+    auVar10 = _objc_retainAutoreleasedReturnValue();
+    iVar3 = objc_msgSend_isEqualToString_
+                      (auVar10._0_8_,auVar10._8_8_,&cf_NCNotificationListHeaderTitleView);
+    if (iVar3 == 0) {
+      bVar2 = false;
+    }
+    else {
+      objc_msgSend_superview(uVar4);
+      uVar6 = _objc_retainAutoreleasedReturnValue();
+      objc_msgSend_superview();
+      uVar7 = _objc_retainAutoreleasedReturnValue();
+      FUN_00013a1c();
+      lVar8 = _objc_retainAutoreleasedReturnValue();
+      bVar2 = lVar8 != 0;
+      _objc_release();
+      _objc_release(uVar7);
+      _objc_release(uVar6);
+    }
+    _objc_release(auVar10._0_8_);
+    _objc_release(uVar5);
+  }
+  _objc_release(auVar9._0_8_);
+  _objc_release(uVar4);
+  FUN_00015368(self,uVar4,bVar2);
+  FUN_0001523c(uVar4);
+  %orig(uVar4,arg3);
+  _objc_release(uVar4);
+  return;
+}
+%end
+
+%hook UIImageView
+
+// MSHookMessageEx @ 0x0000fcb0  IMP 0x11774
+- (id)unknownSelector {
+  code *pcVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  
+  pcVar1 = DAT_00056130;
+  uVar2 = _objc_retain();
+  uVar3 = FUN_00015128();
+  FUN_00015368(self,uVar2,uVar3);
+  %orig(uVar2,arg3);
+  _objc_release(uVar2);
+  return;
+}
+%end
+
+%hook UILabel
+
+// MSHookMessageEx @ 0x0000f788  IMP 0x10794
+- (id)setAlpha: {
+  code *pcVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  ulong uVar5;
+  undefined8 uVar6;
+  long lVar7;
+  undefined auVar8 [16];
+  
+  uVar2 = _objc_retain();
+  objc_msgSend_superview();
+  uVar3 = _objc_retainAutoreleasedReturnValue();
+  _objc_opt_class();
+  _NSStringFromClass();
+  auVar8 = _objc_retainAutoreleasedReturnValue();
+  uVar4 = auVar8._0_8_;
+  uVar5 = objc_msgSend_isEqualToString_(uVar4,auVar8._8_8_,&cf_NCNotificationListHeaderTitleView);
+  if ((uVar5 & 1) == 0) {
+    _objc_release(uVar4);
+    _objc_release(uVar3);
+  }
+  else {
+    objc_msgSend_superview(uVar3);
+    uVar6 = _objc_retainAutoreleasedReturnValue();
+    FUN_00013a1c();
+    lVar7 = _objc_retainAutoreleasedReturnValue();
+    _objc_release();
+    _objc_release(uVar6);
+    _objc_release(uVar4);
+    _objc_release(uVar3);
+    if (lVar7 != 0) {
+      uVar3 = 1;
+      goto LAB_00010858;
+    }
+  }
+  uVar3 = FUN_00015128(uVar2);
+LAB_00010858:
+  pcVar1 = DAT_00055ff8;
+  FUN_00015368(self,uVar2,uVar3);
+  FUN_0001523c(uVar2);
+  %orig(uVar2,arg3);
+  _objc_release(uVar2);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f7a4  IMP 0x1089c
+- (id)setText: {
+  int iVar1;
+  ulong uVar2;
+  
+  %orig();
+  uVar2 = FUN_00014a74(self);
+  if ((((uVar2 & 1) == 0) && (iVar1 = FUN_0001a7a8(2,0x10,0,0), iVar1 == 0)) &&
+     (iVar1 = FUN_00011db4(self,0), iVar1 != 0)) {
+    FUN_00014b74(self);
+    return;
+  }
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f7c0  IMP 0x10908
+- (id)setAttributedText: {
+  int iVar1;
+  ulong uVar2;
+  
+  %orig();
+  uVar2 = FUN_00014a74(self);
+  if ((((uVar2 & 1) == 0) && (iVar1 = FUN_0001a7a8(2,0x10,0,0), iVar1 == 0)) &&
+     (iVar1 = FUN_00011db4(self,0), iVar1 != 0)) {
+    FUN_00014b74(self);
+    return;
+  }
+  return;
+}
+%end
+
+%hook UnknownClass
+
+// MSHookMessageEx @ 0x0000f5bc  IMP 0xff28
+- (id)complicationElementBoundingTopY {
+  double dVar1;
+  double dVar2;
+  
+  dVar1 = (double)%orig();
+  dVar2 = DAT_00056248;
+  if (DAT_00056240 == '\0') {
+    dVar2 = 0.0;
+  }
+  return dVar1 + dVar2;
+}
+%end
+
+%hook _UIAnimatingLabel
+
+// MSHookMessageEx @ 0x0000f710  IMP 0x10580
+- (id)setFont: {
+  int iVar1;
+  undefined8 uVar2;
+  long lVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  undefined8 uVar8;
+  ulong uVar9;
+  
+  uVar2 = _objc_retain(arg3);
+  iVar1 = _LGDebugLoggingEnabled();
+  if (iVar1 != 0) {
+    objc_msgSend_text(self);
+    lVar3 = _objc_retainAutoreleasedReturnValue();
+    if (lVar3 == 0) {
+      objc_msgSend_attributedText(self);
+      uVar4 = _objc_retainAutoreleasedReturnValue();
+      objc_msgSend_string();
+      uVar5 = _objc_retainAutoreleasedReturnValue();
+      uVar9 = FUN_00011e90();
+      _objc_release(uVar5);
+      _objc_release(uVar4);
+      if ((uVar9 & 1) == 0) goto LAB_0001067c;
+    }
+    else {
+      iVar1 = FUN_00011e90();
+      _objc_release(lVar3);
+      if (iVar1 == 0) goto LAB_0001067c;
+    }
+    FUN_0000de94(uVar2);
+    uVar4 = _objc_retainAutoreleasedReturnValue();
+    objc_msgSend_font(self);
+    uVar5 = _objc_retainAutoreleasedReturnValue();
+    FUN_0000de94();
+    uVar6 = _objc_retainAutoreleasedReturnValue();
+    FUN_0000dfe0(self);
+    uVar7 = _objc_retainAutoreleasedReturnValue();
+    FUN_0000de94();
+    uVar8 = _objc_retainAutoreleasedReturnValue();
+    _LGLog(&cf_setFontenteringlabel__psupplied_____currentDirect_____currentAttributed_____);
+    _objc_release(uVar8);
+    _objc_release(uVar7);
+    _objc_release(uVar6);
+    _objc_release(uVar5);
+    _objc_release(uVar4);
+  }
+LAB_0001067c:
+  %orig(uVar2);
+  FUN_00014368(self,uVar2,&cf_setFont);
+  _objc_release(uVar2);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f734  IMP 0x1070c
+- (id)setText: {
+  ulong uVar1;
+  
+  %orig();
+  uVar1 = FUN_00014a74(self);
+  if ((uVar1 & 1) != 0) {
+    return;
+  }
+  FUN_00014b74(self);
+  return;
+}
+
+// MSHookMessageEx @ 0x0000f758  IMP 0x10750
+- (id)setAttributedText: {
+  ulong uVar1;
+  
+  %orig();
+  uVar1 = FUN_00014a74(self);
+  if ((uVar1 & 1) != 0) {
+    return;
+  }
+  FUN_00014b74(self);
+  return;
+}
+%end

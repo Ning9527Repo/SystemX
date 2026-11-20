@@ -1,0 +1,1744 @@
+{
+ "name": "SystemBoxLiquidGlassDockBackboardd",
+ "path": "../extracted/data/Library/MobileSubstrate/DynamicLibraries/SystemBoxLiquidGlassDockBackboardd.dylib",
+ "slices": [
+  {
+   "arch": "arm64",
+   "uuid": "2367caccf2883116b6c7bca47679dc07",
+   "text": [
+    {
+     "addr": 16384,
+     "size": 16588
+    },
+    {
+     "addr": 32972,
+     "size": 588
+    },
+    {
+     "addr": 33560,
+     "size": 2144
+    }
+   ],
+   "imports": [
+    "_CFNotificationCenterGetDarwinNotifyCenter",
+    "_CFNotificationCenterPostNotification",
+    "_MTLCreateSystemDefaultDevice",
+    "__Unwind_Resume",
+    "__Z6jbrootP8NSString",
+    "__ZNSt20bad_array_new_lengthC1Ev",
+    "__ZNSt20bad_array_new_lengthD1Ev",
+    "__ZNSt3__112__next_primeEm",
+    "__ZTISt20bad_array_new_length",
+    "__ZdlPv",
+    "__Znwm",
+    "___cxa_allocate_exception",
+    "___cxa_atexit",
+    "___cxa_guard_abort",
+    "___cxa_guard_acquire",
+    "___cxa_guard_release",
+    "___cxa_throw",
+    "___gxx_personality_v0",
+    "___stack_chk_fail",
+    "___stack_chk_guard",
+    "__dyld_get_image_header",
+    "__dyld_get_image_name",
+    "__dyld_get_image_vmaddr_slide",
+    "__dyld_image_count",
+    "_access",
+    "_dispatch_after",
+    "_dispatch_get_global_queue",
+    "_dispatch_time",
+    "_dlerror",
+    "_dlopen",
+    "_dlsym",
+    "_getsegmentdata",
+    "_jbroot",
+    "_memchr",
+    "_memcmp",
+    "_mmap",
+    "_munmap",
+    "_objc_alloc",
+    "_objc_autoreleasePoolPop",
+    "_objc_autoreleasePoolPush",
+    "_objc_autoreleaseReturnValue",
+    "_objc_enumerationMutation",
+    "_objc_msgSend",
+    "_objc_opt_new",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutorelease",
+    "_objc_retainAutoreleasedReturnValue",
+    "_objc_storeStrong",
+    "_objc_unsafeClaimAutoreleasedReturnValue",
+    "_os_unfair_lock_lock",
+    "_os_unfair_lock_unlock",
+    "_strlen",
+    "_strstr",
+    "__NSConcreteGlobalBlock",
+    "___CFConstantStringClassReference",
+    "_OBJC_CLASS_$_NSConstantArray",
+    "_OBJC_CLASS_$_NSProcessInfo",
+    "_OBJC_CLASS_$_NSMutableArray",
+    "_OBJC_CLASS_$_NSData",
+    "_OBJC_CLASS_$_NSString",
+    "_OBJC_CLASS_$_NSMutableDictionary",
+    "_OBJC_CLASS_$_NSCharacterSet",
+    "_OBJC_CLASS_$_NSFileManager",
+    "_OBJC_CLASS_$_NSURLComponents",
+    "_OBJC_CLASS_$_MTLRenderPassDescriptor",
+    "_OBJC_CLASS_$_MTLRenderPipelineDescriptor",
+    "_OBJC_CLASS_$_NSBundle",
+    "_OBJC_CLASS_$_NSNumber",
+    "_OBJC_CLASS_$_NSDictionary",
+    "__tlv_bootstrap"
+   ],
+   "classes": [],
+   "categories": [],
+   "protocols": [],
+   "selrefs": [
+    "UTF8String",
+    "addObject:",
+    "array",
+    "bundleWithPath:",
+    "colorAttachments",
+    "componentsSeparatedByCharactersInSet:",
+    "componentsSeparatedByString:",
+    "componentsWithString:",
+    "containsObject:",
+    "contentsOfDirectoryAtPath:error:",
+    "copy",
+    "countByEnumeratingWithState:objects:count:",
+    "dataWithContentsOfFile:",
+    "defaultManager",
+    "device",
+    "dictionary",
+    "dictionaryWithObjects:forKeys:count:",
+    "drawPrimitives:vertexStart:vertexCount:",
+    "endEncoding",
+    "hasPrefix:",
+    "height",
+    "host",
+    "infoDictionary",
+    "initWithData:encoding:",
+    "isEqualToString:",
+    "length",
+    "localizedDescription",
+    "lowercaseString",
+    "newFunctionWithName:",
+    "newLibraryWithFile:error:",
+    "newRenderPipelineStateWithDescriptor:error:",
+    "numberWithUnsignedLong:",
+    "objectAtIndexedSubscript:",
+    "objectForKeyedSubscript:",
+    "operatingSystemVersion",
+    "percentEncodedPath",
+    "pixelFormat",
+    "processInfo",
+    "rangeOfString:",
+    "renderCommandEncoderWithDescriptor:",
+    "renderPassDescriptor",
+    "scheme",
+    "setFragmentBytes:length:atIndex:",
+    "setFragmentFunction:",
+    "setFragmentTexture:atIndex:",
+    "setLoadAction:",
+    "setObject:forKeyedSubscript:",
+    "setPixelFormat:",
+    "setRenderPipelineState:",
+    "setStoreAction:",
+    "setTexture:",
+    "setVertexFunction:",
+    "stringByAppendingFormat:",
+    "stringByAppendingPathComponent:",
+    "stringByAppendingString:",
+    "stringByReplacingOccurrencesOfString:withString:",
+    "stringByTrimmingCharactersInSet:",
+    "stringWithContentsOfFile:encoding:error:",
+    "stringWithFormat:",
+    "stringWithUTF8String:",
+    "substringFromIndex:",
+    "substringToIndex:",
+    "usage",
+    "whitespaceAndNewlineCharacterSet",
+    "whitespaceCharacterSet",
+    "width",
+    "writeToFile:atomically:"
+   ],
+   "classrefs": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "cstrings": [
+    {
+     "addr": 35864,
+     "s": "com.wkk.systembox"
+    },
+    {
+     "addr": 35882,
+     "s": "wkk"
+    },
+    {
+     "addr": 35886,
+     "s": "/Library/Application Support/SystemBoxLiquidGlassDock/DockGlass.metallib"
+    },
+    {
+     "addr": 35959,
+     "s": "\r\n"
+    },
+    {
+     "addr": 35962,
+     "s": "\n"
+    },
+    {
+     "addr": 35964,
+     "s": "\n\n"
+    },
+    {
+     "addr": 35967,
+     "s": "Package"
+    },
+    {
+     "addr": 35975,
+     "s": "Status"
+    },
+    {
+     "addr": 35982,
+     "s": "install ok installed"
+    },
+    {
+     "addr": 36003,
+     "s": "Author"
+    },
+    {
+     "addr": 36010,
+     "s": "Maintainer"
+    },
+    {
+     "addr": 36021,
+     "s": "/var/jb/var/lib/dpkg/status"
+    },
+    {
+     "addr": 36049,
+     "s": "/var/lib/dpkg/status"
+    },
+    {
+     "addr": 36070,
+     "s": "/Library/dpkg/status"
+    },
+    {
+     "addr": 36091,
+     "s": " "
+    },
+    {
+     "addr": 36093,
+     "s": "\t"
+    },
+    {
+     "addr": 36095,
+     "s": "%@\n%@"
+    },
+    {
+     "addr": 36102,
+     "s": ":"
+    },
+    {
+     "addr": 36104,
+     "s": "Enabled"
+    },
+    {
+     "addr": 36112,
+     "s": "no"
+    },
+    {
+     "addr": 36115,
+     "s": "false"
+    },
+    {
+     "addr": 36121,
+     "s": "0"
+    },
+    {
+     "addr": 36123,
+     "s": "URIs"
+    },
+    {
+     "addr": 36128,
+     "s": "/etc/apt/sources.list.d"
+    },
+    {
+     "addr": 36152,
+     "s": "http"
+    },
+    {
+     "addr": 36157,
+     "s": "https"
+    },
+    {
+     "addr": 36163,
+     "s": "axs.yourepo.com"
+    },
+    {
+     "addr": 36179,
+     "s": "axs66.github.io"
+    },
+    {
+     "addr": 36195,
+     "s": "/pro"
+    },
+    {
+     "addr": 36200,
+     "s": "/pro/"
+    },
+    {
+     "addr": 36206,
+     "s": "wkkyy00.github.io"
+    },
+    {
+     "addr": 36224,
+     "s": "/"
+    },
+    {
+     "addr": 36226,
+     "s": "/var/mobile/Library/Accessibility/lg_force_hook"
+    },
+    {
+     "addr": 36274,
+     "s": "v8@?0"
+    },
+    {
+     "addr": 36280,
+     "s": "com.wkk.systembox.liquidglass/ParametersReloaded"
+    },
+    {
+     "addr": 36329,
+     "s": ".dark"
+    },
+    {
+     "addr": 36335,
+     "s": ".r%d"
+    },
+    {
+     "addr": 36340,
+     "s": "gaussianBlur"
+    },
+    {
+     "addr": 36353,
+     "s": "com.wkk.systembox.liquidglassdock"
+    },
+    {
+     "addr": 36387,
+     "s": "MSHookFunction"
+    },
+    {
+     "addr": 36402,
+     "s": "/usr/lib/libellekit.dylib"
+    },
+    {
+     "addr": 36428,
+     "s": "/usr/lib/libsubstrate.dylib"
+    },
+    {
+     "addr": 36456,
+     "s": "/Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate"
+    },
+    {
+     "addr": 36516,
+     "s": "libellekit.dylib"
+    },
+    {
+     "addr": 36533,
+     "s": "libsubstrate.dylib"
+    },
+    {
+     "addr": 36552,
+     "s": "liquidGlassVertex"
+    },
+    {
+     "addr": 36570,
+     "s": "liquidGlassFragment"
+    },
+    {
+     "addr": 36590,
+     "s": "QuartzCore"
+    },
+    {
+     "addr": 36601,
+     "s": "__TEXT"
+    },
+    {
+     "addr": 36608,
+     "s": "CAInternAtomWithCString"
+    },
+    {
+     "addr": 36632,
+     "s": "!memoryless_in_use ()"
+    },
+    {
+     "addr": 36654,
+     "s": "Command buffer allocation failed!\n"
+    },
+    {
+     "addr": 36689,
+     "s": "/System/Library/Frameworks/QuartzCore.framework"
+    },
+    {
+     "addr": 36737,
+     "s": "CFBundleVersion"
+    },
+    {
+     "addr": 36753,
+     "s": "unknown"
+    },
+    {
+     "addr": 36761,
+     "s": "qcVersion"
+    },
+    {
+     "addr": 36771,
+     "s": "addFilter"
+    },
+    {
+     "addr": 36781,
+     "s": "stopEncoders"
+    },
+    {
+     "addr": 36794,
+     "s": "gaussianCtxSlot"
+    },
+    {
+     "addr": 36810,
+     "s": "filterTableSlot"
+    },
+    {
+     "addr": 36826,
+     "s": "/tmp/lg_symcache.plist"
+    }
+   ],
+   "symbols": [
+    {
+     "name": "radr://5614542",
+     "value": 90260802,
+     "type": 60
+    },
+    {
+     "name": "_SBXLResolve_AddFilter",
+     "value": 29716,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_CAInternAtomWithCString",
+     "value": 29352,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_EdgeInfoVtableSlot",
+     "value": 31876,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_FilterTableSlot",
+     "value": 30248,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_GaussianCtxSlot",
+     "value": 30220,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_MetalCmdBufOffset",
+     "value": 30824,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_RenderVtableSlot",
+     "value": 31352,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_StopEncoders",
+     "value": 30276,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymAddressInQuartzCoreImage",
+     "value": 31820,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymDecodeAdrpAdd",
+     "value": 29148,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymDecodeAdrpLdr",
+     "value": 29256,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymMakeCallable",
+     "value": 28620,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymResolveExported",
+     "value": 28988,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymResolverInit",
+     "value": 28632,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymResolverSaveCache",
+     "value": 32144,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymScanText",
+     "value": 29000,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymStripCode",
+     "value": 28624,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymStripData",
+     "value": 28628,
+     "type": 15
+    },
+    {
+     "name": "_CFNotificationCenterGetDarwinNotifyCenter",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CFNotificationCenterPostNotification",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_MTLCreateSystemDefaultDevice",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_MTLRenderPassDescriptor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_MTLRenderPipelineDescriptor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSBundle",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSCharacterSet",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSConstantArray",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSData",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSDictionary",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSFileManager",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableArray",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableDictionary",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSNumber",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSProcessInfo",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSURLComponents",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__NSConcreteGlobalBlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Unwind_Resume",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Z6jbrootP8NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt20bad_array_new_lengthC1Ev",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt20bad_array_new_lengthD1Ev",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt3__112__next_primeEm",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZTISt20bad_array_new_length",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZdlPv",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Znwm",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___CFConstantStringClassReference",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_allocate_exception",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_atexit",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_guard_abort",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_guard_acquire",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_guard_release",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_throw",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___gxx_personality_v0",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_fail",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_guard",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_header",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_name",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_vmaddr_slide",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_image_count",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__tlv_bootstrap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_access",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_after",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_get_global_queue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_time",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlerror",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlopen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlsym",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_getsegmentdata",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_jbroot",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_memchr",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_memcmp",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_mmap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_munmap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_alloc",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleasePoolPop",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleasePoolPush",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleaseReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_enumerationMutation",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_msgSend",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_new",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_release",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retain",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutorelease",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutoreleasedReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_storeStrong",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_unsafeClaimAutoreleasedReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_os_unfair_lock_lock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_os_unfair_lock_unlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strlen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strstr",
+     "value": 0,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "arch": "arm64e",
+   "uuid": "70f30975f8293e0483e2f9d9b18108ff",
+   "text": [
+    {
+     "addr": 16384,
+     "size": 16972
+    },
+    {
+     "addr": 34124,
+     "size": 2144
+    }
+   ],
+   "imports": [
+    "_CFNotificationCenterGetDarwinNotifyCenter",
+    "_CFNotificationCenterPostNotification",
+    "_MTLCreateSystemDefaultDevice",
+    "__Unwind_Resume",
+    "__Z6jbrootP8NSString",
+    "__ZNSt20bad_array_new_lengthC1Ev",
+    "__ZNSt3__112__next_primeEm",
+    "__ZdlPv",
+    "__Znwm",
+    "___cxa_allocate_exception",
+    "___cxa_atexit",
+    "___cxa_guard_abort",
+    "___cxa_guard_acquire",
+    "___cxa_guard_release",
+    "___cxa_throw",
+    "___gxx_personality_v0",
+    "___stack_chk_fail",
+    "__dyld_get_image_header",
+    "__dyld_get_image_name",
+    "__dyld_get_image_vmaddr_slide",
+    "__dyld_image_count",
+    "_dispatch_after",
+    "_dispatch_get_global_queue",
+    "_dispatch_time",
+    "_dlerror",
+    "_dlopen",
+    "_dlsym",
+    "_getsegmentdata",
+    "_jbroot",
+    "_memchr",
+    "_memcmp",
+    "_mmap",
+    "_munmap",
+    "_objc_alloc",
+    "_objc_autoreleasePoolPop",
+    "_objc_autoreleasePoolPush",
+    "_objc_autoreleaseReturnValue",
+    "_objc_enumerationMutation",
+    "_objc_msgSend",
+    "_objc_opt_new",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutorelease",
+    "_objc_retainAutoreleasedReturnValue",
+    "_objc_storeStrong",
+    "_objc_unsafeClaimAutoreleasedReturnValue",
+    "_os_unfair_lock_lock",
+    "_os_unfair_lock_unlock",
+    "_strlen",
+    "_strstr",
+    "__ZNSt20bad_array_new_lengthD1Ev",
+    "__ZTISt20bad_array_new_length",
+    "___stack_chk_guard",
+    "__NSConcreteGlobalBlock",
+    "___CFConstantStringClassReference",
+    "_OBJC_CLASS_$_NSConstantArray",
+    "_OBJC_CLASS_$_NSProcessInfo",
+    "_OBJC_CLASS_$_NSMutableArray",
+    "_OBJC_CLASS_$_NSData",
+    "_OBJC_CLASS_$_NSString",
+    "_OBJC_CLASS_$_NSMutableDictionary",
+    "_OBJC_CLASS_$_NSCharacterSet",
+    "_OBJC_CLASS_$_NSFileManager",
+    "_OBJC_CLASS_$_NSURLComponents",
+    "_OBJC_CLASS_$_MTLRenderPassDescriptor",
+    "_OBJC_CLASS_$_MTLRenderPipelineDescriptor",
+    "_OBJC_CLASS_$_NSBundle",
+    "_OBJC_CLASS_$_NSNumber",
+    "_OBJC_CLASS_$_NSDictionary",
+    "__tlv_bootstrap"
+   ],
+   "classes": [],
+   "categories": [],
+   "protocols": [],
+   "selrefs": [
+    "UTF8String",
+    "addObject:",
+    "array",
+    "bundleWithPath:",
+    "colorAttachments",
+    "componentsSeparatedByCharactersInSet:",
+    "componentsSeparatedByString:",
+    "componentsWithString:",
+    "containsObject:",
+    "contentsOfDirectoryAtPath:error:",
+    "copy",
+    "countByEnumeratingWithState:objects:count:",
+    "dataWithContentsOfFile:",
+    "defaultManager",
+    "device",
+    "dictionary",
+    "dictionaryWithObjects:forKeys:count:",
+    "drawPrimitives:vertexStart:vertexCount:",
+    "endEncoding",
+    "hasPrefix:",
+    "height",
+    "host",
+    "infoDictionary",
+    "initWithData:encoding:",
+    "isEqualToString:",
+    "length",
+    "localizedDescription",
+    "lowercaseString",
+    "newFunctionWithName:",
+    "newLibraryWithFile:error:",
+    "newRenderPipelineStateWithDescriptor:error:",
+    "numberWithUnsignedLong:",
+    "objectAtIndexedSubscript:",
+    "objectForKeyedSubscript:",
+    "operatingSystemVersion",
+    "percentEncodedPath",
+    "pixelFormat",
+    "processInfo",
+    "rangeOfString:",
+    "renderCommandEncoderWithDescriptor:",
+    "renderPassDescriptor",
+    "scheme",
+    "setFragmentBytes:length:atIndex:",
+    "setFragmentFunction:",
+    "setFragmentTexture:atIndex:",
+    "setLoadAction:",
+    "setObject:forKeyedSubscript:",
+    "setPixelFormat:",
+    "setRenderPipelineState:",
+    "setStoreAction:",
+    "setTexture:",
+    "setVertexFunction:",
+    "stringByAppendingFormat:",
+    "stringByAppendingPathComponent:",
+    "stringByAppendingString:",
+    "stringByReplacingOccurrencesOfString:withString:",
+    "stringByTrimmingCharactersInSet:",
+    "stringWithContentsOfFile:encoding:error:",
+    "stringWithFormat:",
+    "stringWithUTF8String:",
+    "substringFromIndex:",
+    "substringToIndex:",
+    "usage",
+    "whitespaceAndNewlineCharacterSet",
+    "whitespaceCharacterSet",
+    "width",
+    "writeToFile:atomically:"
+   ],
+   "classrefs": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "cstrings": [
+    {
+     "addr": 36424,
+     "s": "com.wkk.systembox"
+    },
+    {
+     "addr": 36442,
+     "s": "wkk"
+    },
+    {
+     "addr": 36446,
+     "s": "/Library/Application Support/SystemBoxLiquidGlassDock/DockGlass.metallib"
+    },
+    {
+     "addr": 36519,
+     "s": "\r\n"
+    },
+    {
+     "addr": 36522,
+     "s": "\n"
+    },
+    {
+     "addr": 36524,
+     "s": "\n\n"
+    },
+    {
+     "addr": 36527,
+     "s": "Package"
+    },
+    {
+     "addr": 36535,
+     "s": "Status"
+    },
+    {
+     "addr": 36542,
+     "s": "install ok installed"
+    },
+    {
+     "addr": 36563,
+     "s": "Author"
+    },
+    {
+     "addr": 36570,
+     "s": "Maintainer"
+    },
+    {
+     "addr": 36581,
+     "s": "/var/jb/var/lib/dpkg/status"
+    },
+    {
+     "addr": 36609,
+     "s": "/var/lib/dpkg/status"
+    },
+    {
+     "addr": 36630,
+     "s": "/Library/dpkg/status"
+    },
+    {
+     "addr": 36651,
+     "s": " "
+    },
+    {
+     "addr": 36653,
+     "s": "\t"
+    },
+    {
+     "addr": 36655,
+     "s": "%@\n%@"
+    },
+    {
+     "addr": 36662,
+     "s": ":"
+    },
+    {
+     "addr": 36664,
+     "s": "Enabled"
+    },
+    {
+     "addr": 36672,
+     "s": "no"
+    },
+    {
+     "addr": 36675,
+     "s": "false"
+    },
+    {
+     "addr": 36681,
+     "s": "0"
+    },
+    {
+     "addr": 36683,
+     "s": "URIs"
+    },
+    {
+     "addr": 36688,
+     "s": "/etc/apt/sources.list.d"
+    },
+    {
+     "addr": 36712,
+     "s": "http"
+    },
+    {
+     "addr": 36717,
+     "s": "https"
+    },
+    {
+     "addr": 36723,
+     "s": "axs.yourepo.com"
+    },
+    {
+     "addr": 36739,
+     "s": "axs66.github.io"
+    },
+    {
+     "addr": 36755,
+     "s": "/pro"
+    },
+    {
+     "addr": 36760,
+     "s": "/pro/"
+    },
+    {
+     "addr": 36766,
+     "s": "wkkyy00.github.io"
+    },
+    {
+     "addr": 36784,
+     "s": "/"
+    },
+    {
+     "addr": 36786,
+     "s": "v8@?0"
+    },
+    {
+     "addr": 36792,
+     "s": "com.wkk.systembox.liquidglass/ParametersReloaded"
+    },
+    {
+     "addr": 36841,
+     "s": ".dark"
+    },
+    {
+     "addr": 36847,
+     "s": ".r%d"
+    },
+    {
+     "addr": 36852,
+     "s": "gaussianBlur"
+    },
+    {
+     "addr": 36865,
+     "s": "com.wkk.systembox.liquidglassdock"
+    },
+    {
+     "addr": 36899,
+     "s": "MSHookFunction"
+    },
+    {
+     "addr": 36914,
+     "s": "/usr/lib/libellekit.dylib"
+    },
+    {
+     "addr": 36940,
+     "s": "/usr/lib/libsubstrate.dylib"
+    },
+    {
+     "addr": 36968,
+     "s": "/Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate"
+    },
+    {
+     "addr": 37028,
+     "s": "libellekit.dylib"
+    },
+    {
+     "addr": 37045,
+     "s": "libsubstrate.dylib"
+    },
+    {
+     "addr": 37064,
+     "s": "liquidGlassVertex"
+    },
+    {
+     "addr": 37082,
+     "s": "liquidGlassFragment"
+    },
+    {
+     "addr": 37102,
+     "s": "QuartzCore"
+    },
+    {
+     "addr": 37113,
+     "s": "__TEXT"
+    },
+    {
+     "addr": 37120,
+     "s": "CAInternAtomWithCString"
+    },
+    {
+     "addr": 37144,
+     "s": "!memoryless_in_use ()"
+    },
+    {
+     "addr": 37166,
+     "s": "Command buffer allocation failed!\n"
+    },
+    {
+     "addr": 37201,
+     "s": "/System/Library/Frameworks/QuartzCore.framework"
+    },
+    {
+     "addr": 37249,
+     "s": "CFBundleVersion"
+    },
+    {
+     "addr": 37265,
+     "s": "unknown"
+    },
+    {
+     "addr": 37273,
+     "s": "qcVersion"
+    },
+    {
+     "addr": 37283,
+     "s": "addFilter"
+    },
+    {
+     "addr": 37293,
+     "s": "stopEncoders"
+    },
+    {
+     "addr": 37306,
+     "s": "gaussianCtxSlot"
+    },
+    {
+     "addr": 37322,
+     "s": "filterTableSlot"
+    },
+    {
+     "addr": 37338,
+     "s": "/tmp/lg_symcache.plist"
+    }
+   ],
+   "symbols": [
+    {
+     "name": "radr://5614542",
+     "value": 90260802,
+     "type": 60
+    },
+    {
+     "name": "_SBXLResolve_AddFilter",
+     "value": 30040,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_CAInternAtomWithCString",
+     "value": 29672,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_EdgeInfoVtableSlot",
+     "value": 32236,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_FilterTableSlot",
+     "value": 30584,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_GaussianCtxSlot",
+     "value": 30552,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_MetalCmdBufOffset",
+     "value": 31172,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_RenderVtableSlot",
+     "value": 31704,
+     "type": 15
+    },
+    {
+     "name": "_SBXLResolve_StopEncoders",
+     "value": 30616,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymAddressInQuartzCoreImage",
+     "value": 32180,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymDecodeAdrpAdd",
+     "value": 29468,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymDecodeAdrpLdr",
+     "value": 29576,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymMakeCallable",
+     "value": 28888,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymResolveExported",
+     "value": 29308,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymResolverInit",
+     "value": 28948,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymResolverSaveCache",
+     "value": 32520,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymScanText",
+     "value": 29320,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymStripCode",
+     "value": 28916,
+     "type": 15
+    },
+    {
+     "name": "_SBXLSymStripData",
+     "value": 28932,
+     "type": 15
+    },
+    {
+     "name": "_CFNotificationCenterGetDarwinNotifyCenter",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CFNotificationCenterPostNotification",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_MTLCreateSystemDefaultDevice",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_MTLRenderPassDescriptor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_MTLRenderPipelineDescriptor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSBundle",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSCharacterSet",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSConstantArray",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSData",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSDictionary",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSFileManager",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableArray",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableDictionary",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSNumber",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSProcessInfo",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSURLComponents",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__NSConcreteGlobalBlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Unwind_Resume",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Z6jbrootP8NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt20bad_array_new_lengthC1Ev",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt20bad_array_new_lengthD1Ev",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt3__112__next_primeEm",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZTISt20bad_array_new_length",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZdlPv",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Znwm",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___CFConstantStringClassReference",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_allocate_exception",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_atexit",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_guard_abort",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_guard_acquire",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_guard_release",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_throw",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___gxx_personality_v0",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_fail",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_guard",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_header",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_name",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_vmaddr_slide",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_image_count",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__tlv_bootstrap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_after",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_get_global_queue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_time",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlerror",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlopen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlsym",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_getsegmentdata",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_jbroot",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_memchr",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_memcmp",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_mmap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_munmap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_alloc",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleasePoolPop",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleasePoolPush",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleaseReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_enumerationMutation",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_msgSend",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_new",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_release",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retain",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutorelease",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutoreleasedReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_storeStrong",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_unsafeClaimAutoreleasedReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_os_unfair_lock_lock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_os_unfair_lock_unlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strlen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strstr",
+     "value": 0,
+     "type": 1
+    }
+   ]
+  }
+ ]
+}

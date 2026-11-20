@@ -1,0 +1,3878 @@
+{
+ "name": "SystemBoxClockGlassBackboardd",
+ "path": "../extracted/data/Library/MobileSubstrate/DynamicLibraries/SystemBoxClockGlassBackboardd.dylib",
+ "slices": [
+  {
+   "arch": "arm64",
+   "uuid": "c761abcf7f8f3d48bd788a3f85c09c40",
+   "text": [
+    {
+     "addr": 32768,
+     "size": 29476
+    },
+    {
+     "addr": 62244,
+     "size": 960
+    },
+    {
+     "addr": 63204,
+     "size": 1728
+    }
+   ],
+   "imports": [
+    "_CFNotificationCenterAddObserver",
+    "_CFNotificationCenterGetDarwinNotifyCenter",
+    "_CFNotificationCenterPostNotification",
+    "__NSConcreteStackBlock",
+    "__Unwind_Resume",
+    "__Z6jbrootP8NSString",
+    "__ZNSt20bad_array_new_lengthC1Ev",
+    "__ZNSt20bad_array_new_lengthD1Ev",
+    "__ZNSt3__112__next_primeEm",
+    "__ZTISt20bad_array_new_length",
+    "__ZdlPv",
+    "__Znwm",
+    "___cxa_allocate_exception",
+    "___cxa_atexit",
+    "___cxa_throw",
+    "___error",
+    "___gxx_personality_v0",
+    "___stack_chk_fail",
+    "___stack_chk_guard",
+    "__dyld_get_image_header",
+    "__dyld_get_image_name",
+    "__dyld_get_image_vmaddr_slide",
+    "__dyld_image_count",
+    "_access",
+    "_bzero",
+    "_clock_gettime",
+    "_close",
+    "_closedir",
+    "_dispatch_after",
+    "_dispatch_get_global_queue",
+    "_dispatch_once",
+    "_dispatch_time",
+    "_dlerror",
+    "_dlopen",
+    "_dlsym",
+    "_fclose",
+    "_fopen",
+    "_fprintf",
+    "_fputc",
+    "_fputs",
+    "_fstat",
+    "_fsync",
+    "_getpid",
+    "_getsegmentdata",
+    "_gettimeofday",
+    "_jbroot",
+    "_localtime",
+    "_mach_absolute_time",
+    "_mach_timebase_info",
+    "_memchr",
+    "_memcmp",
+    "_mmap",
+    "_munmap",
+    "_notify_get_state",
+    "_notify_register_check",
+    "_objc_autoreleasePoolPop",
+    "_objc_autoreleasePoolPush",
+    "_objc_autoreleaseReturnValue",
+    "_objc_msgSend",
+    "_objc_opt_class",
+    "_objc_opt_isKindOfClass",
+    "_objc_opt_new",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutorelease",
+    "_objc_retainAutoreleaseReturnValue",
+    "_objc_retainAutoreleasedReturnValue",
+    "_objc_storeStrong",
+    "_objc_unsafeClaimAutoreleasedReturnValue",
+    "_open",
+    "_opendir",
+    "_os_unfair_lock_lock",
+    "_os_unfair_lock_unlock",
+    "_read",
+    "_readdir",
+    "_rename",
+    "_snprintf",
+    "_strcmp",
+    "_strftime",
+    "_strlen",
+    "_strncmp",
+    "_strstr",
+    "_sysctl",
+    "_unlink",
+    "_vfprintf",
+    "_write",
+    "__NSConcreteGlobalBlock",
+    "___CFConstantStringClassReference",
+    "_OBJC_CLASS_$_NSDictionary",
+    "_OBJC_CLASS_$_NSNumber",
+    "_OBJC_CLASS_$_NSProcessInfo",
+    "_OBJC_CLASS_$_NSString",
+    "_OBJC_CLASS_$_MTLRenderPassDescriptor",
+    "_OBJC_CLASS_$_MTLTextureDescriptor",
+    "_OBJC_CLASS_$_NSMutableData",
+    "_OBJC_CLASS_$_MTLRenderPipelineDescriptor",
+    "_OBJC_CLASS_$_NSCharacterSet",
+    "_OBJC_CLASS_$_NSScanner",
+    "_OBJC_CLASS_$_NSBundle",
+    "__tlv_bootstrap"
+   ],
+   "classes": [],
+   "categories": [],
+   "protocols": [],
+   "selrefs": [
+    "UTF8String",
+    "appendBytes:length:",
+    "boolValue",
+    "bundleWithPath:",
+    "bytes",
+    "colorAttachments",
+    "contents",
+    "dataWithBytes:length:",
+    "device",
+    "dictionaryWithContentsOfFile:",
+    "dictionaryWithObjects:forKeys:count:",
+    "drawPrimitives:vertexStart:vertexCount:",
+    "endEncoding",
+    "floatValue",
+    "height",
+    "infoDictionary",
+    "length",
+    "localizedDescription",
+    "newBufferWithLength:options:",
+    "newFunctionWithName:",
+    "newLibraryWithSource:options:error:",
+    "newRenderPipelineStateWithDescriptor:error:",
+    "newTextureWithDescriptor:",
+    "numberWithUnsignedLong:",
+    "objectAtIndexedSubscript:",
+    "objectForKeyedSubscript:",
+    "operatingSystemVersion",
+    "pixelFormat",
+    "processInfo",
+    "renderCommandEncoderWithDescriptor:",
+    "renderPassDescriptor",
+    "replaceRegion:mipmapLevel:withBytes:bytesPerRow:",
+    "scanHexInt:",
+    "scannerWithString:",
+    "setFragmentBytes:length:atIndex:",
+    "setFragmentFunction:",
+    "setFragmentTexture:atIndex:",
+    "setLoadAction:",
+    "setPixelFormat:",
+    "setRenderPipelineState:",
+    "setStoreAction:",
+    "setTexture:",
+    "setUsage:",
+    "setVertexFunction:",
+    "stringByAppendingFormat:",
+    "stringByAppendingString:",
+    "stringByReplacingOccurrencesOfString:withString:",
+    "stringByTrimmingCharactersInSet:",
+    "stringWithUTF8String:",
+    "texture2DDescriptorWithPixelFormat:width:height:mipmapped:",
+    "usage",
+    "whitespaceAndNewlineCharacterSet",
+    "width",
+    "writeToFile:atomically:"
+   ],
+   "classrefs": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "cstrings": [
+    {
+     "addr": 65172,
+     "s": "com.wkk.systembox.prefschanged"
+    },
+    {
+     "addr": 65203,
+     "s": "Debug.Logging.Enabled"
+    },
+    {
+     "addr": 65225,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass.log"
+    },
+    {
+     "addr": 65284,
+     "s": "w"
+    },
+    {
+     "addr": 65286,
+     "s": "===== LiquidGlass (backboardd) on iOS %ld.%ld.%ld ====="
+    },
+    {
+     "addr": 65342,
+     "s": "init: QuartzCore layout filterAtom=%#lx sourceTexture=%#lx destinationTexture=%#lx contextDestination=%#lx"
+    },
+    {
+     "addr": 65449,
+     "s": "init: architecture=%s render registration=%s%s"
+    },
+    {
+     "addr": 65496,
+     "s": "arm64/non-PAC"
+    },
+    {
+     "addr": 65510,
+     "s": "genuine-descriptor hook"
+    },
+    {
+     "addr": 65534,
+     "s": "cloned descriptor"
+    },
+    {
+     "addr": 65552,
+     "s": " (forced by marker)"
+    },
+    {
+     "addr": 65573,
+     "s": "init: LGSymResolverInit failed, QuartzCore not loaded yet?"
+    },
+    {
+     "addr": 65632,
+     "s": "stop_encoders"
+    },
+    {
+     "addr": 65646,
+     "s": "CAInternAtomWithCString"
+    },
+    {
+     "addr": 65670,
+     "s": "add_filter"
+    },
+    {
+     "addr": 65681,
+     "s": "init: stopEncoders=%p internAtom=%p addFilter=%p"
+    },
+    {
+     "addr": 65730,
+     "s": "init: required symbol(s) unresolved on this build, not activating (no fallback)"
+    },
+    {
+     "addr": 65810,
+     "s": "init: command-buffer offset unresolved, filter registers but custom render pass is skipped"
+    },
+    {
+     "addr": 65901,
+     "s": "init: MetalContext command-buffer offset = %#lx"
+    },
+    {
+     "addr": 65949,
+     "s": "ready"
+    },
+    {
+     "addr": 65955,
+     "s": "/var/mobile/Library/Accessibility"
+    },
+    {
+     "addr": 65989,
+     "s": "clockglass"
+    },
+    {
+     "addr": 66000,
+     "s": "%s/%s"
+    },
+    {
+     "addr": 66006,
+     "s": "v8@?0"
+    },
+    {
+     "addr": 66012,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-backboardd-guard.bin"
+    },
+    {
+     "addr": 66088,
+     "s": "%s.%d.tmp"
+    },
+    {
+     "addr": 66098,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-safemode.log"
+    },
+    {
+     "addr": 66166,
+     "s": "clockglass disabled its backboardd hooks after %u rapid starts\n"
+    },
+    {
+     "addr": 66230,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-backboardd-alert"
+    },
+    {
+     "addr": 66302,
+     "s": "com.wkk.systembox.clockglass/BackboarddSafeMode"
+    },
+    {
+     "addr": 66350,
+     "s": "/var/mobile/Library/Preferences/com.wkk.systembox.plist"
+    },
+    {
+     "addr": 66406,
+     "s": "a"
+    },
+    {
+     "addr": 66408,
+     "s": "%H:%M:%S"
+    },
+    {
+     "addr": 66417,
+     "s": "[LG %s.%03d] "
+    },
+    {
+     "addr": 66431,
+     "s": "/var/mobile/Library/Accessibility/lg_force_hook"
+    },
+    {
+     "addr": 66479,
+     "s": "resolve %s: scanner -> %p"
+    },
+    {
+     "addr": 66505,
+     "s": "resolve %s: FAILED, build not supported by scanner (no fallback)"
+    },
+    {
+     "addr": 66570,
+     "s": "registerCustomFilter: could not resolve filter_table, aborting (no fallback)"
+    },
+    {
+     "addr": 66647,
+     "s": "registerCustomFilter: could not resolve gaussian context, aborting (no fallback)"
+    },
+    {
+     "addr": 66728,
+     "s": "registerCustomFilter: g_gaussCtxValue = %p (raw from %p)"
+    },
+    {
+     "addr": 66785,
+     "s": "registerCustomFilter: gaussian vtable not found"
+    },
+    {
+     "addr": 66833,
+     "s": "registerCustomFilter: gaussian vtable @ %p"
+    },
+    {
+     "addr": 66876,
+     "s": "registerCustomFilter: could not resolve edge-info vtable slot (got %d), aborting"
+    },
+    {
+     "addr": 66957,
+     "s": "registerCustomFilter: edge-info vtable slot = %d"
+    },
+    {
+     "addr": 67006,
+     "s": "registerCustomFilter: iOS 14 direct render fallback vtable[%d]=%p"
+    },
+    {
+     "addr": 67072,
+     "s": "registerCustomFilter: could not resolve render vtable slot (got %d), aborting"
+    },
+    {
+     "addr": 67150,
+     "s": "registerCustomFilter: render vtable slot = %d"
+    },
+    {
+     "addr": 67196,
+     "s": "registerCustomFilter: render and edge-info resolved to the same slot, aborting"
+    },
+    {
+     "addr": 67275,
+     "s": "registerCustomFilter: Gaussian hooks install failed"
+    },
+    {
+     "addr": 67327,
+     "s": "registerCustomFilter: Gaussian hooks installed before filter registration"
+    },
+    {
+     "addr": 67401,
+     "s": "registerCustomFilter: filter_table null, retrying in 250ms"
+    },
+    {
+     "addr": 67460,
+     "s": "registerCustomFilter: internAtom=%p addFilter=%p, aborting"
+    },
+    {
+     "addr": 67519,
+     "s": "gaussianBlur"
+    },
+    {
+     "addr": 67532,
+     "s": "registerCustomFilter: atom('%s')=0x%x  gaussian=0x%x  collision=%s"
+    },
+    {
+     "addr": 67599,
+     "s": "YES-BAD"
+    },
+    {
+     "addr": 67607,
+     "s": "no"
+    },
+    {
+     "addr": 67610,
+     "s": "registerCustomFilter: Gaussian hooks unexpectedly missing"
+    },
+    {
+     "addr": 67668,
+     "s": "registerCustomFilter: g_origGaussR13 = %p"
+    },
+    {
+     "addr": 67710,
+     "s": "registerCustomFilter: g_origGaussEdgeInfo = %p"
+    },
+    {
+     "addr": 67757,
+     "s": "registerCustomFilter: Gaussian callable resolution failed"
+    },
+    {
+     "addr": 67815,
+     "s": "registerCustomFilter: vtable mmap failed errno=%d"
+    },
+    {
+     "addr": 67865,
+     "s": "registerCustomFilter: ctx mmap failed errno=%d"
+    },
+    {
+     "addr": 67912,
+     "s": ".refresh"
+    },
+    {
+     "addr": 67921,
+     "s": ".dark"
+    },
+    {
+     "addr": 67927,
+     "s": ".r%d"
+    },
+    {
+     "addr": 67932,
+     "s": "registerCustomFilter: done mode=%s descriptor=%p renderSlot=%d atom=0x%x hosts=%d"
+    },
+    {
+     "addr": 68014,
+     "s": "hook"
+    },
+    {
+     "addr": 68019,
+     "s": "clone"
+    },
+    {
+     "addr": 68025,
+     "s": "com.wkk.systembox.clockglass/ParametersReloaded"
+    },
+    {
+     "addr": 68073,
+     "s": "registerCustomFilter: registration-ready notification posted"
+    },
+    {
+     "addr": 68134,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-gaussian-identity-state.bin"
+    },
+    {
+     "addr": 68217,
+     "s": "hook: identity probe failed previously; disabling identity hook (fingerprint=%llx)"
+    },
+    {
+     "addr": 68300,
+     "s": "hook: skipping Gaussian identity hook after capability probe"
+    },
+    {
+     "addr": 68361,
+     "s": "hook: identity probe state unavailable; skipping identity hook"
+    },
+    {
+     "addr": 68424,
+     "s": "hook: installing Gaussian identity target=%p replacement=%p"
+    },
+    {
+     "addr": 68484,
+     "s": "hook: Gaussian identity trampoline unavailable"
+    },
+    {
+     "addr": 68531,
+     "s": "hook: skipping Gaussian edge-info hook after capability probe"
+    },
+    {
+     "addr": 68593,
+     "s": "hook: edge-info probe state unavailable; skipping hook"
+    },
+    {
+     "addr": 68648,
+     "s": "hook: installing Gaussian edge-info target=%p replacement=%p"
+    },
+    {
+     "addr": 68709,
+     "s": "hook: Gaussian edge-info trampoline unavailable"
+    },
+    {
+     "addr": 68757,
+     "s": "hook: skipping Gaussian render hook after capability probe"
+    },
+    {
+     "addr": 68816,
+     "s": "hook: render probe state unavailable; skipping hook"
+    },
+    {
+     "addr": 68868,
+     "s": "hook: installing Gaussian render target=%p replacement=%p"
+    },
+    {
+     "addr": 68926,
+     "s": "hook: Gaussian trampolines identity=%p edge=%p renderRaw=%p render=%p ABI=%s"
+    },
+    {
+     "addr": 69003,
+     "s": "Vec2"
+    },
+    {
+     "addr": 69008,
+     "s": "bool"
+    },
+    {
+     "addr": 69013,
+     "s": "hook: resolving MSHookFunction"
+    },
+    {
+     "addr": 69044,
+     "s": "MSHookFunction"
+    },
+    {
+     "addr": 69059,
+     "s": "hook: resolved MSHookFunction from linked/default namespace"
+    },
+    {
+     "addr": 69119,
+     "s": "/usr/lib/libellekit.dylib"
+    },
+    {
+     "addr": 69145,
+     "s": "/usr/lib/libsubstrate.dylib"
+    },
+    {
+     "addr": 69173,
+     "s": "/Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate"
+    },
+    {
+     "addr": 69233,
+     "s": "libellekit.dylib"
+    },
+    {
+     "addr": 69250,
+     "s": "libsubstrate.dylib"
+    },
+    {
+     "addr": 69269,
+     "s": "hook: trying backend %s"
+    },
+    {
+     "addr": 69293,
+     "s": "hook: backend load failed %s: %s"
+    },
+    {
+     "addr": 69326,
+     "s": "unknown loader error"
+    },
+    {
+     "addr": 69347,
+     "s": "hook: resolved MSHookFunction from %s"
+    },
+    {
+     "addr": 69385,
+     "s": "hook: MSHookFunction unavailable (%s)"
+    },
+    {
+     "addr": 69423,
+     "s": "no loader error"
+    },
+    {
+     "addr": 69439,
+     "s": "hook: first custom identity forced nonidentity atom=0x%x self=%p filter=%p"
+    },
+    {
+     "addr": 69514,
+     "s": "hook: first iOS 14 custom render atom=0x%x self=%p filter=%p"
+    },
+    {
+     "addr": 69575,
+     "s": "hook: first custom render atom=0x%x self=%p filter=%p"
+    },
+    {
+     "addr": 69629,
+     "s": "hook: first stock Gaussian forwarded atom=0x%x self=%p filter=%p"
+    },
+    {
+     "addr": 69694,
+     "s": "com.wkk.systembox.clockglass.refraction"
+    },
+    {
+     "addr": 69734,
+     "s": "ourIdentityStub: first call, CA is dispatching into our vtable (self=%p filter=%p)"
+    },
+    {
+     "addr": 69817,
+     "s": "R13[%llu] ENTER ctx=%p surface=%p opacity=%.2f scale=%.2f flag=%d"
+    },
+    {
+     "addr": 69883,
+     "s": "ourCustomRender13: command-buffer offset unresolved, skipping"
+    },
+    {
+     "addr": 69945,
+     "s": "ourCustomRender13: early exit, cmdBuf=%p origTex=%p"
+    },
+    {
+     "addr": 69997,
+     "s": "ourCustomRender13: origTex has no device, skip"
+    },
+    {
+     "addr": 70044,
+     "s": "ourCustomRender13: zero dims, skip"
+    },
+    {
+     "addr": 70079,
+     "s": "R13[%llu] cmdBuf=%p origTex=%p device=%p dims=%llux%llu"
+    },
+    {
+     "addr": 70135,
+     "s": "ourCustomRender13: no shader library"
+    },
+    {
+     "addr": 70172,
+     "s": "ourCustomRender13: no uniforms buf"
+    },
+    {
+     "addr": 70207,
+     "s": "R13[%llu] pipeline+uniforms ready"
+    },
+    {
+     "addr": 70241,
+     "s": "Clock"
+    },
+    {
+     "addr": 70247,
+     "s": "Keyboard"
+    },
+    {
+     "addr": 70256,
+     "s": "keyboard-geometry[%d] atom=0x%x tex=%llux%llu dark=%d route=%d routeHost=%d hostRatio=%.6f selectedRatio=%.6f radius=%.3f bezelWidth=%.3fpt bezel=%.3f"
+    },
+    {
+     "addr": 70407,
+     "s": "PrefsSwitch"
+    },
+    {
+     "addr": 70419,
+     "s": "TabBarSelection"
+    },
+    {
+     "addr": 70435,
+     "s": "PrefsSegment"
+    },
+    {
+     "addr": 70448,
+     "s": "CoverSheet"
+    },
+    {
+     "addr": 70459,
+     "s": "coversheet-bezel width=%.2fpt ppp=%.2f px=%.2f"
+    },
+    {
+     "addr": 70506,
+     "s": "coversheet-state-read valid=%d active=%u orientation=%u ratio={%.4f,%.4f} ppp=%.2f tex=%llux%llu aux=%.1f lens={%.2f,%.2f} radius=%.2f"
+    },
+    {
+     "addr": 70641,
+     "s": "prefs render atom=0x%x tex=%llux%llu ratio=%.4f radius=%.2f bezel=%.2f"
+    },
+    {
+     "addr": 70712,
+     "s": "R13[%llu] before g_origGaussR13(%p)"
+    },
+    {
+     "addr": 70748,
+     "s": "R13[%llu] after g_origGaussR13"
+    },
+    {
+     "addr": 70779,
+     "s": "ourCustomRender13: unusable CA destination atom=0x%x surf=%p tex=%p src=%llux%llu dst=%lux%lu usage=%lu; kept stock pass"
+    },
+    {
+     "addr": 70900,
+     "s": "render destination ready atom=0x%x host=%s src=%llux%llu dst=%lux%lu radius=%.2f bezel=%.2f aux=%.1f"
+    },
+    {
+     "addr": 71001,
+     "s": "R13[%llu] CA destination surf=%p tex=%p dims=%lux%lu"
+    },
+    {
+     "addr": 71054,
+     "s": "ourCustomRender13: null stopEncoders"
+    },
+    {
+     "addr": 71091,
+     "s": "R13[%llu] before stopEncoders(%p)"
+    },
+    {
+     "addr": 71125,
+     "s": "R13[%llu] after stopEncoders, before encoder"
+    },
+    {
+     "addr": 71170,
+     "s": "ourCustomRender13: command buffer unavailable after stopEncoders"
+    },
+    {
+     "addr": 71235,
+     "s": "ourCustomRender13: no render pipeline, kept stock pass"
+    },
+    {
+     "addr": 71290,
+     "s": "ourCustomRender13: nil render encoder"
+    },
+    {
+     "addr": 71328,
+     "s": "R13[%llu] after our compute dispatch"
+    },
+    {
+     "addr": 71365,
+     "s": "R13[%llu] DONE"
+    },
+    {
+     "addr": 71380,
+     "s": "timing (avg over %llu calls): stopEncoders=%.0fus  ourRender=%.0fus  gaussCall=%.0fus  total=%.0fus (%.2fms)"
+    },
+    {
+     "addr": 71489,
+     "s": "Metal compile failed: %s"
+    },
+    {
+     "addr": 71514,
+     "s": "shader library ready"
+    },
+    {
+     "addr": 71535,
+     "s": "\n#include <metal_stdlib>\nusing namespace metal;\n\nstruct Uniforms {\n    float2 resolution;\n    float2 outputResolution;\n    float2 screenResolution;\n    float2 cardOrigin;\n    float2 wallpaperResolution;\n    float2 lensOrigin;\n    float  radius;\n    float  bezelWidth;\n    float  glassThickness;\n    float  refractionScale;\n    float  refractiveIndex;\n    float2 wallpaperOrigin;\n    float2 samplingTransformX;\n    float2 samplingTransformY;\n    float2 samplingTransformOffset;\n    float  samplingOrientation;\n    float  backdropZoom;\n    float  shapeScale;\n    float2 shapeOrigin;\n    float2 shapeSize;\n    float  useGlyphMask;\n    float  dispersionStrength;\n    float  fresnelGlareStrength;\n    float  borderWidthPixels;\n    float4 tintColor;\n};\n\nfloat quartzGlassEdgeProfile(float distanceFromEdge,\n                             float refractionHeight) {\n    float t = saturate(distanceFromEdge / max(refractionHeight, 0.001));\n    return 1.0 - sqrt(t * (2.0 - t));\n}\n\nfloat quartzGlassHighlight(float distanceFromEdge,\n                           float bezelWidth,\n                           float2 surfaceNormal,\n                           float strength,\n                           float angle) {\n    float normalLength = max(length(surfaceNormal), 0.001);\n    float2 normal = surfaceNormal / normalLength;\n    float ringWidth = clamp(bezelWidth * 0.24, 1.0, 2.5);\n    float aa = 1.0;\n\n    float outerCoverage = saturate(distanceFromEdge / aa + 0.5);\n    float innerCoverage = saturate((ringWidth - distanceFromEdge) / aa + 0.5);\n    float ring = outerCoverage * innerCoverage;\n    float radial = saturate(distanceFromEdge / ringWidth);\n    ring *= 1.0 - radial;\n\n    float2 lightDirection = float2(cos(angle), sin(angle));\n    float threshold = 0.15;\n    float directional = saturate((dot(lightDirection, normal) - threshold) /\n                                 max(1.0 - threshold, 0.0001));\n    float highlight = ring * directional;\n\n    float oppositeAttenuation = 1.35;\n    highlight /= max(1.0 + (1.0 - highlight) * oppositeAttenuation,\n                     0.0001);\n    return highlight * max(strength, 0.0);\n}\n\nfloat linearize(float c) {\n    return c > 0.04045 ? pow((c + 0.055) / 1.055, 2.4) : c / 12.92;\n}\nfloat gammaEncode(float c) {\n    return c <= 0.0031308 ? 12.92 * c : 1.055 * pow(c, 1.0 / 2.4) - 0.055;\n}\n\nfloat3 srgbToXyz(float3 rgb) {\n    float3 l = float3(linearize(rgb.r), linearize(rgb.g), linearize(rgb.b));\n    return float3(dot(l, float3(0.4124, 0.3576, 0.1805)),\n                  dot(l, float3(0.2126, 0.7152, 0.0722)),\n                  dot(l, float3(0.0193, 0.1192, 0.9505)));\n}\nfloat3 xyzToSrgb(float3 xyz) {\n    float3 l = float3(dot(xyz, float3( 3.2406,-1.5372,-0.4986)),\n                      dot(xyz, float3(-0.9689, 1.8758, 0.0415)),\n                      dot(xyz, float3( 0.0557,-0.2040, 1.0570)));\n    return clamp(float3(gammaEncode(l.r), gammaEncode(l.g), gammaEncode(l.b)), 0.0, 1.0);\n}\n\nfloat labF(float t)    { float t3 = t*t*t; return t3>0.008856? pow(t,1.0/3.0) : 7.787*t+16.0/116.0; }\nfloat labInvF(float t) { float t3 = t*t*t; return t3>0.008856? t3 : (t-16.0/116.0)/7.787; }\n\nfloat3 xyzToLab(float3 xyz) {\n    float3 n = xyz / float3(0.95047, 1.0, 1.08883);\n    float fx = labF(n.x), fy = labF(n.y), fz = labF(n.z);\n    return float3(116.0*fy - 16.0, 500.0*(fx-fy), 200.0*(fy-fz));\n}\nfloat3 labToXyz(float3 lab) {\n    float fy = (lab.x+16.0)/116.0, fx = fy+lab.y/500.0, fz = fy-lab.z/200.0;\n    return float3(0.95047*labInvF(fx), labInvF(fy), 1.08883*labInvF(fz));\n}\nfloat3 srgbToLch(float3 rgb) {\n    float3 lab = xyzToLab(srgbToXyz(rgb));\n    return float3(lab.x, length(lab.yz), atan2(lab.z, lab.y));\n}\nfloat3 lchToSrgb(float3 lch) {\n    float3 lab = float3(lch.x, cos(lch.z)*lch.y, sin(lch.z)*lch.y);\n    return xyzToSrgb(labToXyz(lab));\n}\n\nfloat bottomRoundedBoxDistance(float2 point, float2 size, float radius) {\n    float2 halfSize = size * 0.5;\n    float2 centered = point - halfSize;\n    float selectedRadius = centered.y > 0.0 ? radius : 0.0;\n    float2 q = abs(centered) - halfSize + selectedRadius;\n    return min(max(q.x, q.y), 0.0)\n         + length(max(q, float2(0.0))) - selectedRadius;\n}\n\nfloat2 backdropSampleUV(float2 capturePx,\n                        float2 logicalPx,\n                        float2 displacementPx,\n                        bool isCoverSheet,\n                        constant Uniforms &u,\n                        float zoomMix)\n{\n    float2 sampleUV;\n    if (isCoverSheet) {\n        sampleUV = (capturePx + displacementPx) / u.resolution;\n    } else {\n        float2 screenPx = u.cardOrigin + logicalPx + displacementPx;\n        float2 mapped   = u.samplingTransformOffset\n                        + screenPx.x * u.samplingTransformX\n                        + screenPx.y * u.samplingTransformY;\n        float2 imgPx    = mapped - u.wallpaperOrigin;\n        sampleUV = imgPx / u.wallpaperResolution;\n\n        int ori = int(round(u.samplingOrientation));\n        if      (ori == 2) sampleUV = float2(1.0 - sampleUV.x, 1.0 - sampleUV.y);\n        else if (ori == 3) sampleUV = float2(1.0 - sampleUV.y,       sampleUV.x);\n        else if (ori == 4) sampleUV = float2(      sampleUV.y,  1.0 - sampleUV.x);\n    }\n\n    float zoom = max(u.backdropZoom, 0.01);\n    if (u.shapeSize.x > 0.5 && u.shapeSize.y > 0.5) {\n        float eased = mix(1.0, zoom, clamp(zoomMix, 0.0, 1.0));\n        float2 centre = (u.shapeOrigin + u.shapeSize * 0.5) / u.resolution;\n        sampleUV.y = centre.y + (sampleUV.y - centre.y) / eased;\n    } else if (clamp(u.shapeScale, 0.05, 1.0) < 0.999) {\n        sampleUV.y = 0.5 + (sampleUV.y - 0.5) / zoom;\n    } else {\n        sampleUV = float2(0.5) + (sampleUV - float2(0.5)) / zoom;\n    }\n    return clamp(sampleUV, 0.0, 1.0);\n}\n\nfloat4 liquidGlassPixel(texture2d<float, access::sample> src,\n                        texture2d<float, access::sample> glyphMask,\n                        constant Uniforms &u, uint2 gid, uint2 dimensions)\n{\n    const uint W = dimensions.x, H = dimensions.y;\n\n    constexpr sampler s(filter::linear, address::clamp_to_edge);\n\n    float2 localUV = (float2(gid) + 0.5) / float2(W, H);\n    bool isCoverSheet = u.useGlyphMask < -0.5;\n    bool isKeyboard = u.useGlyphMask > 0.0 && u.useGlyphMask < 0.5;\n    float2 captureUV = localUV;\n    float2 capturePx = localUV * u.resolution;\n    float2 px = capturePx;\n    float fw = u.resolution.x, fh = u.resolution.y;\n    float coverOrientation = isCoverSheet ? -u.useGlyphMask : 0.0;\n    if (isCoverSheet && coverOrientation == 2.0) {\n\n        px = float2(u.resolution.x - capturePx.x,\n                    u.resolution.y - capturePx.y);\n    } else if (isCoverSheet && coverOrientation == 3.0) {\n\n        px = float2(capturePx.y, u.resolution.x - capturePx.x);\n        fw = u.resolution.y;\n        fh = u.resolution.x;\n    } else if (isCoverSheet && coverOrientation == 4.0) {\n\n        px = float2(u.resolution.y - capturePx.y, capturePx.x);\n        fw = u.resolution.y;\n        fh = u.resolution.x;\n    }\n    float  R        = u.radius, bezel = u.bezelWidth;\n    float  eta      = 1.0 / u.refractiveIndex;\n    float  shortest = min(fw, fh);\n\n    float signedDistance;\n    float distFromSide;\n    float2 dir;\n    float edgeOpacity;\n    bool subShape = false;\n    float cornerBlend = 0.0;\n    if (u.useGlyphMask > 0.5) {\n\n        float bestDistance = bezel + 1.0;\n        float2 bestDirection = float2(0.0, -1.0);\n        constexpr int directionCount = 12;\n        for (int directionIndex = 0; directionIndex < directionCount; directionIndex++) {\n            float angle = (6.28318530718 * float(directionIndex)) / float(directionCount);\n            float2 candidateDirection = float2(cos(angle), sin(angle));\n            float low = 0.0;\n            float high = bezel + 1.0;\n            float probe = 1.0;\n            for (int level = 0; level < 6; level++) {\n                probe = min(probe, bezel);\n                float2 probeUV = localUV + candidateDirection * (probe / u.resolution);\n                if (glyphMask.sample(s, probeUV).r < 0.15) {\n                    high = probe;\n                    break;\n                }\n                low = probe;\n                probe *= 2.0;\n            }\n            if (high <= bezel) {\n                for (int refinement = 0; refinement < 3; refinement++) {\n                    float middle = (low + high) * 0.5;\n                    float2 probeUV = localUV + candidateDirection * (middle / u.resolution);\n                    if (glyphMask.sample(s, probeUV).r < 0.15) high = middle;\n                    else low = middle;\n                }\n                if (high < bestDistance) {\n                    bestDistance = high;\n                    bestDirection = candidateDirection;\n                }\n            }\n        }\n        signedDistance = -bestDistance;\n        distFromSide = bestDistance;\n        dir = bestDirection;\n\n        edgeOpacity = 1.0;\n    } else {\n\n        R = clamp(R, 0.0, shortest * 0.5);\n\n        float shapeScale = clamp(u.shapeScale, 0.05, 1.0);\n        float2 shapeInset = float2(0.0);\n        if (u.shapeSize.x > 0.5 && u.shapeSize.y > 0.5) {\n            subShape = true;\n            shapeInset = u.shapeOrigin;\n            fw = u.shapeSize.x;\n            fh = u.shapeSize.y;\n            shortest = min(fw, fh);\n            R = clamp(R, 0.0, shortest * 0.5);\n        } else if (shapeScale < 0.999) {\n            subShape = true;\n            shapeInset = float2(fw, fh) * (1.0 - shapeScale) * 0.5;\n            fw *= shapeScale;\n            fh *= shapeScale;\n            shortest = min(fw, fh);\n            R = clamp(R, 0.0, shortest * 0.5);\n        }\n\n        float2 lensPx = px - (isCoverSheet ? u.lensOrigin : shapeInset);\n        if (isKeyboard) {\n            fh += max(R, bezel);\n            shortest = min(fw, fh);\n        }\n        float2 halfSize = float2(fw, fh) * 0.5;\n        float2 p = lensPx - halfSize;\n        float2 core;\n        cornerBlend = 0.0;\n        if (isCoverSheet) {\n\n            R = min(R, shortest * 0.5);\n            core = halfSize;\n            signedDistance = bottomRoundedBoxDistance(\n                lensPx, float2(fw, fh), R);\n        } else if (R >= shortest * 0.49 || R < 0.5) {\n            core = max(halfSize - float2(R), float2(0.0));\n            float2 q = abs(p) - core;\n            signedDistance = length(max(q, float2(0.0)))\n                           + min(max(q.x, q.y), 0.0) - R;\n            cornerBlend = saturate(min(q.x, q.y) / max(R, 0.001));\n        } else {\n            constexpr float continuousCornerExtent = 1.528;\n            float2 extent = min(float2(R * continuousCornerExtent), halfSize);\n            core = max(halfSize - extent, float2(0.0));\n            float2 q = abs(p) - core;\n            float2 corner = max(q, float2(0.0));\n            float2 normalized = corner / max(extent, float2(0.001));\n            float superLength = pow(pow(normalized.x, 4.0) +\n                                    pow(normalized.y, 4.0), 0.25);\n            if (q.x <= 0.0 && q.y <= 0.0) {\n\n                signedDistance = -min(halfSize.x - abs(p.x),\n                                      halfSize.y - abs(p.y));\n            } else {\n                signedDistance = (superLength - 1.0) * min(extent.x, extent.y);\n            }\n            cornerBlend = saturate(min(q.x, q.y) /\n                                   max(min(extent.x, extent.y), 0.001));\n        }\n        if (signedDistance > (subShape ? 0.0 : 1.0)) {\n            return subShape ? float4(0.0) : src.sample(s, captureUV);\n        }\n\n        distFromSide = max(0.0, -signedDistance);\n        float2 cornerDelta = max(abs(p) - core, float2(0.0));\n        float2 normalDelta;\n        if (isCoverSheet) {\n            float2 size = float2(fw, fh);\n            float dx = bottomRoundedBoxDistance(\n                           lensPx + float2(1.0, 0.0), size, R)\n                     - bottomRoundedBoxDistance(\n                           lensPx - float2(1.0, 0.0), size, R);\n            float dy = bottomRoundedBoxDistance(\n                           lensPx + float2(0.0, 1.0), size, R)\n                     - bottomRoundedBoxDistance(\n                           lensPx - float2(0.0, 1.0), size, R);\n            normalDelta = float2(dx, dy);\n        } else if (R < shortest * 0.49 && R >= 0.5 &&\n            cornerDelta.x > 0.0 && cornerDelta.y > 0.0) {\n            float2 t = cornerDelta / max(cornerDelta.x + cornerDelta.y, 0.0001);\n            normalDelta = sign(p) * t;\n        } else {\n            float2 nearestCore = clamp(p, -core, core);\n            normalDelta = p - nearestCore;\n        }\n        float normalLength = length(normalDelta);\n        if (normalLength > 0.001) {\n            dir = normalDelta / normalLength;\n        } else {\n            float dL = lensPx.x, dR = fw - lensPx.x;\n            float dT = lensPx.y, dB = fh - lensPx.y;\n            float dm = min(min(dL, dR), min(dT, dB));\n            dir = float2((dL < dR && dL == dm) ? -1.0 : (dR <= dL && dR == dm) ?  1.0 : 0.0,\n                         (dT < dB && dT == dm) ? -1.0 : (dB <= dT && dB == dm) ?  1.0 : 0.0);\n        }\n        edgeOpacity = subShape ? 1.0\n                               : clamp(1.0 - max(0.0, signedDistance), 0.0, 1.0);\n    }\n\n    if (u.useGlyphMask < 0.5 && !isCoverSheet && !isKeyboard &&\n        R >= 0.5 && bezel > R) {\n        float cornerScale = R >= shortest * 0.49 ? R\n                                                 : min(R * 1.528, shortest * 0.5);\n        float taper = cornerBlend * cornerBlend * (3.0 - 2.0 * cornerBlend);\n        bezel = mix(bezel, min(bezel, cornerScale), taper);\n    }\n\n    if ((R < shortest * 0.45 || subShape) && distFromSide >= bezel) {\n        float4 flat = src.sample(s, captureUV);\n        flat.rgb = mix(flat.rgb, u.tintColor.rgb, u.tintColor.a);\n        return flat;\n    }\n\n    float normDisp = (distFromSide < bezel) ?\n        quartzGlassEdgeProfile(distFromSide,\n                               min(max(u.glassThickness, 1.0), bezel)) : 0.0;\n    if ((isCoverSheet && dir.y <= -abs(dir.x)) ||\n        (isKeyboard && dir.y >= abs(dir.x))) normDisp = 0.0;\n\n    float2 textureDir = dir;\n    if (isCoverSheet && coverOrientation == 2.0) {\n\n        textureDir = -dir;\n    } else if (isCoverSheet && coverOrientation == 3.0) {\n\n        textureDir = float2(-dir.y, dir.x);\n    } else if (isCoverSheet && coverOrientation == 4.0) {\n\n        textureDir = float2(dir.y, -dir.x);\n    }\n    float2 dispPx = -textureDir * normDisp * bezel\n                  * u.refractionScale * edgeOpacity;\n\n    float dispersion = clamp(u.dispersionStrength, 0.0, 20.0);\n    constexpr float zoomRampSpan = 0.3;\n    float zoomMix = bezel > 0.001\n        ? clamp((1.0 - distFromSide / bezel) / zoomRampSpan, 0.0, 1.0) : 0.0;\n    zoomMix = zoomMix * zoomMix * (3.0 - 2.0 * zoomMix);\n    float2 greenUV = backdropSampleUV(capturePx, px, dispPx,\n                                      isCoverSheet, u, zoomMix);\n    float4 greenSample = src.sample(s, greenUV);\n\n    float4 fallback = float4(0.0);\n    bool loadedFallback = false;\n    if (greenSample.a < 0.01) {\n        fallback = src.sample(s, captureUV);\n        loadedFallback = true;\n        greenSample = fallback;\n    }\n    if (greenSample.a < 0.01) return float4(0.0);\n\n    float4 bg = greenSample;\n    if (dispersion > 0.001 && dot(dispPx, dispPx) > 0.0001) {\n        float2 aberrationPx = -textureDir * normDisp * dispersion * 8.0 * edgeOpacity;\n        float3 accumulated = float3(0.0);\n        float accumulatedAlpha = 0.0;\n\n        for (int i = 0; i < 3; i++) {\n            float weight = 1.0 - float(i) / 3.0;\n            float2 uv = backdropSampleUV(capturePx, px,\n                                          dispPx + aberrationPx * weight,\n                                          isCoverSheet, u, zoomMix);\n            float4 sample = src.sample(s, uv);\n            if (sample.a < 0.01) {\n                if (!loadedFallback) {\n                    fallback = src.sample(s, captureUV);\n                    loadedFallback = true;\n                }\n                sample = fallback;\n            }\n            accumulated.r += sample.r * weight;\n            accumulated.g += sample.g * (1.0 - weight);\n            accumulatedAlpha += sample.a;\n        }\n\n        for (int i = 0; i < 4; i++) {\n            float weight = float(i) / 3.0;\n            float2 uv = backdropSampleUV(capturePx, px,\n                                          dispPx - aberrationPx * weight,\n                                          isCoverSheet, u, zoomMix);\n            float4 sample = src.sample(s, uv);\n            if (sample.a < 0.01) {\n                if (!loadedFallback) {\n                    fallback = src.sample(s, captureUV);\n                    loadedFallback = true;\n                }\n                sample = fallback;\n            }\n            accumulated.g += sample.g * (1.0 - weight);\n            accumulated.b += sample.b * weight;\n            accumulatedAlpha += sample.a;\n        }\n\n        bg.rgb = accumulated * float3(0.5, 1.0 / 3.0, 0.5);\n        bg.a = accumulatedAlpha / 7.0;\n    }\n\n    float3 outRGB = mix(bg.rgb, u.tintColor.rgb, u.tintColor.a);\n    float highlight = quartzGlassHighlight(distFromSide, bezel, dir,\n                                           u.fresnelGlareStrength,\n                                           -0.78539816339) *\n                      edgeOpacity;\n    float luminance = dot(outRGB, float3(0.2126, 0.7152, 0.0722));\n    highlight *= mix(0.32, 1.0, luminance);\n    highlight = min(highlight, 0.22);\n    outRGB = 1.0 - (1.0 - outRGB) * (1.0 - highlight);\n    if (subShape && distFromSide <= u.borderWidthPixels)\n        outRGB = 1.0 - (1.0 - outRGB) * 0.82;\n    return float4(outRGB, edgeOpacity);\n}\n\nstruct LGVertexOut {\n    float4 position [[position]];\n};\n\nvertex LGVertexOut liquidGlassVertex(uint vertexID [[vertex_id]])\n{\n    constexpr float2 positions[] = {\n        float2(-1.0, -1.0), float2(3.0, -1.0), float2(-1.0, 3.0)\n    };\n    LGVertexOut out;\n    out.position = float4(positions[vertexID], 0.0, 1.0);\n    return out;\n}\n\nfragment float4 liquidGlassFragment(\n    LGVertexOut in [[stage_in]],\n    texture2d<float, access::sample> src [[texture(0)]],\n    texture2d<float, access::sample> glyphMask [[texture(1)]],\n    constant Uniforms &u [[buffer(0)]])\n{\n    uint2 dimensions(src.get_width(), src.get_height());\n    float2 sourcePosition =\n        in.position.xy - (u.outputResolution - u.resolution) * 0.5;\n    if (any(sourcePosition < float2(0.0)) ||\n        any(sourcePosition >= u.resolution)) return float4(0.0);\n    uint2 gid = min(uint2(sourcePosition), dimensions - 1);\n    return liquidGlassPixel(src, glyphMask, u, gid, dimensions);\n}\n\n"
+    },
+    {
+     "addr": 90155,
+     "s": "uniforms buffer allocated (geometry refreshed per-frame)"
+    },
+    {
+     "addr": 90212,
+     "s": "com.wkk.systembox.clockglass.lensrect.prefssegment"
+    },
+    {
+     "addr": 90263,
+     "s": "com.wkk.systembox.clockglass.lensrect.tabbarselect"
+    },
+    {
+     "addr": 90314,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-clock-mask-shared.bin"
+    },
+    {
+     "addr": 90391,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-coversheet-state.bin"
+    },
+    {
+     "addr": 90467,
+     "s": "liquidGlassVertex"
+    },
+    {
+     "addr": 90485,
+     "s": "liquidGlassFragment"
+    },
+    {
+     "addr": 90505,
+     "s": "render pipeline ready fmt=%lu"
+    },
+    {
+     "addr": 90535,
+     "s": "Render pipeline state failed fmt=%lu: %s"
+    },
+    {
+     "addr": 90576,
+     "s": "CoverSheet.CornerRadius"
+    },
+    {
+     "addr": 90600,
+     "s": ".BezelWidth"
+    },
+    {
+     "addr": 90612,
+     "s": ".GlassThickness"
+    },
+    {
+     "addr": 90628,
+     "s": ".RefractionScale"
+    },
+    {
+     "addr": 90645,
+     "s": ".RefractiveIndex"
+    },
+    {
+     "addr": 90662,
+     "s": ".DispersionStrength"
+    },
+    {
+     "addr": 90682,
+     "s": ".TintR"
+    },
+    {
+     "addr": 90689,
+     "s": ".TintG"
+    },
+    {
+     "addr": 90696,
+     "s": ".TintB"
+    },
+    {
+     "addr": 90703,
+     "s": ".TintStrength"
+    },
+    {
+     "addr": 90717,
+     "s": ".DispersionEnabled"
+    },
+    {
+     "addr": 90736,
+     "s": ".LightTintColor"
+    },
+    {
+     "addr": 90752,
+     "s": ".DarkTintColor"
+    },
+    {
+     "addr": 90767,
+     "s": "lgReloadHostPrefs: %s (%d hosts, %d overrides) banner.bezel=%.3f refr=%.2f"
+    },
+    {
+     "addr": 90842,
+     "s": "loaded prefs"
+    },
+    {
+     "addr": 90855,
+     "s": "defaults"
+    },
+    {
+     "addr": 90864,
+     "s": "Default"
+    },
+    {
+     "addr": 90872,
+     "s": "#FFFFFF1A"
+    },
+    {
+     "addr": 90882,
+     "s": "#00000000"
+    },
+    {
+     "addr": 90892,
+     "s": "FolderIcon"
+    },
+    {
+     "addr": 90903,
+     "s": "com.wkk.systembox.clockglass.folder"
+    },
+    {
+     "addr": 90939,
+     "s": "OpenFolder"
+    },
+    {
+     "addr": 90950,
+     "s": "com.wkk.systembox.clockglass.openfolder"
+    },
+    {
+     "addr": 90990,
+     "s": "Dock"
+    },
+    {
+     "addr": 90995,
+     "s": "com.wkk.systembox.clockglass.dock"
+    },
+    {
+     "addr": 91029,
+     "s": "Banner"
+    },
+    {
+     "addr": 91036,
+     "s": "com.wkk.systembox.clockglass.banner"
+    },
+    {
+     "addr": 91072,
+     "s": "#FFFFFFCC"
+    },
+    {
+     "addr": 91082,
+     "s": "#00000080"
+    },
+    {
+     "addr": 91092,
+     "s": "Notification"
+    },
+    {
+     "addr": 91105,
+     "s": "com.wkk.systembox.clockglass.notification"
+    },
+    {
+     "addr": 91147,
+     "s": "#FFFFFF00"
+    },
+    {
+     "addr": 91157,
+     "s": "ControlCenter"
+    },
+    {
+     "addr": 91171,
+     "s": "com.wkk.systembox.clockglass.cc"
+    },
+    {
+     "addr": 91203,
+     "s": "AppLibrary"
+    },
+    {
+     "addr": 91214,
+     "s": "com.wkk.systembox.clockglass.applibpod"
+    },
+    {
+     "addr": 91253,
+     "s": "AppLibSearch"
+    },
+    {
+     "addr": 91266,
+     "s": "com.wkk.systembox.clockglass.applibsearch"
+    },
+    {
+     "addr": 91308,
+     "s": "Spotlight"
+    },
+    {
+     "addr": 91318,
+     "s": "com.wkk.systembox.clockglass.spotlight"
+    },
+    {
+     "addr": 91357,
+     "s": "#0000004d"
+    },
+    {
+     "addr": 91367,
+     "s": "SearchPill"
+    },
+    {
+     "addr": 91378,
+     "s": "com.wkk.systembox.clockglass.searchpill"
+    },
+    {
+     "addr": 91418,
+     "s": "Widgets"
+    },
+    {
+     "addr": 91426,
+     "s": "com.wkk.systembox.clockglass.widget"
+    },
+    {
+     "addr": 91462,
+     "s": "#0000004D"
+    },
+    {
+     "addr": 91472,
+     "s": "ContextMenu"
+    },
+    {
+     "addr": 91484,
+     "s": "com.wkk.systembox.clockglass.contextmenu"
+    },
+    {
+     "addr": 91525,
+     "s": "#0000004c"
+    },
+    {
+     "addr": 91535,
+     "s": "Alerts"
+    },
+    {
+     "addr": 91542,
+     "s": "com.wkk.systembox.clockglass.alerts"
+    },
+    {
+     "addr": 91578,
+     "s": "QuickActions"
+    },
+    {
+     "addr": 91591,
+     "s": "com.wkk.systembox.clockglass.quickaction"
+    },
+    {
+     "addr": 91632,
+     "s": "Passcode"
+    },
+    {
+     "addr": 91641,
+     "s": "com.wkk.systembox.clockglass.passcode"
+    },
+    {
+     "addr": 91679,
+     "s": "#0000001F"
+    },
+    {
+     "addr": 91689,
+     "s": "com.wkk.systembox.clockglass.clock"
+    },
+    {
+     "addr": 91724,
+     "s": "#FFFFFF4C"
+    },
+    {
+     "addr": 91734,
+     "s": "PrefsSlider"
+    },
+    {
+     "addr": 91746,
+     "s": "com.wkk.systembox.clockglass.prefsslider"
+    },
+    {
+     "addr": 91787,
+     "s": "com.wkk.systembox.clockglass.prefsswitch"
+    },
+    {
+     "addr": 91828,
+     "s": "PrefsButton"
+    },
+    {
+     "addr": 91840,
+     "s": "com.wkk.systembox.clockglass.prefsbutton"
+    },
+    {
+     "addr": 91881,
+     "s": "#2A2A2D80"
+    },
+    {
+     "addr": 91891,
+     "s": "com.wkk.systembox.clockglass.prefssegment"
+    },
+    {
+     "addr": 91933,
+     "s": "com.wkk.systembox.clockglass.coversheet"
+    },
+    {
+     "addr": 91973,
+     "s": "#0000002E"
+    },
+    {
+     "addr": 91983,
+     "s": "TabBar"
+    },
+    {
+     "addr": 91990,
+     "s": "com.wkk.systembox.clockglass.tabbar"
+    },
+    {
+     "addr": 92026,
+     "s": "#FFFFFF80"
+    },
+    {
+     "addr": 92036,
+     "s": "com.wkk.systembox.clockglass.tabbarselect"
+    },
+    {
+     "addr": 92078,
+     "s": "#FFFFFF0D"
+    },
+    {
+     "addr": 92088,
+     "s": "com.wkk.systembox.clockglass.keyboard"
+    },
+    {
+     "addr": 92126,
+     "s": "#D1D3D980"
+    },
+    {
+     "addr": 92136,
+     "s": "AppIcons"
+    },
+    {
+     "addr": 92145,
+     "s": "com.wkk.systembox.clockglass.appicons"
+    },
+    {
+     "addr": 92183,
+     "s": "AssistiveTouch"
+    },
+    {
+     "addr": 92198,
+     "s": "com.wkk.systembox.clockglass.assistivetouch"
+    },
+    {
+     "addr": 92242,
+     "s": "VolumeHUD"
+    },
+    {
+     "addr": 92252,
+     "s": "com.wkk.systembox.clockglass.volumehud"
+    },
+    {
+     "addr": 92291,
+     "s": "#B8B8B8CC"
+    },
+    {
+     "addr": 92301,
+     "s": "#666666CC"
+    },
+    {
+     "addr": 92311,
+     "s": "PillHUD"
+    },
+    {
+     "addr": 92319,
+     "s": "com.wkk.systembox.clockglass.pillhud"
+    },
+    {
+     "addr": 92356,
+     "s": "#"
+    },
+    {
+     "addr": 92358,
+     "s": "prefs Reload received; re-reading %s"
+    },
+    {
+     "addr": 92395,
+     "s": "prefs parameters ready notification posted"
+    },
+    {
+     "addr": 92438,
+     "s": "QuartzCore"
+    },
+    {
+     "addr": 92449,
+     "s": "__TEXT"
+    },
+    {
+     "addr": 92456,
+     "s": "init: QuartzCore slide=%#tx __TEXT=%p size=%#zx fullImage=[%p,%p)"
+    },
+    {
+     "addr": 92522,
+     "s": "init: QuartzCore image not found"
+    },
+    {
+     "addr": 92555,
+     "s": "dlsym(%s) = %p"
+    },
+    {
+     "addr": 92570,
+     "s": "decodeAdrpAdd: not ADRP at %p"
+    },
+    {
+     "addr": 92600,
+     "s": "decodeAdrpAdd: not ADD at %p"
+    },
+    {
+     "addr": 92629,
+     "s": "decodeAdrpLdr: not ADRP at %p"
+    },
+    {
+     "addr": 92659,
+     "s": "decodeAdrpLdr: not LDR at %p"
+    },
+    {
+     "addr": 92688,
+     "s": "CAInternAtom: prologue scan found no match"
+    },
+    {
+     "addr": 92731,
+     "s": "CAInternAtom: %d validated wrapper candidate(s), using %p"
+    },
+    {
+     "addr": 92789,
+     "s": "!memoryless_in_use ()"
+    },
+    {
+     "addr": 92811,
+     "s": "stop_encoders: anchor string not found"
+    },
+    {
+     "addr": 92850,
+     "s": "stop_encoders: anchor string at %p"
+    },
+    {
+     "addr": 92885,
+     "s": "stop_encoders: no xref to anchor string found"
+    },
+    {
+     "addr": 92931,
+     "s": "stop_encoders: xref site at %p"
+    },
+    {
+     "addr": 92962,
+     "s": "stop_encoders: prologue not found within window"
+    },
+    {
+     "addr": 93010,
+     "s": "stop_encoders: resolved entry = %p"
+    },
+    {
+     "addr": 93045,
+     "s": "Command buffer allocation failed!\n"
+    },
+    {
+     "addr": 93080,
+     "s": "cmdbuf: anchor string not found"
+    },
+    {
+     "addr": 93112,
+     "s": "cmdbuf: anchor string at %p"
+    },
+    {
+     "addr": 93140,
+     "s": "cmdbuf: no xref to anchor string found"
+    },
+    {
+     "addr": 93179,
+     "s": "cmdbuf: xref site at %p"
+    },
+    {
+     "addr": 93203,
+     "s": "cmdbuf: prologue not found within window"
+    },
+    {
+     "addr": 93244,
+     "s": "cmdbuf: start_command_buffer entry = %p"
+    },
+    {
+     "addr": 93284,
+     "s": "cmdbuf: MetalContext command-buffer offset = %#x"
+    },
+    {
+     "addr": 93333,
+     "s": "cmdbuf: command-buffer field access not found"
+    },
+    {
+     "addr": 93379,
+     "s": "render-slot: forwarder at vtable[%d] -> render vtable[%d]"
+    },
+    {
+     "addr": 93437,
+     "s": "render-slot: PAC forwarder at vtable[%d] -> render vtable[%d]"
+    },
+    {
+     "addr": 93499,
+     "s": "render-slot: render forwarder not found (checked %d slots)"
+    },
+    {
+     "addr": 93558,
+     "s": "edge-info-slot: Gaussian get_edge_info at vtable[%d]"
+    },
+    {
+     "addr": 93611,
+     "s": "edge-info-slot: get_edge_info not found (checked %d slots)"
+    },
+    {
+     "addr": 93670,
+     "s": "/System/Library/Frameworks/QuartzCore.framework"
+    },
+    {
+     "addr": 93718,
+     "s": "CFBundleVersion"
+    },
+    {
+     "addr": 93734,
+     "s": "unknown"
+    },
+    {
+     "addr": 93742,
+     "s": "qcVersion"
+    },
+    {
+     "addr": 93752,
+     "s": "addFilter"
+    },
+    {
+     "addr": 93762,
+     "s": "stopEncoders"
+    },
+    {
+     "addr": 93775,
+     "s": "gaussianCtxSlot"
+    },
+    {
+     "addr": 93791,
+     "s": "filterTableSlot"
+    },
+    {
+     "addr": 93807,
+     "s": "/tmp/lg_symcache.plist"
+    },
+    {
+     "addr": 93830,
+     "s": "cache saved for QuartzCore version %s"
+    },
+    {
+     "addr": 93868,
+     "s": "[LGSYM] "
+    },
+    {
+     "addr": 93877,
+     "s": "scanGaussianSite: using built-in cluster position (constructor-safe)"
+    },
+    {
+     "addr": 93946,
+     "s": "scanGaussianSite: confirmed cluster of %d calls, start=%p gaussIdx=%d atom=0x%x"
+    },
+    {
+     "addr": 94026,
+     "s": "  add_filter = %p"
+    },
+    {
+     "addr": 94044,
+     "s": "  gaussian ctx = %p"
+    },
+    {
+     "addr": 94064,
+     "s": "  filter_table slot = %p"
+    },
+    {
+     "addr": 94089,
+     "s": "scanGaussianSite: no confirmed add_filter cluster found"
+    }
+   ],
+   "symbols": [
+    {
+     "name": "radr://5614542",
+     "value": 90260802,
+     "type": 60
+    },
+    {
+     "name": "_LGResolve_AddFilter",
+     "value": 58500,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_CAInternAtomWithCString",
+     "value": 58072,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_EdgeInfoVtableSlot",
+     "value": 61076,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_FilterTableSlot",
+     "value": 59156,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_GaussianCtxSlot",
+     "value": 59128,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_MetalCmdBufOffset",
+     "value": 59820,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_RenderVtableSlot",
+     "value": 60468,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_StopEncoders",
+     "value": 59184,
+     "type": 15
+    },
+    {
+     "name": "_LGSymAddressInQuartzCoreImage",
+     "value": 61020,
+     "type": 15
+    },
+    {
+     "name": "_LGSymDecodeAdrpAdd",
+     "value": 57756,
+     "type": 15
+    },
+    {
+     "name": "_LGSymDecodeAdrpLdr",
+     "value": 57920,
+     "type": 15
+    },
+    {
+     "name": "_LGSymMakeCallable",
+     "value": 56960,
+     "type": 15
+    },
+    {
+     "name": "_LGSymResolveExported",
+     "value": 57536,
+     "type": 15
+    },
+    {
+     "name": "_LGSymResolverInit",
+     "value": 56972,
+     "type": 15
+    },
+    {
+     "name": "_LGSymResolverSaveCache",
+     "value": 61404,
+     "type": 15
+    },
+    {
+     "name": "_LGSymScanText",
+     "value": 57608,
+     "type": 15
+    },
+    {
+     "name": "_LGSymStripCode",
+     "value": 56964,
+     "type": 15
+    },
+    {
+     "name": "_LGSymStripData",
+     "value": 56968,
+     "type": 15
+    },
+    {
+     "name": "_gLGBackboardDebugLogging",
+     "value": 115448,
+     "type": 15
+    },
+    {
+     "name": "_CFNotificationCenterAddObserver",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CFNotificationCenterGetDarwinNotifyCenter",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CFNotificationCenterPostNotification",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_MTLRenderPassDescriptor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_MTLRenderPipelineDescriptor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_MTLTextureDescriptor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSBundle",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSCharacterSet",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSDictionary",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableData",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSNumber",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSProcessInfo",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSScanner",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__NSConcreteGlobalBlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__NSConcreteStackBlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Unwind_Resume",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Z6jbrootP8NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt20bad_array_new_lengthC1Ev",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt20bad_array_new_lengthD1Ev",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt3__112__next_primeEm",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZTISt20bad_array_new_length",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZdlPv",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Znwm",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___CFConstantStringClassReference",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_allocate_exception",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_atexit",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_throw",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___error",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___gxx_personality_v0",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_fail",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_guard",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_header",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_name",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_vmaddr_slide",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_image_count",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__tlv_bootstrap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_access",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_bzero",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_clock_gettime",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_close",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_closedir",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_after",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_get_global_queue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_once",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_time",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlerror",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlopen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlsym",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fclose",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fopen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fprintf",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fputc",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fputs",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fstat",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fsync",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_getpid",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_getsegmentdata",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_gettimeofday",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_jbroot",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_localtime",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_mach_absolute_time",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_mach_timebase_info",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_memchr",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_memcmp",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_mmap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_munmap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_notify_get_state",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_notify_register_check",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleasePoolPop",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleasePoolPush",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleaseReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_msgSend",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_class",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_isKindOfClass",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_new",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_release",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retain",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutorelease",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutoreleaseReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutoreleasedReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_storeStrong",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_unsafeClaimAutoreleasedReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_open",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_opendir",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_os_unfair_lock_lock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_os_unfair_lock_unlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_read",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_readdir",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_rename",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_snprintf",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strcmp",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strftime",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strlen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strncmp",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strstr",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_sysctl",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_unlink",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_vfprintf",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_write",
+     "value": 0,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "arch": "arm64e",
+   "uuid": "5d14101dea3c31ebb6d9fb2e2262ad0e",
+   "text": [
+    {
+     "addr": 32768,
+     "size": 30072
+    },
+    {
+     "addr": 64120,
+     "size": 1728
+    }
+   ],
+   "imports": [
+    "_CFNotificationCenterAddObserver",
+    "_CFNotificationCenterGetDarwinNotifyCenter",
+    "_CFNotificationCenterPostNotification",
+    "__Unwind_Resume",
+    "__Z6jbrootP8NSString",
+    "__ZNSt20bad_array_new_lengthC1Ev",
+    "__ZNSt3__112__next_primeEm",
+    "__ZdlPv",
+    "__Znwm",
+    "___cxa_allocate_exception",
+    "___cxa_atexit",
+    "___cxa_throw",
+    "___error",
+    "___gxx_personality_v0",
+    "___stack_chk_fail",
+    "__dyld_get_image_header",
+    "__dyld_get_image_name",
+    "__dyld_get_image_vmaddr_slide",
+    "__dyld_image_count",
+    "_access",
+    "_bzero",
+    "_clock_gettime",
+    "_close",
+    "_closedir",
+    "_dispatch_after",
+    "_dispatch_get_global_queue",
+    "_dispatch_once",
+    "_dispatch_time",
+    "_dlerror",
+    "_dlopen",
+    "_dlsym",
+    "_fclose",
+    "_fopen",
+    "_fprintf",
+    "_fputc",
+    "_fputs",
+    "_fstat",
+    "_fsync",
+    "_getpid",
+    "_getsegmentdata",
+    "_gettimeofday",
+    "_jbroot",
+    "_localtime",
+    "_mach_absolute_time",
+    "_mach_timebase_info",
+    "_memchr",
+    "_memcmp",
+    "_mmap",
+    "_munmap",
+    "_notify_get_state",
+    "_notify_register_check",
+    "_objc_autoreleasePoolPop",
+    "_objc_autoreleasePoolPush",
+    "_objc_autoreleaseReturnValue",
+    "_objc_msgSend",
+    "_objc_opt_class",
+    "_objc_opt_isKindOfClass",
+    "_objc_opt_new",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutorelease",
+    "_objc_retainAutoreleaseReturnValue",
+    "_objc_retainAutoreleasedReturnValue",
+    "_objc_storeStrong",
+    "_objc_unsafeClaimAutoreleasedReturnValue",
+    "_open",
+    "_opendir",
+    "_os_unfair_lock_lock",
+    "_os_unfair_lock_unlock",
+    "_read",
+    "_readdir",
+    "_rename",
+    "_snprintf",
+    "_strcmp",
+    "_strftime",
+    "_strlen",
+    "_strncmp",
+    "_strstr",
+    "_sysctl",
+    "_unlink",
+    "_vfprintf",
+    "_write",
+    "__NSConcreteStackBlock",
+    "__ZNSt20bad_array_new_lengthD1Ev",
+    "__ZTISt20bad_array_new_length",
+    "___stack_chk_guard",
+    "__NSConcreteGlobalBlock",
+    "___CFConstantStringClassReference",
+    "_OBJC_CLASS_$_NSDictionary",
+    "_OBJC_CLASS_$_NSNumber",
+    "_OBJC_CLASS_$_NSProcessInfo",
+    "_OBJC_CLASS_$_NSString",
+    "_OBJC_CLASS_$_MTLRenderPassDescriptor",
+    "_OBJC_CLASS_$_MTLTextureDescriptor",
+    "_OBJC_CLASS_$_NSMutableData",
+    "_OBJC_CLASS_$_MTLRenderPipelineDescriptor",
+    "_OBJC_CLASS_$_NSCharacterSet",
+    "_OBJC_CLASS_$_NSScanner",
+    "_OBJC_CLASS_$_NSBundle",
+    "__tlv_bootstrap"
+   ],
+   "classes": [],
+   "categories": [],
+   "protocols": [],
+   "selrefs": [
+    "UTF8String",
+    "appendBytes:length:",
+    "boolValue",
+    "bundleWithPath:",
+    "bytes",
+    "colorAttachments",
+    "contents",
+    "dataWithBytes:length:",
+    "device",
+    "dictionaryWithContentsOfFile:",
+    "dictionaryWithObjects:forKeys:count:",
+    "drawPrimitives:vertexStart:vertexCount:",
+    "endEncoding",
+    "floatValue",
+    "height",
+    "infoDictionary",
+    "length",
+    "localizedDescription",
+    "newBufferWithLength:options:",
+    "newFunctionWithName:",
+    "newLibraryWithSource:options:error:",
+    "newRenderPipelineStateWithDescriptor:error:",
+    "newTextureWithDescriptor:",
+    "numberWithUnsignedLong:",
+    "objectAtIndexedSubscript:",
+    "objectForKeyedSubscript:",
+    "operatingSystemVersion",
+    "pixelFormat",
+    "processInfo",
+    "renderCommandEncoderWithDescriptor:",
+    "renderPassDescriptor",
+    "replaceRegion:mipmapLevel:withBytes:bytesPerRow:",
+    "scanHexInt:",
+    "scannerWithString:",
+    "setFragmentBytes:length:atIndex:",
+    "setFragmentFunction:",
+    "setFragmentTexture:atIndex:",
+    "setLoadAction:",
+    "setPixelFormat:",
+    "setRenderPipelineState:",
+    "setStoreAction:",
+    "setTexture:",
+    "setUsage:",
+    "setVertexFunction:",
+    "stringByAppendingFormat:",
+    "stringByAppendingString:",
+    "stringByReplacingOccurrencesOfString:withString:",
+    "stringByTrimmingCharactersInSet:",
+    "stringWithUTF8String:",
+    "texture2DDescriptorWithPixelFormat:width:height:mipmapped:",
+    "usage",
+    "whitespaceAndNewlineCharacterSet",
+    "width",
+    "writeToFile:atomically:"
+   ],
+   "classrefs": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "cstrings": [
+    {
+     "addr": 66100,
+     "s": "com.wkk.systembox.prefschanged"
+    },
+    {
+     "addr": 66131,
+     "s": "Debug.Logging.Enabled"
+    },
+    {
+     "addr": 66153,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass.log"
+    },
+    {
+     "addr": 66212,
+     "s": "w"
+    },
+    {
+     "addr": 66214,
+     "s": "===== LiquidGlass (backboardd) on iOS %ld.%ld.%ld ====="
+    },
+    {
+     "addr": 66270,
+     "s": "init: QuartzCore layout filterAtom=%#lx sourceTexture=%#lx destinationTexture=%#lx contextDestination=%#lx"
+    },
+    {
+     "addr": 66377,
+     "s": "init: architecture=%s render registration=%s%s"
+    },
+    {
+     "addr": 66424,
+     "s": "arm64e/PAC"
+    },
+    {
+     "addr": 66435,
+     "s": "genuine-descriptor hook"
+    },
+    {
+     "addr": 66460,
+     "s": "init: LGSymResolverInit failed, QuartzCore not loaded yet?"
+    },
+    {
+     "addr": 66519,
+     "s": "stop_encoders"
+    },
+    {
+     "addr": 66533,
+     "s": "CAInternAtomWithCString"
+    },
+    {
+     "addr": 66557,
+     "s": "add_filter"
+    },
+    {
+     "addr": 66568,
+     "s": "init: stopEncoders=%p internAtom=%p addFilter=%p"
+    },
+    {
+     "addr": 66617,
+     "s": "init: required symbol(s) unresolved on this build, not activating (no fallback)"
+    },
+    {
+     "addr": 66697,
+     "s": "init: command-buffer offset unresolved, filter registers but custom render pass is skipped"
+    },
+    {
+     "addr": 66788,
+     "s": "init: MetalContext command-buffer offset = %#lx"
+    },
+    {
+     "addr": 66836,
+     "s": "ready"
+    },
+    {
+     "addr": 66842,
+     "s": "/var/mobile/Library/Accessibility"
+    },
+    {
+     "addr": 66876,
+     "s": "clockglass"
+    },
+    {
+     "addr": 66887,
+     "s": "%s/%s"
+    },
+    {
+     "addr": 66893,
+     "s": "v8@?0"
+    },
+    {
+     "addr": 66899,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-backboardd-guard.bin"
+    },
+    {
+     "addr": 66975,
+     "s": "%s.%d.tmp"
+    },
+    {
+     "addr": 66985,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-safemode.log"
+    },
+    {
+     "addr": 67053,
+     "s": "clockglass disabled its backboardd hooks after %u rapid starts\n"
+    },
+    {
+     "addr": 67117,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-backboardd-alert"
+    },
+    {
+     "addr": 67189,
+     "s": "com.wkk.systembox.clockglass/BackboarddSafeMode"
+    },
+    {
+     "addr": 67237,
+     "s": "/var/mobile/Library/Preferences/com.wkk.systembox.plist"
+    },
+    {
+     "addr": 67293,
+     "s": "a"
+    },
+    {
+     "addr": 67295,
+     "s": "%H:%M:%S"
+    },
+    {
+     "addr": 67304,
+     "s": "[LG %s.%03d] "
+    },
+    {
+     "addr": 67318,
+     "s": "resolve %s: scanner -> %p"
+    },
+    {
+     "addr": 67344,
+     "s": "resolve %s: FAILED, build not supported by scanner (no fallback)"
+    },
+    {
+     "addr": 67409,
+     "s": "registerCustomFilter: could not resolve filter_table, aborting (no fallback)"
+    },
+    {
+     "addr": 67486,
+     "s": "registerCustomFilter: could not resolve gaussian context, aborting (no fallback)"
+    },
+    {
+     "addr": 67567,
+     "s": "registerCustomFilter: g_gaussCtxValue = %p (raw from %p)"
+    },
+    {
+     "addr": 67624,
+     "s": "registerCustomFilter: gaussian vtable not found"
+    },
+    {
+     "addr": 67672,
+     "s": "registerCustomFilter: gaussian vtable @ %p"
+    },
+    {
+     "addr": 67715,
+     "s": "registerCustomFilter: could not resolve edge-info vtable slot (got %d), aborting"
+    },
+    {
+     "addr": 67796,
+     "s": "registerCustomFilter: edge-info vtable slot = %d"
+    },
+    {
+     "addr": 67845,
+     "s": "registerCustomFilter: iOS 14 direct render fallback vtable[%d]=%p"
+    },
+    {
+     "addr": 67911,
+     "s": "registerCustomFilter: could not resolve render vtable slot (got %d), aborting"
+    },
+    {
+     "addr": 67989,
+     "s": "registerCustomFilter: render vtable slot = %d"
+    },
+    {
+     "addr": 68035,
+     "s": "registerCustomFilter: render and edge-info resolved to the same slot, aborting"
+    },
+    {
+     "addr": 68114,
+     "s": "registerCustomFilter: Gaussian hooks install failed"
+    },
+    {
+     "addr": 68166,
+     "s": "registerCustomFilter: Gaussian hooks installed before filter registration"
+    },
+    {
+     "addr": 68240,
+     "s": "registerCustomFilter: filter_table null, retrying in 250ms"
+    },
+    {
+     "addr": 68299,
+     "s": "registerCustomFilter: internAtom=%p addFilter=%p, aborting"
+    },
+    {
+     "addr": 68358,
+     "s": "gaussianBlur"
+    },
+    {
+     "addr": 68371,
+     "s": "registerCustomFilter: atom('%s')=0x%x  gaussian=0x%x  collision=%s"
+    },
+    {
+     "addr": 68438,
+     "s": "YES-BAD"
+    },
+    {
+     "addr": 68446,
+     "s": "no"
+    },
+    {
+     "addr": 68449,
+     "s": "registerCustomFilter: Gaussian hooks unexpectedly missing"
+    },
+    {
+     "addr": 68507,
+     "s": "registerCustomFilter: g_origGaussR13 = %p"
+    },
+    {
+     "addr": 68549,
+     "s": "registerCustomFilter: g_origGaussEdgeInfo = %p"
+    },
+    {
+     "addr": 68596,
+     "s": "registerCustomFilter: Gaussian callable resolution failed"
+    },
+    {
+     "addr": 68654,
+     "s": "registerCustomFilter: vtable mmap failed errno=%d"
+    },
+    {
+     "addr": 68704,
+     "s": "registerCustomFilter: ctx mmap failed errno=%d"
+    },
+    {
+     "addr": 68751,
+     "s": ".refresh"
+    },
+    {
+     "addr": 68760,
+     "s": ".dark"
+    },
+    {
+     "addr": 68766,
+     "s": ".r%d"
+    },
+    {
+     "addr": 68771,
+     "s": "registerCustomFilter: done mode=%s descriptor=%p renderSlot=%d atom=0x%x hosts=%d"
+    },
+    {
+     "addr": 68853,
+     "s": "hook"
+    },
+    {
+     "addr": 68858,
+     "s": "clone"
+    },
+    {
+     "addr": 68864,
+     "s": "com.wkk.systembox.clockglass/ParametersReloaded"
+    },
+    {
+     "addr": 68912,
+     "s": "registerCustomFilter: registration-ready notification posted"
+    },
+    {
+     "addr": 68973,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-gaussian-identity-state.bin"
+    },
+    {
+     "addr": 69056,
+     "s": "hook: identity probe failed previously; disabling identity hook (fingerprint=%llx)"
+    },
+    {
+     "addr": 69139,
+     "s": "hook: skipping Gaussian identity hook after capability probe"
+    },
+    {
+     "addr": 69200,
+     "s": "hook: identity probe state unavailable; skipping identity hook"
+    },
+    {
+     "addr": 69263,
+     "s": "hook: installing Gaussian identity target=%p replacement=%p"
+    },
+    {
+     "addr": 69323,
+     "s": "hook: Gaussian identity trampoline unavailable"
+    },
+    {
+     "addr": 69370,
+     "s": "hook: skipping Gaussian edge-info hook after capability probe"
+    },
+    {
+     "addr": 69432,
+     "s": "hook: edge-info probe state unavailable; skipping hook"
+    },
+    {
+     "addr": 69487,
+     "s": "hook: installing Gaussian edge-info target=%p replacement=%p"
+    },
+    {
+     "addr": 69548,
+     "s": "hook: Gaussian edge-info trampoline unavailable"
+    },
+    {
+     "addr": 69596,
+     "s": "hook: skipping Gaussian render hook after capability probe"
+    },
+    {
+     "addr": 69655,
+     "s": "hook: render probe state unavailable; skipping hook"
+    },
+    {
+     "addr": 69707,
+     "s": "hook: installing Gaussian render target=%p replacement=%p"
+    },
+    {
+     "addr": 69765,
+     "s": "hook: Gaussian trampolines identity=%p edge=%p renderRaw=%p render=%p ABI=%s"
+    },
+    {
+     "addr": 69842,
+     "s": "Vec2"
+    },
+    {
+     "addr": 69847,
+     "s": "bool"
+    },
+    {
+     "addr": 69852,
+     "s": "hook: resolving MSHookFunction"
+    },
+    {
+     "addr": 69883,
+     "s": "MSHookFunction"
+    },
+    {
+     "addr": 69898,
+     "s": "hook: resolved MSHookFunction from linked/default namespace"
+    },
+    {
+     "addr": 69958,
+     "s": "/usr/lib/libellekit.dylib"
+    },
+    {
+     "addr": 69984,
+     "s": "/usr/lib/libsubstrate.dylib"
+    },
+    {
+     "addr": 70012,
+     "s": "/Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate"
+    },
+    {
+     "addr": 70072,
+     "s": "libellekit.dylib"
+    },
+    {
+     "addr": 70089,
+     "s": "libsubstrate.dylib"
+    },
+    {
+     "addr": 70108,
+     "s": "hook: trying backend %s"
+    },
+    {
+     "addr": 70132,
+     "s": "hook: backend load failed %s: %s"
+    },
+    {
+     "addr": 70165,
+     "s": "unknown loader error"
+    },
+    {
+     "addr": 70186,
+     "s": "hook: resolved MSHookFunction from %s"
+    },
+    {
+     "addr": 70224,
+     "s": "hook: MSHookFunction unavailable (%s)"
+    },
+    {
+     "addr": 70262,
+     "s": "no loader error"
+    },
+    {
+     "addr": 70278,
+     "s": "hook: first custom identity forced nonidentity atom=0x%x self=%p filter=%p"
+    },
+    {
+     "addr": 70353,
+     "s": "hook: first iOS 14 custom render atom=0x%x self=%p filter=%p"
+    },
+    {
+     "addr": 70414,
+     "s": "hook: first custom render atom=0x%x self=%p filter=%p"
+    },
+    {
+     "addr": 70468,
+     "s": "hook: first stock Gaussian forwarded atom=0x%x self=%p filter=%p"
+    },
+    {
+     "addr": 70533,
+     "s": "com.wkk.systembox.clockglass.refraction"
+    },
+    {
+     "addr": 70573,
+     "s": "ourIdentityStub: first call, CA is dispatching into our vtable (self=%p filter=%p)"
+    },
+    {
+     "addr": 70656,
+     "s": "R13[%llu] ENTER ctx=%p surface=%p opacity=%.2f scale=%.2f flag=%d"
+    },
+    {
+     "addr": 70722,
+     "s": "ourCustomRender13: command-buffer offset unresolved, skipping"
+    },
+    {
+     "addr": 70784,
+     "s": "ourCustomRender13: early exit, cmdBuf=%p origTex=%p"
+    },
+    {
+     "addr": 70836,
+     "s": "ourCustomRender13: origTex has no device, skip"
+    },
+    {
+     "addr": 70883,
+     "s": "ourCustomRender13: zero dims, skip"
+    },
+    {
+     "addr": 70918,
+     "s": "R13[%llu] cmdBuf=%p origTex=%p device=%p dims=%llux%llu"
+    },
+    {
+     "addr": 70974,
+     "s": "ourCustomRender13: no shader library"
+    },
+    {
+     "addr": 71011,
+     "s": "ourCustomRender13: no uniforms buf"
+    },
+    {
+     "addr": 71046,
+     "s": "R13[%llu] pipeline+uniforms ready"
+    },
+    {
+     "addr": 71080,
+     "s": "Clock"
+    },
+    {
+     "addr": 71086,
+     "s": "Keyboard"
+    },
+    {
+     "addr": 71095,
+     "s": "keyboard-geometry[%d] atom=0x%x tex=%llux%llu dark=%d route=%d routeHost=%d hostRatio=%.6f selectedRatio=%.6f radius=%.3f bezelWidth=%.3fpt bezel=%.3f"
+    },
+    {
+     "addr": 71246,
+     "s": "PrefsSwitch"
+    },
+    {
+     "addr": 71258,
+     "s": "TabBarSelection"
+    },
+    {
+     "addr": 71274,
+     "s": "PrefsSegment"
+    },
+    {
+     "addr": 71287,
+     "s": "CoverSheet"
+    },
+    {
+     "addr": 71298,
+     "s": "coversheet-bezel width=%.2fpt ppp=%.2f px=%.2f"
+    },
+    {
+     "addr": 71345,
+     "s": "coversheet-state-read valid=%d active=%u orientation=%u ratio={%.4f,%.4f} ppp=%.2f tex=%llux%llu aux=%.1f lens={%.2f,%.2f} radius=%.2f"
+    },
+    {
+     "addr": 71480,
+     "s": "prefs render atom=0x%x tex=%llux%llu ratio=%.4f radius=%.2f bezel=%.2f"
+    },
+    {
+     "addr": 71551,
+     "s": "R13[%llu] before g_origGaussR13(%p)"
+    },
+    {
+     "addr": 71587,
+     "s": "R13[%llu] after g_origGaussR13"
+    },
+    {
+     "addr": 71618,
+     "s": "ourCustomRender13: unusable CA destination atom=0x%x surf=%p tex=%p src=%llux%llu dst=%lux%lu usage=%lu; kept stock pass"
+    },
+    {
+     "addr": 71739,
+     "s": "render destination ready atom=0x%x host=%s src=%llux%llu dst=%lux%lu radius=%.2f bezel=%.2f aux=%.1f"
+    },
+    {
+     "addr": 71840,
+     "s": "R13[%llu] CA destination surf=%p tex=%p dims=%lux%lu"
+    },
+    {
+     "addr": 71893,
+     "s": "ourCustomRender13: null stopEncoders"
+    },
+    {
+     "addr": 71930,
+     "s": "R13[%llu] before stopEncoders(%p)"
+    },
+    {
+     "addr": 71964,
+     "s": "R13[%llu] after stopEncoders, before encoder"
+    },
+    {
+     "addr": 72009,
+     "s": "ourCustomRender13: command buffer unavailable after stopEncoders"
+    },
+    {
+     "addr": 72074,
+     "s": "ourCustomRender13: no render pipeline, kept stock pass"
+    },
+    {
+     "addr": 72129,
+     "s": "ourCustomRender13: nil render encoder"
+    },
+    {
+     "addr": 72167,
+     "s": "R13[%llu] after our compute dispatch"
+    },
+    {
+     "addr": 72204,
+     "s": "R13[%llu] DONE"
+    },
+    {
+     "addr": 72219,
+     "s": "timing (avg over %llu calls): stopEncoders=%.0fus  ourRender=%.0fus  gaussCall=%.0fus  total=%.0fus (%.2fms)"
+    },
+    {
+     "addr": 72328,
+     "s": "Metal compile failed: %s"
+    },
+    {
+     "addr": 72353,
+     "s": "shader library ready"
+    },
+    {
+     "addr": 72374,
+     "s": "\n#include <metal_stdlib>\nusing namespace metal;\n\nstruct Uniforms {\n    float2 resolution;\n    float2 outputResolution;\n    float2 screenResolution;\n    float2 cardOrigin;\n    float2 wallpaperResolution;\n    float2 lensOrigin;\n    float  radius;\n    float  bezelWidth;\n    float  glassThickness;\n    float  refractionScale;\n    float  refractiveIndex;\n    float2 wallpaperOrigin;\n    float2 samplingTransformX;\n    float2 samplingTransformY;\n    float2 samplingTransformOffset;\n    float  samplingOrientation;\n    float  backdropZoom;\n    float  shapeScale;\n    float2 shapeOrigin;\n    float2 shapeSize;\n    float  useGlyphMask;\n    float  dispersionStrength;\n    float  fresnelGlareStrength;\n    float  borderWidthPixels;\n    float4 tintColor;\n};\n\nfloat quartzGlassEdgeProfile(float distanceFromEdge,\n                             float refractionHeight) {\n    float t = saturate(distanceFromEdge / max(refractionHeight, 0.001));\n    return 1.0 - sqrt(t * (2.0 - t));\n}\n\nfloat quartzGlassHighlight(float distanceFromEdge,\n                           float bezelWidth,\n                           float2 surfaceNormal,\n                           float strength,\n                           float angle) {\n    float normalLength = max(length(surfaceNormal), 0.001);\n    float2 normal = surfaceNormal / normalLength;\n    float ringWidth = clamp(bezelWidth * 0.24, 1.0, 2.5);\n    float aa = 1.0;\n\n    float outerCoverage = saturate(distanceFromEdge / aa + 0.5);\n    float innerCoverage = saturate((ringWidth - distanceFromEdge) / aa + 0.5);\n    float ring = outerCoverage * innerCoverage;\n    float radial = saturate(distanceFromEdge / ringWidth);\n    ring *= 1.0 - radial;\n\n    float2 lightDirection = float2(cos(angle), sin(angle));\n    float threshold = 0.15;\n    float directional = saturate((dot(lightDirection, normal) - threshold) /\n                                 max(1.0 - threshold, 0.0001));\n    float highlight = ring * directional;\n\n    float oppositeAttenuation = 1.35;\n    highlight /= max(1.0 + (1.0 - highlight) * oppositeAttenuation,\n                     0.0001);\n    return highlight * max(strength, 0.0);\n}\n\nfloat linearize(float c) {\n    return c > 0.04045 ? pow((c + 0.055) / 1.055, 2.4) : c / 12.92;\n}\nfloat gammaEncode(float c) {\n    return c <= 0.0031308 ? 12.92 * c : 1.055 * pow(c, 1.0 / 2.4) - 0.055;\n}\n\nfloat3 srgbToXyz(float3 rgb) {\n    float3 l = float3(linearize(rgb.r), linearize(rgb.g), linearize(rgb.b));\n    return float3(dot(l, float3(0.4124, 0.3576, 0.1805)),\n                  dot(l, float3(0.2126, 0.7152, 0.0722)),\n                  dot(l, float3(0.0193, 0.1192, 0.9505)));\n}\nfloat3 xyzToSrgb(float3 xyz) {\n    float3 l = float3(dot(xyz, float3( 3.2406,-1.5372,-0.4986)),\n                      dot(xyz, float3(-0.9689, 1.8758, 0.0415)),\n                      dot(xyz, float3( 0.0557,-0.2040, 1.0570)));\n    return clamp(float3(gammaEncode(l.r), gammaEncode(l.g), gammaEncode(l.b)), 0.0, 1.0);\n}\n\nfloat labF(float t)    { float t3 = t*t*t; return t3>0.008856? pow(t,1.0/3.0) : 7.787*t+16.0/116.0; }\nfloat labInvF(float t) { float t3 = t*t*t; return t3>0.008856? t3 : (t-16.0/116.0)/7.787; }\n\nfloat3 xyzToLab(float3 xyz) {\n    float3 n = xyz / float3(0.95047, 1.0, 1.08883);\n    float fx = labF(n.x), fy = labF(n.y), fz = labF(n.z);\n    return float3(116.0*fy - 16.0, 500.0*(fx-fy), 200.0*(fy-fz));\n}\nfloat3 labToXyz(float3 lab) {\n    float fy = (lab.x+16.0)/116.0, fx = fy+lab.y/500.0, fz = fy-lab.z/200.0;\n    return float3(0.95047*labInvF(fx), labInvF(fy), 1.08883*labInvF(fz));\n}\nfloat3 srgbToLch(float3 rgb) {\n    float3 lab = xyzToLab(srgbToXyz(rgb));\n    return float3(lab.x, length(lab.yz), atan2(lab.z, lab.y));\n}\nfloat3 lchToSrgb(float3 lch) {\n    float3 lab = float3(lch.x, cos(lch.z)*lch.y, sin(lch.z)*lch.y);\n    return xyzToSrgb(labToXyz(lab));\n}\n\nfloat bottomRoundedBoxDistance(float2 point, float2 size, float radius) {\n    float2 halfSize = size * 0.5;\n    float2 centered = point - halfSize;\n    float selectedRadius = centered.y > 0.0 ? radius : 0.0;\n    float2 q = abs(centered) - halfSize + selectedRadius;\n    return min(max(q.x, q.y), 0.0)\n         + length(max(q, float2(0.0))) - selectedRadius;\n}\n\nfloat2 backdropSampleUV(float2 capturePx,\n                        float2 logicalPx,\n                        float2 displacementPx,\n                        bool isCoverSheet,\n                        constant Uniforms &u,\n                        float zoomMix)\n{\n    float2 sampleUV;\n    if (isCoverSheet) {\n        sampleUV = (capturePx + displacementPx) / u.resolution;\n    } else {\n        float2 screenPx = u.cardOrigin + logicalPx + displacementPx;\n        float2 mapped   = u.samplingTransformOffset\n                        + screenPx.x * u.samplingTransformX\n                        + screenPx.y * u.samplingTransformY;\n        float2 imgPx    = mapped - u.wallpaperOrigin;\n        sampleUV = imgPx / u.wallpaperResolution;\n\n        int ori = int(round(u.samplingOrientation));\n        if      (ori == 2) sampleUV = float2(1.0 - sampleUV.x, 1.0 - sampleUV.y);\n        else if (ori == 3) sampleUV = float2(1.0 - sampleUV.y,       sampleUV.x);\n        else if (ori == 4) sampleUV = float2(      sampleUV.y,  1.0 - sampleUV.x);\n    }\n\n    float zoom = max(u.backdropZoom, 0.01);\n    if (u.shapeSize.x > 0.5 && u.shapeSize.y > 0.5) {\n        float eased = mix(1.0, zoom, clamp(zoomMix, 0.0, 1.0));\n        float2 centre = (u.shapeOrigin + u.shapeSize * 0.5) / u.resolution;\n        sampleUV.y = centre.y + (sampleUV.y - centre.y) / eased;\n    } else if (clamp(u.shapeScale, 0.05, 1.0) < 0.999) {\n        sampleUV.y = 0.5 + (sampleUV.y - 0.5) / zoom;\n    } else {\n        sampleUV = float2(0.5) + (sampleUV - float2(0.5)) / zoom;\n    }\n    return clamp(sampleUV, 0.0, 1.0);\n}\n\nfloat4 liquidGlassPixel(texture2d<float, access::sample> src,\n                        texture2d<float, access::sample> glyphMask,\n                        constant Uniforms &u, uint2 gid, uint2 dimensions)\n{\n    const uint W = dimensions.x, H = dimensions.y;\n\n    constexpr sampler s(filter::linear, address::clamp_to_edge);\n\n    float2 localUV = (float2(gid) + 0.5) / float2(W, H);\n    bool isCoverSheet = u.useGlyphMask < -0.5;\n    bool isKeyboard = u.useGlyphMask > 0.0 && u.useGlyphMask < 0.5;\n    float2 captureUV = localUV;\n    float2 capturePx = localUV * u.resolution;\n    float2 px = capturePx;\n    float fw = u.resolution.x, fh = u.resolution.y;\n    float coverOrientation = isCoverSheet ? -u.useGlyphMask : 0.0;\n    if (isCoverSheet && coverOrientation == 2.0) {\n\n        px = float2(u.resolution.x - capturePx.x,\n                    u.resolution.y - capturePx.y);\n    } else if (isCoverSheet && coverOrientation == 3.0) {\n\n        px = float2(capturePx.y, u.resolution.x - capturePx.x);\n        fw = u.resolution.y;\n        fh = u.resolution.x;\n    } else if (isCoverSheet && coverOrientation == 4.0) {\n\n        px = float2(u.resolution.y - capturePx.y, capturePx.x);\n        fw = u.resolution.y;\n        fh = u.resolution.x;\n    }\n    float  R        = u.radius, bezel = u.bezelWidth;\n    float  eta      = 1.0 / u.refractiveIndex;\n    float  shortest = min(fw, fh);\n\n    float signedDistance;\n    float distFromSide;\n    float2 dir;\n    float edgeOpacity;\n    bool subShape = false;\n    float cornerBlend = 0.0;\n    if (u.useGlyphMask > 0.5) {\n\n        float bestDistance = bezel + 1.0;\n        float2 bestDirection = float2(0.0, -1.0);\n        constexpr int directionCount = 12;\n        for (int directionIndex = 0; directionIndex < directionCount; directionIndex++) {\n            float angle = (6.28318530718 * float(directionIndex)) / float(directionCount);\n            float2 candidateDirection = float2(cos(angle), sin(angle));\n            float low = 0.0;\n            float high = bezel + 1.0;\n            float probe = 1.0;\n            for (int level = 0; level < 6; level++) {\n                probe = min(probe, bezel);\n                float2 probeUV = localUV + candidateDirection * (probe / u.resolution);\n                if (glyphMask.sample(s, probeUV).r < 0.15) {\n                    high = probe;\n                    break;\n                }\n                low = probe;\n                probe *= 2.0;\n            }\n            if (high <= bezel) {\n                for (int refinement = 0; refinement < 3; refinement++) {\n                    float middle = (low + high) * 0.5;\n                    float2 probeUV = localUV + candidateDirection * (middle / u.resolution);\n                    if (glyphMask.sample(s, probeUV).r < 0.15) high = middle;\n                    else low = middle;\n                }\n                if (high < bestDistance) {\n                    bestDistance = high;\n                    bestDirection = candidateDirection;\n                }\n            }\n        }\n        signedDistance = -bestDistance;\n        distFromSide = bestDistance;\n        dir = bestDirection;\n\n        edgeOpacity = 1.0;\n    } else {\n\n        R = clamp(R, 0.0, shortest * 0.5);\n\n        float shapeScale = clamp(u.shapeScale, 0.05, 1.0);\n        float2 shapeInset = float2(0.0);\n        if (u.shapeSize.x > 0.5 && u.shapeSize.y > 0.5) {\n            subShape = true;\n            shapeInset = u.shapeOrigin;\n            fw = u.shapeSize.x;\n            fh = u.shapeSize.y;\n            shortest = min(fw, fh);\n            R = clamp(R, 0.0, shortest * 0.5);\n        } else if (shapeScale < 0.999) {\n            subShape = true;\n            shapeInset = float2(fw, fh) * (1.0 - shapeScale) * 0.5;\n            fw *= shapeScale;\n            fh *= shapeScale;\n            shortest = min(fw, fh);\n            R = clamp(R, 0.0, shortest * 0.5);\n        }\n\n        float2 lensPx = px - (isCoverSheet ? u.lensOrigin : shapeInset);\n        if (isKeyboard) {\n            fh += max(R, bezel);\n            shortest = min(fw, fh);\n        }\n        float2 halfSize = float2(fw, fh) * 0.5;\n        float2 p = lensPx - halfSize;\n        float2 core;\n        cornerBlend = 0.0;\n        if (isCoverSheet) {\n\n            R = min(R, shortest * 0.5);\n            core = halfSize;\n            signedDistance = bottomRoundedBoxDistance(\n                lensPx, float2(fw, fh), R);\n        } else if (R >= shortest * 0.49 || R < 0.5) {\n            core = max(halfSize - float2(R), float2(0.0));\n            float2 q = abs(p) - core;\n            signedDistance = length(max(q, float2(0.0)))\n                           + min(max(q.x, q.y), 0.0) - R;\n            cornerBlend = saturate(min(q.x, q.y) / max(R, 0.001));\n        } else {\n            constexpr float continuousCornerExtent = 1.528;\n            float2 extent = min(float2(R * continuousCornerExtent), halfSize);\n            core = max(halfSize - extent, float2(0.0));\n            float2 q = abs(p) - core;\n            float2 corner = max(q, float2(0.0));\n            float2 normalized = corner / max(extent, float2(0.001));\n            float superLength = pow(pow(normalized.x, 4.0) +\n                                    pow(normalized.y, 4.0), 0.25);\n            if (q.x <= 0.0 && q.y <= 0.0) {\n\n                signedDistance = -min(halfSize.x - abs(p.x),\n                                      halfSize.y - abs(p.y));\n            } else {\n                signedDistance = (superLength - 1.0) * min(extent.x, extent.y);\n            }\n            cornerBlend = saturate(min(q.x, q.y) /\n                                   max(min(extent.x, extent.y), 0.001));\n        }\n        if (signedDistance > (subShape ? 0.0 : 1.0)) {\n            return subShape ? float4(0.0) : src.sample(s, captureUV);\n        }\n\n        distFromSide = max(0.0, -signedDistance);\n        float2 cornerDelta = max(abs(p) - core, float2(0.0));\n        float2 normalDelta;\n        if (isCoverSheet) {\n            float2 size = float2(fw, fh);\n            float dx = bottomRoundedBoxDistance(\n                           lensPx + float2(1.0, 0.0), size, R)\n                     - bottomRoundedBoxDistance(\n                           lensPx - float2(1.0, 0.0), size, R);\n            float dy = bottomRoundedBoxDistance(\n                           lensPx + float2(0.0, 1.0), size, R)\n                     - bottomRoundedBoxDistance(\n                           lensPx - float2(0.0, 1.0), size, R);\n            normalDelta = float2(dx, dy);\n        } else if (R < shortest * 0.49 && R >= 0.5 &&\n            cornerDelta.x > 0.0 && cornerDelta.y > 0.0) {\n            float2 t = cornerDelta / max(cornerDelta.x + cornerDelta.y, 0.0001);\n            normalDelta = sign(p) * t;\n        } else {\n            float2 nearestCore = clamp(p, -core, core);\n            normalDelta = p - nearestCore;\n        }\n        float normalLength = length(normalDelta);\n        if (normalLength > 0.001) {\n            dir = normalDelta / normalLength;\n        } else {\n            float dL = lensPx.x, dR = fw - lensPx.x;\n            float dT = lensPx.y, dB = fh - lensPx.y;\n            float dm = min(min(dL, dR), min(dT, dB));\n            dir = float2((dL < dR && dL == dm) ? -1.0 : (dR <= dL && dR == dm) ?  1.0 : 0.0,\n                         (dT < dB && dT == dm) ? -1.0 : (dB <= dT && dB == dm) ?  1.0 : 0.0);\n        }\n        edgeOpacity = subShape ? 1.0\n                               : clamp(1.0 - max(0.0, signedDistance), 0.0, 1.0);\n    }\n\n    if (u.useGlyphMask < 0.5 && !isCoverSheet && !isKeyboard &&\n        R >= 0.5 && bezel > R) {\n        float cornerScale = R >= shortest * 0.49 ? R\n                                                 : min(R * 1.528, shortest * 0.5);\n        float taper = cornerBlend * cornerBlend * (3.0 - 2.0 * cornerBlend);\n        bezel = mix(bezel, min(bezel, cornerScale), taper);\n    }\n\n    if ((R < shortest * 0.45 || subShape) && distFromSide >= bezel) {\n        float4 flat = src.sample(s, captureUV);\n        flat.rgb = mix(flat.rgb, u.tintColor.rgb, u.tintColor.a);\n        return flat;\n    }\n\n    float normDisp = (distFromSide < bezel) ?\n        quartzGlassEdgeProfile(distFromSide,\n                               min(max(u.glassThickness, 1.0), bezel)) : 0.0;\n    if ((isCoverSheet && dir.y <= -abs(dir.x)) ||\n        (isKeyboard && dir.y >= abs(dir.x))) normDisp = 0.0;\n\n    float2 textureDir = dir;\n    if (isCoverSheet && coverOrientation == 2.0) {\n\n        textureDir = -dir;\n    } else if (isCoverSheet && coverOrientation == 3.0) {\n\n        textureDir = float2(-dir.y, dir.x);\n    } else if (isCoverSheet && coverOrientation == 4.0) {\n\n        textureDir = float2(dir.y, -dir.x);\n    }\n    float2 dispPx = -textureDir * normDisp * bezel\n                  * u.refractionScale * edgeOpacity;\n\n    float dispersion = clamp(u.dispersionStrength, 0.0, 20.0);\n    constexpr float zoomRampSpan = 0.3;\n    float zoomMix = bezel > 0.001\n        ? clamp((1.0 - distFromSide / bezel) / zoomRampSpan, 0.0, 1.0) : 0.0;\n    zoomMix = zoomMix * zoomMix * (3.0 - 2.0 * zoomMix);\n    float2 greenUV = backdropSampleUV(capturePx, px, dispPx,\n                                      isCoverSheet, u, zoomMix);\n    float4 greenSample = src.sample(s, greenUV);\n\n    float4 fallback = float4(0.0);\n    bool loadedFallback = false;\n    if (greenSample.a < 0.01) {\n        fallback = src.sample(s, captureUV);\n        loadedFallback = true;\n        greenSample = fallback;\n    }\n    if (greenSample.a < 0.01) return float4(0.0);\n\n    float4 bg = greenSample;\n    if (dispersion > 0.001 && dot(dispPx, dispPx) > 0.0001) {\n        float2 aberrationPx = -textureDir * normDisp * dispersion * 8.0 * edgeOpacity;\n        float3 accumulated = float3(0.0);\n        float accumulatedAlpha = 0.0;\n\n        for (int i = 0; i < 3; i++) {\n            float weight = 1.0 - float(i) / 3.0;\n            float2 uv = backdropSampleUV(capturePx, px,\n                                          dispPx + aberrationPx * weight,\n                                          isCoverSheet, u, zoomMix);\n            float4 sample = src.sample(s, uv);\n            if (sample.a < 0.01) {\n                if (!loadedFallback) {\n                    fallback = src.sample(s, captureUV);\n                    loadedFallback = true;\n                }\n                sample = fallback;\n            }\n            accumulated.r += sample.r * weight;\n            accumulated.g += sample.g * (1.0 - weight);\n            accumulatedAlpha += sample.a;\n        }\n\n        for (int i = 0; i < 4; i++) {\n            float weight = float(i) / 3.0;\n            float2 uv = backdropSampleUV(capturePx, px,\n                                          dispPx - aberrationPx * weight,\n                                          isCoverSheet, u, zoomMix);\n            float4 sample = src.sample(s, uv);\n            if (sample.a < 0.01) {\n                if (!loadedFallback) {\n                    fallback = src.sample(s, captureUV);\n                    loadedFallback = true;\n                }\n                sample = fallback;\n            }\n            accumulated.g += sample.g * (1.0 - weight);\n            accumulated.b += sample.b * weight;\n            accumulatedAlpha += sample.a;\n        }\n\n        bg.rgb = accumulated * float3(0.5, 1.0 / 3.0, 0.5);\n        bg.a = accumulatedAlpha / 7.0;\n    }\n\n    float3 outRGB = mix(bg.rgb, u.tintColor.rgb, u.tintColor.a);\n    float highlight = quartzGlassHighlight(distFromSide, bezel, dir,\n                                           u.fresnelGlareStrength,\n                                           -0.78539816339) *\n                      edgeOpacity;\n    float luminance = dot(outRGB, float3(0.2126, 0.7152, 0.0722));\n    highlight *= mix(0.32, 1.0, luminance);\n    highlight = min(highlight, 0.22);\n    outRGB = 1.0 - (1.0 - outRGB) * (1.0 - highlight);\n    if (subShape && distFromSide <= u.borderWidthPixels)\n        outRGB = 1.0 - (1.0 - outRGB) * 0.82;\n    return float4(outRGB, edgeOpacity);\n}\n\nstruct LGVertexOut {\n    float4 position [[position]];\n};\n\nvertex LGVertexOut liquidGlassVertex(uint vertexID [[vertex_id]])\n{\n    constexpr float2 positions[] = {\n        float2(-1.0, -1.0), float2(3.0, -1.0), float2(-1.0, 3.0)\n    };\n    LGVertexOut out;\n    out.position = float4(positions[vertexID], 0.0, 1.0);\n    return out;\n}\n\nfragment float4 liquidGlassFragment(\n    LGVertexOut in [[stage_in]],\n    texture2d<float, access::sample> src [[texture(0)]],\n    texture2d<float, access::sample> glyphMask [[texture(1)]],\n    constant Uniforms &u [[buffer(0)]])\n{\n    uint2 dimensions(src.get_width(), src.get_height());\n    float2 sourcePosition =\n        in.position.xy - (u.outputResolution - u.resolution) * 0.5;\n    if (any(sourcePosition < float2(0.0)) ||\n        any(sourcePosition >= u.resolution)) return float4(0.0);\n    uint2 gid = min(uint2(sourcePosition), dimensions - 1);\n    return liquidGlassPixel(src, glyphMask, u, gid, dimensions);\n}\n\n"
+    },
+    {
+     "addr": 90994,
+     "s": "uniforms buffer allocated (geometry refreshed per-frame)"
+    },
+    {
+     "addr": 91051,
+     "s": "com.wkk.systembox.clockglass.lensrect.prefssegment"
+    },
+    {
+     "addr": 91102,
+     "s": "com.wkk.systembox.clockglass.lensrect.tabbarselect"
+    },
+    {
+     "addr": 91153,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-clock-mask-shared.bin"
+    },
+    {
+     "addr": 91230,
+     "s": "/var/mobile/Library/Accessibility/systembox-clockglass-coversheet-state.bin"
+    },
+    {
+     "addr": 91306,
+     "s": "liquidGlassVertex"
+    },
+    {
+     "addr": 91324,
+     "s": "liquidGlassFragment"
+    },
+    {
+     "addr": 91344,
+     "s": "render pipeline ready fmt=%lu"
+    },
+    {
+     "addr": 91374,
+     "s": "Render pipeline state failed fmt=%lu: %s"
+    },
+    {
+     "addr": 91415,
+     "s": "CoverSheet.CornerRadius"
+    },
+    {
+     "addr": 91439,
+     "s": ".BezelWidth"
+    },
+    {
+     "addr": 91451,
+     "s": ".GlassThickness"
+    },
+    {
+     "addr": 91467,
+     "s": ".RefractionScale"
+    },
+    {
+     "addr": 91484,
+     "s": ".RefractiveIndex"
+    },
+    {
+     "addr": 91501,
+     "s": ".DispersionStrength"
+    },
+    {
+     "addr": 91521,
+     "s": ".TintR"
+    },
+    {
+     "addr": 91528,
+     "s": ".TintG"
+    },
+    {
+     "addr": 91535,
+     "s": ".TintB"
+    },
+    {
+     "addr": 91542,
+     "s": ".TintStrength"
+    },
+    {
+     "addr": 91556,
+     "s": ".DispersionEnabled"
+    },
+    {
+     "addr": 91575,
+     "s": ".LightTintColor"
+    },
+    {
+     "addr": 91591,
+     "s": ".DarkTintColor"
+    },
+    {
+     "addr": 91606,
+     "s": "lgReloadHostPrefs: %s (%d hosts, %d overrides) banner.bezel=%.3f refr=%.2f"
+    },
+    {
+     "addr": 91681,
+     "s": "loaded prefs"
+    },
+    {
+     "addr": 91694,
+     "s": "defaults"
+    },
+    {
+     "addr": 91703,
+     "s": "Default"
+    },
+    {
+     "addr": 91711,
+     "s": "#FFFFFF1A"
+    },
+    {
+     "addr": 91721,
+     "s": "#00000000"
+    },
+    {
+     "addr": 91731,
+     "s": "FolderIcon"
+    },
+    {
+     "addr": 91742,
+     "s": "com.wkk.systembox.clockglass.folder"
+    },
+    {
+     "addr": 91778,
+     "s": "OpenFolder"
+    },
+    {
+     "addr": 91789,
+     "s": "com.wkk.systembox.clockglass.openfolder"
+    },
+    {
+     "addr": 91829,
+     "s": "Dock"
+    },
+    {
+     "addr": 91834,
+     "s": "com.wkk.systembox.clockglass.dock"
+    },
+    {
+     "addr": 91868,
+     "s": "Banner"
+    },
+    {
+     "addr": 91875,
+     "s": "com.wkk.systembox.clockglass.banner"
+    },
+    {
+     "addr": 91911,
+     "s": "#FFFFFFCC"
+    },
+    {
+     "addr": 91921,
+     "s": "#00000080"
+    },
+    {
+     "addr": 91931,
+     "s": "Notification"
+    },
+    {
+     "addr": 91944,
+     "s": "com.wkk.systembox.clockglass.notification"
+    },
+    {
+     "addr": 91986,
+     "s": "#FFFFFF00"
+    },
+    {
+     "addr": 91996,
+     "s": "ControlCenter"
+    },
+    {
+     "addr": 92010,
+     "s": "com.wkk.systembox.clockglass.cc"
+    },
+    {
+     "addr": 92042,
+     "s": "AppLibrary"
+    },
+    {
+     "addr": 92053,
+     "s": "com.wkk.systembox.clockglass.applibpod"
+    },
+    {
+     "addr": 92092,
+     "s": "AppLibSearch"
+    },
+    {
+     "addr": 92105,
+     "s": "com.wkk.systembox.clockglass.applibsearch"
+    },
+    {
+     "addr": 92147,
+     "s": "Spotlight"
+    },
+    {
+     "addr": 92157,
+     "s": "com.wkk.systembox.clockglass.spotlight"
+    },
+    {
+     "addr": 92196,
+     "s": "#0000004d"
+    },
+    {
+     "addr": 92206,
+     "s": "SearchPill"
+    },
+    {
+     "addr": 92217,
+     "s": "com.wkk.systembox.clockglass.searchpill"
+    },
+    {
+     "addr": 92257,
+     "s": "Widgets"
+    },
+    {
+     "addr": 92265,
+     "s": "com.wkk.systembox.clockglass.widget"
+    },
+    {
+     "addr": 92301,
+     "s": "#0000004D"
+    },
+    {
+     "addr": 92311,
+     "s": "ContextMenu"
+    },
+    {
+     "addr": 92323,
+     "s": "com.wkk.systembox.clockglass.contextmenu"
+    },
+    {
+     "addr": 92364,
+     "s": "#0000004c"
+    },
+    {
+     "addr": 92374,
+     "s": "Alerts"
+    },
+    {
+     "addr": 92381,
+     "s": "com.wkk.systembox.clockglass.alerts"
+    },
+    {
+     "addr": 92417,
+     "s": "QuickActions"
+    },
+    {
+     "addr": 92430,
+     "s": "com.wkk.systembox.clockglass.quickaction"
+    },
+    {
+     "addr": 92471,
+     "s": "Passcode"
+    },
+    {
+     "addr": 92480,
+     "s": "com.wkk.systembox.clockglass.passcode"
+    },
+    {
+     "addr": 92518,
+     "s": "#0000001F"
+    },
+    {
+     "addr": 92528,
+     "s": "com.wkk.systembox.clockglass.clock"
+    },
+    {
+     "addr": 92563,
+     "s": "#FFFFFF4C"
+    },
+    {
+     "addr": 92573,
+     "s": "PrefsSlider"
+    },
+    {
+     "addr": 92585,
+     "s": "com.wkk.systembox.clockglass.prefsslider"
+    },
+    {
+     "addr": 92626,
+     "s": "com.wkk.systembox.clockglass.prefsswitch"
+    },
+    {
+     "addr": 92667,
+     "s": "PrefsButton"
+    },
+    {
+     "addr": 92679,
+     "s": "com.wkk.systembox.clockglass.prefsbutton"
+    },
+    {
+     "addr": 92720,
+     "s": "#2A2A2D80"
+    },
+    {
+     "addr": 92730,
+     "s": "com.wkk.systembox.clockglass.prefssegment"
+    },
+    {
+     "addr": 92772,
+     "s": "com.wkk.systembox.clockglass.coversheet"
+    },
+    {
+     "addr": 92812,
+     "s": "#0000002E"
+    },
+    {
+     "addr": 92822,
+     "s": "TabBar"
+    },
+    {
+     "addr": 92829,
+     "s": "com.wkk.systembox.clockglass.tabbar"
+    },
+    {
+     "addr": 92865,
+     "s": "#FFFFFF80"
+    },
+    {
+     "addr": 92875,
+     "s": "com.wkk.systembox.clockglass.tabbarselect"
+    },
+    {
+     "addr": 92917,
+     "s": "#FFFFFF0D"
+    },
+    {
+     "addr": 92927,
+     "s": "com.wkk.systembox.clockglass.keyboard"
+    },
+    {
+     "addr": 92965,
+     "s": "#D1D3D980"
+    },
+    {
+     "addr": 92975,
+     "s": "AppIcons"
+    },
+    {
+     "addr": 92984,
+     "s": "com.wkk.systembox.clockglass.appicons"
+    },
+    {
+     "addr": 93022,
+     "s": "AssistiveTouch"
+    },
+    {
+     "addr": 93037,
+     "s": "com.wkk.systembox.clockglass.assistivetouch"
+    },
+    {
+     "addr": 93081,
+     "s": "VolumeHUD"
+    },
+    {
+     "addr": 93091,
+     "s": "com.wkk.systembox.clockglass.volumehud"
+    },
+    {
+     "addr": 93130,
+     "s": "#B8B8B8CC"
+    },
+    {
+     "addr": 93140,
+     "s": "#666666CC"
+    },
+    {
+     "addr": 93150,
+     "s": "PillHUD"
+    },
+    {
+     "addr": 93158,
+     "s": "com.wkk.systembox.clockglass.pillhud"
+    },
+    {
+     "addr": 93195,
+     "s": "#"
+    },
+    {
+     "addr": 93197,
+     "s": "prefs Reload received; re-reading %s"
+    },
+    {
+     "addr": 93234,
+     "s": "prefs parameters ready notification posted"
+    },
+    {
+     "addr": 93277,
+     "s": "QuartzCore"
+    },
+    {
+     "addr": 93288,
+     "s": "__TEXT"
+    },
+    {
+     "addr": 93295,
+     "s": "init: QuartzCore slide=%#tx __TEXT=%p size=%#zx fullImage=[%p,%p)"
+    },
+    {
+     "addr": 93361,
+     "s": "init: QuartzCore image not found"
+    },
+    {
+     "addr": 93394,
+     "s": "dlsym(%s) = %p"
+    },
+    {
+     "addr": 93409,
+     "s": "decodeAdrpAdd: not ADRP at %p"
+    },
+    {
+     "addr": 93439,
+     "s": "decodeAdrpAdd: not ADD at %p"
+    },
+    {
+     "addr": 93468,
+     "s": "decodeAdrpLdr: not ADRP at %p"
+    },
+    {
+     "addr": 93498,
+     "s": "decodeAdrpLdr: not LDR at %p"
+    },
+    {
+     "addr": 93527,
+     "s": "CAInternAtom: prologue scan found no match"
+    },
+    {
+     "addr": 93570,
+     "s": "CAInternAtom: %d validated wrapper candidate(s), using %p"
+    },
+    {
+     "addr": 93628,
+     "s": "!memoryless_in_use ()"
+    },
+    {
+     "addr": 93650,
+     "s": "stop_encoders: anchor string not found"
+    },
+    {
+     "addr": 93689,
+     "s": "stop_encoders: anchor string at %p"
+    },
+    {
+     "addr": 93724,
+     "s": "stop_encoders: no xref to anchor string found"
+    },
+    {
+     "addr": 93770,
+     "s": "stop_encoders: xref site at %p"
+    },
+    {
+     "addr": 93801,
+     "s": "stop_encoders: prologue not found within window"
+    },
+    {
+     "addr": 93849,
+     "s": "stop_encoders: resolved entry = %p"
+    },
+    {
+     "addr": 93884,
+     "s": "Command buffer allocation failed!\n"
+    },
+    {
+     "addr": 93919,
+     "s": "cmdbuf: anchor string not found"
+    },
+    {
+     "addr": 93951,
+     "s": "cmdbuf: anchor string at %p"
+    },
+    {
+     "addr": 93979,
+     "s": "cmdbuf: no xref to anchor string found"
+    },
+    {
+     "addr": 94018,
+     "s": "cmdbuf: xref site at %p"
+    },
+    {
+     "addr": 94042,
+     "s": "cmdbuf: prologue not found within window"
+    },
+    {
+     "addr": 94083,
+     "s": "cmdbuf: start_command_buffer entry = %p"
+    },
+    {
+     "addr": 94123,
+     "s": "cmdbuf: MetalContext command-buffer offset = %#x"
+    },
+    {
+     "addr": 94172,
+     "s": "cmdbuf: command-buffer field access not found"
+    },
+    {
+     "addr": 94218,
+     "s": "render-slot: forwarder at vtable[%d] -> render vtable[%d]"
+    },
+    {
+     "addr": 94276,
+     "s": "render-slot: PAC forwarder at vtable[%d] -> render vtable[%d]"
+    },
+    {
+     "addr": 94338,
+     "s": "render-slot: render forwarder not found (checked %d slots)"
+    },
+    {
+     "addr": 94397,
+     "s": "edge-info-slot: Gaussian get_edge_info at vtable[%d]"
+    },
+    {
+     "addr": 94450,
+     "s": "edge-info-slot: get_edge_info not found (checked %d slots)"
+    },
+    {
+     "addr": 94509,
+     "s": "/System/Library/Frameworks/QuartzCore.framework"
+    },
+    {
+     "addr": 94557,
+     "s": "CFBundleVersion"
+    },
+    {
+     "addr": 94573,
+     "s": "unknown"
+    },
+    {
+     "addr": 94581,
+     "s": "qcVersion"
+    },
+    {
+     "addr": 94591,
+     "s": "addFilter"
+    },
+    {
+     "addr": 94601,
+     "s": "stopEncoders"
+    },
+    {
+     "addr": 94614,
+     "s": "gaussianCtxSlot"
+    },
+    {
+     "addr": 94630,
+     "s": "filterTableSlot"
+    },
+    {
+     "addr": 94646,
+     "s": "/tmp/lg_symcache.plist"
+    },
+    {
+     "addr": 94669,
+     "s": "cache saved for QuartzCore version %s"
+    },
+    {
+     "addr": 94707,
+     "s": "[LGSYM] "
+    },
+    {
+     "addr": 94716,
+     "s": "scanGaussianSite: using built-in cluster position (constructor-safe)"
+    },
+    {
+     "addr": 94785,
+     "s": "scanGaussianSite: confirmed cluster of %d calls, start=%p gaussIdx=%d atom=0x%x"
+    },
+    {
+     "addr": 94865,
+     "s": "  add_filter = %p"
+    },
+    {
+     "addr": 94883,
+     "s": "  gaussian ctx = %p"
+    },
+    {
+     "addr": 94903,
+     "s": "  filter_table slot = %p"
+    },
+    {
+     "addr": 94928,
+     "s": "scanGaussianSite: no confirmed add_filter cluster found"
+    }
+   ],
+   "symbols": [
+    {
+     "name": "radr://5614542",
+     "value": 90260802,
+     "type": 60
+    },
+    {
+     "name": "_LGResolve_AddFilter",
+     "value": 59032,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_CAInternAtomWithCString",
+     "value": 58600,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_EdgeInfoVtableSlot",
+     "value": 61648,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_FilterTableSlot",
+     "value": 59700,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_GaussianCtxSlot",
+     "value": 59668,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_MetalCmdBufOffset",
+     "value": 60376,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_RenderVtableSlot",
+     "value": 61028,
+     "type": 15
+    },
+    {
+     "name": "_LGResolve_StopEncoders",
+     "value": 59732,
+     "type": 15
+    },
+    {
+     "name": "_LGSymAddressInQuartzCoreImage",
+     "value": 61592,
+     "type": 15
+    },
+    {
+     "name": "_LGSymDecodeAdrpAdd",
+     "value": 58276,
+     "type": 15
+    },
+    {
+     "name": "_LGSymDecodeAdrpLdr",
+     "value": 58444,
+     "type": 15
+    },
+    {
+     "name": "_LGSymMakeCallable",
+     "value": 57420,
+     "type": 15
+    },
+    {
+     "name": "_LGSymResolveExported",
+     "value": 58052,
+     "type": 15
+    },
+    {
+     "name": "_LGSymResolverInit",
+     "value": 57480,
+     "type": 15
+    },
+    {
+     "name": "_LGSymResolverSaveCache",
+     "value": 61992,
+     "type": 15
+    },
+    {
+     "name": "_LGSymScanText",
+     "value": 58128,
+     "type": 15
+    },
+    {
+     "name": "_LGSymStripCode",
+     "value": 57448,
+     "type": 15
+    },
+    {
+     "name": "_LGSymStripData",
+     "value": 57464,
+     "type": 15
+    },
+    {
+     "name": "_gLGBackboardDebugLogging",
+     "value": 115448,
+     "type": 15
+    },
+    {
+     "name": "_CFNotificationCenterAddObserver",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CFNotificationCenterGetDarwinNotifyCenter",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_CFNotificationCenterPostNotification",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_MTLRenderPassDescriptor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_MTLRenderPipelineDescriptor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_MTLTextureDescriptor",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSBundle",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSCharacterSet",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSDictionary",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSMutableData",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSNumber",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSProcessInfo",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSScanner",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_OBJC_CLASS_$_NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__NSConcreteGlobalBlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__NSConcreteStackBlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Unwind_Resume",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Z6jbrootP8NSString",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt20bad_array_new_lengthC1Ev",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt20bad_array_new_lengthD1Ev",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZNSt3__112__next_primeEm",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZTISt20bad_array_new_length",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__ZdlPv",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__Znwm",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___CFConstantStringClassReference",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_allocate_exception",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_atexit",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___cxa_throw",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___error",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___gxx_personality_v0",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_fail",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "___stack_chk_guard",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_header",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_name",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_get_image_vmaddr_slide",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__dyld_image_count",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "__tlv_bootstrap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_access",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_bzero",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_clock_gettime",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_close",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_closedir",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_after",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_get_global_queue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_once",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dispatch_time",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlerror",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlopen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_dlsym",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fclose",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fopen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fprintf",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fputc",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fputs",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fstat",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_fsync",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_getpid",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_getsegmentdata",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_gettimeofday",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_jbroot",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_localtime",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_mach_absolute_time",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_mach_timebase_info",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_memchr",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_memcmp",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_mmap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_munmap",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_notify_get_state",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_notify_register_check",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleasePoolPop",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleasePoolPush",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_autoreleaseReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_msgSend",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_class",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_isKindOfClass",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_opt_new",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_release",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retain",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutorelease",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutoreleaseReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_retainAutoreleasedReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_storeStrong",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_objc_unsafeClaimAutoreleasedReturnValue",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_open",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_opendir",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_os_unfair_lock_lock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_os_unfair_lock_unlock",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_read",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_readdir",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_rename",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_snprintf",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strcmp",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strftime",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strlen",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strncmp",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_strstr",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_sysctl",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_unlink",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_vfprintf",
+     "value": 0,
+     "type": 1
+    },
+    {
+     "name": "_write",
+     "value": 0,
+     "type": 1
+    }
+   ]
+  }
+ ]
+}
