@@ -5,7 +5,9 @@ permissions:
   contents: read
 jobs:
   build:
-    runs-on: macos-latest
+    # macOS arm64 hosted capacity has been unavailable; use the Intel labelled image
+    # and cross-compile the arm64e slice with Xcode's iPhoneOS SDK.
+    runs-on: macos-26-intel
     steps:
       - uses: actions/checkout@v4
       - name: Install packaging tools
