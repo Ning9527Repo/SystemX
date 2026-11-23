@@ -25,6 +25,7 @@ jobs:
           python3 tools/patch_radius_main.py build/base/Library/MobileSubstrate/DynamicLibraries/SystemBox.dylib build/SystemBox.dylib
           xcrun lipo build/SystemBox.dylib -thin arm64 -output build/original-arm64.dylib
           xcrun lipo build/SystemBox.dylib -thin arm64e -output build/patched-arm64e.dylib
+          python3 tools/normalize_signing_tail.py build/patched-arm64e.dylib
           codesign --force --sign - --timestamp=none build/patched-arm64e.dylib
           codesign --verify --strict --verbose=2 build/patched-arm64e.dylib
           xcrun lipo -create build/original-arm64.dylib build/patched-arm64e.dylib -output build/SystemBox.dylib
