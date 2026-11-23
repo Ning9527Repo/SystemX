@@ -23,7 +23,11 @@ jobs:
           python3 repack_clearbutton.py -o build/base23.deb
           dpkg-deb -x build/base23.deb build/base
           python3 tools/patch_radius_main.py build/base/Library/MobileSubstrate/DynamicLibraries/SystemBox.dylib build/SystemBox.dylib
-          codesign --force --sign - --timestamp=none build/SystemBox.dylib
+          xcrun lipo build/SystemBox.dylib -thin arm64 -output build/original-arm64.dylib
+          xcrun lipo build/SystemBox.dylib -thin arm64e -output build/patched-arm64e.dylib
+          codesign --force --sign - --timestamp=none build/patched-arm64e.dylib
+          codesign --verify --strict --verbose=2 build/patched-arm64e.dylib
+          xcrun lipo -create build/original-arm64.dylib build/patched-arm64e.dylib -output build/SystemBox.dylib
           codesign --verify --strict --all-architectures --verbose=2 build/SystemBox.dylib
           xcrun otool -hv build/SystemBox.dylib > build/macho-header.txt
           xcrun otool -L build/SystemBox.dylib > build/dependencies.txt
