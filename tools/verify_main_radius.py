@@ -24,7 +24,15 @@ def main(p):
    return out
   before=slices(original);after=slices(patched);assert after.keys()==before.keys()
   # codesign may regenerate both slices; business bytes of ordinary arm64 stay fixed.
-  assert before[0][:0x74000]==after[0][:0x74000], 'arm64 payload changed'
+  assert before[0][0x4000:0x74000]==after[0][0x4000:0x74000], 'arm64 payload changed'
+  # Header changes are restricted to signature and LINKEDIT file-size metadata.
+  x=bytearray(before[0][:0x4000]);y=bytearray(after[0][:0x4000]);pos=32
+  for _ in range(struct.unpack_from('<I',x,16)[0]):
+   cmd,n=struct.unpack_from('<II',x,pos)
+   if cmd==0x1d:x[pos+8:pos+16]=y[pos+8:pos+16]
+   if cmd==0x19 and x[pos+8:pos+24].rstrip(b'\0')==b'__LINKEDIT':x[pos+32:pos+56]=y[pos+32:pos+56]
+   pos+=n
+  assert x==y,'unexpected arm64 header change'
   a=after[0x80000002];b=before[0x80000002]
   assert struct.unpack_from('<I',a,0x4f300)[0]==0x65000
   assert a[0x65000:0x651b7]==(ROOT/'src/CardRadiusMain/radius.bin').read_bytes()
