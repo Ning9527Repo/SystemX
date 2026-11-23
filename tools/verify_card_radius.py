@@ -32,7 +32,7 @@ def package(p):
         slider=matching[0];now['items'].remove(slider);assert now==old
         assert slider['cell']=='PSSliderCell' and slider['default']==0 and slider['min']==0 and slider['max']==60
         assert slider['defaults']=='com.wkk.systembox' and slider['PostNotification']=='com.wkk.systembox.prefschanged'
-        control=(final/'DEBIAN/control').read_text();assert 'Version: 1.5-8-24\n' in control
+        control=(final/'DEBIAN/control').read_text();assert 'Version: 1.5-8-25\n' in control
         assert 'Author: Ning&wkk\n' in control and 'Maintainer: Ning&wkk\n' in control
         assert plistlib.loads((final/LIB/'SystemXCardRadius.plist').read_bytes())=={'Filter':{'Bundles':['com.apple.springboard']}}
         vendor=verify(final/LIB/'SystemBox.dylib')

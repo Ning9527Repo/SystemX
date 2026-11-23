@@ -32,7 +32,7 @@ def main():
         filt=root/LIB/'SystemXCardRadius.plist'
         filt.write_bytes(plistlib.dumps({'Filter':{'Bundles':['com.apple.springboard']}},sort_keys=False));filt.chmod(0o644)
         cp=root/'DEBIAN/control'; control=cp.read_text()
-        for field,value in [('Version','1.5-8-24'),('Maintainer','Ning&wkk'),('Author','Ning&wkk')]:
+        for field,value in [('Version','1.5-8-25'),('Maintainer','Ning&wkk'),('Author','Ning&wkk')]:
             control,n=re.subn(r'(?m)^'+field+r': .*$',field+': '+value,control,count=1);assert n==1
         cp.write_text(control)
         for p in base.rglob('*'):
