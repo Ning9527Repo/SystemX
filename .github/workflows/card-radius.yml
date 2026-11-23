@@ -1,0 +1,37 @@
+name: SystemX card radius arm64e
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install packaging tools
+        run: brew install dpkg
+      - name: Compile real arm64e companion only
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build
+          cc tools/test_radius_policy.c -lm -o build/test_radius_policy
+          build/test_radius_policy
+          SDK="$(xcrun --sdk iphoneos --show-sdk-path)"
+          xcrun --sdk iphoneos clang -arch arm64e -isysroot "$SDK" -miphoneos-version-min=15.0 -fobjc-arc -fblocks -Wall -Wextra -Werror -dynamiclib src/CardRadius/CardRadius.m -framework Foundation -framework CoreFoundation -framework UIKit -install_name /Library/MobileSubstrate/DynamicLibraries/SystemXCardRadius.dylib -o build/SystemXCardRadius.dylib
+          codesign --force --sign - --timestamp=none build/SystemXCardRadius.dylib
+          codesign --verify --strict --verbose=2 build/SystemXCardRadius.dylib
+          xcrun otool -hv build/SystemXCardRadius.dylib | tee build/macho-header.txt
+          xcrun otool -L build/SystemXCardRadius.dylib | tee build/dependencies.txt
+          python3 tools/verify_card_radius.py --library build/SystemXCardRadius.dylib
+      - name: Package unchanged vendor payload and validate
+        run: |
+          python3 tools/package_card_radius.py --library build/SystemXCardRadius.dylib --output build/com.wkk.systembox_1.5-8-24_iphoneos-arm64e.deb
+          python3 tools/verify_card_radius.py --package build/com.wkk.systembox_1.5-8-24_iphoneos-arm64e.deb --report build/verification.json
+          shasum -a 256 build/*.deb build/*.dylib > build/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SystemX-1.5-8-24-arm64e
+          path: build/
+          if-no-files-found: error
+          retention-days: 30
