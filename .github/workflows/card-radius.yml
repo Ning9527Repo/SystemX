@@ -1,4 +1,4 @@
-name: SystemX card radius arm64e
+name: SystemX inline card radius arm64e
 on:
   workflow_dispatch:
 permissions:
@@ -12,28 +12,30 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install packaging tools
         run: brew install dpkg
-      - name: Compile real arm64e companion only
+      - name: Validate machine code and inline patch
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p build
-          cc tools/test_radius_policy.c -lm -o build/test_radius_policy
-          build/test_radius_policy
-          SDK="$(xcrun --sdk iphoneos --show-sdk-path)"
-          xcrun --sdk iphoneos clang -arch arm64e -isysroot "$SDK" -miphoneos-version-min=15.0 -fobjc-arc -fblocks -Wall -Wextra -Werror -dynamiclib src/CardRadius/CardRadius.m -framework Foundation -framework CoreFoundation -install_name /Library/MobileSubstrate/DynamicLibraries/SystemXCardRadius.dylib -o build/SystemXCardRadius.dylib
-          codesign --force --sign - --timestamp=none build/SystemXCardRadius.dylib
-          codesign --verify --strict --verbose=2 build/SystemXCardRadius.dylib
-          xcrun otool -hv build/SystemXCardRadius.dylib | tee build/macho-header.txt
-          xcrun otool -L build/SystemXCardRadius.dylib | tee build/dependencies.txt
-          python3 tools/verify_card_radius.py --library build/SystemXCardRadius.dylib
-      - name: Package unchanged vendor payload and validate
+          python3 -m venv build/venv
+          build/venv/bin/pip install unicorn
+          build/venv/bin/python tools/test_main_machine.py
+          python3 repack_clearbutton.py -o build/base23.deb
+          dpkg-deb -x build/base23.deb build/base
+          python3 tools/patch_radius_main.py build/base/Library/MobileSubstrate/DynamicLibraries/SystemBox.dylib build/SystemBox.dylib
+          codesign --force --sign - --timestamp=none build/SystemBox.dylib
+          codesign --verify --strict --all-architectures --verbose=2 build/SystemBox.dylib
+          xcrun otool -hv build/SystemBox.dylib > build/macho-header.txt
+          xcrun otool -L build/SystemBox.dylib > build/dependencies.txt
+      - name: Package inline main library and validate
         run: |
-          python3 tools/package_card_radius.py --library build/SystemXCardRadius.dylib --output build/com.wkk.systembox_1.5-8-25_iphoneos-arm64e.deb
-          python3 tools/verify_card_radius.py --package build/com.wkk.systembox_1.5-8-25_iphoneos-arm64e.deb --report build/verification.json
+          python3 tools/package_card_radius.py --library build/SystemBox.dylib --output build/com.wkk.systembox_1.5-8-26_iphoneos-arm64e.deb
+          python3 tools/verify_main_radius.py build/com.wkk.systembox_1.5-8-26_iphoneos-arm64e.deb build/verification.json
           shasum -a 256 build/*.deb build/*.dylib > build/SHA256SUMS
+          rm -rf build/venv build/base build/base23.deb
       - uses: actions/upload-artifact@v4
         with:
-          name: SystemX-1.5-8-25-arm64e
+          name: SystemX-1.5-8-26-arm64e
           path: build/
           if-no-files-found: error
           retention-days: 30

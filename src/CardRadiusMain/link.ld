@@ -1,0 +1,12 @@
+SECTIONS { . = 0x65000; .text : { *(.text) } /DISCARD/ : { *(.comment) *(.note*) *(.eh_frame*) } }
+original_init = 0xb360;
+get_class = 0x4a840;
+register_sel = 0x4a9f0;
+get_method = 0x4a5f0;
+get_return_type = 0x4a740;
+hook_message = 0x4a470;
+msg_send = 0x4a880;
+read_double = 0x33224;
+state = 0x7f000;
+requested = 0x7f008;
+gate = 0x75108;

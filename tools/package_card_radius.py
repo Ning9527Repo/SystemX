@@ -28,17 +28,16 @@ def main():
         desktop.write_bytes(raw[:end]+insert+raw[end:])
         check=plistlib.loads(desktop.read_bytes()); added=check['items'].pop(indexes[0]+1)
         assert added==slider and check==panel
-        lib=root/LIB/'SystemXCardRadius.dylib'; lib.write_bytes(a.library.read_bytes());lib.chmod(0o755)
-        filt=root/LIB/'SystemXCardRadius.plist'
-        filt.write_bytes(plistlib.dumps({'Filter':{'Bundles':['com.apple.springboard']}},sort_keys=False));filt.chmod(0o644)
+        lib=root/LIB/'SystemBox.dylib'; lib.write_bytes(a.library.read_bytes());lib.chmod(0o755)
+        assert not list((root/LIB).glob('SystemXCardRadius.*'))
         cp=root/'DEBIAN/control'; control=cp.read_text()
-        for field,value in [('Version','1.5-8-25'),('Maintainer','Ning&wkk'),('Author','Ning&wkk')]:
+        for field,value in [('Version','1.5-8-26'),('Maintainer','Ning&wkk'),('Author','Ning&wkk')]:
             control,n=re.subn(r'(?m)^'+field+r': .*$',field+': '+value,control,count=1);assert n==1
         cp.write_text(control)
         for p in base.rglob('*'):
             rel=p.relative_to(base); q=root/rel
             if p.is_symlink(): assert q.is_symlink() and os.readlink(p)==os.readlink(q)
-            elif p.is_file() and rel not in (DESKTOP,pathlib.Path('DEBIAN/control')): assert p.read_bytes()==q.read_bytes(),str(rel)
+            elif p.is_file() and rel not in (DESKTOP,LIB/'SystemBox.dylib',pathlib.Path('DEBIAN/control')): assert p.read_bytes()==q.read_bytes(),str(rel)
             assert (p.stat().st_mode & 0o7777)==(q.stat().st_mode & 0o7777),str(rel)
         a.output.parent.mkdir(parents=True,exist_ok=True)
         run('dpkg-deb','--root-owner-group','-Zgzip','-b',root,a.output)
